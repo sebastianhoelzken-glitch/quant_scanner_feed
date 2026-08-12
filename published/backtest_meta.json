@@ -1,0 +1,23 @@
+{
+  "backtest_type": "stored-point-in-time-forward",
+  "cost_bps_roundtrip": 20.0,
+  "thresholds": [
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90
+  ],
+  "top_n": 10,
+  "horizons": {
+    "short": 20,
+    "swing": 63,
+    "medium": 126,
+    "long": 252
+  },
+  "score_rows": 30,
+  "price_rows": 25387,
+  "warning": "Overlapping holding periods are not independent. Naive t-stats are diagnostic only."
+}

@@ -1,11 +1,11 @@
 {
   "as_of": "2026-08-12",
-  "generated_at_utc": "2026-08-12T12:37:45.642106+00:00",
+  "generated_at_utc": "2026-08-12T13:52:46.892845+00:00",
   "model_version": "1.5.0-nokey",
   "provider": "yfinance+SEC-public-no-key",
   "config_hash": "0c2c5edb357b6259",
   "rows": 30,
-  "eligible_rows": 0,
+  "eligible_rows": 25,
   "universe_mode": "manual",
   "limitations": [
     "yfinance is unofficial/public-endpoint based",
