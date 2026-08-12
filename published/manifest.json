@@ -1,0 +1,10 @@
+{
+  "generated_at_utc": "2026-08-12T12:32:57.086153+00:00",
+  "files": [
+    "ranking_latest.csv",
+    "report_latest.md",
+    "stock_scanner_exact_daily.csv",
+    "stock_scanner_exact_meta.json"
+  ],
+  "purpose": "Stable small outputs for the exact ChatGPT daily report. Quant scores must be read, not recomputed."
+}
