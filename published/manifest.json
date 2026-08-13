@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-13T12:20:57.121171+00:00",
+  "generated_at_utc": "2026-08-13T12:54:49.778545+00:00",
   "files": [
     "backtest_meta.json",
     "backtest_report.md",
@@ -34,23 +34,23 @@
       "adaptive": 300
     },
     "value_ranking_latest.csv": {
-      "rows": 101,
-      "core": 101,
+      "rows": 109,
+      "core": 109,
       "adaptive": 0
     },
     "quality_value_latest.csv": {
-      "rows": 101,
-      "core": 101,
+      "rows": 109,
+      "core": 109,
       "adaptive": 0
     },
     "pullback_ranking_latest.csv": {
-      "rows": 49,
-      "core": 49,
+      "rows": 52,
+      "core": 52,
       "adaptive": 0
     },
     "strategy_overlap_latest.csv": {
-      "rows": 25,
-      "core": 25,
+      "rows": 24,
+      "core": 24,
       "adaptive": 0
     }
   }
