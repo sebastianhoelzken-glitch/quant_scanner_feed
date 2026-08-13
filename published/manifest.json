@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-13T19:59:57.420683+00:00",
+  "generated_at_utc": "2026-08-13T22:13:24.219620+00:00",
   "files": [
     "backtest_meta.json",
     "backtest_report.md",
@@ -12,6 +12,8 @@
     "pullback_ranking_latest.csv",
     "quality_value_latest.csv",
     "ranking_latest.csv",
+    "ranking_quality_diagnostics_latest.csv",
+    "ranking_quality_diagnostics_latest.json",
     "recommended_weights.json",
     "report_latest.md",
     "stock_scanner_exact_daily.csv",
@@ -35,26 +37,31 @@
       "adaptive": 300
     },
     "value_ranking_latest.csv": {
-      "rows": 111,
-      "core": 111,
+      "rows": 103,
+      "core": 103,
       "adaptive": 0
     },
     "quality_value_latest.csv": {
-      "rows": 111,
-      "core": 111,
+      "rows": 103,
+      "core": 103,
       "adaptive": 0
     },
     "pullback_ranking_latest.csv": {
-      "rows": 343,
-      "core": 230,
+      "rows": 330,
+      "core": 217,
       "adaptive": 113
     },
     "strategy_overlap_latest.csv": {
-      "rows": 29,
-      "core": 29,
+      "rows": 30,
+      "core": 30,
       "adaptive": 0
     }
   },
   "entry_opportunity_version": "1.0-exact-value-pullback",
-  "entry_overlay_generated_at_utc": "2026-08-13T19:59:58.256847+00:00"
+  "entry_overlay_generated_at_utc": "2026-08-13T22:13:25.094038+00:00",
+  "ranking_quality_diagnostics": {
+    "diagnostic_only": true,
+    "json_file": "ranking_quality_diagnostics_latest.json",
+    "csv_file": "ranking_quality_diagnostics_latest.csv"
+  }
 }
