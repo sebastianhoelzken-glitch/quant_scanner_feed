@@ -1,0 +1,65 @@
+{
+  "current": {
+    "deep_analyzed_rows": 700,
+    "excluded_rows": 611,
+    "event_watch_rows": 6,
+    "eligible_rows": 83,
+    "exclusion_reason_counts": {
+      "market cap EUR unavailable": 562,
+      "insufficient median EUR turnover": 155,
+      "data confidence < 55": 77,
+      "price < \u20ac2.00": 71,
+      "EUR liquidity unavailable": 47,
+      "EUR price unavailable": 47,
+      "market cap < \u20ac250,000,000": 32,
+      "insufficient price history": 23,
+      "asset type excluded: nan": 1,
+      "delisted": 1,
+      "duplicate security listing of TEK.L": 1
+    },
+    "exclusion_category_counts": {
+      "market_cap": 594,
+      "liquidity": 202,
+      "price": 118,
+      "data_confidence": 77,
+      "price_history": 23,
+      "asset_type": 1,
+      "delisted": 1,
+      "duplicate_listing": 1
+    },
+    "as_of": "2026-08-13"
+  },
+  "previous": {
+    "deep_analyzed_rows": 770,
+    "excluded_rows": 657,
+    "event_watch_rows": 9,
+    "eligible_rows": 104,
+    "exclusion_reason_counts": {
+      "market cap EUR unavailable": 583,
+      "insufficient median EUR turnover": 159,
+      "price < \u20ac2.00": 78,
+      "EUR liquidity unavailable": 62,
+      "EUR price unavailable": 62,
+      "market cap < \u20ac250,000,000": 50,
+      "data confidence < 55": 47,
+      "insufficient price history": 23,
+      "asset type excluded: nan": 1,
+      "delisted": 1
+    },
+    "exclusion_category_counts": {
+      "market_cap": 633,
+      "liquidity": 221,
+      "price": 140,
+      "data_confidence": 47,
+      "price_history": 23,
+      "asset_type": 1,
+      "delisted": 1
+    },
+    "as_of": "2026-08-12"
+  },
+  "delta": {
+    "eligible_rows": -21,
+    "excluded_rows": -46,
+    "event_watch_rows": -3
+  }
+}

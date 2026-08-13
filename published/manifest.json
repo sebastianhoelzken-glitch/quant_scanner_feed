@@ -1,10 +1,12 @@
 {
-  "generated_at_utc": "2026-08-13T10:30:26.625250+00:00",
+  "generated_at_utc": "2026-08-13T11:05:30.156048+00:00",
   "files": [
     "backtest_meta.json",
     "backtest_report.md",
     "backtest_summary.csv",
     "discovery_universe_latest.csv",
+    "eligibility_diagnostics_latest.csv",
+    "eligibility_diagnostics_latest.json",
     "factor_correlation_latest.csv",
     "pullback_ranking_latest.csv",
     "quality_value_latest.csv",
@@ -13,6 +15,8 @@
     "report_latest.md",
     "stock_scanner_exact_daily.csv",
     "stock_scanner_exact_meta.json",
+    "strategy_overlap_latest.csv",
+    "technical_weight_diagnostics_latest.csv",
     "top20_return_correlation_latest.csv",
     "value_ranking_latest.csv",
     "weight_diagnostics.csv"
