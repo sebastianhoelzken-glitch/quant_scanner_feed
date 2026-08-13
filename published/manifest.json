@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-13T11:32:49.569233+00:00",
+  "generated_at_utc": "2026-08-13T12:20:57.121171+00:00",
   "files": [
     "backtest_meta.json",
     "backtest_report.md",
@@ -21,5 +21,37 @@
     "value_ranking_latest.csv",
     "weight_diagnostics.csv"
   ],
-  "purpose": "Stable small outputs for the exact ChatGPT daily report. Quant scores must be read, not recomputed."
+  "purpose": "Stable small outputs for the exact ChatGPT daily report. Quant scores must be read, not recomputed.",
+  "selection_annotations": {
+    "stock_scanner_exact_daily.csv": {
+      "rows": 1000,
+      "core": 700,
+      "adaptive": 300
+    },
+    "ranking_latest.csv": {
+      "rows": 1000,
+      "core": 700,
+      "adaptive": 300
+    },
+    "value_ranking_latest.csv": {
+      "rows": 101,
+      "core": 101,
+      "adaptive": 0
+    },
+    "quality_value_latest.csv": {
+      "rows": 101,
+      "core": 101,
+      "adaptive": 0
+    },
+    "pullback_ranking_latest.csv": {
+      "rows": 49,
+      "core": 49,
+      "adaptive": 0
+    },
+    "strategy_overlap_latest.csv": {
+      "rows": 25,
+      "core": 25,
+      "adaptive": 0
+    }
+  }
 }

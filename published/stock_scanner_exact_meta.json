@@ -1,13 +1,13 @@
 {
   "as_of": "2026-08-13",
-  "generated_at_utc": "2026-08-13T11:32:36.439635+00:00",
+  "generated_at_utc": "2026-08-13T12:20:44.190754+00:00",
   "model_version": "1.6.1-nokey-broad-value-corrguard",
   "provider": "yfinance+SEC-public-no-key",
   "config_hash": "e7cf35b2094c2357",
   "discovery_rows": 2000,
   "deep_analyzed_rows": 1000,
-  "eligible_rows": 82,
-  "value_eligible_rows": 75,
+  "eligible_rows": 104,
+  "value_eligible_rows": 101,
   "value_seed_rows": 350,
   "universe_mode": "broad_screen",
   "limitations": [
@@ -38,10 +38,64 @@
       "stage1_history",
       "stage1_share_volume_proxy",
       "value_seed"
-    ]
+    ],
+    "ranking_selection_columns": [
+      "deep_selection_tier",
+      "deep_selection_reason"
+    ],
+    "ranking_annotation_stats": {
+      "stock_scanner_exact_daily.csv": {
+        "rows": 1000,
+        "core": 700,
+        "adaptive": 300
+      },
+      "ranking_latest.csv": {
+        "rows": 1000,
+        "core": 700,
+        "adaptive": 300
+      },
+      "value_ranking_latest.csv": {
+        "rows": 101,
+        "core": 101,
+        "adaptive": 0
+      },
+      "quality_value_latest.csv": {
+        "rows": 101,
+        "core": 101,
+        "adaptive": 0
+      },
+      "pullback_ranking_latest.csv": {
+        "rows": 49,
+        "core": 49,
+        "adaptive": 0
+      },
+      "strategy_overlap_latest.csv": {
+        "rows": 25,
+        "core": 25,
+        "adaptive": 0
+      }
+    },
+    "adaptive_top10_hits": {
+      "main": {
+        "count": 0,
+        "symbols": []
+      },
+      "value": {
+        "count": 0,
+        "symbols": []
+      },
+      "quality_value": {
+        "count": 0,
+        "symbols": []
+      },
+      "pullback": {
+        "count": 0,
+        "symbols": []
+      }
+    }
   },
   "deep_selection_diagnostics_file": "discovery_universe_latest.csv",
-  "pullback_eligible_rows": 37,
+  "pullback_eligible_rows": 49,
   "double_counting_guard": {
     "enabled": true,
     "threshold": 0.85,
