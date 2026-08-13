@@ -1,13 +1,13 @@
 {
   "as_of": "2026-08-13",
-  "generated_at_utc": "2026-08-13T13:48:26.487395+00:00",
+  "generated_at_utc": "2026-08-13T14:59:33.591996+00:00",
   "model_version": "1.6.1-nokey-broad-value-corrguard",
   "provider": "yfinance+SEC-public-no-key",
   "config_hash": "e7cf35b2094c2357",
   "discovery_rows": 2000,
   "deep_analyzed_rows": 1000,
-  "eligible_rows": 103,
-  "value_eligible_rows": 95,
+  "eligible_rows": 14,
+  "value_eligible_rows": 14,
   "value_seed_rows": 350,
   "universe_mode": "broad_screen",
   "limitations": [
@@ -55,23 +55,23 @@
         "adaptive": 300
       },
       "value_ranking_latest.csv": {
-        "rows": 95,
-        "core": 95,
+        "rows": 14,
+        "core": 14,
         "adaptive": 0
       },
       "quality_value_latest.csv": {
-        "rows": 95,
-        "core": 95,
+        "rows": 14,
+        "core": 14,
         "adaptive": 0
       },
       "pullback_ranking_latest.csv": {
-        "rows": 42,
-        "core": 42,
+        "rows": 4,
+        "core": 4,
         "adaptive": 0
       },
       "strategy_overlap_latest.csv": {
-        "rows": 26,
-        "core": 26,
+        "rows": 13,
+        "core": 13,
         "adaptive": 0
       }
     },
@@ -104,14 +104,15 @@
       "yahoo_shares_x_price"
     ],
     "source_counts": {
-      "unavailable": 806,
-      "yahoo_get_info": 163,
-      "yahoo_fast_info": 31
+      "unavailable": 723,
+      "yahoo_get_info": 246,
+      "yahoo_fast_info": 29,
+      "yahoo_info_shares_x_price": 2
     },
-    "available_rows": 194,
-    "unavailable_rows": 806
+    "available_rows": 277,
+    "unavailable_rows": 723
   },
-  "pullback_eligible_rows": 42,
+  "pullback_eligible_rows": 4,
   "double_counting_guard": {
     "enabled": true,
     "threshold": 0.85,
@@ -120,5 +121,25 @@
     "retrofit_stored_snapshot_rows": 1770
   },
   "eligibility_diagnostics_file": "eligibility_diagnostics_latest.json",
-  "strategy_overlap_file": "strategy_overlap_latest.csv"
+  "strategy_overlap_file": "strategy_overlap_latest.csv",
+  "entry_opportunity": {
+    "version": "1.0-exact-value-pullback",
+    "source": "published Exact ranking_latest.csv only; no web/news inputs",
+    "candidate_logic": "eligible AND (validated undervaluation OR published pullback_candidate)",
+    "min_undervaluation_score": 55.0,
+    "min_value_data_points": 5,
+    "min_value_data_coverage": 0.3,
+    "weights": {
+      "undervaluation": 0.3,
+      "pullback": 0.25,
+      "quality": 0.15,
+      "revisions": 0.1,
+      "value_safety": 0.2
+    },
+    "candidate_rows": 9,
+    "value_signal_rows": 7,
+    "pullback_signal_rows": 4,
+    "confluence_rows": 2,
+    "output_file": "entry_opportunity_latest.csv"
+  }
 }
