@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-13T17:20:49.745632+00:00",
+  "generated_at_utc": "2026-08-13T18:05:57.812330+00:00",
   "files": [
     "backtest_meta.json",
     "backtest_report.md",
@@ -35,26 +35,26 @@
       "adaptive": 300
     },
     "value_ranking_latest.csv": {
-      "rows": 128,
-      "core": 128,
+      "rows": 104,
+      "core": 104,
       "adaptive": 0
     },
     "quality_value_latest.csv": {
-      "rows": 128,
-      "core": 128,
+      "rows": 104,
+      "core": 104,
       "adaptive": 0
     },
     "pullback_ranking_latest.csv": {
-      "rows": 62,
-      "core": 62,
+      "rows": 45,
+      "core": 45,
       "adaptive": 0
     },
     "strategy_overlap_latest.csv": {
-      "rows": 26,
-      "core": 26,
+      "rows": 28,
+      "core": 28,
       "adaptive": 0
     }
   },
   "entry_opportunity_version": "1.0-exact-value-pullback",
-  "entry_overlay_generated_at_utc": "2026-08-13T17:20:50.285782+00:00"
+  "entry_overlay_generated_at_utc": "2026-08-13T18:05:58.595311+00:00"
 }
