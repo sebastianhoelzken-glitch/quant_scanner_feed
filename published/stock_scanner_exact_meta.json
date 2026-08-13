@@ -1,13 +1,13 @@
 {
   "as_of": "2026-08-13",
-  "generated_at_utc": "2026-08-13T18:53:56.898471+00:00",
+  "generated_at_utc": "2026-08-13T19:59:40.827939+00:00",
   "model_version": "1.6.1-nokey-broad-value-corrguard",
   "provider": "yfinance+SEC-public-no-key",
   "config_hash": "e7cf35b2094c2357",
   "discovery_rows": 2000,
   "deep_analyzed_rows": 1000,
-  "eligible_rows": 111,
-  "value_eligible_rows": 101,
+  "eligible_rows": 691,
+  "value_eligible_rows": 111,
   "value_seed_rows": 350,
   "universe_mode": "broad_screen",
   "limitations": [
@@ -55,23 +55,23 @@
         "adaptive": 300
       },
       "value_ranking_latest.csv": {
-        "rows": 101,
-        "core": 101,
+        "rows": 111,
+        "core": 111,
         "adaptive": 0
       },
       "quality_value_latest.csv": {
-        "rows": 101,
-        "core": 101,
+        "rows": 111,
+        "core": 111,
         "adaptive": 0
       },
       "pullback_ranking_latest.csv": {
-        "rows": 44,
-        "core": 44,
-        "adaptive": 0
+        "rows": 343,
+        "core": 230,
+        "adaptive": 113
       },
       "strategy_overlap_latest.csv": {
-        "rows": 27,
-        "core": 27,
+        "rows": 29,
+        "core": 29,
         "adaptive": 0
       }
     },
@@ -105,48 +105,79 @@
       "yahoo_shares_x_price",
       "yahoo_shares_history_x_price",
       "yahoo_balance_sheet_shares_x_price",
+      "sec_companyfacts_shares_x_price",
       "stored_market_cap_price_roll",
       "stored_market_cap_same_day",
       "unavailable"
     ],
     "source_counts": {
-      "yahoo_get_info": 215,
-      "yahoo_fast_info": 3,
-      "yahoo_screen_market_cap": 0,
-      "yahoo_shares_x_price": 0,
+      "yahoo_get_info": 218,
+      "yahoo_fast_info": 26,
+      "yahoo_screen_market_cap": 746,
+      "yahoo_shares_x_price": 3,
       "yahoo_shares_history_x_price": 0,
       "yahoo_balance_sheet_shares_x_price": 2,
       "stored_market_cap_price_roll": 0,
       "stored_market_cap_same_day": 0,
-      "unavailable": 780
+      "unavailable": 5,
+      "sec_companyfacts_shares_x_price": 0
     },
-    "available_rows": 220,
-    "unavailable_rows": 780,
-    "eligible_rows": 111,
+    "available_rows": 995,
+    "unavailable_rows": 5,
+    "eligible_rows": 691,
     "recovered_by_extended_share_fallbacks": 2,
     "by_deep_selection_tier": {
       "core": {
         "rows": 700,
-        "available_rows": 220,
-        "unavailable_rows": 480,
+        "available_rows": 695,
+        "unavailable_rows": 5,
         "source_counts": {
-          "unavailable": 480,
-          "yahoo_get_info": 215,
-          "yahoo_fast_info": 3,
+          "yahoo_screen_market_cap": 446,
+          "yahoo_get_info": 218,
+          "yahoo_fast_info": 26,
+          "unavailable": 5,
+          "yahoo_shares_x_price": 3,
           "yahoo_balance_sheet_shares_x_price": 2
         }
       },
       "adaptive": {
         "rows": 300,
-        "available_rows": 0,
-        "unavailable_rows": 300,
+        "available_rows": 300,
+        "unavailable_rows": 0,
         "source_counts": {
-          "unavailable": 300
+          "yahoo_screen_market_cap": 300
         }
       }
     }
   },
-  "pullback_eligible_rows": 44,
+  "provider_resilience": {
+    "get_info_errors_recovered": 777,
+    "sec_companyfacts_market_caps": 0,
+    "fx_primary": "yfinance",
+    "fx_fallback": "ECB EXR daily reference rates",
+    "fx_yahoo_currencies": [
+      "USD"
+    ],
+    "fx_ecb_fallback_currencies": [
+      "BRL",
+      "CAD",
+      "CHF",
+      "CNY",
+      "CZK",
+      "DKK",
+      "GBP",
+      "JPY",
+      "KRW",
+      "MXN",
+      "NOK",
+      "PLN",
+      "SEK"
+    ],
+    "fx_unavailable_currencies": [
+      "ARS"
+    ]
+  },
+  "pullback_eligible_rows": 343,
   "double_counting_guard": {
     "enabled": true,
     "threshold": 0.85,
@@ -160,8 +191,8 @@
     "checked": true,
     "status": "pass",
     "deep_analyzed_rows": 1000,
-    "market_cap_available_rows": 220,
-    "eligible_rows": 111,
+    "market_cap_available_rows": 995,
+    "eligible_rows": 691,
     "min_market_cap_available_rows": 150,
     "min_eligible_rows": 50
   },
@@ -179,10 +210,10 @@
       "revisions": 0.1,
       "value_safety": 0.2
     },
-    "candidate_rows": 79,
-    "value_signal_rows": 53,
-    "pullback_signal_rows": 44,
-    "confluence_rows": 18,
+    "candidate_rows": 380,
+    "value_signal_rows": 60,
+    "pullback_signal_rows": 343,
+    "confluence_rows": 23,
     "output_file": "entry_opportunity_latest.csv"
   }
 }
