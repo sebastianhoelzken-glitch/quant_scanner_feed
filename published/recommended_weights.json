@@ -1,0 +1,60 @@
+{
+  "short": {
+    "status": "no_matured_forward_labels",
+    "holding_days": 20,
+    "signal_dates": 0,
+    "label_rows": 0,
+    "prior": {
+      "technical_short_score": 0.62,
+      "revisions_score": 0.11,
+      "reaction_score": 0.1,
+      "sector_score": 0.1,
+      "quality_score": 0.07
+    },
+    "message": "No 20-trading-day forward labels are mature yet; keep accumulating daily snapshots."
+  },
+  "swing": {
+    "status": "no_matured_forward_labels",
+    "holding_days": 63,
+    "signal_dates": 0,
+    "label_rows": 0,
+    "prior": {
+      "technical_swing_score": 0.44,
+      "revisions_score": 0.23,
+      "reaction_score": 0.06,
+      "sector_score": 0.14,
+      "quality_score": 0.09,
+      "valuation_score": 0.04
+    },
+    "message": "No 63-trading-day forward labels are mature yet; keep accumulating daily snapshots."
+  },
+  "medium": {
+    "status": "no_matured_forward_labels",
+    "holding_days": 126,
+    "signal_dates": 0,
+    "label_rows": 0,
+    "prior": {
+      "technical_medium_score": 0.29,
+      "revisions_score": 0.23,
+      "quality_score": 0.25,
+      "sector_score": 0.1,
+      "valuation_score": 0.11,
+      "reaction_score": 0.02
+    },
+    "message": "No 126-trading-day forward labels are mature yet; keep accumulating daily snapshots."
+  },
+  "long": {
+    "status": "no_matured_forward_labels",
+    "holding_days": 252,
+    "signal_dates": 0,
+    "label_rows": 0,
+    "prior": {
+      "technical_long_score": 0.1,
+      "revisions_score": 0.14,
+      "quality_score": 0.4,
+      "sector_score": 0.09,
+      "valuation_score": 0.27
+    },
+    "message": "No 252-trading-day forward labels are mature yet; keep accumulating daily snapshots."
+  }
+}

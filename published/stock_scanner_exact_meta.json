@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-08-12",
-  "generated_at_utc": "2026-08-12T23:37:00.785376+00:00",
+  "as_of": "2026-08-13",
+  "generated_at_utc": "2026-08-13T09:24:19.590272+00:00",
   "model_version": "1.6.0-nokey-broad-value",
   "provider": "yfinance+SEC-public-no-key",
   "config_hash": "5f1c0b9c8c644f77",
   "discovery_rows": 2000,
   "deep_analyzed_rows": 700,
-  "eligible_rows": 103,
-  "value_eligible_rows": 100,
+  "eligible_rows": 55,
+  "value_eligible_rows": 53,
   "value_seed_rows": 350,
   "universe_mode": "broad_screen",
   "limitations": [

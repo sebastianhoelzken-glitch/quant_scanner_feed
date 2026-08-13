@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-12T23:37:03.984855+00:00",
+  "generated_at_utc": "2026-08-13T09:24:24.753762+00:00",
   "files": [
     "backtest_meta.json",
     "backtest_report.md",
@@ -9,11 +9,13 @@
     "pullback_ranking_latest.csv",
     "quality_value_latest.csv",
     "ranking_latest.csv",
+    "recommended_weights.json",
     "report_latest.md",
     "stock_scanner_exact_daily.csv",
     "stock_scanner_exact_meta.json",
     "top20_return_correlation_latest.csv",
-    "value_ranking_latest.csv"
+    "value_ranking_latest.csv",
+    "weight_diagnostics.csv"
   ],
   "purpose": "Stable small outputs for the exact ChatGPT daily report. Quant scores must be read, not recomputed."
 }
