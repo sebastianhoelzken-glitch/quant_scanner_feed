@@ -1,13 +1,13 @@
 {
   "as_of": "2026-08-13",
-  "generated_at_utc": "2026-08-13T11:05:19.404939+00:00",
+  "generated_at_utc": "2026-08-13T11:32:36.439635+00:00",
   "model_version": "1.6.1-nokey-broad-value-corrguard",
   "provider": "yfinance+SEC-public-no-key",
-  "config_hash": "e4ab8fd29530a66b",
+  "config_hash": "e7cf35b2094c2357",
   "discovery_rows": 2000,
-  "deep_analyzed_rows": 700,
-  "eligible_rows": 83,
-  "value_eligible_rows": 81,
+  "deep_analyzed_rows": 1000,
+  "eligible_rows": 82,
+  "value_eligible_rows": 75,
   "value_seed_rows": 350,
   "universe_mode": "broad_screen",
   "limitations": [
@@ -25,13 +25,29 @@
     "undervaluation": "separate peer-relative value score",
     "value_conviction": "value plus quality/revisions/safety; not a trade order"
   },
-  "pullback_eligible_rows": 36,
+  "adaptive_deepening": {
+    "enabled": true,
+    "core_target": 700,
+    "max_target": 1000,
+    "core_selected": 700,
+    "adaptive_selected": 300,
+    "not_selected": 1000,
+    "selection_inputs": [
+      "stage1_momentum",
+      "stage1_pullback",
+      "stage1_history",
+      "stage1_share_volume_proxy",
+      "value_seed"
+    ]
+  },
+  "deep_selection_diagnostics_file": "discovery_universe_latest.csv",
+  "pullback_eligible_rows": 37,
   "double_counting_guard": {
     "enabled": true,
     "threshold": 0.85,
     "strength": 0.25,
     "max_penalty": 0.25,
-    "retrofit_stored_snapshot_rows": 1470
+    "retrofit_stored_snapshot_rows": 1770
   },
   "eligibility_diagnostics_file": "eligibility_diagnostics_latest.json",
   "strategy_overlap_file": "strategy_overlap_latest.csv"
