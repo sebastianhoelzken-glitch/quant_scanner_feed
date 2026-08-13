@@ -1,13 +1,13 @@
 {
   "as_of": "2026-08-13",
-  "generated_at_utc": "2026-08-13T12:54:34.179726+00:00",
+  "generated_at_utc": "2026-08-13T13:48:26.487395+00:00",
   "model_version": "1.6.1-nokey-broad-value-corrguard",
   "provider": "yfinance+SEC-public-no-key",
   "config_hash": "e7cf35b2094c2357",
   "discovery_rows": 2000,
   "deep_analyzed_rows": 1000,
-  "eligible_rows": 120,
-  "value_eligible_rows": 109,
+  "eligible_rows": 103,
+  "value_eligible_rows": 95,
   "value_seed_rows": 350,
   "universe_mode": "broad_screen",
   "limitations": [
@@ -55,23 +55,23 @@
         "adaptive": 300
       },
       "value_ranking_latest.csv": {
-        "rows": 109,
-        "core": 109,
+        "rows": 95,
+        "core": 95,
         "adaptive": 0
       },
       "quality_value_latest.csv": {
-        "rows": 109,
-        "core": 109,
+        "rows": 95,
+        "core": 95,
         "adaptive": 0
       },
       "pullback_ranking_latest.csv": {
-        "rows": 52,
-        "core": 52,
+        "rows": 42,
+        "core": 42,
         "adaptive": 0
       },
       "strategy_overlap_latest.csv": {
-        "rows": 24,
-        "core": 24,
+        "rows": 26,
+        "core": 26,
         "adaptive": 0
       }
     },
@@ -104,14 +104,14 @@
       "yahoo_shares_x_price"
     ],
     "source_counts": {
-      "unavailable": 726,
-      "yahoo_get_info": 245,
-      "yahoo_fast_info": 29
+      "unavailable": 806,
+      "yahoo_get_info": 163,
+      "yahoo_fast_info": 31
     },
-    "available_rows": 274,
-    "unavailable_rows": 726
+    "available_rows": 194,
+    "unavailable_rows": 806
   },
-  "pullback_eligible_rows": 52,
+  "pullback_eligible_rows": 42,
   "double_counting_guard": {
     "enabled": true,
     "threshold": 0.85,
