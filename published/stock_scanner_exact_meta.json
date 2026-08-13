@@ -1,13 +1,13 @@
 {
   "as_of": "2026-08-13",
-  "generated_at_utc": "2026-08-13T16:54:19.246577+00:00",
+  "generated_at_utc": "2026-08-13T17:20:38.510010+00:00",
   "model_version": "1.6.1-nokey-broad-value-corrguard",
   "provider": "yfinance+SEC-public-no-key",
   "config_hash": "e7cf35b2094c2357",
   "discovery_rows": 2000,
   "deep_analyzed_rows": 1000,
-  "eligible_rows": 165,
-  "value_eligible_rows": 153,
+  "eligible_rows": 138,
+  "value_eligible_rows": 128,
   "value_seed_rows": 350,
   "universe_mode": "broad_screen",
   "limitations": [
@@ -55,23 +55,23 @@
         "adaptive": 300
       },
       "value_ranking_latest.csv": {
-        "rows": 153,
-        "core": 153,
+        "rows": 128,
+        "core": 128,
         "adaptive": 0
       },
       "quality_value_latest.csv": {
-        "rows": 153,
-        "core": 153,
+        "rows": 128,
+        "core": 128,
         "adaptive": 0
       },
       "pullback_ranking_latest.csv": {
-        "rows": 84,
-        "core": 84,
+        "rows": 62,
+        "core": 62,
         "adaptive": 0
       },
       "strategy_overlap_latest.csv": {
-        "rows": 24,
-        "core": 24,
+        "rows": 26,
+        "core": 26,
         "adaptive": 0
       }
     },
@@ -104,16 +104,15 @@
       "yahoo_shares_x_price"
     ],
     "source_counts": {
-      "unavailable": 590,
-      "yahoo_get_info": 374,
-      "yahoo_fast_info": 32,
-      "yahoo_shares_x_price": 3,
-      "yahoo_screen_market_cap": 1
+      "unavailable": 692,
+      "yahoo_get_info": 276,
+      "yahoo_fast_info": 30,
+      "yahoo_shares_x_price": 2
     },
-    "available_rows": 410,
-    "unavailable_rows": 590
+    "available_rows": 308,
+    "unavailable_rows": 692
   },
-  "pullback_eligible_rows": 84,
+  "pullback_eligible_rows": 62,
   "double_counting_guard": {
     "enabled": true,
     "threshold": 0.85,
@@ -123,6 +122,15 @@
   },
   "eligibility_diagnostics_file": "eligibility_diagnostics_latest.json",
   "strategy_overlap_file": "strategy_overlap_latest.csv",
+  "provider_health_guard": {
+    "checked": true,
+    "status": "pass",
+    "deep_analyzed_rows": 1000,
+    "market_cap_available_rows": 308,
+    "eligible_rows": 138,
+    "min_market_cap_available_rows": 150,
+    "min_eligible_rows": 50
+  },
   "entry_opportunity": {
     "version": "1.0-exact-value-pullback",
     "source": "published Exact ranking_latest.csv only; no web/news inputs",
@@ -137,10 +145,10 @@
       "revisions": 0.1,
       "value_safety": 0.2
     },
-    "candidate_rows": 120,
-    "value_signal_rows": 67,
-    "pullback_signal_rows": 84,
-    "confluence_rows": 31,
+    "candidate_rows": 100,
+    "value_signal_rows": 66,
+    "pullback_signal_rows": 62,
+    "confluence_rows": 28,
     "output_file": "entry_opportunity_latest.csv"
   }
 }
