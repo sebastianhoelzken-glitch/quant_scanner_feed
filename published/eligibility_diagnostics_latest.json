@@ -1,31 +1,29 @@
 {
   "current": {
     "deep_analyzed_rows": 1000,
-    "excluded_rows": 986,
-    "event_watch_rows": 0,
-    "eligible_rows": 14,
+    "excluded_rows": 868,
+    "event_watch_rows": 12,
+    "eligible_rows": 120,
     "exclusion_reason_counts": {
-      "market cap EUR unavailable": 978,
-      "EUR liquidity unavailable": 258,
-      "EUR price unavailable": 258,
-      "insufficient median EUR turnover": 67,
-      "data confidence < 55": 59,
-      "insufficient price history": 23,
-      "price < \u20ac2.00": 21,
-      "market cap < \u20ac250,000,000": 2,
+      "market cap EUR unavailable": 789,
+      "insufficient median EUR turnover": 164,
+      "price < \u20ac2.00": 91,
+      "EUR liquidity unavailable": 55,
+      "EUR price unavailable": 55,
+      "market cap < \u20ac250,000,000": 51,
+      "data confidence < 55": 43,
+      "insufficient price history": 21,
       "asset type excluded: nan": 1,
-      "delisted": 1,
-      "duplicate security listing of TEK.L": 1
+      "delisted": 1
     },
     "exclusion_category_counts": {
-      "market_cap": 980,
-      "liquidity": 325,
-      "price": 279,
-      "data_confidence": 59,
-      "price_history": 23,
+      "market_cap": 840,
+      "liquidity": 219,
+      "price": 146,
+      "data_confidence": 43,
+      "price_history": 21,
       "asset_type": 1,
-      "delisted": 1,
-      "duplicate_listing": 1
+      "delisted": 1
     },
     "as_of": "2026-08-13"
   },
@@ -58,8 +56,8 @@
     "as_of": "2026-08-12"
   },
   "delta": {
-    "eligible_rows": -90,
-    "excluded_rows": 329,
-    "event_watch_rows": -9
+    "eligible_rows": 16,
+    "excluded_rows": 211,
+    "event_watch_rows": 3
   }
 }
