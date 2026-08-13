@@ -1,13 +1,13 @@
 {
   "as_of": "2026-08-13",
-  "generated_at_utc": "2026-08-13T15:18:30.268360+00:00",
+  "generated_at_utc": "2026-08-13T15:53:59.736417+00:00",
   "model_version": "1.6.1-nokey-broad-value-corrguard",
   "provider": "yfinance+SEC-public-no-key",
   "config_hash": "e7cf35b2094c2357",
   "discovery_rows": 2000,
   "deep_analyzed_rows": 1000,
-  "eligible_rows": 120,
-  "value_eligible_rows": 110,
+  "eligible_rows": 117,
+  "value_eligible_rows": 104,
   "value_seed_rows": 350,
   "universe_mode": "broad_screen",
   "limitations": [
@@ -55,18 +55,18 @@
         "adaptive": 300
       },
       "value_ranking_latest.csv": {
-        "rows": 110,
-        "core": 110,
+        "rows": 104,
+        "core": 104,
         "adaptive": 0
       },
       "quality_value_latest.csv": {
-        "rows": 110,
-        "core": 110,
+        "rows": 104,
+        "core": 104,
         "adaptive": 0
       },
       "pullback_ranking_latest.csv": {
-        "rows": 49,
-        "core": 49,
+        "rows": 47,
+        "core": 47,
         "adaptive": 0
       },
       "strategy_overlap_latest.csv": {
@@ -104,15 +104,15 @@
       "yahoo_shares_x_price"
     ],
     "source_counts": {
-      "unavailable": 736,
-      "yahoo_get_info": 233,
-      "yahoo_fast_info": 29,
-      "yahoo_info_shares_x_price": 2
+      "unavailable": 786,
+      "yahoo_get_info": 178,
+      "yahoo_fast_info": 35,
+      "yahoo_shares_x_price": 1
     },
-    "available_rows": 264,
-    "unavailable_rows": 736
+    "available_rows": 214,
+    "unavailable_rows": 786
   },
-  "pullback_eligible_rows": 49,
+  "pullback_eligible_rows": 47,
   "double_counting_guard": {
     "enabled": true,
     "threshold": 0.85,
@@ -136,9 +136,9 @@
       "revisions": 0.1,
       "value_safety": 0.2
     },
-    "candidate_rows": 82,
-    "value_signal_rows": 53,
-    "pullback_signal_rows": 49,
+    "candidate_rows": 79,
+    "value_signal_rows": 52,
+    "pullback_signal_rows": 47,
     "confluence_rows": 20,
     "output_file": "entry_opportunity_latest.csv"
   }
