@@ -1,4 +1,4 @@
 top_n,rows,quality_present,revisions_present,valuation_present,complete_core_component_rows,sparse_core_component_rows,median_data_confidence,min_data_confidence,below_60_confidence_rows,below_65_confidence_rows,median_market_cap_eur,core_rows,adaptive_rows,cap_micro_250m_1b,cap_small_1_5b,cap_mid_5_20b,cap_large_20_100b,cap_mega_100b_plus,cap_unknown
-10,10,0,0,10,0,10,62.840909090909086,60.0,0,10,7226050857.597706,10,0,0,2,5,2,1,0
-25,25,1,1,25,1,24,62.840909090909086,60.0,0,24,4145676965.1843424,23,2,2,12,6,4,1,0
-50,50,1,2,50,1,48,62.840909090909086,56.29545454545455,1,49,4174176753.029996,43,7,9,18,13,7,3,0
+10,10,1,1,10,1,9,62.840909090909086,60.0,0,9,8626144338.60429,10,0,0,3,4,2,1,0
+25,25,1,1,25,1,24,62.840909090909086,60.0,0,24,6571039145.6484375,23,2,0,11,7,6,1,0
+50,50,2,2,50,2,48,62.840909090909086,60.0,0,48,5346301196.385837,44,6,5,20,12,10,3,0
