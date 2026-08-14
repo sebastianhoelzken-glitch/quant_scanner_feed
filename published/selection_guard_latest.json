@@ -1,0 +1,18 @@
+{
+  "version": "1.1-exact-selection-guard",
+  "diagnostic_only_for_main_ranking": true,
+  "main_scores_changed": false,
+  "main_ranks_changed": false,
+  "entry_overlay_rows_joined": 367,
+  "top10_quality_present": 0,
+  "top10_revisions_present": 0,
+  "top10_complete_core_components": 0,
+  "top10_median_score_completeness": 40.0,
+  "high_conviction_candidates": 139,
+  "portfolio_guard_rows": 30,
+  "files": [
+    "score_completeness_latest.csv",
+    "high_conviction_entry_latest.csv",
+    "portfolio_guard_latest.csv"
+  ]
+}
