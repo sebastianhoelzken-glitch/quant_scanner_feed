@@ -1,18 +1,16 @@
 {
   "current": {
     "deep_analyzed_rows": 1000,
-    "excluded_rows": 281,
-    "event_watch_rows": 13,
-    "eligible_rows": 706,
+    "excluded_rows": 294,
+    "event_watch_rows": 11,
+    "eligible_rows": 695,
     "exclusion_reason_counts": {
-      "insufficient median EUR turnover": 224,
-      "price < \u20ac2.00": 168,
-      "market cap < \u20ac250,000,000": 147,
-      "insufficient price history": 21,
+      "insufficient median EUR turnover": 231,
+      "price < \u20ac2.00": 174,
+      "market cap < \u20ac250,000,000": 145,
+      "insufficient price history": 24,
       "data confidence < 55": 20,
       "market cap EUR unavailable": 6,
-      "duplicate security listing of STLA": 2,
-      "duplicate security listing of TEK.L": 2,
       "EUR liquidity unavailable": 1,
       "EUR price unavailable": 1,
       "asset type excluded: nan": 1,
@@ -20,12 +18,11 @@
       "stale price": 1
     },
     "exclusion_category_counts": {
-      "liquidity": 225,
-      "price": 169,
-      "market_cap": 153,
-      "price_history": 21,
+      "liquidity": 232,
+      "price": 175,
+      "market_cap": 151,
+      "price_history": 24,
       "data_confidence": 20,
-      "duplicate_listing": 4,
       "asset_type": 1,
       "delisted": 1,
       "stale_price": 1
@@ -65,8 +62,8 @@
     "as_of": "2026-08-15"
   },
   "delta": {
-    "eligible_rows": 2,
-    "excluded_rows": -3,
-    "event_watch_rows": 1
+    "eligible_rows": -9,
+    "excluded_rows": 10,
+    "event_watch_rows": -1
   }
 }

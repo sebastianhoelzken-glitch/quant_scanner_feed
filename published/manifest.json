@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-16T07:31:23.841308+00:00",
+  "generated_at_utc": "2026-08-16T18:24:32.102727+00:00",
   "files": [
     "backtest_meta.json",
     "backtest_report.md",
@@ -41,28 +41,28 @@
       "adaptive": 300
     },
     "value_ranking_latest.csv": {
-      "rows": 136,
-      "core": 136,
+      "rows": 100,
+      "core": 100,
       "adaptive": 0
     },
     "quality_value_latest.csv": {
-      "rows": 136,
-      "core": 136,
+      "rows": 100,
+      "core": 100,
       "adaptive": 0
     },
     "pullback_ranking_latest.csv": {
-      "rows": 363,
-      "core": 245,
-      "adaptive": 118
+      "rows": 358,
+      "core": 244,
+      "adaptive": 114
     },
     "strategy_overlap_latest.csv": {
-      "rows": 30,
+      "rows": 31,
       "core": 30,
-      "adaptive": 0
+      "adaptive": 1
     }
   },
   "entry_opportunity_version": "1.0-exact-value-pullback",
-  "entry_overlay_generated_at_utc": "2026-08-16T07:31:24.508267+00:00",
+  "entry_overlay_generated_at_utc": "2026-08-16T18:24:32.894375+00:00",
   "ranking_quality_diagnostics": {
     "diagnostic_only": true,
     "json_file": "ranking_quality_diagnostics_latest.json",
@@ -73,12 +73,12 @@
     "diagnostic_only_for_main_ranking": true,
     "main_scores_changed": false,
     "main_ranks_changed": false,
-    "entry_overlay_rows_joined": 390,
-    "top10_quality_present": 0,
-    "top10_revisions_present": 0,
-    "top10_complete_core_components": 0,
-    "top10_median_score_completeness": 40.0,
-    "high_conviction_candidates": 145,
+    "entry_overlay_rows_joined": 389,
+    "top10_quality_present": 8,
+    "top10_revisions_present": 9,
+    "top10_complete_core_components": 8,
+    "top10_median_score_completeness": 95.00000000000001,
+    "high_conviction_candidates": 686,
     "portfolio_guard_rows": 30,
     "files": [
       "score_completeness_latest.csv",
