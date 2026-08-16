@@ -14,26 +14,26 @@
       "component_present": {
         "quality_score": 0,
         "revisions_score": 0,
-        "valuation_score": 9
+        "valuation_score": 10
       },
       "component_missing": {
         "quality_score": 10,
         "revisions_score": 10,
-        "valuation_score": 1
+        "valuation_score": 0
       },
       "complete_core_component_rows": 0,
       "sparse_core_component_rows": 10,
       "median_data_confidence": 62.840909090909086,
-      "min_data_confidence": 59.09090909090909,
-      "below_60_confidence_rows": 1,
+      "min_data_confidence": 60.0,
+      "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 10,
-      "median_market_cap_eur": 10874648261.901777,
+      "median_market_cap_eur": 6632737200.540672,
       "market_cap_buckets": {
         "micro_250m_1b": 1,
-        "small_1_5b": 2,
-        "mid_5_20b": 4,
-        "large_20_100b": 2,
-        "mega_100b_plus": 1,
+        "small_1_5b": 3,
+        "mid_5_20b": 3,
+        "large_20_100b": 3,
+        "mega_100b_plus": 0,
         "unknown": 0
       },
       "selection_tiers": {
@@ -61,7 +61,7 @@
           "data_confidence": 62.840909090909086
         },
         {
-          "symbol": "DINO",
+          "symbol": "RBI.VI",
           "rank": 3,
           "missing": [
             "quality",
@@ -70,7 +70,7 @@
           "data_confidence": 62.840909090909086
         },
         {
-          "symbol": "HPE",
+          "symbol": "DINO",
           "rank": 4,
           "missing": [
             "quality",
@@ -79,16 +79,16 @@
           "data_confidence": 62.840909090909086
         },
         {
-          "symbol": "HRB",
+          "symbol": "HPE",
           "rank": 5,
           "missing": [
             "quality",
             "revisions"
           ],
-          "data_confidence": 61.93181818181818
+          "data_confidence": 62.840909090909086
         },
         {
-          "symbol": "ABCL",
+          "symbol": "UMAC",
           "rank": 6,
           "missing": [
             "quality",
@@ -97,8 +97,26 @@
           "data_confidence": 60.0
         },
         {
-          "symbol": "ZD",
+          "symbol": "HRB",
           "rank": 7,
+          "missing": [
+            "quality",
+            "revisions"
+          ],
+          "data_confidence": 61.93181818181818
+        },
+        {
+          "symbol": "ABCL",
+          "rank": 8,
+          "missing": [
+            "quality",
+            "revisions"
+          ],
+          "data_confidence": 60.0
+        },
+        {
+          "symbol": "ZD",
+          "rank": 9,
           "missing": [
             "quality",
             "revisions"
@@ -107,31 +125,12 @@
         },
         {
           "symbol": "MPC",
-          "rank": 8,
-          "missing": [
-            "quality",
-            "revisions"
-          ],
-          "data_confidence": 62.840909090909086
-        },
-        {
-          "symbol": "GH",
-          "rank": 9,
-          "missing": [
-            "quality",
-            "revisions",
-            "valuation"
-          ],
-          "data_confidence": 59.09090909090909
-        },
-        {
-          "symbol": "DELL",
           "rank": 10,
           "missing": [
             "quality",
             "revisions"
           ],
-          "data_confidence": 61.93181818181818
+          "data_confidence": 62.840909090909086
         }
       ]
     },
@@ -139,27 +138,27 @@
       "requested_top_n": 25,
       "rows": 25,
       "component_present": {
-        "quality_score": 1,
-        "revisions_score": 1,
-        "valuation_score": 23
+        "quality_score": 0,
+        "revisions_score": 0,
+        "valuation_score": 24
       },
       "component_missing": {
-        "quality_score": 24,
-        "revisions_score": 24,
-        "valuation_score": 2
+        "quality_score": 25,
+        "revisions_score": 25,
+        "valuation_score": 1
       },
-      "complete_core_component_rows": 1,
-      "sparse_core_component_rows": 24,
+      "complete_core_component_rows": 0,
+      "sparse_core_component_rows": 25,
       "median_data_confidence": 62.840909090909086,
       "min_data_confidence": 59.09090909090909,
-      "below_60_confidence_rows": 2,
-      "below_65_confidence_rows": 24,
-      "median_market_cap_eur": 6314869641.870406,
+      "below_60_confidence_rows": 1,
+      "below_65_confidence_rows": 25,
+      "median_market_cap_eur": 4875131025.695774,
       "market_cap_buckets": {
-        "micro_250m_1b": 2,
-        "small_1_5b": 9,
-        "mid_5_20b": 8,
-        "large_20_100b": 5,
+        "micro_250m_1b": 3,
+        "small_1_5b": 10,
+        "mid_5_20b": 7,
+        "large_20_100b": 4,
         "mega_100b_plus": 1,
         "unknown": 0
       },
@@ -188,7 +187,7 @@
           "data_confidence": 62.840909090909086
         },
         {
-          "symbol": "DINO",
+          "symbol": "RBI.VI",
           "rank": 3,
           "missing": [
             "quality",
@@ -197,7 +196,7 @@
           "data_confidence": 62.840909090909086
         },
         {
-          "symbol": "HPE",
+          "symbol": "DINO",
           "rank": 4,
           "missing": [
             "quality",
@@ -206,16 +205,16 @@
           "data_confidence": 62.840909090909086
         },
         {
-          "symbol": "HRB",
+          "symbol": "HPE",
           "rank": 5,
           "missing": [
             "quality",
             "revisions"
           ],
-          "data_confidence": 61.93181818181818
+          "data_confidence": 62.840909090909086
         },
         {
-          "symbol": "ABCL",
+          "symbol": "UMAC",
           "rank": 6,
           "missing": [
             "quality",
@@ -224,8 +223,26 @@
           "data_confidence": 60.0
         },
         {
-          "symbol": "ZD",
+          "symbol": "HRB",
           "rank": 7,
+          "missing": [
+            "quality",
+            "revisions"
+          ],
+          "data_confidence": 61.93181818181818
+        },
+        {
+          "symbol": "ABCL",
+          "rank": 8,
+          "missing": [
+            "quality",
+            "revisions"
+          ],
+          "data_confidence": 60.0
+        },
+        {
+          "symbol": "ZD",
+          "rank": 9,
           "missing": [
             "quality",
             "revisions"
@@ -234,7 +251,7 @@
         },
         {
           "symbol": "MPC",
-          "rank": 8,
+          "rank": 10,
           "missing": [
             "quality",
             "revisions"
@@ -243,25 +260,6 @@
         },
         {
           "symbol": "GH",
-          "rank": 9,
-          "missing": [
-            "quality",
-            "revisions",
-            "valuation"
-          ],
-          "data_confidence": 59.09090909090909
-        },
-        {
-          "symbol": "DELL",
-          "rank": 10,
-          "missing": [
-            "quality",
-            "revisions"
-          ],
-          "data_confidence": 61.93181818181818
-        },
-        {
-          "symbol": "MGTX",
           "rank": 11,
           "missing": [
             "quality",
@@ -280,16 +278,16 @@
           "data_confidence": 60.0
         },
         {
-          "symbol": "GPN",
+          "symbol": "DELL",
           "rank": 13,
           "missing": [
             "quality",
             "revisions"
           ],
-          "data_confidence": 62.840909090909086
+          "data_confidence": 61.93181818181818
         },
         {
-          "symbol": "CAKE",
+          "symbol": "MAN",
           "rank": 14,
           "missing": [
             "quality",
@@ -298,7 +296,7 @@
           "data_confidence": 62.840909090909086
         },
         {
-          "symbol": "TXG",
+          "symbol": "GPN",
           "rank": 15,
           "missing": [
             "quality",
@@ -312,33 +310,33 @@
       "requested_top_n": 50,
       "rows": 50,
       "component_present": {
-        "quality_score": 2,
-        "revisions_score": 2,
-        "valuation_score": 48
+        "quality_score": 1,
+        "revisions_score": 1,
+        "valuation_score": 49
       },
       "component_missing": {
-        "quality_score": 48,
-        "revisions_score": 48,
-        "valuation_score": 2
+        "quality_score": 49,
+        "revisions_score": 49,
+        "valuation_score": 1
       },
-      "complete_core_component_rows": 2,
-      "sparse_core_component_rows": 48,
+      "complete_core_component_rows": 1,
+      "sparse_core_component_rows": 49,
       "median_data_confidence": 62.840909090909086,
       "min_data_confidence": 59.09090909090909,
-      "below_60_confidence_rows": 2,
-      "below_65_confidence_rows": 48,
-      "median_market_cap_eur": 4042579102.3828125,
+      "below_60_confidence_rows": 1,
+      "below_65_confidence_rows": 49,
+      "median_market_cap_eur": 3908599253.8167086,
       "market_cap_buckets": {
-        "micro_250m_1b": 6,
-        "small_1_5b": 22,
-        "mid_5_20b": 12,
+        "micro_250m_1b": 8,
+        "small_1_5b": 21,
+        "mid_5_20b": 11,
         "large_20_100b": 7,
         "mega_100b_plus": 3,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 44,
-        "adaptive": 6,
+        "core": 42,
+        "adaptive": 8,
         "unknown": 0
       },
       "sparse_examples": [
@@ -361,7 +359,7 @@
           "data_confidence": 62.840909090909086
         },
         {
-          "symbol": "DINO",
+          "symbol": "RBI.VI",
           "rank": 3,
           "missing": [
             "quality",
@@ -370,7 +368,7 @@
           "data_confidence": 62.840909090909086
         },
         {
-          "symbol": "HPE",
+          "symbol": "DINO",
           "rank": 4,
           "missing": [
             "quality",
@@ -379,16 +377,16 @@
           "data_confidence": 62.840909090909086
         },
         {
-          "symbol": "HRB",
+          "symbol": "HPE",
           "rank": 5,
           "missing": [
             "quality",
             "revisions"
           ],
-          "data_confidence": 61.93181818181818
+          "data_confidence": 62.840909090909086
         },
         {
-          "symbol": "ABCL",
+          "symbol": "UMAC",
           "rank": 6,
           "missing": [
             "quality",
@@ -397,8 +395,26 @@
           "data_confidence": 60.0
         },
         {
-          "symbol": "ZD",
+          "symbol": "HRB",
           "rank": 7,
+          "missing": [
+            "quality",
+            "revisions"
+          ],
+          "data_confidence": 61.93181818181818
+        },
+        {
+          "symbol": "ABCL",
+          "rank": 8,
+          "missing": [
+            "quality",
+            "revisions"
+          ],
+          "data_confidence": 60.0
+        },
+        {
+          "symbol": "ZD",
+          "rank": 9,
           "missing": [
             "quality",
             "revisions"
@@ -407,7 +423,7 @@
         },
         {
           "symbol": "MPC",
-          "rank": 8,
+          "rank": 10,
           "missing": [
             "quality",
             "revisions"
@@ -416,25 +432,6 @@
         },
         {
           "symbol": "GH",
-          "rank": 9,
-          "missing": [
-            "quality",
-            "revisions",
-            "valuation"
-          ],
-          "data_confidence": 59.09090909090909
-        },
-        {
-          "symbol": "DELL",
-          "rank": 10,
-          "missing": [
-            "quality",
-            "revisions"
-          ],
-          "data_confidence": 61.93181818181818
-        },
-        {
-          "symbol": "MGTX",
           "rank": 11,
           "missing": [
             "quality",
@@ -453,16 +450,16 @@
           "data_confidence": 60.0
         },
         {
-          "symbol": "GPN",
+          "symbol": "DELL",
           "rank": 13,
           "missing": [
             "quality",
             "revisions"
           ],
-          "data_confidence": 62.840909090909086
+          "data_confidence": 61.93181818181818
         },
         {
-          "symbol": "CAKE",
+          "symbol": "MAN",
           "rank": 14,
           "missing": [
             "quality",
@@ -471,7 +468,7 @@
           "data_confidence": 62.840909090909086
         },
         {
-          "symbol": "TXG",
+          "symbol": "GPN",
           "rank": 15,
           "missing": [
             "quality",
