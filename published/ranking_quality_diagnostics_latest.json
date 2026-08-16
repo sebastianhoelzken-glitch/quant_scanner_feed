@@ -23,7 +23,7 @@
       },
       "complete_core_component_rows": 8,
       "sparse_core_component_rows": 0,
-      "median_data_confidence": 66.81818181818181,
+      "median_data_confidence": 66.30681818181819,
       "min_data_confidence": 62.840909090909086,
       "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 2,
@@ -37,8 +37,8 @@
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 9,
-        "adaptive": 1,
+        "core": 8,
+        "adaptive": 2,
         "unknown": 0
       },
       "sparse_examples": []
@@ -62,18 +62,18 @@
       "min_data_confidence": 62.840909090909086,
       "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 2,
-      "median_market_cap_eur": 9728982016.0,
+      "median_market_cap_eur": 9675943593.655245,
       "market_cap_buckets": {
         "micro_250m_1b": 1,
-        "small_1_5b": 7,
+        "small_1_5b": 8,
         "mid_5_20b": 8,
         "large_20_100b": 6,
-        "mega_100b_plus": 3,
+        "mega_100b_plus": 2,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 21,
-        "adaptive": 4,
+        "core": 22,
+        "adaptive": 3,
         "unknown": 0
       },
       "sparse_examples": []
@@ -93,22 +93,22 @@
       },
       "complete_core_component_rows": 45,
       "sparse_core_component_rows": 0,
-      "median_data_confidence": 66.875,
+      "median_data_confidence": 66.5909090909091,
       "min_data_confidence": 62.727272727272734,
       "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 5,
-      "median_market_cap_eur": 6390462022.490122,
+      "median_market_cap_eur": 5859680480.529284,
       "market_cap_buckets": {
         "micro_250m_1b": 6,
-        "small_1_5b": 16,
-        "mid_5_20b": 19,
+        "small_1_5b": 18,
+        "mid_5_20b": 17,
         "large_20_100b": 6,
         "mega_100b_plus": 3,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 43,
-        "adaptive": 7,
+        "core": 42,
+        "adaptive": 8,
         "unknown": 0
       },
       "sparse_examples": []
