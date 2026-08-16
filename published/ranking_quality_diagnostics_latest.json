@@ -12,27 +12,27 @@
       "requested_top_n": 10,
       "rows": 10,
       "component_present": {
-        "quality_score": 8,
+        "quality_score": 10,
         "revisions_score": 9,
         "valuation_score": 10
       },
       "component_missing": {
-        "quality_score": 2,
+        "quality_score": 0,
         "revisions_score": 1,
         "valuation_score": 0
       },
-      "complete_core_component_rows": 8,
-      "sparse_core_component_rows": 1,
+      "complete_core_component_rows": 9,
+      "sparse_core_component_rows": 0,
       "median_data_confidence": 66.81818181818181,
-      "min_data_confidence": 60.0,
+      "min_data_confidence": 62.840909090909086,
       "below_60_confidence_rows": 0,
-      "below_65_confidence_rows": 2,
-      "median_market_cap_eur": 5739663440.232186,
+      "below_65_confidence_rows": 1,
+      "median_market_cap_eur": 10835120484.220457,
       "market_cap_buckets": {
-        "micro_250m_1b": 0,
-        "small_1_5b": 5,
-        "mid_5_20b": 3,
-        "large_20_100b": 2,
+        "micro_250m_1b": 1,
+        "small_1_5b": 3,
+        "mid_5_20b": 2,
+        "large_20_100b": 4,
         "mega_100b_plus": 0,
         "unknown": 0
       },
@@ -41,60 +41,50 @@
         "adaptive": 0,
         "unknown": 0
       },
-      "sparse_examples": [
-        {
-          "symbol": "SSABBH.HE",
-          "rank": 1,
-          "missing": [
-            "quality",
-            "revisions"
-          ],
-          "data_confidence": 60.0
-        }
-      ]
+      "sparse_examples": []
     },
     "25": {
       "requested_top_n": 25,
       "rows": 25,
       "component_present": {
-        "quality_score": 22,
-        "revisions_score": 24,
-        "valuation_score": 24
+        "quality_score": 23,
+        "revisions_score": 23,
+        "valuation_score": 25
       },
       "component_missing": {
-        "quality_score": 3,
-        "revisions_score": 1,
-        "valuation_score": 1
+        "quality_score": 2,
+        "revisions_score": 2,
+        "valuation_score": 0
       },
-      "complete_core_component_rows": 21,
+      "complete_core_component_rows": 22,
       "sparse_core_component_rows": 1,
-      "median_data_confidence": 67.04545454545455,
-      "min_data_confidence": 60.0,
-      "below_60_confidence_rows": 0,
+      "median_data_confidence": 66.5909090909091,
+      "min_data_confidence": 55.56818181818181,
+      "below_60_confidence_rows": 1,
       "below_65_confidence_rows": 4,
-      "median_market_cap_eur": 7359428833.505193,
+      "median_market_cap_eur": 8597163008.0,
       "market_cap_buckets": {
-        "micro_250m_1b": 1,
-        "small_1_5b": 10,
-        "mid_5_20b": 5,
-        "large_20_100b": 6,
-        "mega_100b_plus": 3,
+        "micro_250m_1b": 4,
+        "small_1_5b": 6,
+        "mid_5_20b": 8,
+        "large_20_100b": 5,
+        "mega_100b_plus": 2,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 22,
-        "adaptive": 3,
+        "core": 23,
+        "adaptive": 2,
         "unknown": 0
       },
       "sparse_examples": [
         {
-          "symbol": "SSABBH.HE",
-          "rank": 1,
+          "symbol": "HQL",
+          "rank": 20,
           "missing": [
             "quality",
             "revisions"
           ],
-          "data_confidence": 60.0
+          "data_confidence": 55.56818181818181
         }
       ]
     },
@@ -102,39 +92,48 @@
       "requested_top_n": 50,
       "rows": 50,
       "component_present": {
-        "quality_score": 45,
-        "revisions_score": 48,
-        "valuation_score": 48
+        "quality_score": 47,
+        "revisions_score": 45,
+        "valuation_score": 49
       },
       "component_missing": {
-        "quality_score": 5,
-        "revisions_score": 2,
-        "valuation_score": 2
+        "quality_score": 3,
+        "revisions_score": 5,
+        "valuation_score": 1
       },
-      "complete_core_component_rows": 42,
-      "sparse_core_component_rows": 1,
-      "median_data_confidence": 66.70454545454545,
-      "min_data_confidence": 60.0,
-      "below_60_confidence_rows": 0,
+      "complete_core_component_rows": 43,
+      "sparse_core_component_rows": 2,
+      "median_data_confidence": 66.47727272727273,
+      "min_data_confidence": 55.56818181818181,
+      "below_60_confidence_rows": 1,
       "below_65_confidence_rows": 8,
-      "median_market_cap_eur": 6837149237.687799,
+      "median_market_cap_eur": 6369821200.251978,
       "market_cap_buckets": {
-        "micro_250m_1b": 7,
-        "small_1_5b": 15,
-        "mid_5_20b": 16,
+        "micro_250m_1b": 8,
+        "small_1_5b": 14,
+        "mid_5_20b": 17,
         "large_20_100b": 8,
-        "mega_100b_plus": 4,
+        "mega_100b_plus": 3,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 38,
-        "adaptive": 12,
+        "core": 42,
+        "adaptive": 8,
         "unknown": 0
       },
       "sparse_examples": [
         {
-          "symbol": "SSABBH.HE",
-          "rank": 1,
+          "symbol": "HQL",
+          "rank": 20,
+          "missing": [
+            "quality",
+            "revisions"
+          ],
+          "data_confidence": 55.56818181818181
+        },
+        {
+          "symbol": "0HAI.IL",
+          "rank": 44,
           "missing": [
             "quality",
             "revisions"
