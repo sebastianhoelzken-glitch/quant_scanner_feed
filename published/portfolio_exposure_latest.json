@@ -7,12 +7,22 @@
   "portfolio_rows": 10,
   "largest_single_weight_pct": 14.336382306474373,
   "sector_weights_pct": {
-    "Unknown": 85.66361769352564,
-    "Industrials": 14.336382306474373
+    "Basic Materials": 21.91759965693376,
+    "Industrials": 21.138906907151878,
+    "Energy": 19.94641468774187,
+    "Technology": 16.072809066660973,
+    "Financial Services": 12.11938181568592,
+    "Healthcare": 8.804887865825608
   },
   "industry_weights_pct": {
-    "Unknown": 85.66361769352564,
-    "Conglomerates": 14.336382306474373
+    "Conglomerates": 21.138906907151878,
+    "Oil & Gas Refining & Marketing": 19.94641468774187,
+    "Credit Services": 12.11938181568592,
+    "Steel": 11.713649690269731,
+    "Specialty Chemicals": 10.20394996666403,
+    "Communication Equipment": 9.54962450385851,
+    "Medical Instruments & Supplies": 8.804887865825608,
+    "Software - Application": 6.523184562802461
   },
   "correlation_guard_status": "cluster-based only in this layer; return-correlation matrix remains a separate existing scanner diagnostic",
   "semantics": "Diagnostic allocation only. Exact score/rank/eligibility are unchanged. Unknown labels are missing metadata, not economic clusters. Constraints are solved jointly, not clipped post hoc.",
@@ -20,10 +30,10 @@
   "allocator_method": "quadratic_projection_slsqp_with_linprog_feasibility",
   "allocator_objective_distance": 1.3062965106465449e-15,
   "unconstrained_max_weight_pct": 14.33638439474787,
-  "largest_known_sector_weight_pct": 14.336382306474373,
-  "largest_known_sector": "Industrials",
-  "unknown_sector_rows": 9,
-  "unknown_industry_rows": 9,
+  "largest_known_sector_weight_pct": 21.91759965693376,
+  "largest_known_sector": "Basic Materials",
+  "unknown_sector_rows": 0,
+  "unknown_industry_rows": 0,
   "unknown_metadata_cluster_penalty_disabled": true,
   "single_name_cap_pct": 15.0,
   "known_sector_cap_pct": 30.0,
