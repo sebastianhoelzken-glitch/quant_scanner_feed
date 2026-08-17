@@ -1,0 +1,21 @@
+{
+  "version": "0.1-research-enhancements",
+  "diagnostic_only": true,
+  "not_personalized_investment_advice": true,
+  "main_scores_changed": false,
+  "main_ranks_changed": false,
+  "portfolio_rows": 10,
+  "largest_single_weight_pct": 50.0,
+  "largest_sector_weight_pct": 50.0,
+  "largest_sector": "Industrials",
+  "sector_weights_pct": {
+    "Industrials": 50.0,
+    "Unknown": 50.0
+  },
+  "industry_weights_pct": {
+    "Conglomerates": 50.0,
+    "Unknown": 50.0
+  },
+  "correlation_guard_status": "cluster-based only in this layer; return-correlation matrix remains a separate existing scanner diagnostic",
+  "semantics": "Portfolio/exposure diagnostic derived from already-published Exact ranking and lineage confidence."
+}
