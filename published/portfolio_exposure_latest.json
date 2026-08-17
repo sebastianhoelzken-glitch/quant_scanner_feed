@@ -1,21 +1,32 @@
 {
-  "version": "0.1-research-enhancements",
+  "version": "0.3-research-enhancements-constrained-allocator",
   "diagnostic_only": true,
   "not_personalized_investment_advice": true,
   "main_scores_changed": false,
   "main_ranks_changed": false,
   "portfolio_rows": 10,
-  "largest_single_weight_pct": 50.0,
-  "largest_sector_weight_pct": 50.0,
-  "largest_sector": "Industrials",
+  "largest_single_weight_pct": 14.336382306474373,
   "sector_weights_pct": {
-    "Industrials": 50.0,
-    "Unknown": 50.0
+    "Unknown": 85.66361769352564,
+    "Industrials": 14.336382306474373
   },
   "industry_weights_pct": {
-    "Conglomerates": 50.0,
-    "Unknown": 50.0
+    "Unknown": 85.66361769352564,
+    "Conglomerates": 14.336382306474373
   },
   "correlation_guard_status": "cluster-based only in this layer; return-correlation matrix remains a separate existing scanner diagnostic",
-  "semantics": "Portfolio/exposure diagnostic derived from already-published Exact ranking and lineage confidence."
+  "semantics": "Diagnostic allocation only. Exact score/rank/eligibility are unchanged. Unknown labels are missing metadata, not economic clusters. Constraints are solved jointly, not clipped post hoc.",
+  "allocator_status": "optimal",
+  "allocator_method": "quadratic_projection_slsqp_with_linprog_feasibility",
+  "allocator_objective_distance": 1.3062965106465449e-15,
+  "unconstrained_max_weight_pct": 14.33638439474787,
+  "largest_known_sector_weight_pct": 14.336382306474373,
+  "largest_known_sector": "Industrials",
+  "unknown_sector_rows": 9,
+  "unknown_industry_rows": 9,
+  "unknown_metadata_cluster_penalty_disabled": true,
+  "single_name_cap_pct": 15.0,
+  "known_sector_cap_pct": 30.0,
+  "weights_sum_pct": 100.0,
+  "infeasible_policy": "fail closed; never renormalize through a hard cap"
 }
