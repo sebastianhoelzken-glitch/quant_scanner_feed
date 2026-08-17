@@ -1,6 +1,39 @@
 {
   "current": {
     "deep_analyzed_rows": 1000,
+    "excluded_rows": 278,
+    "event_watch_rows": 12,
+    "eligible_rows": 710,
+    "exclusion_reason_counts": {
+      "insufficient median EUR turnover": 222,
+      "price < \u20ac2.00": 167,
+      "market cap < \u20ac250,000,000": 144,
+      "insufficient price history": 20,
+      "data confidence < 55": 18,
+      "market cap EUR unavailable": 6,
+      "duplicate security listing of STLA": 2,
+      "EUR liquidity unavailable": 1,
+      "EUR price unavailable": 1,
+      "asset type excluded: nan": 1,
+      "delisted": 1,
+      "duplicate security listing of TEK.L": 1,
+      "stale price": 1
+    },
+    "exclusion_category_counts": {
+      "liquidity": 223,
+      "price": 168,
+      "market_cap": 150,
+      "price_history": 20,
+      "data_confidence": 18,
+      "duplicate_listing": 3,
+      "asset_type": 1,
+      "delisted": 1,
+      "stale_price": 1
+    },
+    "as_of": "2026-08-17"
+  },
+  "previous": {
+    "deep_analyzed_rows": 1000,
     "excluded_rows": 280,
     "event_watch_rows": 12,
     "eligible_rows": 708,
@@ -29,41 +62,9 @@
     },
     "as_of": "2026-08-16"
   },
-  "previous": {
-    "deep_analyzed_rows": 1000,
-    "excluded_rows": 284,
-    "event_watch_rows": 12,
-    "eligible_rows": 704,
-    "exclusion_reason_counts": {
-      "insufficient median EUR turnover": 228,
-      "price < \u20ac2.00": 172,
-      "market cap < \u20ac250,000,000": 153,
-      "data confidence < 55": 24,
-      "insufficient price history": 24,
-      "market cap EUR unavailable": 6,
-      "EUR liquidity unavailable": 1,
-      "EUR price unavailable": 1,
-      "asset type excluded: nan": 1,
-      "delisted": 1,
-      "duplicate security listing of TEK.L": 1,
-      "stale price": 1
-    },
-    "exclusion_category_counts": {
-      "liquidity": 229,
-      "price": 173,
-      "market_cap": 159,
-      "data_confidence": 24,
-      "price_history": 24,
-      "asset_type": 1,
-      "delisted": 1,
-      "duplicate_listing": 1,
-      "stale_price": 1
-    },
-    "as_of": "2026-08-15"
-  },
   "delta": {
-    "eligible_rows": 4,
-    "excluded_rows": -4,
+    "eligible_rows": 2,
+    "excluded_rows": -2,
     "event_watch_rows": 0
   }
 }
