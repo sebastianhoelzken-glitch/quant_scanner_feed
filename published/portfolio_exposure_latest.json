@@ -1,0 +1,43 @@
+{
+  "version": "0.4-research-enhancements-per-name-caps",
+  "diagnostic_only": true,
+  "not_personalized_investment_advice": true,
+  "main_scores_changed": false,
+  "main_ranks_changed": false,
+  "portfolio_rows": 10,
+  "largest_single_weight_pct": 12.0,
+  "sector_weights_pct": {
+    "Healthcare": 30.00000000000002,
+    "Energy": 24.756156022836713,
+    "Industrials": 24.0,
+    "Basic Materials": 12.0,
+    "Technology": 9.243843977163262
+  },
+  "industry_weights_pct": {
+    "Oil & Gas Refining & Marketing": 24.756156022836713,
+    "Medical Care Facilities": 22.670811995990405,
+    "Conglomerates": 12.0,
+    "Specialty Chemicals": 12.0,
+    "Marine Shipping": 12.0,
+    "Software - Application": 9.243843977163262,
+    "Healthcare Plans": 7.329188004009618
+  },
+  "correlation_guard_status": "cluster-based only in this layer; return-correlation matrix remains a separate existing scanner diagnostic",
+  "semantics": "Diagnostic allocation only. Exact score/rank/eligibility are unchanged. Each name is capped at min(global 15%, suggested_max_position_pct); known sectors are capped at 30%; Unknown metadata is never treated as a cluster.",
+  "allocator_status": "optimal",
+  "allocator_method": "quadratic_projection_slsqp_with_linprog_feasibility",
+  "allocator_objective_distance": 0.005632780085862838,
+  "unconstrained_max_weight_pct": 18.248703029820685,
+  "largest_known_sector_weight_pct": 30.00000000000002,
+  "largest_known_sector": "Healthcare",
+  "unknown_sector_rows": 0,
+  "unknown_industry_rows": 0,
+  "unknown_metadata_cluster_penalty_disabled": true,
+  "global_single_name_cap_pct": 15.0,
+  "per_name_suggested_cap_enforced": true,
+  "min_effective_name_cap_pct": 12.0,
+  "max_effective_name_cap_pct": 15.0,
+  "known_sector_cap_pct": 30.0,
+  "weights_sum_pct": 100.00000000000001,
+  "infeasible_policy": "fail closed; never renormalize through a hard cap"
+}
