@@ -1,13 +1,13 @@
 {
   "as_of": "2026-08-18",
-  "generated_at_utc": "2026-08-18T06:14:54.947085+00:00",
+  "generated_at_utc": "2026-08-18T06:37:49.774864+00:00",
   "model_version": "1.6.1-nokey-broad-value-corrguard",
   "provider": "yfinance+SEC-public-no-key",
-  "config_hash": "e7cf35b2094c2357",
+  "config_hash": "5e5935c78c59b599",
   "discovery_rows": 2000,
   "deep_analyzed_rows": 1000,
-  "eligible_rows": 654,
-  "value_eligible_rows": 555,
+  "eligible_rows": 702,
+  "value_eligible_rows": 87,
   "value_seed_rows": 350,
   "universe_mode": "broad_screen",
   "limitations": [
@@ -27,10 +27,10 @@
   },
   "adaptive_deepening": {
     "enabled": true,
-    "core_target": 700,
+    "core_target": 600,
     "max_target": 1000,
-    "core_selected": 700,
-    "adaptive_selected": 300,
+    "core_selected": 600,
+    "adaptive_selected": 400,
     "not_selected": 1000,
     "selection_inputs": [
       "stage1_momentum",
@@ -46,65 +46,62 @@
     "ranking_annotation_stats": {
       "stock_scanner_exact_daily.csv": {
         "rows": 1000,
-        "core": 700,
-        "adaptive": 300
+        "core": 600,
+        "adaptive": 400
       },
       "ranking_latest.csv": {
         "rows": 1000,
-        "core": 700,
-        "adaptive": 300
+        "core": 600,
+        "adaptive": 400
       },
       "value_ranking_latest.csv": {
-        "rows": 555,
-        "core": 336,
-        "adaptive": 219
+        "rows": 87,
+        "core": 87,
+        "adaptive": 0
       },
       "quality_value_latest.csv": {
-        "rows": 555,
-        "core": 336,
-        "adaptive": 219
+        "rows": 87,
+        "core": 87,
+        "adaptive": 0
       },
       "pullback_ranking_latest.csv": {
-        "rows": 340,
-        "core": 215,
-        "adaptive": 125
+        "rows": 372,
+        "core": 212,
+        "adaptive": 160
       },
       "strategy_overlap_latest.csv": {
         "rows": 30,
-        "core": 22,
-        "adaptive": 8
+        "core": 20,
+        "adaptive": 10
       }
     },
     "adaptive_top10_hits": {
       "main": {
+        "count": 6,
+        "symbols": [
+          "MU",
+          "CRDO",
+          "CLMT",
+          "PBF",
+          "NOEJ.DE",
+          "RMAX"
+        ]
+      },
+      "value": {
         "count": 0,
         "symbols": []
       },
-      "value": {
-        "count": 5,
-        "symbols": [
-          "DTG.DE",
-          "SNDK",
-          "NTGY.MC",
-          "BHC",
-          "ADBE"
-        ]
-      },
       "quality_value": {
-        "count": 5,
-        "symbols": [
-          "SNDK",
-          "BHC",
-          "DTG.DE",
-          "FE",
-          "NTGY.MC"
-        ]
+        "count": 0,
+        "symbols": []
       },
       "pullback": {
-        "count": 2,
+        "count": 4,
         "symbols": [
-          "FIGS",
-          "GLBE"
+          "CCC",
+          "NET",
+          "KLAR",
+          "PANW"
         ]
       }
     }
@@ -126,10 +123,10 @@
       "unavailable"
     ],
     "source_counts": {
-      "yahoo_get_info": 797,
-      "yahoo_fast_info": 184,
-      "yahoo_screen_market_cap": 9,
-      "yahoo_shares_x_price": 2,
+      "yahoo_get_info": 173,
+      "yahoo_fast_info": 45,
+      "yahoo_screen_market_cap": 771,
+      "yahoo_shares_x_price": 3,
       "yahoo_shares_history_x_price": 0,
       "yahoo_balance_sheet_shares_x_price": 2,
       "stored_market_cap_price_roll": 0,
@@ -139,35 +136,34 @@
     },
     "available_rows": 994,
     "unavailable_rows": 6,
-    "eligible_rows": 654,
+    "eligible_rows": 702,
     "recovered_by_extended_share_fallbacks": 2,
     "by_deep_selection_tier": {
       "core": {
-        "rows": 700,
-        "available_rows": 694,
+        "rows": 600,
+        "available_rows": 594,
         "unavailable_rows": 6,
         "source_counts": {
-          "yahoo_get_info": 535,
-          "yahoo_fast_info": 146,
-          "yahoo_screen_market_cap": 9,
+          "yahoo_screen_market_cap": 371,
+          "yahoo_get_info": 173,
+          "yahoo_fast_info": 45,
           "unavailable": 6,
-          "yahoo_balance_sheet_shares_x_price": 2,
-          "yahoo_shares_x_price": 2
+          "yahoo_shares_x_price": 3,
+          "yahoo_balance_sheet_shares_x_price": 2
         }
       },
       "adaptive": {
-        "rows": 300,
-        "available_rows": 300,
+        "rows": 400,
+        "available_rows": 400,
         "unavailable_rows": 0,
         "source_counts": {
-          "yahoo_get_info": 262,
-          "yahoo_fast_info": 38
+          "yahoo_screen_market_cap": 400
         }
       }
     }
   },
   "provider_resilience": {
-    "get_info_errors_recovered": 183,
+    "get_info_errors_recovered": 821,
     "sec_companyfacts_market_caps": 0,
     "sec_ticker_map_requests": 3,
     "sec_ticker_map_errors": 3,
@@ -201,14 +197,15 @@
       }
     ],
     "sec_user_agent_mode": "identifying contact URL; SEC_USER_AGENT override supported",
-    "analyst_endpoint_errors": 734,
-    "analyst_endpoint_retries": 470,
-    "analyst_endpoint_recovered_after_retry": 206,
+    "analyst_endpoint_errors": 9534,
+    "analyst_endpoint_retries": 4790,
+    "analyst_endpoint_recovered_after_retry": 46,
     "fx_primary": "yfinance",
     "fx_fallback": "ECB EXR daily reference rates",
     "fx_yahoo_currencies": [
-      "ARS",
-      "AUD",
+      "USD"
+    ],
+    "fx_ecb_fallback_currencies": [
       "BRL",
       "CAD",
       "CHF",
@@ -216,25 +213,22 @@
       "CZK",
       "DKK",
       "GBP",
-      "INR",
       "JPY",
       "KRW",
       "MXN",
       "NOK",
       "PLN",
-      "SEK",
-      "TWD",
-      "USD",
-      "ZAR"
+      "SEK"
     ],
-    "fx_ecb_fallback_currencies": [],
-    "fx_unavailable_currencies": [],
+    "fx_unavailable_currencies": [
+      "ARS"
+    ],
     "sec_companyfacts_fundamental_symbols": 0,
     "sec_companyfacts_fundamental_fields_filled": 0,
     "sec_companyfacts_requests": 0,
     "sec_companyfacts_request_errors": 0,
-    "yahoo_screen_valuation_symbols": 196,
-    "yahoo_screen_valuation_fields_filled": 555,
+    "yahoo_screen_valuation_symbols": 815,
+    "yahoo_screen_valuation_fields_filled": 2428,
     "point_in_time_sec_filter": "filed<=as_of and end<=as_of",
     "ranking_semantics_unchanged": true,
     "score_weights_unchanged": true,
@@ -244,7 +238,7 @@
     "yahoo_quality_hint_fields_filled": 30357,
     "yahoo_quality_cached_quote_symbols": 12521,
     "yahoo_consensus_quote_symbols": 995,
-    "consensus_snapshot_rows_loaded": 2129,
+    "consensus_snapshot_rows_loaded": 3124,
     "consensus_snapshot_rows_written": 995,
     "revision_history_7d_symbols": 0,
     "revision_history_30d_symbols": 0,
@@ -252,7 +246,7 @@
     "quality_rank_fallback_semantics": "Yahoo screener sort order only; raw fundamentals never fabricated",
     "revision_history_semantics": "persisted daily Yahoo screener EPS-forward consensus; no synthetic historical revisions"
   },
-  "pullback_eligible_rows": 340,
+  "pullback_eligible_rows": 372,
   "double_counting_guard": {
     "enabled": true,
     "threshold": 0.85,
@@ -267,7 +261,7 @@
     "status": "pass",
     "deep_analyzed_rows": 1000,
     "market_cap_available_rows": 994,
-    "eligible_rows": 654,
+    "eligible_rows": 702,
     "min_market_cap_available_rows": 150,
     "min_eligible_rows": 50
   },
@@ -285,10 +279,10 @@
       "revisions": 0.1,
       "value_safety": 0.2
     },
-    "candidate_rows": 453,
-    "value_signal_rows": 257,
-    "pullback_signal_rows": 340,
-    "confluence_rows": 144,
+    "candidate_rows": 395,
+    "value_signal_rows": 43,
+    "pullback_signal_rows": 372,
+    "confluence_rows": 20,
     "output_file": "entry_opportunity_latest.csv"
   },
   "ranking_quality_diagnostics": {
@@ -301,32 +295,32 @@
         "rows": 10,
         "component_present": {
           "quality_score": 10,
-          "revisions_score": 10,
+          "revisions_score": 9,
           "valuation_score": 10
         },
         "component_missing": {
           "quality_score": 0,
-          "revisions_score": 0,
+          "revisions_score": 1,
           "valuation_score": 0
         },
-        "complete_core_component_rows": 10,
+        "complete_core_component_rows": 9,
         "sparse_core_component_rows": 0,
-        "median_data_confidence": 85.34346628421757,
-        "min_data_confidence": 74.3409090909091,
-        "below_60_confidence_rows": 0,
-        "below_65_confidence_rows": 0,
-        "median_market_cap_eur": 4382706914.035745,
+        "median_data_confidence": 67.04545454545455,
+        "min_data_confidence": 58.40909090909091,
+        "below_60_confidence_rows": 1,
+        "below_65_confidence_rows": 1,
+        "median_market_cap_eur": 3612233750.808091,
         "market_cap_buckets": {
-          "micro_250m_1b": 0,
-          "small_1_5b": 6,
-          "mid_5_20b": 4,
-          "large_20_100b": 0,
-          "mega_100b_plus": 0,
+          "micro_250m_1b": 3,
+          "small_1_5b": 3,
+          "mid_5_20b": 1,
+          "large_20_100b": 2,
+          "mega_100b_plus": 1,
           "unknown": 0
         },
         "selection_tiers": {
-          "core": 10,
-          "adaptive": 0,
+          "core": 4,
+          "adaptive": 6,
           "unknown": 0
         },
         "sparse_examples": []
@@ -335,33 +329,33 @@
         "requested_top_n": 25,
         "rows": 25,
         "component_present": {
-          "quality_score": 25,
-          "revisions_score": 25,
+          "quality_score": 23,
+          "revisions_score": 24,
           "valuation_score": 24
         },
         "component_missing": {
-          "quality_score": 0,
-          "revisions_score": 0,
+          "quality_score": 2,
+          "revisions_score": 1,
           "valuation_score": 1
         },
-        "complete_core_component_rows": 24,
+        "complete_core_component_rows": 21,
         "sparse_core_component_rows": 0,
-        "median_data_confidence": 85.60264732548207,
-        "min_data_confidence": 60.659090909090914,
-        "below_60_confidence_rows": 0,
-        "below_65_confidence_rows": 3,
-        "median_market_cap_eur": 8413512658.842295,
+        "median_data_confidence": 67.04545454545455,
+        "min_data_confidence": 58.40909090909091,
+        "below_60_confidence_rows": 1,
+        "below_65_confidence_rows": 4,
+        "median_market_cap_eur": 6252600111.68806,
         "market_cap_buckets": {
-          "micro_250m_1b": 1,
-          "small_1_5b": 9,
-          "mid_5_20b": 8,
-          "large_20_100b": 2,
-          "mega_100b_plus": 5,
+          "micro_250m_1b": 4,
+          "small_1_5b": 8,
+          "mid_5_20b": 6,
+          "large_20_100b": 4,
+          "mega_100b_plus": 3,
           "unknown": 0
         },
         "selection_tiers": {
-          "core": 23,
-          "adaptive": 2,
+          "core": 5,
+          "adaptive": 20,
           "unknown": 0
         },
         "sparse_examples": []
@@ -370,33 +364,33 @@
         "requested_top_n": 50,
         "rows": 50,
         "component_present": {
-          "quality_score": 50,
-          "revisions_score": 50,
-          "valuation_score": 49
+          "quality_score": 48,
+          "revisions_score": 49,
+          "valuation_score": 48
         },
         "component_missing": {
-          "quality_score": 0,
-          "revisions_score": 0,
-          "valuation_score": 1
+          "quality_score": 2,
+          "revisions_score": 1,
+          "valuation_score": 2
         },
-        "complete_core_component_rows": 49,
+        "complete_core_component_rows": 45,
         "sparse_core_component_rows": 0,
-        "median_data_confidence": 85.16913669771165,
-        "min_data_confidence": 60.659090909090914,
-        "below_60_confidence_rows": 0,
+        "median_data_confidence": 66.5909090909091,
+        "min_data_confidence": 57.659090909090914,
+        "below_60_confidence_rows": 2,
         "below_65_confidence_rows": 7,
-        "median_market_cap_eur": 5441074123.567888,
+        "median_market_cap_eur": 5082907008.302185,
         "market_cap_buckets": {
-          "micro_250m_1b": 8,
-          "small_1_5b": 16,
-          "mid_5_20b": 15,
-          "large_20_100b": 6,
-          "mega_100b_plus": 5,
+          "micro_250m_1b": 6,
+          "small_1_5b": 19,
+          "mid_5_20b": 13,
+          "large_20_100b": 8,
+          "mega_100b_plus": 4,
           "unknown": 0
         },
         "selection_tiers": {
-          "core": 42,
-          "adaptive": 8,
+          "core": 17,
+          "adaptive": 33,
           "unknown": 0
         },
         "sparse_examples": []
@@ -404,17 +398,91 @@
     }
   },
   "selection_guard": {
-    "version": "1.1-exact-selection-guard",
+    "version": "1.2-exact-selection-guard",
     "diagnostic_only_for_main_ranking": true,
     "main_scores_changed": false,
     "main_ranks_changed": false,
-    "entry_overlay_rows_joined": 453,
+    "entry_overlay_rows_joined": 395,
     "top10_quality_present": 10,
-    "top10_revisions_present": 10,
-    "top10_complete_core_components": 10,
-    "top10_median_score_completeness": 100.00000000000003,
-    "high_conviction_candidates": 653,
+    "top10_revisions_present": 9,
+    "top10_complete_core_components": 9,
+    "top10_median_score_completeness": 95.00000000000001,
+    "high_conviction_candidates": 697,
+    "fresh_opportunity_candidates": 372,
+    "fresh_opportunity_top10": [
+      {
+        "rank": 1,
+        "symbol": "MU",
+        "score": 84.50510193411348,
+        "reason": "new_exact",
+        "main_rank": 4
+      },
+      {
+        "rank": 2,
+        "symbol": "SYY",
+        "score": 82.72245081151421,
+        "reason": "sharp_1run_rise",
+        "main_rank": 157
+      },
+      {
+        "rank": 3,
+        "symbol": "AMZN",
+        "score": 81.44331913573684,
+        "reason": "sharp_1run_rise",
+        "main_rank": 200
+      },
+      {
+        "rank": 4,
+        "symbol": "SU.PA",
+        "score": 81.34252180862148,
+        "reason": "sharp_1run_rise",
+        "main_rank": 81
+      },
+      {
+        "rank": 5,
+        "symbol": "WKC",
+        "score": 81.10729502165178,
+        "reason": "sharp_1run_rise",
+        "main_rank": 55
+      },
+      {
+        "rank": 6,
+        "symbol": "BWIN",
+        "score": 79.9949217763982,
+        "reason": "new_exact",
+        "main_rank": 21
+      },
+      {
+        "rank": 7,
+        "symbol": "AIR.PA",
+        "score": 79.74595578415924,
+        "reason": "sharp_1run_rise",
+        "main_rank": 180
+      },
+      {
+        "rank": 8,
+        "symbol": "SIE.DE",
+        "score": 79.31547294442338,
+        "reason": "sharp_1run_rise",
+        "main_rank": 267
+      },
+      {
+        "rank": 9,
+        "symbol": "NAT",
+        "score": 79.28607543887112,
+        "reason": "new_exact",
+        "main_rank": 26
+      },
+      {
+        "rank": 10,
+        "symbol": "DHT",
+        "score": 79.20481558505683,
+        "reason": "sharp_1run_rise",
+        "main_rank": 32
+      }
+    ],
     "portfolio_guard_rows": 30,
+    "fresh_opportunity_semantics": "dynamic diagnostic overlay using cross-sectional change/velocity/acceleration/rank-improvement plus score level, confidence and completeness; never rewrites Main Exact rank",
     "files": [
       "score_completeness_latest.csv",
       "high_conviction_entry_latest.csv",
