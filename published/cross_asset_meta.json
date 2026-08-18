@@ -1,0 +1,97 @@
+{
+  "version": "0.1-cross-asset-context",
+  "generated_at_utc": "2026-08-18T06:39:43.586601+00:00",
+  "requested_as_of": "2026-08-18",
+  "providers": {
+    "ecb_USD": {
+      "status": "ok",
+      "rows": 300
+    },
+    "ecb_GBP": {
+      "status": "ok",
+      "rows": 300
+    },
+    "ecb_JPY": {
+      "status": "ok",
+      "rows": 300
+    },
+    "ecb_CHF": {
+      "status": "ok",
+      "rows": 300
+    },
+    "ecb_AUD": {
+      "status": "ok",
+      "rows": 300
+    },
+    "ecb_CAD": {
+      "status": "ok",
+      "rows": 300
+    },
+    "us_treasury_nominal": {
+      "status": "ok",
+      "source": "US Treasury official XML year feed",
+      "series": [
+        "US10Y",
+        "US2Y",
+        "US30Y",
+        "US3M",
+        "US5Y"
+      ]
+    },
+    "us_treasury_real": {
+      "status": "ok",
+      "source": "US Treasury official XML year feed",
+      "series": [
+        "US10Y_REAL",
+        "US30Y_REAL",
+        "US5Y_REAL"
+      ]
+    },
+    "bundesbank_DE2Y": {
+      "status": "ok",
+      "rows": 298
+    },
+    "bundesbank_DE5Y": {
+      "status": "ok",
+      "rows": 298
+    },
+    "bundesbank_DE10Y": {
+      "status": "ok",
+      "rows": 298
+    },
+    "bundesbank_DE30Y": {
+      "status": "ok",
+      "rows": 298
+    }
+  },
+  "fx_pairs": [
+    "EURUSD",
+    "GBPUSD",
+    "USDJPY",
+    "USDCHF",
+    "AUDUSD",
+    "USDCAD",
+    "EURGBP",
+    "EURJPY",
+    "EURCHF",
+    "GBPJPY"
+  ],
+  "rate_instruments": [
+    "DE10Y",
+    "DE2Y",
+    "DE30Y",
+    "DE5Y",
+    "US10Y",
+    "US10Y_REAL",
+    "US2Y",
+    "US30Y",
+    "US30Y_REAL",
+    "US3M",
+    "US5Y",
+    "US5Y_REAL"
+  ],
+  "diagnostic_only_for_equity_ranking": true,
+  "stock_scores_changed": false,
+  "stock_ranks_changed": false,
+  "future_backtest_state_persisted": true
+}
