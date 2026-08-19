@@ -3,83 +3,83 @@
   "diagnostic_only_for_main_ranking": true,
   "main_scores_changed": false,
   "main_ranks_changed": false,
-  "entry_overlay_rows_joined": 441,
+  "entry_overlay_rows_joined": 449,
   "top10_quality_present": 10,
-  "top10_revisions_present": 9,
+  "top10_revisions_present": 10,
   "top10_complete_core_components": 9,
   "top10_median_score_completeness": 95.00000000000001,
-  "high_conviction_candidates": 693,
-  "fresh_opportunity_candidates": 400,
+  "high_conviction_candidates": 696,
+  "fresh_opportunity_candidates": 390,
   "fresh_opportunity_top10": [
     {
       "rank": 1,
       "symbol": "BCRX",
-      "score": 85.67844440802259,
+      "score": 85.74172542201828,
       "reason": "new_exact",
-      "main_rank": 20
+      "main_rank": 23
     },
     {
       "rank": 2,
       "symbol": "HALO",
-      "score": 83.33364544850593,
+      "score": 83.42605375617035,
       "reason": "new_exact",
-      "main_rank": 2
+      "main_rank": 1
     },
     {
       "rank": 3,
-      "symbol": "BP",
-      "score": 82.74309126371631,
-      "reason": "new_exact",
-      "main_rank": 96
+      "symbol": "CCC",
+      "score": 82.99211880976173,
+      "reason": "sharp_1run_rise",
+      "main_rank": 10
     },
     {
       "rank": 4,
-      "symbol": "ARGX.BR",
-      "score": 82.24633088819732,
-      "reason": "new_exact",
-      "main_rank": 155
+      "symbol": "BMY",
+      "score": 81.87984084852552,
+      "reason": "sharp_1run_rise",
+      "main_rank": 67
     },
     {
       "rank": 5,
-      "symbol": "CCC",
-      "score": 81.14668329514274,
-      "reason": "sharp_1run_rise",
-      "main_rank": 11
+      "symbol": "ARGX.BR",
+      "score": 81.3288057580678,
+      "reason": "new_exact",
+      "main_rank": 210
     },
     {
       "rank": 6,
-      "symbol": "HMC",
-      "score": 80.79020283058618,
-      "reason": "rising_5run",
-      "main_rank": 78
+      "symbol": "FRO",
+      "score": 81.22156674732199,
+      "reason": "new_exact",
+      "main_rank": 5
     },
     {
       "rank": 7,
-      "symbol": "BMY",
-      "score": 80.3339557463027,
+      "symbol": "NUVB",
+      "score": 81.02379815609098,
       "reason": "sharp_1run_rise",
-      "main_rank": 70
+      "main_rank": 168
     },
     {
       "rank": 8,
-      "symbol": "NUVB",
-      "score": 80.30431723413653,
+      "symbol": "LLY",
+      "score": 80.88263116184017,
       "reason": "sharp_1run_rise",
-      "main_rank": 165
+      "main_rank": 143
     },
     {
       "rank": 9,
-      "symbol": "LLY",
-      "score": 79.64156883079937,
+      "symbol": "ADBE",
+      "score": 80.706696490771,
       "reason": "sharp_1run_rise",
-      "main_rank": 154
+      "main_rank": 190
     },
     {
       "rank": 10,
       "symbol": "ALAB",
-      "score": 79.4765088761153,
+      "score": 80.51701825912531,
       "reason": "new_exact",
-      "main_rank": 148
+      "main_rank": 134
     }
   ],
   "portfolio_guard_rows": 30,
