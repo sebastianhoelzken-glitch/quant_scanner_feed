@@ -1,13 +1,13 @@
 {
   "as_of": "2026-08-20",
-  "generated_at_utc": "2026-08-20T05:34:45.700524+00:00",
+  "generated_at_utc": "2026-08-20T05:57:06.973727+00:00",
   "model_version": "1.6.1-nokey-broad-value-corrguard",
   "provider": "yfinance+SEC-public-no-key",
   "config_hash": "5e5935c78c59b599",
   "discovery_rows": 2000,
   "deep_analyzed_rows": 1000,
-  "eligible_rows": 703,
-  "value_eligible_rows": 120,
+  "eligible_rows": 720,
+  "value_eligible_rows": 20,
   "value_seed_rows": 350,
   "universe_mode": "broad_screen",
   "limitations": [
@@ -55,23 +55,23 @@
         "adaptive": 400
       },
       "value_ranking_latest.csv": {
-        "rows": 120,
-        "core": 120,
+        "rows": 20,
+        "core": 20,
         "adaptive": 0
       },
       "quality_value_latest.csv": {
-        "rows": 120,
-        "core": 120,
+        "rows": 20,
+        "core": 20,
         "adaptive": 0
       },
       "pullback_ranking_latest.csv": {
-        "rows": 395,
-        "core": 245,
-        "adaptive": 150
+        "rows": 408,
+        "core": 255,
+        "adaptive": 153
       },
       "strategy_overlap_latest.csv": {
-        "rows": 29,
-        "core": 23,
+        "rows": 28,
+        "core": 22,
         "adaptive": 6
       }
     },
@@ -80,9 +80,9 @@
         "count": 5,
         "symbols": [
           "HALO",
-          "PBF",
-          "CRGY",
           "RMAX",
+          "U",
+          "PBF",
           "PSX"
         ]
       },
@@ -119,34 +119,34 @@
       "unavailable"
     ],
     "source_counts": {
-      "yahoo_get_info": 258,
-      "yahoo_fast_info": 25,
-      "yahoo_screen_market_cap": 686,
+      "yahoo_get_info": 19,
+      "yahoo_fast_info": 101,
+      "yahoo_screen_market_cap": 866,
       "yahoo_shares_x_price": 4,
       "yahoo_shares_history_x_price": 0,
-      "yahoo_balance_sheet_shares_x_price": 2,
-      "stored_market_cap_price_roll": 19,
+      "yahoo_balance_sheet_shares_x_price": 1,
+      "stored_market_cap_price_roll": 3,
       "stored_market_cap_same_day": 0,
       "unavailable": 6,
       "sec_companyfacts_shares_x_price": 0
     },
     "available_rows": 994,
     "unavailable_rows": 6,
-    "eligible_rows": 703,
-    "recovered_by_extended_share_fallbacks": 2,
+    "eligible_rows": 720,
+    "recovered_by_extended_share_fallbacks": 1,
     "by_deep_selection_tier": {
       "core": {
         "rows": 600,
         "available_rows": 594,
         "unavailable_rows": 6,
         "source_counts": {
-          "yahoo_screen_market_cap": 296,
-          "yahoo_get_info": 258,
-          "yahoo_fast_info": 25,
-          "stored_market_cap_price_roll": 10,
+          "yahoo_screen_market_cap": 467,
+          "yahoo_fast_info": 101,
+          "yahoo_get_info": 19,
           "unavailable": 6,
+          "stored_market_cap_price_roll": 3,
           "yahoo_shares_x_price": 3,
-          "yahoo_balance_sheet_shares_x_price": 2
+          "yahoo_balance_sheet_shares_x_price": 1
         }
       },
       "adaptive": {
@@ -154,15 +154,14 @@
         "available_rows": 400,
         "unavailable_rows": 0,
         "source_counts": {
-          "yahoo_screen_market_cap": 390,
-          "stored_market_cap_price_roll": 9,
+          "yahoo_screen_market_cap": 399,
           "yahoo_shares_x_price": 1
         }
       }
     }
   },
   "provider_resilience": {
-    "get_info_errors_recovered": 711,
+    "get_info_errors_recovered": 962,
     "sec_companyfacts_market_caps": 0,
     "sec_ticker_map_requests": 3,
     "sec_ticker_map_errors": 3,
@@ -196,9 +195,9 @@
       }
     ],
     "sec_user_agent_mode": "identifying contact URL; SEC_USER_AGENT override supported",
-    "analyst_endpoint_errors": 8535,
-    "analyst_endpoint_retries": 4268,
-    "analyst_endpoint_recovered_after_retry": 1,
+    "analyst_endpoint_errors": 11010,
+    "analyst_endpoint_retries": 5556,
+    "analyst_endpoint_recovered_after_retry": 102,
     "fx_primary": "yfinance",
     "fx_fallback": "ECB EXR daily reference rates",
     "fx_yahoo_currencies": [
@@ -208,28 +207,22 @@
       "BRL",
       "CAD",
       "CHF",
-      "CNY",
       "CZK",
       "DKK",
       "GBP",
-      "JPY",
-      "KRW",
-      "MXN",
       "NOK",
       "PLN",
       "SEK"
     ],
     "fx_unavailable_currencies": [
-      "ARS",
-      "GEL",
-      "ZMW"
+      "ARS"
     ],
     "sec_companyfacts_fundamental_symbols": 0,
     "sec_companyfacts_fundamental_fields_filled": 0,
     "sec_companyfacts_requests": 0,
     "sec_companyfacts_request_errors": 0,
-    "yahoo_screen_valuation_symbols": 705,
-    "yahoo_screen_valuation_fields_filled": 2147,
+    "yahoo_screen_valuation_symbols": 968,
+    "yahoo_screen_valuation_fields_filled": 2883,
     "point_in_time_sec_filter": "filed<=as_of and end<=as_of",
     "ranking_semantics_unchanged": true,
     "score_weights_unchanged": true,
@@ -239,7 +232,7 @@
     "yahoo_quality_hint_fields_filled": 30363,
     "yahoo_quality_cached_quote_symbols": 12360,
     "yahoo_consensus_quote_symbols": 994,
-    "consensus_snapshot_rows_loaded": 5277,
+    "consensus_snapshot_rows_loaded": 5363,
     "consensus_snapshot_rows_written": 994,
     "revision_history_7d_symbols": 0,
     "revision_history_30d_symbols": 0,
@@ -247,7 +240,7 @@
     "quality_rank_fallback_semantics": "Yahoo screener sort order only; raw fundamentals never fabricated",
     "revision_history_semantics": "persisted daily Yahoo screener EPS-forward consensus; no synthetic historical revisions"
   },
-  "pullback_eligible_rows": 395,
+  "pullback_eligible_rows": 408,
   "double_counting_guard": {
     "enabled": true,
     "threshold": 0.85,
@@ -262,7 +255,7 @@
     "status": "pass",
     "deep_analyzed_rows": 1000,
     "market_cap_available_rows": 994,
-    "eligible_rows": 703,
+    "eligible_rows": 720,
     "min_market_cap_available_rows": 150,
     "min_eligible_rows": 50
   },
@@ -280,10 +273,10 @@
       "revisions": 0.1,
       "value_safety": 0.2
     },
-    "candidate_rows": 430,
-    "value_signal_rows": 57,
-    "pullback_signal_rows": 395,
-    "confluence_rows": 22,
+    "candidate_rows": 415,
+    "value_signal_rows": 9,
+    "pullback_signal_rows": 408,
+    "confluence_rows": 2,
     "output_file": "entry_opportunity_latest.csv"
   },
   "ranking_quality_diagnostics": {
@@ -295,26 +288,26 @@
         "requested_top_n": 10,
         "rows": 10,
         "component_present": {
-          "quality_score": 10,
+          "quality_score": 9,
           "revisions_score": 9,
           "valuation_score": 10
         },
         "component_missing": {
-          "quality_score": 0,
+          "quality_score": 1,
           "revisions_score": 1,
           "valuation_score": 0
         },
         "complete_core_component_rows": 9,
-        "sparse_core_component_rows": 0,
+        "sparse_core_component_rows": 1,
         "median_data_confidence": 66.81818181818181,
-        "min_data_confidence": 62.840909090909086,
-        "below_60_confidence_rows": 0,
+        "min_data_confidence": 55.56818181818181,
+        "below_60_confidence_rows": 1,
         "below_65_confidence_rows": 2,
-        "median_market_cap_eur": 8583457420.366205,
+        "median_market_cap_eur": 7638528935.153143,
         "market_cap_buckets": {
-          "micro_250m_1b": 1,
+          "micro_250m_1b": 2,
           "small_1_5b": 2,
-          "mid_5_20b": 6,
+          "mid_5_20b": 5,
           "large_20_100b": 1,
           "mega_100b_plus": 0,
           "unknown": 0
@@ -324,77 +317,107 @@
           "adaptive": 5,
           "unknown": 0
         },
-        "sparse_examples": []
+        "sparse_examples": [
+          {
+            "symbol": "HQL",
+            "rank": 1,
+            "missing": [
+              "quality",
+              "revisions"
+            ],
+            "data_confidence": 55.56818181818181
+          }
+        ]
       },
       "25": {
         "requested_top_n": 25,
         "rows": 25,
         "component_present": {
           "quality_score": 24,
-          "revisions_score": 23,
+          "revisions_score": 22,
           "valuation_score": 24
         },
         "component_missing": {
           "quality_score": 1,
-          "revisions_score": 2,
+          "revisions_score": 3,
           "valuation_score": 1
         },
         "complete_core_component_rows": 21,
-        "sparse_core_component_rows": 0,
-        "median_data_confidence": 67.04545454545455,
-        "min_data_confidence": 62.727272727272734,
-        "below_60_confidence_rows": 0,
-        "below_65_confidence_rows": 6,
-        "median_market_cap_eur": 5447279089.094572,
+        "sparse_core_component_rows": 1,
+        "median_data_confidence": 66.5909090909091,
+        "min_data_confidence": 55.56818181818181,
+        "below_60_confidence_rows": 1,
+        "below_65_confidence_rows": 7,
+        "median_market_cap_eur": 6197303284.251582,
         "market_cap_buckets": {
-          "micro_250m_1b": 2,
-          "small_1_5b": 10,
-          "mid_5_20b": 10,
-          "large_20_100b": 3,
+          "micro_250m_1b": 4,
+          "small_1_5b": 8,
+          "mid_5_20b": 11,
+          "large_20_100b": 2,
           "mega_100b_plus": 0,
           "unknown": 0
         },
         "selection_tiers": {
-          "core": 11,
-          "adaptive": 14,
+          "core": 12,
+          "adaptive": 13,
           "unknown": 0
         },
-        "sparse_examples": []
+        "sparse_examples": [
+          {
+            "symbol": "HQL",
+            "rank": 1,
+            "missing": [
+              "quality",
+              "revisions"
+            ],
+            "data_confidence": 55.56818181818181
+          }
+        ]
       },
       "50": {
         "requested_top_n": 50,
         "rows": 50,
         "component_present": {
-          "quality_score": 47,
-          "revisions_score": 47,
-          "valuation_score": 49
+          "quality_score": 48,
+          "revisions_score": 45,
+          "valuation_score": 48
         },
         "component_missing": {
-          "quality_score": 3,
-          "revisions_score": 3,
-          "valuation_score": 1
+          "quality_score": 2,
+          "revisions_score": 5,
+          "valuation_score": 2
         },
-        "complete_core_component_rows": 43,
-        "sparse_core_component_rows": 0,
-        "median_data_confidence": 67.04545454545455,
-        "min_data_confidence": 62.727272727272734,
-        "below_60_confidence_rows": 0,
-        "below_65_confidence_rows": 10,
-        "median_market_cap_eur": 6597443958.761921,
+        "complete_core_component_rows": 42,
+        "sparse_core_component_rows": 1,
+        "median_data_confidence": 66.5909090909091,
+        "min_data_confidence": 55.070526695526695,
+        "below_60_confidence_rows": 3,
+        "below_65_confidence_rows": 12,
+        "median_market_cap_eur": 4397959486.311238,
         "market_cap_buckets": {
-          "micro_250m_1b": 3,
-          "small_1_5b": 20,
-          "mid_5_20b": 19,
-          "large_20_100b": 7,
-          "mega_100b_plus": 1,
+          "micro_250m_1b": 7,
+          "small_1_5b": 19,
+          "mid_5_20b": 16,
+          "large_20_100b": 8,
+          "mega_100b_plus": 0,
           "unknown": 0
         },
         "selection_tiers": {
-          "core": 19,
-          "adaptive": 31,
+          "core": 25,
+          "adaptive": 25,
           "unknown": 0
         },
-        "sparse_examples": []
+        "sparse_examples": [
+          {
+            "symbol": "HQL",
+            "rank": 1,
+            "missing": [
+              "quality",
+              "revisions"
+            ],
+            "data_confidence": 55.56818181818181
+          }
+        ]
       }
     }
   },
@@ -403,83 +426,83 @@
     "diagnostic_only_for_main_ranking": true,
     "main_scores_changed": false,
     "main_ranks_changed": false,
-    "entry_overlay_rows_joined": 430,
-    "top10_quality_present": 10,
+    "entry_overlay_rows_joined": 415,
+    "top10_quality_present": 9,
     "top10_revisions_present": 9,
     "top10_complete_core_components": 9,
     "top10_median_score_completeness": 95.00000000000001,
-    "high_conviction_candidates": 700,
-    "fresh_opportunity_candidates": 398,
+    "high_conviction_candidates": 708,
+    "fresh_opportunity_candidates": 339,
     "fresh_opportunity_top10": [
       {
         "rank": 1,
-        "symbol": "PENN",
-        "score": 81.60289153982828,
+        "symbol": "GOLD",
+        "score": 85.34976559602426,
         "reason": "new_exact",
-        "main_rank": 84
+        "main_rank": 105
       },
       {
         "rank": 2,
-        "symbol": "TGB",
-        "score": 81.58070900184319,
+        "symbol": "TNK",
+        "score": 80.77614140583395,
         "reason": "sharp_1run_rise",
-        "main_rank": 46
+        "main_rank": 3
       },
       {
         "rank": 3,
-        "symbol": "BION.SW",
-        "score": 81.36869531658154,
+        "symbol": "DSX",
+        "score": 79.8426306960447,
         "reason": "sharp_1run_rise",
-        "main_rank": 25
+        "main_rank": 39
       },
       {
         "rank": 4,
-        "symbol": "MRNA",
-        "score": 80.9834069676022,
+        "symbol": "GTN",
+        "score": 79.37794671151583,
         "reason": "sharp_1run_rise",
-        "main_rank": 65
+        "main_rank": 129
       },
       {
         "rank": 5,
-        "symbol": "SDF.DE",
-        "score": 80.90273800934358,
-        "reason": "new_exact",
-        "main_rank": 232
+        "symbol": "NAVI",
+        "score": 79.26337413197085,
+        "reason": "sharp_1run_rise",
+        "main_rank": 276
       },
       {
         "rank": 6,
-        "symbol": "BRZE",
-        "score": 80.48191090068518,
-        "reason": "new_exact",
-        "main_rank": 44
+        "symbol": "MRNA",
+        "score": 79.06920907380749,
+        "reason": "sharp_1run_rise",
+        "main_rank": 59
       },
       {
         "rank": 7,
-        "symbol": "FLYW",
-        "score": 80.12380498983089,
-        "reason": "new_exact",
-        "main_rank": 20
+        "symbol": "TGB",
+        "score": 78.99382875740561,
+        "reason": "sharp_1run_rise",
+        "main_rank": 48
       },
       {
         "rank": 8,
-        "symbol": "HIMS",
-        "score": 79.51753417753727,
+        "symbol": "AMCX",
+        "score": 78.84474614369857,
         "reason": "sharp_1run_rise",
-        "main_rank": 305
+        "main_rank": 15
       },
       {
         "rank": 9,
-        "symbol": "LLY",
-        "score": 79.49487422601146,
-        "reason": "rising_5run",
-        "main_rank": 86
+        "symbol": "HIMS",
+        "score": 78.32709373796645,
+        "reason": "sharp_1run_rise",
+        "main_rank": 271
       },
       {
         "rank": 10,
-        "symbol": "TEM",
-        "score": 79.37711950365727,
-        "reason": "sharp_1run_rise",
-        "main_rank": 392
+        "symbol": "BRZE",
+        "score": 77.92998270760299,
+        "reason": "new_exact",
+        "main_rank": 35
       }
     ],
     "portfolio_guard_rows": 30,
@@ -498,60 +521,60 @@
     "persistence_history_available": true,
     "top10_persistence": [
       {
-        "symbol": "HALO",
+        "symbol": "HQL",
         "rank": 1,
+        "consecutive_top10": 1,
+        "consecutive_top25": 1,
+        "label": "new_top25"
+      },
+      {
+        "symbol": "HALO",
+        "rank": 2,
         "consecutive_top10": 2,
         "consecutive_top25": 2,
         "label": "rotating"
       },
       {
-        "symbol": "BAX",
-        "rank": 2,
-        "consecutive_top10": 1,
-        "consecutive_top25": 5,
-        "label": "persistent_top25"
-      },
-      {
-        "symbol": "AKER.OL",
+        "symbol": "TNK",
         "rank": 3,
         "consecutive_top10": 1,
         "consecutive_top25": 1,
         "label": "new_top25"
       },
       {
-        "symbol": "SSABBH.HE",
+        "symbol": "BAX",
         "rank": 4,
         "consecutive_top10": 1,
-        "consecutive_top25": 2,
-        "label": "rotating"
-      },
-      {
-        "symbol": "PBF",
-        "rank": 5,
-        "consecutive_top10": 3,
-        "consecutive_top25": 9,
+        "consecutive_top25": 5,
         "label": "persistent_top25"
       },
       {
-        "symbol": "CRGY",
-        "rank": 6,
-        "consecutive_top10": 1,
-        "consecutive_top25": 1,
-        "label": "new_signal"
-      },
-      {
         "symbol": "RMAX",
-        "rank": 7,
-        "consecutive_top10": 0,
+        "rank": 5,
+        "consecutive_top10": 1,
         "consecutive_top25": 1,
         "label": "new_top25"
       },
       {
         "symbol": "TWST",
-        "rank": 8,
-        "consecutive_top10": 0,
+        "rank": 6,
+        "consecutive_top10": 1,
         "consecutive_top25": 1,
         "label": "new_top25"
+      },
+      {
+        "symbol": "U",
+        "rank": 7,
+        "consecutive_top10": 1,
+        "consecutive_top25": 5,
+        "label": "persistent_top25"
+      },
+      {
+        "symbol": "PBF",
+        "rank": 8,
+        "consecutive_top10": 3,
+        "consecutive_top25": 9,
+        "label": "persistent_top25"
       },
       {
         "symbol": "BCRX",
@@ -568,77 +591,77 @@
         "label": "rotating"
       }
     ],
-    "emerging_alpha_candidates": 184,
+    "emerging_alpha_candidates": 185,
     "emerging_alpha_top10": [
       {
         "rank": 1,
-        "symbol": "BION.SW",
-        "score": 87.01816776801307,
-        "main_rank": 25,
-        "sector_neutral_score": 99.7997997997998
-      },
-      {
-        "rank": 2,
-        "symbol": "LLY",
-        "score": 86.94765369343594,
-        "main_rank": 86,
-        "sector_neutral_score": 97.3973973973974
-      },
-      {
-        "rank": 3,
-        "symbol": "TGB",
-        "score": 86.31353802540977,
-        "main_rank": 46,
-        "sector_neutral_score": 93.3933933933934
-      },
-      {
-        "rank": 4,
-        "symbol": "PENN",
-        "score": 85.42494837701292,
-        "main_rank": 84,
+        "symbol": "GOLD",
+        "score": 86.25042595850903,
+        "main_rank": 105,
         "sector_neutral_score": 88.38838838838838
       },
       {
+        "rank": 2,
+        "symbol": "TGB",
+        "score": 84.7620641251209,
+        "main_rank": 48,
+        "sector_neutral_score": 94.29429429429429
+      },
+      {
+        "rank": 3,
+        "symbol": "DSX",
+        "score": 84.44949355838516,
+        "main_rank": 39,
+        "sector_neutral_score": 95.09509509509509
+      },
+      {
+        "rank": 4,
+        "symbol": "AMCX",
+        "score": 83.76062725872545,
+        "main_rank": 15,
+        "sector_neutral_score": 98.09809809809809
+      },
+      {
         "rank": 5,
-        "symbol": "FLYW",
-        "score": 83.91522178618794,
-        "main_rank": 20,
-        "sector_neutral_score": 96.49649649649649
+        "symbol": "BRZE",
+        "score": 82.8120804568929,
+        "main_rank": 35,
+        "sector_neutral_score": 95.5955955955956
       },
       {
         "rank": 6,
-        "symbol": "BRZE",
-        "score": 83.84044671650351,
-        "main_rank": 44,
-        "sector_neutral_score": 93.5935935935936
+        "symbol": "GTN",
+        "score": 82.68225296059492,
+        "main_rank": 129,
+        "sector_neutral_score": 84.68468468468468
       },
       {
         "rank": 7,
-        "symbol": "ABBV",
-        "score": 83.10265243878459,
-        "main_rank": 92,
-        "sector_neutral_score": 87.38738738738738
+        "symbol": "FLYW",
+        "score": 82.41563329055052,
+        "main_rank": 19,
+        "sector_neutral_score": 97.5975975975976
       },
       {
         "rank": 8,
         "symbol": "MRNA",
-        "score": 82.7558880842685,
-        "main_rank": 65,
-        "sector_neutral_score": 90.7907907907908
+        "score": 81.93523413972338,
+        "main_rank": 59,
+        "sector_neutral_score": 93.1931931931932
       },
       {
         "rank": 9,
-        "symbol": "RIGL",
-        "score": 82.04647570273643,
-        "main_rank": 175,
-        "sector_neutral_score": 92.5925925925926
+        "symbol": "WKC",
+        "score": 81.7704918157225,
+        "main_rank": 49,
+        "sector_neutral_score": 94.1941941941942
       },
       {
         "rank": 10,
-        "symbol": "SHELL.AS",
-        "score": 81.577520738646,
-        "main_rank": 45,
-        "sector_neutral_score": 93.4934934934935
+        "symbol": "ABBV",
+        "score": 81.57489894327145,
+        "main_rank": 92,
+        "sector_neutral_score": 89.7897897897898
       }
     ],
     "challenger_500_500": {
@@ -646,10 +669,10 @@
       "core_target": 500,
       "total_target": 1000,
       "selected": 1000,
-      "overlap_with_live_600_400": 853,
-      "challenger_only": 147,
-      "live_only": 147,
-      "jaccard": 0.7436791630340017,
+      "overlap_with_live_600_400": 854,
+      "challenger_only": 146,
+      "live_only": 146,
+      "jaccard": 0.7452006980802792,
       "semantics": "shadow selection diagnostic only; 500 dynamic core candidates plus 500 highest Stage-1 dynamic candidates, never changes Full Exact production selection"
     },
     "files": [
