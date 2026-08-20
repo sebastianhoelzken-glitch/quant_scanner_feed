@@ -1,13 +1,13 @@
 {
   "as_of": "2026-08-20",
-  "generated_at_utc": "2026-08-20T04:57:00.473354+00:00",
+  "generated_at_utc": "2026-08-20T05:34:45.700524+00:00",
   "model_version": "1.6.1-nokey-broad-value-corrguard",
   "provider": "yfinance+SEC-public-no-key",
   "config_hash": "5e5935c78c59b599",
   "discovery_rows": 2000,
   "deep_analyzed_rows": 1000,
-  "eligible_rows": 708,
-  "value_eligible_rows": 34,
+  "eligible_rows": 703,
+  "value_eligible_rows": 120,
   "value_seed_rows": 350,
   "universe_mode": "broad_screen",
   "limitations": [
@@ -55,37 +55,35 @@
         "adaptive": 400
       },
       "value_ranking_latest.csv": {
-        "rows": 34,
-        "core": 34,
+        "rows": 120,
+        "core": 120,
         "adaptive": 0
       },
       "quality_value_latest.csv": {
-        "rows": 34,
-        "core": 34,
+        "rows": 120,
+        "core": 120,
         "adaptive": 0
       },
       "pullback_ranking_latest.csv": {
-        "rows": 402,
-        "core": 250,
-        "adaptive": 152
+        "rows": 395,
+        "core": 245,
+        "adaptive": 150
       },
       "strategy_overlap_latest.csv": {
-        "rows": 28,
-        "core": 20,
-        "adaptive": 8
+        "rows": 29,
+        "core": 23,
+        "adaptive": 6
       }
     },
     "adaptive_top10_hits": {
       "main": {
-        "count": 7,
+        "count": 5,
         "symbols": [
           "HALO",
-          "NAT",
           "PBF",
-          "AMC",
-          "FRO",
-          "CCC",
-          "U"
+          "CRGY",
+          "RMAX",
+          "PSX"
         ]
       },
       "value": {
@@ -97,9 +95,8 @@
         "symbols": []
       },
       "pullback": {
-        "count": 2,
+        "count": 1,
         "symbols": [
-          "AMC",
           "SYENS.BR"
         ]
       }
@@ -122,34 +119,34 @@
       "unavailable"
     ],
     "source_counts": {
-      "yahoo_get_info": 72,
-      "yahoo_fast_info": 80,
-      "yahoo_screen_market_cap": 836,
+      "yahoo_get_info": 258,
+      "yahoo_fast_info": 25,
+      "yahoo_screen_market_cap": 686,
       "yahoo_shares_x_price": 4,
       "yahoo_shares_history_x_price": 0,
-      "yahoo_balance_sheet_shares_x_price": 1,
-      "stored_market_cap_price_roll": 1,
+      "yahoo_balance_sheet_shares_x_price": 2,
+      "stored_market_cap_price_roll": 19,
       "stored_market_cap_same_day": 0,
       "unavailable": 6,
       "sec_companyfacts_shares_x_price": 0
     },
     "available_rows": 994,
     "unavailable_rows": 6,
-    "eligible_rows": 708,
-    "recovered_by_extended_share_fallbacks": 1,
+    "eligible_rows": 703,
+    "recovered_by_extended_share_fallbacks": 2,
     "by_deep_selection_tier": {
       "core": {
         "rows": 600,
         "available_rows": 594,
         "unavailable_rows": 6,
         "source_counts": {
-          "yahoo_screen_market_cap": 438,
-          "yahoo_fast_info": 79,
-          "yahoo_get_info": 72,
+          "yahoo_screen_market_cap": 296,
+          "yahoo_get_info": 258,
+          "yahoo_fast_info": 25,
+          "stored_market_cap_price_roll": 10,
           "unavailable": 6,
           "yahoo_shares_x_price": 3,
-          "stored_market_cap_price_roll": 1,
-          "yahoo_balance_sheet_shares_x_price": 1
+          "yahoo_balance_sheet_shares_x_price": 2
         }
       },
       "adaptive": {
@@ -157,15 +154,15 @@
         "available_rows": 400,
         "unavailable_rows": 0,
         "source_counts": {
-          "yahoo_screen_market_cap": 398,
-          "yahoo_fast_info": 1,
+          "yahoo_screen_market_cap": 390,
+          "stored_market_cap_price_roll": 9,
           "yahoo_shares_x_price": 1
         }
       }
     }
   },
   "provider_resilience": {
-    "get_info_errors_recovered": 923,
+    "get_info_errors_recovered": 711,
     "sec_companyfacts_market_caps": 0,
     "sec_ticker_map_requests": 3,
     "sec_ticker_map_errors": 3,
@@ -199,9 +196,9 @@
       }
     ],
     "sec_user_agent_mode": "identifying contact URL; SEC_USER_AGENT override supported",
-    "analyst_endpoint_errors": 10568,
-    "analyst_endpoint_retries": 5322,
-    "analyst_endpoint_recovered_after_retry": 76,
+    "analyst_endpoint_errors": 8535,
+    "analyst_endpoint_retries": 4268,
+    "analyst_endpoint_recovered_after_retry": 1,
     "fx_primary": "yfinance",
     "fx_fallback": "ECB EXR daily reference rates",
     "fx_yahoo_currencies": [
@@ -215,38 +212,42 @@
       "CZK",
       "DKK",
       "GBP",
+      "JPY",
+      "KRW",
       "MXN",
       "NOK",
       "PLN",
       "SEK"
     ],
     "fx_unavailable_currencies": [
-      "ARS"
+      "ARS",
+      "GEL",
+      "ZMW"
     ],
     "sec_companyfacts_fundamental_symbols": 0,
     "sec_companyfacts_fundamental_fields_filled": 0,
     "sec_companyfacts_requests": 0,
     "sec_companyfacts_request_errors": 0,
-    "yahoo_screen_valuation_symbols": 918,
-    "yahoo_screen_valuation_fields_filled": 2758,
+    "yahoo_screen_valuation_symbols": 705,
+    "yahoo_screen_valuation_fields_filled": 2147,
     "point_in_time_sec_filter": "filed<=as_of and end<=as_of",
     "ranking_semantics_unchanged": true,
     "score_weights_unchanged": true,
     "yahoo_quality_rank_screen_requests": 200,
     "yahoo_quality_rank_screen_errors": 0,
-    "yahoo_quality_hint_symbols": 12464,
-    "yahoo_quality_hint_fields_filled": 30324,
-    "yahoo_quality_cached_quote_symbols": 12464,
-    "yahoo_consensus_quote_symbols": 995,
-    "consensus_snapshot_rows_loaded": 4282,
-    "consensus_snapshot_rows_written": 995,
+    "yahoo_quality_hint_symbols": 12360,
+    "yahoo_quality_hint_fields_filled": 30363,
+    "yahoo_quality_cached_quote_symbols": 12360,
+    "yahoo_consensus_quote_symbols": 994,
+    "consensus_snapshot_rows_loaded": 5277,
+    "consensus_snapshot_rows_written": 994,
     "revision_history_7d_symbols": 0,
     "revision_history_30d_symbols": 0,
     "revision_history_90d_symbols": 0,
     "quality_rank_fallback_semantics": "Yahoo screener sort order only; raw fundamentals never fabricated",
     "revision_history_semantics": "persisted daily Yahoo screener EPS-forward consensus; no synthetic historical revisions"
   },
-  "pullback_eligible_rows": 402,
+  "pullback_eligible_rows": 395,
   "double_counting_guard": {
     "enabled": true,
     "threshold": 0.85,
@@ -261,7 +262,7 @@
     "status": "pass",
     "deep_analyzed_rows": 1000,
     "market_cap_available_rows": 994,
-    "eligible_rows": 708,
+    "eligible_rows": 703,
     "min_market_cap_available_rows": 150,
     "min_eligible_rows": 50
   },
@@ -279,10 +280,10 @@
       "revisions": 0.1,
       "value_safety": 0.2
     },
-    "candidate_rows": 415,
-    "value_signal_rows": 17,
-    "pullback_signal_rows": 402,
-    "confluence_rows": 4,
+    "candidate_rows": 430,
+    "value_signal_rows": 57,
+    "pullback_signal_rows": 395,
+    "confluence_rows": 22,
     "output_file": "entry_opportunity_latest.csv"
   },
   "ranking_quality_diagnostics": {
@@ -295,32 +296,32 @@
         "rows": 10,
         "component_present": {
           "quality_score": 10,
-          "revisions_score": 10,
-          "valuation_score": 9
+          "revisions_score": 9,
+          "valuation_score": 10
         },
         "component_missing": {
           "quality_score": 0,
-          "revisions_score": 0,
-          "valuation_score": 1
+          "revisions_score": 1,
+          "valuation_score": 0
         },
         "complete_core_component_rows": 9,
         "sparse_core_component_rows": 0,
-        "median_data_confidence": 66.5909090909091,
-        "min_data_confidence": 61.25000000000001,
+        "median_data_confidence": 66.81818181818181,
+        "min_data_confidence": 62.840909090909086,
         "below_60_confidence_rows": 0,
         "below_65_confidence_rows": 2,
-        "median_market_cap_eur": 8055940283.251293,
+        "median_market_cap_eur": 8583457420.366205,
         "market_cap_buckets": {
-          "micro_250m_1b": 0,
-          "small_1_5b": 4,
-          "mid_5_20b": 5,
-          "large_20_100b": 0,
-          "mega_100b_plus": 1,
+          "micro_250m_1b": 1,
+          "small_1_5b": 2,
+          "mid_5_20b": 6,
+          "large_20_100b": 1,
+          "mega_100b_plus": 0,
           "unknown": 0
         },
         "selection_tiers": {
-          "core": 3,
-          "adaptive": 7,
+          "core": 5,
+          "adaptive": 5,
           "unknown": 0
         },
         "sparse_examples": []
@@ -340,22 +341,22 @@
         },
         "complete_core_component_rows": 21,
         "sparse_core_component_rows": 0,
-        "median_data_confidence": 66.47727272727273,
-        "min_data_confidence": 61.25000000000001,
+        "median_data_confidence": 67.04545454545455,
+        "min_data_confidence": 62.727272727272734,
         "below_60_confidence_rows": 0,
         "below_65_confidence_rows": 6,
-        "median_market_cap_eur": 6240962478.815274,
+        "median_market_cap_eur": 5447279089.094572,
         "market_cap_buckets": {
-          "micro_250m_1b": 3,
-          "small_1_5b": 9,
+          "micro_250m_1b": 2,
+          "small_1_5b": 10,
           "mid_5_20b": 10,
-          "large_20_100b": 2,
-          "mega_100b_plus": 1,
+          "large_20_100b": 3,
+          "mega_100b_plus": 0,
           "unknown": 0
         },
         "selection_tiers": {
-          "core": 10,
-          "adaptive": 15,
+          "core": 11,
+          "adaptive": 14,
           "unknown": 0
         },
         "sparse_examples": []
@@ -364,33 +365,33 @@
         "requested_top_n": 50,
         "rows": 50,
         "component_present": {
-          "quality_score": 49,
-          "revisions_score": 46,
+          "quality_score": 47,
+          "revisions_score": 47,
           "valuation_score": 49
         },
         "component_missing": {
-          "quality_score": 1,
-          "revisions_score": 4,
+          "quality_score": 3,
+          "revisions_score": 3,
           "valuation_score": 1
         },
-        "complete_core_component_rows": 44,
+        "complete_core_component_rows": 43,
         "sparse_core_component_rows": 0,
-        "median_data_confidence": 66.5909090909091,
-        "min_data_confidence": 58.40909090909091,
-        "below_60_confidence_rows": 1,
-        "below_65_confidence_rows": 9,
-        "median_market_cap_eur": 3795075091.2313,
+        "median_data_confidence": 67.04545454545455,
+        "min_data_confidence": 62.727272727272734,
+        "below_60_confidence_rows": 0,
+        "below_65_confidence_rows": 10,
+        "median_market_cap_eur": 6597443958.761921,
         "market_cap_buckets": {
-          "micro_250m_1b": 6,
-          "small_1_5b": 21,
-          "mid_5_20b": 15,
+          "micro_250m_1b": 3,
+          "small_1_5b": 20,
+          "mid_5_20b": 19,
           "large_20_100b": 7,
           "mega_100b_plus": 1,
           "unknown": 0
         },
         "selection_tiers": {
-          "core": 25,
-          "adaptive": 25,
+          "core": 19,
+          "adaptive": 31,
           "unknown": 0
         },
         "sparse_examples": []
@@ -402,83 +403,83 @@
     "diagnostic_only_for_main_ranking": true,
     "main_scores_changed": false,
     "main_ranks_changed": false,
-    "entry_overlay_rows_joined": 415,
+    "entry_overlay_rows_joined": 430,
     "top10_quality_present": 10,
-    "top10_revisions_present": 10,
+    "top10_revisions_present": 9,
     "top10_complete_core_components": 9,
     "top10_median_score_completeness": 95.00000000000001,
-    "high_conviction_candidates": 702,
-    "fresh_opportunity_candidates": 358,
+    "high_conviction_candidates": 700,
+    "fresh_opportunity_candidates": 398,
     "fresh_opportunity_top10": [
       {
         "rank": 1,
-        "symbol": "GOLD",
-        "score": 86.13571166412876,
+        "symbol": "PENN",
+        "score": 81.60289153982828,
         "reason": "new_exact",
-        "main_rank": 113
+        "main_rank": 84
       },
       {
         "rank": 2,
-        "symbol": "DSX",
-        "score": 81.63232260453823,
+        "symbol": "TGB",
+        "score": 81.58070900184319,
         "reason": "sharp_1run_rise",
-        "main_rank": 43
+        "main_rank": 46
       },
       {
         "rank": 3,
-        "symbol": "TGB",
-        "score": 80.39898567295454,
+        "symbol": "BION.SW",
+        "score": 81.36869531658154,
         "reason": "sharp_1run_rise",
-        "main_rank": 47
+        "main_rank": 25
       },
       {
         "rank": 4,
-        "symbol": "AMCX",
-        "score": 80.08765342971223,
+        "symbol": "MRNA",
+        "score": 80.9834069676022,
         "reason": "sharp_1run_rise",
-        "main_rank": 15
+        "main_rank": 65
       },
       {
         "rank": 5,
-        "symbol": "TNK",
-        "score": 79.7265121794534,
-        "reason": "rising_5run",
-        "main_rank": 7
+        "symbol": "SDF.DE",
+        "score": 80.90273800934358,
+        "reason": "new_exact",
+        "main_rank": 232
       },
       {
         "rank": 6,
-        "symbol": "MRNA",
-        "score": 79.55340974219567,
-        "reason": "sharp_1run_rise",
-        "main_rank": 59
+        "symbol": "BRZE",
+        "score": 80.48191090068518,
+        "reason": "new_exact",
+        "main_rank": 44
       },
       {
         "rank": 7,
-        "symbol": "HIMS",
-        "score": 78.87649838601004,
-        "reason": "sharp_1run_rise",
-        "main_rank": 295
+        "symbol": "FLYW",
+        "score": 80.12380498983089,
+        "reason": "new_exact",
+        "main_rank": 20
       },
       {
         "rank": 8,
-        "symbol": "PENN",
-        "score": 78.5631047987128,
-        "reason": "new_exact",
-        "main_rank": 99
+        "symbol": "HIMS",
+        "score": 79.51753417753727,
+        "reason": "sharp_1run_rise",
+        "main_rank": 305
       },
       {
         "rank": 9,
-        "symbol": "GTN",
-        "score": 78.34846589161953,
-        "reason": "sharp_1run_rise",
-        "main_rank": 247
+        "symbol": "LLY",
+        "score": 79.49487422601146,
+        "reason": "rising_5run",
+        "main_rank": 86
       },
       {
         "rank": 10,
-        "symbol": "FLYW",
-        "score": 77.94420195600101,
-        "reason": "new_exact",
-        "main_rank": 17
+        "symbol": "TEM",
+        "score": 79.37711950365727,
+        "reason": "sharp_1run_rise",
+        "main_rank": 392
       }
     ],
     "portfolio_guard_rows": 30,
@@ -511,16 +512,16 @@
         "label": "persistent_top25"
       },
       {
-        "symbol": "MU",
+        "symbol": "AKER.OL",
         "rank": 3,
-        "consecutive_top10": 3,
-        "consecutive_top25": 3,
-        "label": "rotating"
+        "consecutive_top10": 1,
+        "consecutive_top25": 1,
+        "label": "new_top25"
       },
       {
-        "symbol": "NAT",
+        "symbol": "SSABBH.HE",
         "rank": 4,
-        "consecutive_top10": 2,
+        "consecutive_top10": 1,
         "consecutive_top25": 2,
         "label": "rotating"
       },
@@ -532,112 +533,112 @@
         "label": "persistent_top25"
       },
       {
-        "symbol": "AMC",
+        "symbol": "CRGY",
         "rank": 6,
         "consecutive_top10": 1,
-        "consecutive_top25": 3,
-        "label": "rotating"
+        "consecutive_top25": 1,
+        "label": "new_signal"
       },
       {
-        "symbol": "TNK",
+        "symbol": "RMAX",
         "rank": 7,
-        "consecutive_top10": 1,
+        "consecutive_top10": 0,
         "consecutive_top25": 1,
         "label": "new_top25"
       },
       {
-        "symbol": "FRO",
+        "symbol": "TWST",
         "rank": 8,
-        "consecutive_top10": 2,
-        "consecutive_top25": 2,
-        "label": "rotating"
+        "consecutive_top10": 0,
+        "consecutive_top25": 1,
+        "label": "new_top25"
       },
       {
-        "symbol": "CCC",
+        "symbol": "BCRX",
         "rank": 9,
-        "consecutive_top10": 1,
-        "consecutive_top25": 2,
-        "label": "rotating"
+        "consecutive_top10": 0,
+        "consecutive_top25": 1,
+        "label": "new_top25"
       },
       {
-        "symbol": "U",
+        "symbol": "PSX",
         "rank": 10,
-        "consecutive_top10": 1,
-        "consecutive_top25": 5,
-        "label": "persistent_top25"
+        "consecutive_top10": 0,
+        "consecutive_top25": 3,
+        "label": "rotating"
       }
     ],
-    "emerging_alpha_candidates": 182,
+    "emerging_alpha_candidates": 184,
     "emerging_alpha_top10": [
       {
         "rank": 1,
-        "symbol": "GOLD",
-        "score": 86.5883428636821,
-        "main_rank": 113,
-        "sector_neutral_score": 86.98698698698699
+        "symbol": "BION.SW",
+        "score": 87.01816776801307,
+        "main_rank": 25,
+        "sector_neutral_score": 99.7997997997998
       },
       {
         "rank": 2,
-        "symbol": "BCRX",
-        "score": 86.08688450181755,
-        "main_rank": 12,
-        "sector_neutral_score": 98.7987987987988
+        "symbol": "LLY",
+        "score": 86.94765369343594,
+        "main_rank": 86,
+        "sector_neutral_score": 97.3973973973974
       },
       {
         "rank": 3,
         "symbol": "TGB",
-        "score": 85.90465545957935,
-        "main_rank": 47,
-        "sector_neutral_score": 94.5945945945946
+        "score": 86.31353802540977,
+        "main_rank": 46,
+        "sector_neutral_score": 93.3933933933934
       },
       {
         "rank": 4,
-        "symbol": "DSX",
-        "score": 85.46321026140905,
-        "main_rank": 43,
-        "sector_neutral_score": 94.994994994995
+        "symbol": "PENN",
+        "score": 85.42494837701292,
+        "main_rank": 84,
+        "sector_neutral_score": 88.38838838838838
       },
       {
         "rank": 5,
-        "symbol": "AMCX",
-        "score": 84.71944413522472,
-        "main_rank": 15,
-        "sector_neutral_score": 98.3983983983984
+        "symbol": "FLYW",
+        "score": 83.91522178618794,
+        "main_rank": 20,
+        "sector_neutral_score": 96.49649649649649
       },
       {
         "rank": 6,
-        "symbol": "PENN",
-        "score": 83.59948478041524,
-        "main_rank": 99,
-        "sector_neutral_score": 88.68868868868869
+        "symbol": "BRZE",
+        "score": 83.84044671650351,
+        "main_rank": 44,
+        "sector_neutral_score": 93.5935935935936
       },
       {
         "rank": 7,
-        "symbol": "SLDE",
-        "score": 83.30560010347939,
-        "main_rank": 45,
-        "sector_neutral_score": 91.29129129129129
+        "symbol": "ABBV",
+        "score": 83.10265243878459,
+        "main_rank": 92,
+        "sector_neutral_score": 87.38738738738738
       },
       {
         "rank": 8,
-        "symbol": "WKC",
-        "score": 83.12228888602104,
-        "main_rank": 44,
-        "sector_neutral_score": 94.8948948948949
+        "symbol": "MRNA",
+        "score": 82.7558880842685,
+        "main_rank": 65,
+        "sector_neutral_score": 90.7907907907908
       },
       {
         "rank": 9,
-        "symbol": "FLYW",
-        "score": 82.99960354021064,
-        "main_rank": 17,
-        "sector_neutral_score": 98.1981981981982
+        "symbol": "RIGL",
+        "score": 82.04647570273643,
+        "main_rank": 175,
+        "sector_neutral_score": 92.5925925925926
       },
       {
         "rank": 10,
-        "symbol": "MRNA",
-        "score": 82.3352451608983,
-        "main_rank": 59,
-        "sector_neutral_score": 93.29329329329329
+        "symbol": "SHELL.AS",
+        "score": 81.577520738646,
+        "main_rank": 45,
+        "sector_neutral_score": 93.4934934934935
       }
     ],
     "challenger_500_500": {
@@ -645,10 +646,10 @@
       "core_target": 500,
       "total_target": 1000,
       "selected": 1000,
-      "overlap_with_live_600_400": 859,
-      "challenger_only": 141,
-      "live_only": 141,
-      "jaccard": 0.7528483786152498,
+      "overlap_with_live_600_400": 853,
+      "challenger_only": 147,
+      "live_only": 147,
+      "jaccard": 0.7436791630340017,
       "semantics": "shadow selection diagnostic only; 500 dynamic core candidates plus 500 highest Stage-1 dynamic candidates, never changes Full Exact production selection"
     },
     "files": [

@@ -3,83 +3,83 @@
   "diagnostic_only_for_main_ranking": true,
   "main_scores_changed": false,
   "main_ranks_changed": false,
-  "entry_overlay_rows_joined": 415,
+  "entry_overlay_rows_joined": 430,
   "top10_quality_present": 10,
-  "top10_revisions_present": 10,
+  "top10_revisions_present": 9,
   "top10_complete_core_components": 9,
   "top10_median_score_completeness": 95.00000000000001,
-  "high_conviction_candidates": 702,
-  "fresh_opportunity_candidates": 358,
+  "high_conviction_candidates": 700,
+  "fresh_opportunity_candidates": 398,
   "fresh_opportunity_top10": [
     {
       "rank": 1,
-      "symbol": "GOLD",
-      "score": 86.13571166412876,
+      "symbol": "PENN",
+      "score": 81.60289153982828,
       "reason": "new_exact",
-      "main_rank": 113
+      "main_rank": 84
     },
     {
       "rank": 2,
-      "symbol": "DSX",
-      "score": 81.63232260453823,
+      "symbol": "TGB",
+      "score": 81.58070900184319,
       "reason": "sharp_1run_rise",
-      "main_rank": 43
+      "main_rank": 46
     },
     {
       "rank": 3,
-      "symbol": "TGB",
-      "score": 80.39898567295454,
+      "symbol": "BION.SW",
+      "score": 81.36869531658154,
       "reason": "sharp_1run_rise",
-      "main_rank": 47
+      "main_rank": 25
     },
     {
       "rank": 4,
-      "symbol": "AMCX",
-      "score": 80.08765342971223,
+      "symbol": "MRNA",
+      "score": 80.9834069676022,
       "reason": "sharp_1run_rise",
-      "main_rank": 15
+      "main_rank": 65
     },
     {
       "rank": 5,
-      "symbol": "TNK",
-      "score": 79.7265121794534,
-      "reason": "rising_5run",
-      "main_rank": 7
+      "symbol": "SDF.DE",
+      "score": 80.90273800934358,
+      "reason": "new_exact",
+      "main_rank": 232
     },
     {
       "rank": 6,
-      "symbol": "MRNA",
-      "score": 79.55340974219567,
-      "reason": "sharp_1run_rise",
-      "main_rank": 59
+      "symbol": "BRZE",
+      "score": 80.48191090068518,
+      "reason": "new_exact",
+      "main_rank": 44
     },
     {
       "rank": 7,
-      "symbol": "HIMS",
-      "score": 78.87649838601004,
-      "reason": "sharp_1run_rise",
-      "main_rank": 295
+      "symbol": "FLYW",
+      "score": 80.12380498983089,
+      "reason": "new_exact",
+      "main_rank": 20
     },
     {
       "rank": 8,
-      "symbol": "PENN",
-      "score": 78.5631047987128,
-      "reason": "new_exact",
-      "main_rank": 99
+      "symbol": "HIMS",
+      "score": 79.51753417753727,
+      "reason": "sharp_1run_rise",
+      "main_rank": 305
     },
     {
       "rank": 9,
-      "symbol": "GTN",
-      "score": 78.34846589161953,
-      "reason": "sharp_1run_rise",
-      "main_rank": 247
+      "symbol": "LLY",
+      "score": 79.49487422601146,
+      "reason": "rising_5run",
+      "main_rank": 86
     },
     {
       "rank": 10,
-      "symbol": "FLYW",
-      "score": 77.94420195600101,
-      "reason": "new_exact",
-      "main_rank": 17
+      "symbol": "TEM",
+      "score": 79.37711950365727,
+      "reason": "sharp_1run_rise",
+      "main_rank": 392
     }
   ],
   "portfolio_guard_rows": 30,

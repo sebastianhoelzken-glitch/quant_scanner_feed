@@ -1,29 +1,31 @@
 {
   "current": {
     "deep_analyzed_rows": 1000,
-    "excluded_rows": 286,
-    "event_watch_rows": 6,
-    "eligible_rows": 708,
+    "excluded_rows": 282,
+    "event_watch_rows": 15,
+    "eligible_rows": 703,
     "exclusion_reason_counts": {
-      "insufficient median EUR turnover": 233,
-      "price < \u20ac2.00": 168,
-      "market cap < \u20ac250,000,000": 152,
-      "insufficient price history": 17,
-      "data confidence < 55": 16,
+      "insufficient median EUR turnover": 230,
+      "price < \u20ac2.00": 172,
+      "market cap < \u20ac250,000,000": 148,
+      "insufficient price history": 20,
+      "data confidence < 55": 17,
       "market cap EUR unavailable": 6,
       "EUR liquidity unavailable": 1,
       "EUR price unavailable": 1,
       "asset type excluded: nan": 1,
-      "delisted": 1
+      "delisted": 1,
+      "duplicate security listing of HEADL.XC": 1
     },
     "exclusion_category_counts": {
-      "liquidity": 234,
-      "price": 169,
-      "market_cap": 158,
-      "price_history": 17,
-      "data_confidence": 16,
+      "liquidity": 231,
+      "price": 173,
+      "market_cap": 154,
+      "price_history": 20,
+      "data_confidence": 17,
       "asset_type": 1,
-      "delisted": 1
+      "delisted": 1,
+      "duplicate_listing": 1
     },
     "as_of": "2026-08-20"
   },
@@ -58,8 +60,8 @@
     "as_of": "2026-08-19"
   },
   "delta": {
-    "eligible_rows": 7,
-    "excluded_rows": 2,
-    "event_watch_rows": -9
+    "eligible_rows": 2,
+    "excluded_rows": -2,
+    "event_watch_rows": 0
   }
 }
