@@ -3,94 +3,95 @@
   "diagnostic_only": true,
   "main_scores_changed": false,
   "main_ranks_changed": false,
-  "candidate_count": 124,
+  "candidate_count": 167,
   "state_counts": {
-    "Dormant": 458,
-    "Fading": 327,
-    "Emerging": 187,
-    "Breakout": 24,
-    "Established": 4
+    "Dormant": 549,
+    "Emerging": 216,
+    "Fading": 197,
+    "Breakout": 31,
+    "Established": 5,
+    "Mature": 2
   },
   "top10": [
     {
       "rank": 1,
-      "symbol": "EMBC",
-      "score": 82.07295272761442,
-      "state": "Emerging",
-      "main_rank": 131,
+      "symbol": "SAP.DE",
+      "score": 86.94551958131075,
+      "state": "Breakout",
+      "main_rank": 233,
       "coverage": 0.7600000000000001
     },
     {
       "rank": 2,
-      "symbol": "COTY",
-      "score": 82.04604697904229,
+      "symbol": "OMDA",
+      "score": 85.98590560081286,
       "state": "Breakout",
-      "main_rank": 114,
+      "main_rank": 64,
       "coverage": 0.7600000000000001
     },
     {
       "rank": 3,
-      "symbol": "RIGL",
-      "score": 81.23349699728362,
+      "symbol": "TMT.L",
+      "score": 85.33209070665725,
       "state": "Breakout",
-      "main_rank": 95,
+      "main_rank": null,
       "coverage": 0.7600000000000001
     },
     {
       "rank": 4,
-      "symbol": "THX.L",
-      "score": 80.35245125075006,
+      "symbol": "WIX",
+      "score": 84.10390342524595,
       "state": "Breakout",
-      "main_rank": null,
+      "main_rank": 167,
       "coverage": 0.7600000000000001
     },
     {
       "rank": 5,
-      "symbol": "ZAM.L",
-      "score": 80.05622401800774,
+      "symbol": "CART",
+      "score": 83.43947710517581,
       "state": "Breakout",
-      "main_rank": null,
+      "main_rank": 41,
       "coverage": 0.7600000000000001
     },
     {
       "rank": 6,
-      "symbol": "ARCAD.AS",
-      "score": 79.27456390766604,
+      "symbol": "TEM",
+      "score": 83.29752585368578,
       "state": "Breakout",
-      "main_rank": 79,
+      "main_rank": 360,
       "coverage": 0.7600000000000001
     },
     {
       "rank": 7,
-      "symbol": "AZE.BR",
-      "score": 79.08396067296968,
+      "symbol": "CLW",
+      "score": 82.75855049007873,
       "state": "Breakout",
-      "main_rank": 77,
+      "main_rank": 200,
       "coverage": 0.7600000000000001
     },
     {
       "rank": 8,
-      "symbol": "BRZE",
-      "score": 78.97574795393713,
-      "state": "Emerging",
-      "main_rank": 50,
-      "coverage": 0.5800000000000001
+      "symbol": "CERT",
+      "score": 82.12636125733799,
+      "state": "Breakout",
+      "main_rank": 161,
+      "coverage": 0.7600000000000001
     },
     {
       "rank": 9,
-      "symbol": "SHELL.AS",
-      "score": 78.5845284819198,
+      "symbol": "HTFL",
+      "score": 81.4364607437067,
       "state": "Breakout",
-      "main_rank": 19,
-      "coverage": 0.7600000000000001
+      "main_rank": 56,
+      "coverage": 0.6100000000000001
     },
     {
       "rank": 10,
-      "symbol": "VOR",
-      "score": 77.65511156716798,
-      "state": "Emerging",
-      "main_rank": 263,
-      "coverage": 0.7600000000000001
+      "symbol": "FSM",
+      "score": 81.05467680077126,
+      "state": "Breakout",
+      "main_rank": 70,
+      "coverage": 0.6100000000000001
     }
   ],
   "semantics": "diagnostic new-signal layer; rewards inflection/change/acceleration/sector-relative strength and uses revision/quality shocks only when true change fields exist; never changes Main Exact rank",

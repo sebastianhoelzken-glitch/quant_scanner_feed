@@ -12,27 +12,27 @@
       "requested_top_n": 10,
       "rows": 10,
       "component_present": {
-        "quality_score": 8,
+        "quality_score": 10,
         "revisions_score": 9,
-        "valuation_score": 10
+        "valuation_score": 9
       },
       "component_missing": {
-        "quality_score": 2,
+        "quality_score": 0,
         "revisions_score": 1,
-        "valuation_score": 0
+        "valuation_score": 1
       },
-      "complete_core_component_rows": 7,
+      "complete_core_component_rows": 8,
       "sparse_core_component_rows": 0,
-      "median_data_confidence": 67.04545454545455,
-      "min_data_confidence": 62.840909090909086,
+      "median_data_confidence": 66.5340909090909,
+      "min_data_confidence": 62.727272727272734,
       "below_60_confidence_rows": 0,
-      "below_65_confidence_rows": 3,
-      "median_market_cap_eur": 8761959424.0,
+      "below_65_confidence_rows": 2,
+      "median_market_cap_eur": 10780225983.82356,
       "market_cap_buckets": {
-        "micro_250m_1b": 1,
-        "small_1_5b": 2,
-        "mid_5_20b": 5,
-        "large_20_100b": 2,
+        "micro_250m_1b": 0,
+        "small_1_5b": 3,
+        "mid_5_20b": 4,
+        "large_20_100b": 3,
         "mega_100b_plus": 0,
         "unknown": 0
       },
@@ -47,33 +47,33 @@
       "requested_top_n": 25,
       "rows": 25,
       "component_present": {
-        "quality_score": 23,
+        "quality_score": 24,
         "revisions_score": 24,
-        "valuation_score": 25
+        "valuation_score": 24
       },
       "component_missing": {
-        "quality_score": 2,
+        "quality_score": 1,
         "revisions_score": 1,
-        "valuation_score": 0
+        "valuation_score": 1
       },
       "complete_core_component_rows": 22,
       "sparse_core_component_rows": 0,
       "median_data_confidence": 67.04545454545455,
-      "min_data_confidence": 62.840909090909086,
+      "min_data_confidence": 62.727272727272734,
       "below_60_confidence_rows": 0,
-      "below_65_confidence_rows": 5,
-      "median_market_cap_eur": 5562140266.23661,
+      "below_65_confidence_rows": 4,
+      "median_market_cap_eur": 4653928186.861822,
       "market_cap_buckets": {
-        "micro_250m_1b": 2,
-        "small_1_5b": 10,
-        "mid_5_20b": 8,
-        "large_20_100b": 4,
-        "mega_100b_plus": 1,
+        "micro_250m_1b": 1,
+        "small_1_5b": 12,
+        "mid_5_20b": 9,
+        "large_20_100b": 3,
+        "mega_100b_plus": 0,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 8,
-        "adaptive": 17,
+        "core": 7,
+        "adaptive": 18,
         "unknown": 0
       },
       "sparse_examples": []
@@ -82,33 +82,33 @@
       "requested_top_n": 50,
       "rows": 50,
       "component_present": {
-        "quality_score": 48,
-        "revisions_score": 48,
+        "quality_score": 49,
+        "revisions_score": 49,
         "valuation_score": 49
       },
       "component_missing": {
-        "quality_score": 2,
-        "revisions_score": 2,
+        "quality_score": 1,
+        "revisions_score": 1,
         "valuation_score": 1
       },
-      "complete_core_component_rows": 45,
+      "complete_core_component_rows": 47,
       "sparse_core_component_rows": 0,
       "median_data_confidence": 67.04545454545455,
-      "min_data_confidence": 55.070526695526695,
-      "below_60_confidence_rows": 1,
+      "min_data_confidence": 62.727272727272734,
+      "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 8,
-      "median_market_cap_eur": 7210564920.076494,
+      "median_market_cap_eur": 4672532712.069983,
       "market_cap_buckets": {
-        "micro_250m_1b": 4,
-        "small_1_5b": 17,
-        "mid_5_20b": 18,
-        "large_20_100b": 9,
-        "mega_100b_plus": 2,
+        "micro_250m_1b": 2,
+        "small_1_5b": 24,
+        "mid_5_20b": 17,
+        "large_20_100b": 6,
+        "mega_100b_plus": 1,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 15,
-        "adaptive": 35,
+        "core": 12,
+        "adaptive": 38,
         "unknown": 0
       },
       "sparse_examples": []

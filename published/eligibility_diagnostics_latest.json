@@ -1,6 +1,37 @@
 {
   "current": {
     "deep_analyzed_rows": 1000,
+    "excluded_rows": 284,
+    "event_watch_rows": 15,
+    "eligible_rows": 701,
+    "exclusion_reason_counts": {
+      "insufficient median EUR turnover": 229,
+      "price < \u20ac2.00": 168,
+      "market cap < \u20ac250,000,000": 152,
+      "insufficient price history": 20,
+      "data confidence < 55": 12,
+      "market cap EUR unavailable": 5,
+      "duplicate security listing of MTCL.XC": 3,
+      "duplicate security listing of STLA": 2,
+      "EUR liquidity unavailable": 1,
+      "EUR price unavailable": 1,
+      "asset type excluded: nan": 1,
+      "delisted": 1
+    },
+    "exclusion_category_counts": {
+      "liquidity": 230,
+      "price": 169,
+      "market_cap": 157,
+      "price_history": 20,
+      "data_confidence": 12,
+      "duplicate_listing": 5,
+      "asset_type": 1,
+      "delisted": 1
+    },
+    "as_of": "2026-08-21"
+  },
+  "previous": {
+    "deep_analyzed_rows": 1000,
     "excluded_rows": 286,
     "event_watch_rows": 20,
     "eligible_rows": 694,
@@ -30,39 +61,9 @@
     },
     "as_of": "2026-08-20"
   },
-  "previous": {
-    "deep_analyzed_rows": 1000,
-    "excluded_rows": 284,
-    "event_watch_rows": 15,
-    "eligible_rows": 701,
-    "exclusion_reason_counts": {
-      "insufficient median EUR turnover": 230,
-      "price < \u20ac2.00": 172,
-      "market cap < \u20ac250,000,000": 145,
-      "insufficient price history": 18,
-      "data confidence < 55": 15,
-      "market cap EUR unavailable": 6,
-      "EUR liquidity unavailable": 1,
-      "EUR price unavailable": 1,
-      "asset type excluded: nan": 1,
-      "delisted": 1,
-      "stale price": 1
-    },
-    "exclusion_category_counts": {
-      "liquidity": 231,
-      "price": 173,
-      "market_cap": 151,
-      "price_history": 18,
-      "data_confidence": 15,
-      "asset_type": 1,
-      "delisted": 1,
-      "stale_price": 1
-    },
-    "as_of": "2026-08-19"
-  },
   "delta": {
-    "eligible_rows": -7,
-    "excluded_rows": 2,
-    "event_watch_rows": 5
+    "eligible_rows": 7,
+    "excluded_rows": -2,
+    "event_watch_rows": -5
   }
 }
