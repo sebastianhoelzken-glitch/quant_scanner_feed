@@ -1,18 +1,16 @@
 {
   "current": {
     "deep_analyzed_rows": 1000,
-    "excluded_rows": 284,
-    "event_watch_rows": 15,
-    "eligible_rows": 701,
+    "excluded_rows": 283,
+    "event_watch_rows": 12,
+    "eligible_rows": 705,
     "exclusion_reason_counts": {
       "insufficient median EUR turnover": 229,
       "price < \u20ac2.00": 168,
       "market cap < \u20ac250,000,000": 152,
       "insufficient price history": 20,
-      "data confidence < 55": 12,
+      "data confidence < 55": 14,
       "market cap EUR unavailable": 5,
-      "duplicate security listing of MTCL.XC": 3,
-      "duplicate security listing of STLA": 2,
       "EUR liquidity unavailable": 1,
       "EUR price unavailable": 1,
       "asset type excluded: nan": 1,
@@ -23,8 +21,7 @@
       "price": 169,
       "market_cap": 157,
       "price_history": 20,
-      "data_confidence": 12,
-      "duplicate_listing": 5,
+      "data_confidence": 14,
       "asset_type": 1,
       "delisted": 1
     },
@@ -62,8 +59,8 @@
     "as_of": "2026-08-20"
   },
   "delta": {
-    "eligible_rows": 7,
-    "excluded_rows": -2,
-    "event_watch_rows": -5
+    "eligible_rows": 11,
+    "excluded_rows": -3,
+    "event_watch_rows": -8
   }
 }
