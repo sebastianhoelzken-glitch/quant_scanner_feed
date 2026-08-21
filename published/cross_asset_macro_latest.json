@@ -1,0 +1,118 @@
+{
+  "version": "0.2-cross-asset-macro-decomposition",
+  "generated_at_utc": "2026-08-21T06:23:17.639426+00:00",
+  "status": "complete",
+  "providers": {
+    "nyfed_acm_10y_term_premium": {
+      "status": "ok",
+      "source": "Federal Reserve Bank of New York ACM workbook (ACM Daily)",
+      "as_of": "2026-08-19",
+      "rows": 16260
+    },
+    "fed_effective_rate": {
+      "status": "ok",
+      "source": "Federal Reserve Bank of New York EFFR Markets Data API",
+      "as_of": "2026-08-19",
+      "rows": 1
+    },
+    "ecb_deposit_rate": {
+      "status": "ok",
+      "source": "European Central Bank Data Portal deposit facility rate",
+      "as_of": "2026-08-21",
+      "rows": 3651
+    },
+    "us_ig_market_credit_stress_proxy": {
+      "status": "ok",
+      "source": "Yahoo adjusted-close market proxy: LQD relative to IEF (20d relative underperformance)",
+      "as_of": "2026-08-20",
+      "rows": 1234
+    },
+    "us_hy_market_credit_stress_proxy": {
+      "status": "ok",
+      "source": "Yahoo adjusted-close market proxy: HYG relative to IEI (20d relative underperformance)",
+      "as_of": "2026-08-20",
+      "rows": 1234
+    }
+  },
+  "breakeven_inflation": [
+    {
+      "tenor_years": 5,
+      "breakeven_pct": 2.34,
+      "change_20d_bps": 4.999999999999982,
+      "change_63d_bps": -25.0,
+      "semantics": "nominal Treasury yield minus matched-maturity real Treasury yield; market-implied inflation compensation proxy, not a point forecast"
+    },
+    {
+      "tenor_years": 10,
+      "breakeven_pct": 2.3400000000000003,
+      "change_20d_bps": 6.00000000000005,
+      "change_63d_bps": -10.00000000000001,
+      "semantics": "nominal Treasury yield minus matched-maturity real Treasury yield; market-implied inflation compensation proxy, not a point forecast"
+    },
+    {
+      "tenor_years": 30,
+      "breakeven_pct": 2.2800000000000002,
+      "change_20d_bps": 6.00000000000005,
+      "change_63d_bps": -2.0000000000000018,
+      "semantics": "nominal Treasury yield minus matched-maturity real Treasury yield; market-implied inflation compensation proxy, not a point forecast"
+    }
+  ],
+  "term_premium": {
+    "acm_10y_pct": 0.7721033498569851,
+    "change_20_obs_bps": 6.733039741986202,
+    "change_63_obs_bps": -10.877701304005027,
+    "as_of": "2026-08-19",
+    "model": "Adrian-Crump-Moench 10Y Treasury term premium",
+    "semantics": "estimated compensation for duration risk; model output, not directly observable"
+  },
+  "policy_expectations_proxy": {
+    "status": "complete",
+    "semantics": "front-end sovereign yield versus current policy rate is a policy-path proxy, not meeting-by-meeting futures pricing",
+    "fed_effective_pct": 3.63,
+    "us2y_pct": 4.19,
+    "us2y_minus_fed_bps": 56.00000000000005,
+    "fed_path_bias": "tightening",
+    "ecb_deposit_pct": 2.25,
+    "de2y_pct": 2.86,
+    "de2y_minus_ecb_bps": 60.999999999999986,
+    "ecb_path_bias": "tightening",
+    "provider_note": "Fed policy level comes directly from the New York Fed EFFR publication; ECB policy level comes directly from the ECB Data Portal."
+  },
+  "credit_stress": {
+    "status": "complete",
+    "raw_levels_published": false,
+    "semantics": "normalized market-based credit-stress diagnostic: IG uses LQD versus IEF and HY uses HYG versus IEI; higher relative underperformance means more stress. This is not an option-adjusted spread and no proprietary OAS is redistributed.",
+    "US_IG": {
+      "status": "ok",
+      "stress_score": 59.05273556833123,
+      "state": "normal",
+      "20d_direction": "tightening",
+      "as_of": "2026-08-20",
+      "metric_type": "market_credit_stress_proxy_not_oas"
+    },
+    "US_HY": {
+      "status": "ok",
+      "stress_score": 51.63868093383892,
+      "state": "normal",
+      "20d_direction": "widening",
+      "as_of": "2026-08-20",
+      "metric_type": "market_credit_stress_proxy_not_oas"
+    },
+    "composite_stress_score": 55.34570825108507,
+    "method": "liquid ETF relative-performance stress proxy"
+  },
+  "yield_decomposition": {
+    "us10y_nominal_change_20d_bps": -1.9999999999999571,
+    "us10y_real_change_20d_bps": -8.000000000000007,
+    "us10y_breakeven_change_20d_bps": 6.00000000000005,
+    "acm_term_premium_change_20obs_bps": 6.733039741986202,
+    "reading": "Use real-yield, inflation-compensation and ACM term-premium moves jointly; they are overlapping diagnostics and should not be arithmetically double-counted as independent causes."
+  },
+  "equity_interpretation": {
+    "higher_real_yields": "typically restrictive for long-duration growth, housing and other rate-sensitive assets if sustained",
+    "higher_breakevens": "points toward greater inflation compensation and may favor nominal-growth/inflation-sensitive exposures relative to long-duration assets, conditional on growth",
+    "higher_term_premium": "raises long-end discount rates independently of a simple Fed-path story and can pressure equity multiples and long-duration financing",
+    "wider_credit": "signals tighter private-sector financial conditions and higher downside risk for leveraged/cyclical issuers",
+    "policy_proxy": "front-end gaps suggest easing/tightening bias but are not a substitute for OIS or futures meeting probabilities"
+  }
+}
