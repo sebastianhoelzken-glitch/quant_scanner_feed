@@ -3,83 +3,83 @@
   "diagnostic_only_for_main_ranking": true,
   "main_scores_changed": false,
   "main_ranks_changed": false,
-  "entry_overlay_rows_joined": 447,
-  "top10_quality_present": 10,
-  "top10_revisions_present": 9,
-  "top10_complete_core_components": 8,
+  "entry_overlay_rows_joined": 429,
+  "top10_quality_present": 9,
+  "top10_revisions_present": 8,
+  "top10_complete_core_components": 7,
   "top10_median_score_completeness": 95.00000000000001,
-  "high_conviction_candidates": 702,
-  "fresh_opportunity_candidates": 393,
+  "high_conviction_candidates": 703,
+  "fresh_opportunity_candidates": 320,
   "fresh_opportunity_top10": [
     {
       "rank": 1,
-      "symbol": "DSFIR.AS",
-      "score": 82.0655285716915,
-      "reason": "sharp_1run_rise",
-      "main_rank": 111
+      "symbol": "GOLD",
+      "score": 85.2036989131426,
+      "reason": "new_exact",
+      "main_rank": 77
     },
     {
       "rank": 2,
-      "symbol": "HMC",
-      "score": 81.9533206219675,
+      "symbol": "DSFIR.AS",
+      "score": 79.40245601302254,
       "reason": "sharp_1run_rise",
-      "main_rank": 66
+      "main_rank": 104
     },
     {
       "rank": 3,
-      "symbol": "AMCR",
-      "score": 81.55012990494878,
-      "reason": "new_exact",
-      "main_rank": 119
+      "symbol": "NAVI",
+      "score": 78.6046701232189,
+      "reason": "sharp_1run_rise",
+      "main_rank": 303
     },
     {
       "rank": 4,
-      "symbol": "TYRES.HE",
-      "score": 80.23197067490588,
+      "symbol": "MAGN",
+      "score": 78.26748949942174,
       "reason": "sharp_1run_rise",
-      "main_rank": 46
+      "main_rank": 324
     },
     {
       "rank": 5,
-      "symbol": "CLW",
-      "score": 80.01112140181372,
-      "reason": "sharp_1run_rise",
-      "main_rank": 221
+      "symbol": "DSX",
+      "score": 78.11617979589712,
+      "reason": "rising_5run",
+      "main_rank": 48
     },
     {
       "rank": 6,
-      "symbol": "GH",
-      "score": 79.85424985140457,
+      "symbol": "GTN",
+      "score": 77.45967686050672,
       "reason": "sharp_1run_rise",
-      "main_rank": 7
+      "main_rank": 150
     },
     {
       "rank": 7,
-      "symbol": "MTCH",
-      "score": 78.97374621057482,
-      "reason": "new_exact",
-      "main_rank": 224
+      "symbol": "GH",
+      "score": 77.39214046334884,
+      "reason": "sharp_1run_rise",
+      "main_rank": 6
     },
     {
       "rank": 8,
       "symbol": "HNST",
-      "score": 78.78552984701535,
+      "score": 76.63583929116469,
       "reason": "sharp_1run_rise",
-      "main_rank": 60
+      "main_rank": 58
     },
     {
       "rank": 9,
-      "symbol": "FRO",
-      "score": 78.56466347582747,
-      "reason": "new_exact",
-      "main_rank": 11
+      "symbol": "AMCX",
+      "score": 76.47965045460367,
+      "reason": "multi_signal_riser",
+      "main_rank": 9
     },
     {
       "rank": 10,
-      "symbol": "UGP",
-      "score": 78.27401540975767,
-      "reason": "new_exact",
-      "main_rank": 242
+      "symbol": "CION",
+      "score": 76.43910123647984,
+      "reason": "sharp_1run_rise",
+      "main_rank": 292
     }
   ],
   "portfolio_guard_rows": 30,
