@@ -1,6 +1,36 @@
 {
   "current": {
     "deep_analyzed_rows": 1000,
+    "excluded_rows": 280,
+    "event_watch_rows": 12,
+    "eligible_rows": 708,
+    "exclusion_reason_counts": {
+      "insufficient median EUR turnover": 229,
+      "price < \u20ac2.00": 165,
+      "market cap < \u20ac250,000,000": 155,
+      "insufficient price history": 17,
+      "data confidence < 55": 12,
+      "market cap EUR unavailable": 6,
+      "EUR liquidity unavailable": 1,
+      "EUR price unavailable": 1,
+      "asset type excluded: nan": 1,
+      "delisted": 1,
+      "duplicate security listing of TEK.L": 1
+    },
+    "exclusion_category_counts": {
+      "liquidity": 230,
+      "price": 166,
+      "market_cap": 161,
+      "price_history": 17,
+      "data_confidence": 12,
+      "asset_type": 1,
+      "delisted": 1,
+      "duplicate_listing": 1
+    },
+    "as_of": "2026-08-23"
+  },
+  "previous": {
+    "deep_analyzed_rows": 1000,
     "excluded_rows": 277,
     "event_watch_rows": 9,
     "eligible_rows": 714,
@@ -27,37 +57,9 @@
     },
     "as_of": "2026-08-22"
   },
-  "previous": {
-    "deep_analyzed_rows": 1000,
-    "excluded_rows": 275,
-    "event_watch_rows": 11,
-    "eligible_rows": 714,
-    "exclusion_reason_counts": {
-      "insufficient median EUR turnover": 223,
-      "price < \u20ac2.00": 165,
-      "market cap < \u20ac250,000,000": 122,
-      "data confidence < 55": 18,
-      "insufficient price history": 16,
-      "market cap EUR unavailable": 5,
-      "EUR liquidity unavailable": 1,
-      "EUR price unavailable": 1,
-      "asset type excluded: nan": 1,
-      "delisted": 1
-    },
-    "exclusion_category_counts": {
-      "liquidity": 224,
-      "price": 166,
-      "market_cap": 127,
-      "data_confidence": 18,
-      "price_history": 16,
-      "asset_type": 1,
-      "delisted": 1
-    },
-    "as_of": "2026-08-21"
-  },
   "delta": {
-    "eligible_rows": 0,
-    "excluded_rows": 2,
-    "event_watch_rows": -2
+    "eligible_rows": -6,
+    "excluded_rows": 3,
+    "event_watch_rows": 3
   }
 }
