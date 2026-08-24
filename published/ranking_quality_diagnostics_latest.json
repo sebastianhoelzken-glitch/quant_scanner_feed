@@ -27,7 +27,7 @@
       "min_data_confidence": 67.04545454545455,
       "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 0,
-      "median_market_cap_eur": 4128589487.0246124,
+      "median_market_cap_eur": 4125166005.1145706,
       "market_cap_buckets": {
         "micro_250m_1b": 0,
         "small_1_5b": 6,
@@ -58,22 +58,22 @@
       },
       "complete_core_component_rows": 25,
       "sparse_core_component_rows": 0,
-      "median_data_confidence": 68.77272727272727,
+      "median_data_confidence": 68.6590909090909,
       "min_data_confidence": 65.81818181818181,
       "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 0,
-      "median_market_cap_eur": 4828994689.047718,
+      "median_market_cap_eur": 4824990421.727463,
       "market_cap_buckets": {
         "micro_250m_1b": 1,
         "small_1_5b": 12,
-        "mid_5_20b": 9,
-        "large_20_100b": 2,
+        "mid_5_20b": 8,
+        "large_20_100b": 3,
         "mega_100b_plus": 1,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 8,
-        "adaptive": 17,
+        "core": 7,
+        "adaptive": 18,
         "unknown": 0
       },
       "sparse_examples": []
@@ -82,33 +82,33 @@
       "requested_top_n": 50,
       "rows": 50,
       "component_present": {
-        "quality_score": 50,
+        "quality_score": 49,
         "revisions_score": 50,
         "valuation_score": 50
       },
       "component_missing": {
-        "quality_score": 0,
+        "quality_score": 1,
         "revisions_score": 0,
         "valuation_score": 0
       },
-      "complete_core_component_rows": 50,
+      "complete_core_component_rows": 49,
       "sparse_core_component_rows": 0,
       "median_data_confidence": 68.6590909090909,
       "min_data_confidence": 65.68181818181819,
       "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 0,
-      "median_market_cap_eur": 4982654757.301054,
+      "median_market_cap_eur": 5860757302.003895,
       "market_cap_buckets": {
-        "micro_250m_1b": 3,
-        "small_1_5b": 22,
-        "mid_5_20b": 19,
-        "large_20_100b": 5,
+        "micro_250m_1b": 5,
+        "small_1_5b": 19,
+        "mid_5_20b": 18,
+        "large_20_100b": 7,
         "mega_100b_plus": 1,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 21,
-        "adaptive": 29,
+        "core": 22,
+        "adaptive": 28,
         "unknown": 0
       },
       "sparse_examples": []

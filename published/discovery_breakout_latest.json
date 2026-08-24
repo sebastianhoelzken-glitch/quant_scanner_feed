@@ -1,217 +1,26 @@
 {
   "version": "1.0-fresh-discovery-breakout",
-  "as_of": "2026-08-23",
-  "prior_as_of": "2026-08-22",
+  "as_of": "2026-08-24",
+  "prior_as_of": "2026-08-23",
   "diagnostic_only": true,
   "universe_rows": 2000,
   "candidate_rows": 399,
-  "fresh_rows": 68,
-  "continuing_rows": 331,
+  "fresh_rows": 1,
+  "continuing_rows": 398,
   "direction_counts": {
-    "UP": 228,
-    "DOWN": 171,
+    "UP": 227,
+    "DOWN": 172,
     "MIXED": 1601
   },
-  "fresh_bullish_top10": [
-    {
-      "rank": 1,
-      "symbol": "VAST.L",
-      "direction": "UP",
-      "score": 99.62211031160152,
-      "freshness_score": 99.9401449452609,
-      "confidence": 84.37248160985612,
-      "freshness": "NEW",
-      "deep_selection_tier": "adaptive"
-    },
-    {
-      "rank": 2,
-      "symbol": "ATM.L",
-      "direction": "UP",
-      "score": 99.4212550874698,
-      "freshness_score": 99.52976454324408,
-      "confidence": 96.83994806284103,
-      "freshness": "NEW",
-      "deep_selection_tier": "adaptive"
-    },
-    {
-      "rank": 4,
-      "symbol": "BNTX",
-      "direction": "UP",
-      "score": 98.27154066853527,
-      "freshness_score": 99.47842249372728,
-      "confidence": 87.59630504007586,
-      "freshness": "NEW",
-      "deep_selection_tier": "not_selected"
-    },
-    {
-      "rank": 5,
-      "symbol": "FCM.L",
-      "direction": "UP",
-      "score": 97.69106905456718,
-      "freshness_score": 99.98173380983002,
-      "confidence": 90.63688866693654,
-      "freshness": "NEW",
-      "deep_selection_tier": "adaptive"
-    },
-    {
-      "rank": 6,
-      "symbol": "WPM",
-      "direction": "UP",
-      "score": 97.04044518141703,
-      "freshness_score": 96.61929711334005,
-      "confidence": 87.51546554761876,
-      "freshness": "NEW",
-      "deep_selection_tier": "adaptive"
-    },
-    {
-      "rank": 7,
-      "symbol": "DN3.SG",
-      "direction": "UP",
-      "score": 95.3717047576786,
-      "freshness_score": 99.99312613335616,
-      "confidence": 77.73791335420171,
-      "freshness": "NEW",
-      "deep_selection_tier": "not_selected"
-    },
-    {
-      "rank": 8,
-      "symbol": "PAF.L",
-      "direction": "UP",
-      "score": 91.92012192982331,
-      "freshness_score": 99.79458376992531,
-      "confidence": 81.79561560143863,
-      "freshness": "NEW",
-      "deep_selection_tier": "not_selected"
-    },
-    {
-      "rank": 9,
-      "symbol": "IB1T.PA",
-      "direction": "UP",
-      "score": 91.33464806910293,
-      "freshness_score": 98.95626009497903,
-      "confidence": 71.58400107575159,
-      "freshness": "NEW",
-      "deep_selection_tier": "not_selected"
-    },
-    {
-      "rank": 10,
-      "symbol": "ALI1.DE",
-      "direction": "UP",
-      "score": 90.65568352693533,
-      "freshness_score": 99.76180550622722,
-      "confidence": 70.73763525514447,
-      "freshness": "NEW",
-      "deep_selection_tier": "not_selected"
-    },
-    {
-      "rank": 11,
-      "symbol": "BAVA.CO",
-      "direction": "UP",
-      "score": 92.14090167593045,
-      "freshness_score": 96.1415567037655,
-      "confidence": 73.46093050030757,
-      "freshness": "NEW",
-      "deep_selection_tier": "not_selected"
-    }
-  ],
+  "fresh_bullish_top10": [],
   "fresh_bearish_top10": [
     {
-      "rank": 3,
-      "symbol": "XPLRA.OL",
+      "rank": 1,
+      "symbol": "NXH",
       "direction": "DOWN",
-      "score": 99.09055088806585,
-      "freshness_score": 98.72159872399752,
-      "confidence": 85.00842969191034,
-      "freshness": "NEW",
-      "deep_selection_tier": "not_selected"
-    },
-    {
-      "rank": 12,
-      "symbol": "TTMI",
-      "direction": "DOWN",
-      "score": 94.56103636143415,
-      "freshness_score": 89.43471209152807,
-      "confidence": 85.16976069341243,
-      "freshness": "NEW",
-      "deep_selection_tier": "not_selected"
-    },
-    {
-      "rank": 13,
-      "symbol": "NITRO.ST",
-      "direction": "DOWN",
-      "score": 89.41568532953482,
-      "freshness_score": 99.779695968946,
-      "confidence": 67.562704242947,
-      "freshness": "NEW",
-      "deep_selection_tier": "core"
-    },
-    {
-      "rank": 14,
-      "symbol": "LYTS",
-      "direction": "DOWN",
-      "score": 91.12598279160825,
-      "freshness_score": 95.11191881316785,
-      "confidence": 72.3274162592186,
-      "freshness": "NEW",
-      "deep_selection_tier": "not_selected"
-    },
-    {
-      "rank": 15,
-      "symbol": "AOSL",
-      "direction": "DOWN",
-      "score": 93.47701132162592,
-      "freshness_score": 88.4300845523016,
-      "confidence": 77.68226179962545,
-      "freshness": "NEW",
-      "deep_selection_tier": "not_selected"
-    },
-    {
-      "rank": 18,
-      "symbol": "EAAS.L",
-      "direction": "DOWN",
-      "score": 93.45406224329831,
-      "freshness_score": 80.9733734655389,
-      "confidence": 81.41060955846748,
-      "freshness": "NEW",
-      "deep_selection_tier": "not_selected"
-    },
-    {
-      "rank": 19,
-      "symbol": "BIRK",
-      "direction": "DOWN",
-      "score": 88.99348045704811,
-      "freshness_score": 90.34537659447358,
-      "confidence": 73.45755312914045,
-      "freshness": "NEW",
-      "deep_selection_tier": "not_selected"
-    },
-    {
-      "rank": 20,
-      "symbol": "ONT",
-      "direction": "DOWN",
-      "score": 88.27979784713422,
-      "freshness_score": 91.8591075328193,
-      "confidence": 68.66043780935455,
-      "freshness": "NEW",
-      "deep_selection_tier": "not_selected"
-    },
-    {
-      "rank": 22,
-      "symbol": "DKS",
-      "direction": "DOWN",
-      "score": 88.99154752427745,
-      "freshness_score": 87.05039412760519,
-      "confidence": 71.93833237833299,
-      "freshness": "NEW",
-      "deep_selection_tier": "not_selected"
-    },
-    {
-      "rank": 24,
-      "symbol": "PDFS",
-      "direction": "DOWN",
-      "score": 85.7426532161241,
-      "freshness_score": 93.7873501014033,
-      "confidence": 63.89513320050997,
+      "score": 82.07941776251953,
+      "freshness_score": 64.53098397955364,
+      "confidence": 60.10036391316252,
       "freshness": "NEW",
       "deep_selection_tier": "not_selected"
     }
