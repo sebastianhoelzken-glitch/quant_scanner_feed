@@ -1,0 +1,15 @@
+{
+  "version": "0.1-research-enhancements",
+  "diagnostic_only": true,
+  "main_scores_changed": false,
+  "main_ranks_changed": false,
+  "rows": 1000,
+  "top10_median_lineage_confidence_v2": 83.60522727272728,
+  "tier_counts": {
+    "high": 767,
+    "medium": 122,
+    "very_high": 83,
+    "low": 28
+  },
+  "semantics": "Source-aware reliability overlay. It never changes Exact scores, ranks or eligibility."
+}
