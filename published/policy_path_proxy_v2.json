@@ -1,0 +1,21 @@
+{
+  "version": "0.2-policy-path-proxy",
+  "status": "complete",
+  "fed": {
+    "effr_pct": 3.63,
+    "us3m_pct": 3.87,
+    "us2y_pct": 4.24,
+    "us3m_minus_effr_bps": 24.00000000000002,
+    "us2y_minus_effr_bps": 61.00000000000003,
+    "us2y_minus_us3m_bps": 37.000000000000014,
+    "near_term_bias": "roughly_balanced",
+    "medium_term_bias": "tightening_bias"
+  },
+  "ecb": {
+    "deposit_rate_pct": 2.25,
+    "de2y_pct": 2.84,
+    "de2y_minus_deposit_bps": 58.999999999999986,
+    "medium_term_bias": "tightening_bias"
+  },
+  "guardrail": "Still not meeting-by-meeting OIS/futures pricing. This v2 separates near-term US front-end pressure (3M) from medium-term 2Y pressure and keeps ECB as a 2Y proxy."
+}
