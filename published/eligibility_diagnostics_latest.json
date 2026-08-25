@@ -7,7 +7,7 @@
     "exclusion_reason_counts": {
       "insufficient median EUR turnover": 232,
       "price < \u20ac2.00": 162,
-      "market cap < \u20ac250,000,000": 144,
+      "market cap < \u20ac250,000,000": 146,
       "insufficient price history": 18,
       "data confidence < 55": 12,
       "market cap EUR unavailable": 6,
@@ -19,7 +19,7 @@
     "exclusion_category_counts": {
       "liquidity": 233,
       "price": 163,
-      "market_cap": 150,
+      "market_cap": 152,
       "price_history": 18,
       "data_confidence": 12,
       "asset_type": 1,

@@ -121,7 +121,7 @@
       "direction": "DOWN",
       "score": 98.89869801163704,
       "freshness_score": 98.10722800268164,
-      "confidence": 89.20404304103891,
+      "confidence": 89.21138151497763,
       "freshness": "NEW",
       "deep_selection_tier": "not_selected"
     },
@@ -131,7 +131,7 @@
       "direction": "DOWN",
       "score": 97.34274342732368,
       "freshness_score": 98.72635418629238,
-      "confidence": 86.73503214301525,
+      "confidence": 86.74213710701135,
       "freshness": "NEW",
       "deep_selection_tier": "not_selected"
     },
@@ -141,7 +141,7 @@
       "direction": "DOWN",
       "score": 97.02931951966976,
       "freshness_score": 93.28559264208505,
-      "confidence": 86.13964506719302,
+      "confidence": 86.14670299408441,
       "freshness": "NEW",
       "deep_selection_tier": "not_selected"
     },
@@ -151,7 +151,7 @@
       "direction": "DOWN",
       "score": 96.54881270070452,
       "freshness_score": 94.3732972036629,
-      "confidence": 86.22358362589729,
+      "confidence": 86.2305694407098,
       "freshness": "NEW",
       "deep_selection_tier": "not_selected"
     },
@@ -191,7 +191,7 @@
       "direction": "DOWN",
       "score": 85.12753159412172,
       "freshness_score": 99.78736206225597,
-      "confidence": 63.82878089511171,
+      "confidence": 63.83405266073364,
       "freshness": "NEW",
       "deep_selection_tier": "not_selected"
     },
@@ -211,7 +211,7 @@
       "direction": "DOWN",
       "score": 89.76896493627495,
       "freshness_score": 84.5126195760447,
-      "confidence": 73.64122091451496,
+      "confidence": 73.64718924341985,
       "freshness": "NEW",
       "deep_selection_tier": "not_selected"
     }
