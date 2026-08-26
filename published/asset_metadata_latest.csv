@@ -1,0 +1,31 @@
+symbol,name,sector,industry,metadata_source,sector_known,industry_known,metadata_updated_at_utc
+AVAH,Aveanna Healthcare Holdings Inc.,Healthcare,Medical Care Facilities,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+HALO,"Halozyme Therapeutics, Inc.",Healthcare,Biotechnology,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+KIN.BR,Kinepolis Group NV,Communication Services,Entertainment,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+HPE,Hewlett Packard Enterprise Company,Technology,Communication Equipment,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+GH,"Guardant Health, Inc.",Healthcare,Diagnostics & Research,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+SSRM,SSR Mining Inc.,Basic Materials,Gold,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+ERO,Ero Copper Corp.,Basic Materials,Copper,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+PR,Permian Resources Corporation,Energy,Oil & Gas E&P,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+WT,"WisdomTree, Inc.",Financial Services,Asset Management,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+SM,SM Energy Company,Energy,Oil & Gas E&P,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+IMAX,IMAX Corporation,Communication Services,Entertainment,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+TGB,Trekor Metals Limited,Basic Materials,Copper,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+REP.MC,"Repsol, S.A.",Energy,Oil & Gas Integrated,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+CAKE,The Cheesecake Factory Incorporated,Consumer Cyclical,Restaurants,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+CART,Maplebear Inc.,Consumer Cyclical,Internet Retail,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+SBLK,Star Bulk Carriers Corp.,Industrials,Marine Shipping,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+DK,"Delek US Holdings, Inc.",Energy,Oil & Gas Refining & Marketing,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+BEN,Franklin Templeton Inc.,Financial Services,Asset Management,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+CRGY,Crescent Energy Company,Energy,Oil & Gas E&P,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+NIQ,NIQ,Unknown,Unknown,unavailable,0,0,2026-08-26T05:23:25.520890+00:00
+APA,APA Corporation,Energy,Oil & Gas E&P,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+QNST,"QuinStreet, Inc.",Communication Services,Advertising Agencies,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+BION.SW,BB Biotech AG,Healthcare,Biotechnology,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+PARR,"Par Pacific Holdings, Inc.",Energy,Oil & Gas Refining & Marketing,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+JHX,James Hardie Industries plc,Basic Materials,Building Materials,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+TWST,Twist Bioscience Corporation,Healthcare,Diagnostics & Research,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+NTAP,"NetApp, Inc.",Technology,Software - Infrastructure,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+KRX.IR,Kingspan Group plc,Industrials,Building Products & Equipment,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+IAG,IAMGOLD Corporation,Basic Materials,Gold,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
+OMV.VI,OMV Aktiengesellschaft,Energy,Oil & Gas Integrated,yahoo_get_info,1,1,2026-08-26T05:23:25.520890+00:00
