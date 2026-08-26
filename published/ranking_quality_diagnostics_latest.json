@@ -62,12 +62,12 @@
       "min_data_confidence": 64.90909090909092,
       "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 1,
-      "median_market_cap_eur": 4839665419.889897,
+      "median_market_cap_eur": 4863546358.330069,
       "market_cap_buckets": {
         "micro_250m_1b": 1,
-        "small_1_5b": 13,
+        "small_1_5b": 12,
         "mid_5_20b": 9,
-        "large_20_100b": 2,
+        "large_20_100b": 3,
         "mega_100b_plus": 0,
         "unknown": 0
       },
@@ -83,35 +83,45 @@
       "rows": 50,
       "component_present": {
         "quality_score": 49,
-        "revisions_score": 49,
+        "revisions_score": 48,
         "valuation_score": 49
       },
       "component_missing": {
         "quality_score": 1,
-        "revisions_score": 1,
+        "revisions_score": 2,
         "valuation_score": 1
       },
       "complete_core_component_rows": 47,
-      "sparse_core_component_rows": 0,
-      "median_data_confidence": 69.05681818181819,
-      "min_data_confidence": 62.840909090909086,
+      "sparse_core_component_rows": 1,
+      "median_data_confidence": 68.88636363636364,
+      "min_data_confidence": 60.0,
       "below_60_confidence_rows": 0,
-      "below_65_confidence_rows": 2,
-      "median_market_cap_eur": 4851605889.109983,
+      "below_65_confidence_rows": 3,
+      "median_market_cap_eur": 5857832415.932888,
       "market_cap_buckets": {
         "micro_250m_1b": 6,
-        "small_1_5b": 20,
-        "mid_5_20b": 15,
-        "large_20_100b": 8,
+        "small_1_5b": 19,
+        "mid_5_20b": 14,
+        "large_20_100b": 10,
         "mega_100b_plus": 1,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 23,
-        "adaptive": 27,
+        "core": 22,
+        "adaptive": 28,
         "unknown": 0
       },
-      "sparse_examples": []
+      "sparse_examples": [
+        {
+          "symbol": "0H00.IL",
+          "rank": 48,
+          "missing": [
+            "quality",
+            "revisions"
+          ],
+          "data_confidence": 60.0
+        }
+      ]
     }
   }
 }

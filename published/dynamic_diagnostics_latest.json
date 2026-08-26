@@ -27,18 +27,18 @@
       "label": "rotating"
     },
     {
-      "symbol": "HPE",
-      "rank": 4,
-      "consecutive_top10": 2,
-      "consecutive_top25": 2,
-      "label": "rotating"
-    },
-    {
       "symbol": "GH",
-      "rank": 5,
+      "rank": 4,
       "consecutive_top10": 1,
       "consecutive_top25": 1,
       "label": "new_top25"
+    },
+    {
+      "symbol": "HPE",
+      "rank": 5,
+      "consecutive_top10": 2,
+      "consecutive_top25": 2,
+      "label": "rotating"
     },
     {
       "symbol": "SSRM",
@@ -48,14 +48,14 @@
       "label": "rotating"
     },
     {
-      "symbol": "ERO",
+      "symbol": "PR",
       "rank": 7,
-      "consecutive_top10": 5,
-      "consecutive_top25": 6,
-      "label": "persistent_top10"
+      "consecutive_top10": 1,
+      "consecutive_top25": 4,
+      "label": "rotating"
     },
     {
-      "symbol": "PR",
+      "symbol": "SM",
       "rank": 8,
       "consecutive_top10": 0,
       "consecutive_top25": 4,
@@ -69,84 +69,84 @@
       "label": "new_top25"
     },
     {
-      "symbol": "SM",
+      "symbol": "ERO",
       "rank": 10,
       "consecutive_top10": 0,
-      "consecutive_top25": 4,
-      "label": "rotating"
+      "consecutive_top25": 6,
+      "label": "persistent_top25"
     }
   ],
   "emerging_alpha_candidates": 182,
   "emerging_alpha_top10": [
     {
       "rank": 1,
-      "symbol": "IRWD",
-      "score": 90.22966335161134,
-      "main_rank": 37,
-      "sector_neutral_score": 99.2992992992993
+      "symbol": "CNQ",
+      "score": 88.04780807317418,
+      "main_rank": 58,
+      "sector_neutral_score": 91.991991991992
     },
     {
       "rank": 2,
-      "symbol": "CNQ",
-      "score": 87.27066035017361,
-      "main_rank": 65,
-      "sector_neutral_score": 89.28928928928929
+      "symbol": "IAG",
+      "score": 87.16599666460493,
+      "main_rank": 31,
+      "sector_neutral_score": 96.1961961961962
     },
     {
       "rank": 3,
-      "symbol": "IAG",
-      "score": 86.83923803836093,
-      "main_rank": 29,
-      "sector_neutral_score": 94.8948948948949
+      "symbol": "DK",
+      "score": 85.25758823177304,
+      "main_rank": 16,
+      "sector_neutral_score": 97.8978978978979
     },
     {
       "rank": 4,
-      "symbol": "ASML.AS",
-      "score": 84.7362455378047,
-      "main_rank": 185,
-      "sector_neutral_score": 98.7987987987988
+      "symbol": "RIGL",
+      "score": 84.38411409114539,
+      "main_rank": 65,
+      "sector_neutral_score": 91.4914914914915
     },
     {
       "rank": 5,
-      "symbol": "DK",
-      "score": 84.68573576573714,
-      "main_rank": 17,
-      "sector_neutral_score": 96.3963963963964
+      "symbol": "KURA",
+      "score": 84.34181922352018,
+      "main_rank": 97,
+      "sector_neutral_score": 86.88688688688688
     },
     {
       "rank": 6,
-      "symbol": "REP.MC",
-      "score": 83.71723353272742,
-      "main_rank": 13,
-      "sector_neutral_score": 96.8968968968969
+      "symbol": "APA",
+      "score": 83.28132398586331,
+      "main_rank": 20,
+      "sector_neutral_score": 97.4974974974975
     },
     {
       "rank": 7,
-      "symbol": "KURA",
-      "score": 83.58131509029357,
-      "main_rank": 102,
-      "sector_neutral_score": 83.98398398398398
+      "symbol": "PRU",
+      "score": 83.16410228699561,
+      "main_rank": 56,
+      "sector_neutral_score": 92.49249249249249
     },
     {
       "rank": 8,
-      "symbol": "APA",
-      "score": 82.78755368380973,
-      "main_rank": 21,
-      "sector_neutral_score": 95.7957957957958
+      "symbol": "TRLV",
+      "score": 82.69403872693195,
+      "main_rank": 60,
+      "sector_neutral_score": 91.3913913913914
     },
     {
       "rank": 9,
-      "symbol": "TRLV",
-      "score": 82.10941887819264,
-      "main_rank": 61,
-      "sector_neutral_score": 89.7897897897898
+      "symbol": "REP.MC",
+      "score": 82.52048092573851,
+      "main_rank": 21,
+      "sector_neutral_score": 97.3973973973974
     },
     {
       "rank": 10,
       "symbol": "SLDB",
-      "score": 82.00592045508849,
-      "main_rank": 123,
-      "sector_neutral_score": 81.08108108108108
+      "score": 82.45634092926561,
+      "main_rank": 128,
+      "sector_neutral_score": 82.88288288288288
     }
   ],
   "challenger_500_500": {
