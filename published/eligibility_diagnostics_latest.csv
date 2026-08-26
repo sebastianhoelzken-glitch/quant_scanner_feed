@@ -1,9 +1,10 @@
 category,current_count,previous_count,delta
 asset_type,1,1,0
-data_confidence,12,11,1
+data_confidence,13,12,1
 delisted,1,1,0
-duplicate_listing,0,4,-4
-liquidity,233,229,4
-market_cap,152,160,-8
-price,163,166,-3
-price_history,18,17,1
+duplicate_listing,3,0,3
+liquidity,232,233,-1
+market_cap,163,152,11
+price,166,163,3
+price_history,19,18,1
+stale_price,1,0,1
