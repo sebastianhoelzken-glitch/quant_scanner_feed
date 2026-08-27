@@ -1,0 +1,9 @@
+{
+  "version": "0.1-metadata-enrichment",
+  "generated_at_utc": "2026-08-27T05:14:06.148783+00:00",
+  "rows": 30,
+  "top10_rows": 10,
+  "top10_sector_coverage_pct": 100.0,
+  "top10_industry_coverage_pct": 100.0,
+  "guardrail": "Persisted diagnostic metadata only. Missing classifications remain Unknown; classifications are never guessed. Exact scores/ranks are unchanged."
+}
