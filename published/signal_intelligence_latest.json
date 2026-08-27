@@ -4,152 +4,152 @@
   "main_scores_changed": false,
   "main_ranks_changed": false,
   "lifecycle_rows": 1000,
-  "confirmation_rows": 367,
-  "confirmed_rows": 133,
-  "false_breakout_risk_rows": 52,
+  "confirmation_rows": 242,
+  "confirmed_rows": 57,
+  "false_breakout_risk_rows": 49,
   "confirmation_data_mode": "close_based; high/low/volume/ATR are not fabricated when absent from persistent price_history",
   "confirmed_top10": [
     {
-      "symbol": "EGO",
+      "symbol": "ATM.L",
       "direction": "UP",
-      "score": 98.4979413641666,
-      "confirmation": 99.69520702514181,
+      "score": 99.50634712521114,
+      "confirmation": 99.99999999999999,
+      "freshness": "CONTINUING"
+    },
+    {
+      "symbol": "CRNA.OL",
+      "direction": "UP",
+      "score": 98.60665496032561,
+      "confirmation": 99.99999999999999,
+      "freshness": "CONTINUING"
+    },
+    {
+      "symbol": "FCM.L",
+      "direction": "UP",
+      "score": 97.42782804485418,
+      "confirmation": 99.99999999999999,
       "freshness": "CONTINUING"
     },
     {
       "symbol": "BMNR",
       "direction": "UP",
-      "score": 98.13702706938129,
-      "confirmation": 98.02817123977346,
+      "score": 96.91373845545156,
+      "confirmation": 93.93768569496702,
       "freshness": "CONTINUING"
     },
     {
-      "symbol": "ATM.L",
+      "symbol": "ANF",
       "direction": "UP",
-      "score": 97.97328338686864,
-      "confirmation": 99.99999999999999,
+      "score": 94.9865615833612,
+      "confirmation": 89.99999999999999,
+      "freshness": "NEW"
+    },
+    {
+      "symbol": "VIR",
+      "direction": "UP",
+      "score": 94.43168263758868,
+      "confirmation": 98.78258953965367,
       "freshness": "CONTINUING"
     },
     {
-      "symbol": "FCX",
+      "symbol": "BHVN",
       "direction": "UP",
-      "score": 97.12525227763302,
-      "confirmation": 97.85347156723515,
+      "score": 93.54335253612895,
+      "confirmation": 88.2960227637774,
+      "freshness": "NEW"
+    },
+    {
+      "symbol": "TRMED.OL",
+      "direction": "UP",
+      "score": 91.97622309453733,
+      "confirmation": 82.2472175300899,
+      "freshness": "CONTINUING"
+    },
+    {
+      "symbol": "SRAIL.SW",
+      "direction": "UP",
+      "score": 91.71427890782753,
+      "confirmation": 89.99999999999999,
+      "freshness": "NEW"
+    },
+    {
+      "symbol": "BZ",
+      "direction": "UP",
+      "score": 90.98319153854106,
+      "confirmation": 87.60717268114345,
+      "freshness": "NEW"
+    }
+  ],
+  "false_breakout_risk_top10": [
+    {
+      "symbol": "HOOD",
+      "direction": "UP",
+      "confirmation": 35.563200621066095,
       "freshness": "CONTINUING"
     },
     {
       "symbol": "TLW.L",
       "direction": "UP",
-      "score": 97.09141838838832,
-      "confirmation": 94.9633189046378,
+      "confirmation": 28.023073444283447,
       "freshness": "CONTINUING"
     },
     {
-      "symbol": "CAI",
+      "symbol": "NYKD.OL",
       "direction": "UP",
-      "score": 96.41541945800992,
-      "confirmation": 89.99999999999999,
+      "confirmation": 24.529852477265457,
       "freshness": "CONTINUING"
     },
     {
-      "symbol": "IAG",
+      "symbol": "MPL.L",
       "direction": "UP",
-      "score": 96.41319787170386,
-      "confirmation": 96.16208602585931,
+      "confirmation": 25.537374755303656,
       "freshness": "CONTINUING"
     },
     {
-      "symbol": "FSM",
-      "direction": "UP",
-      "score": 96.2533232524141,
-      "confirmation": 96.88816294547212,
-      "freshness": "CONTINUING"
-    },
-    {
-      "symbol": "KGC",
-      "direction": "UP",
-      "score": 96.21576392759425,
-      "confirmation": 99.99999999999999,
-      "freshness": "CONTINUING"
-    },
-    {
-      "symbol": "SSRM",
-      "direction": "UP",
-      "score": 96.2116965431575,
-      "confirmation": 95.92332929567573,
-      "freshness": "CONTINUING"
-    }
-  ],
-  "false_breakout_risk_top10": [
-    {
-      "symbol": "VIR",
-      "direction": "UP",
-      "confirmation": 28.713431702467552,
-      "freshness": "CONTINUING"
-    },
-    {
-      "symbol": "MRVL",
-      "direction": "UP",
-      "confirmation": 33.814624232413905,
-      "freshness": "NEW"
-    },
-    {
-      "symbol": "EXK",
-      "direction": "UP",
-      "confirmation": 20.205766645671307,
-      "freshness": "CONTINUING"
-    },
-    {
-      "symbol": "GLXY",
-      "direction": "UP",
-      "confirmation": 38.59184382392348,
-      "freshness": "NEW"
-    },
-    {
-      "symbol": "AG",
-      "direction": "UP",
-      "confirmation": 21.971855134491154,
-      "freshness": "CONTINUING"
-    },
-    {
-      "symbol": "IT",
-      "direction": "UP",
-      "confirmation": 35.56682327201906,
-      "freshness": "NEW"
-    },
-    {
-      "symbol": "GDR.L",
-      "direction": "UP",
-      "confirmation": 18.63382721669473,
-      "freshness": "NEW"
-    },
-    {
-      "symbol": "DNN",
-      "direction": "UP",
-      "confirmation": 10.054786396093697,
-      "freshness": "CONTINUING"
-    },
-    {
-      "symbol": "HYLN",
+      "symbol": "QFIN",
       "direction": "DOWN",
-      "confirmation": 36.26541769764835,
+      "confirmation": 24.2108824748485,
+      "freshness": "NEW"
+    },
+    {
+      "symbol": "HUNT.OL",
+      "direction": "UP",
+      "confirmation": 25.37470450700685,
       "freshness": "CONTINUING"
     },
     {
-      "symbol": "DC",
+      "symbol": "METSO.HE",
       "direction": "UP",
-      "confirmation": 38.46249117753754,
+      "confirmation": 38.859411390234214,
+      "freshness": "CONTINUING"
+    },
+    {
+      "symbol": "VIRT",
+      "direction": "UP",
+      "confirmation": 39.41980737369202,
+      "freshness": "CONTINUING"
+    },
+    {
+      "symbol": "THX.L",
+      "direction": "UP",
+      "confirmation": 32.87144391483759,
+      "freshness": "CONTINUING"
+    },
+    {
+      "symbol": "BO.CO",
+      "direction": "UP",
+      "confirmation": 23.771213316824795,
       "freshness": "NEW"
     }
   ],
   "portfolio_top5": [
     {
       "portfolio_slot": 1,
-      "symbol": "BEN",
-      "main_rank": 17,
-      "consensus_score": 73.64037518040291,
-      "portfolio_base_score": 74.19672872286287,
-      "portfolio_selection_score": 74.19672872286287,
+      "symbol": "PAGP",
+      "main_rank": 13,
+      "consensus_score": 76.37092638147156,
+      "portfolio_base_score": 74.80394238581555,
+      "portfolio_selection_score": 74.80394238581555,
       "sector": "Unknown",
       "industry": "Unknown",
       "max_corr_with_selected": 0.0,
@@ -161,61 +161,61 @@
     {
       "portfolio_slot": 2,
       "symbol": "DDI",
-      "main_rank": 41,
-      "consensus_score": 70.60869030924414,
-      "portfolio_base_score": 73.83991430719526,
-      "portfolio_selection_score": 73.83991430719526,
+      "main_rank": 45,
+      "consensus_score": 70.92713805303474,
+      "portfolio_base_score": 74.42080403007027,
+      "portfolio_selection_score": 74.42080403007027,
       "sector": "Communication Services",
       "industry": "Electronic Gaming & Multimedia",
-      "max_corr_with_selected": 0.25998764290741777,
-      "avg_corr_with_selected": 0.25998764290741777,
+      "max_corr_with_selected": 0.14362495101709966,
+      "avg_corr_with_selected": 0.14362495101709966,
       "sector_penalty": 0.0,
       "industry_penalty": 0.0,
       "correlation_penalty": 0.0
     },
     {
       "portfolio_slot": 3,
-      "symbol": "PARR",
-      "main_rank": 11,
-      "consensus_score": 75.13652712940511,
-      "portfolio_base_score": 73.04448540520688,
-      "portfolio_selection_score": 73.04448540520688,
-      "sector": "Energy",
-      "industry": "Oil & Gas Refining & Marketing",
-      "max_corr_with_selected": 0.12075387693852173,
-      "avg_corr_with_selected": -0.00543696771231366,
+      "symbol": "BION.SW",
+      "main_rank": 42,
+      "consensus_score": 71.49025057646716,
+      "portfolio_base_score": 74.18804445942689,
+      "portfolio_selection_score": 74.18804445942689,
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "max_corr_with_selected": -0.021748941774812743,
+      "avg_corr_with_selected": -0.0801310226626009,
       "sector_penalty": 0.0,
       "industry_penalty": 0.0,
       "correlation_penalty": 0.0
     },
     {
       "portfolio_slot": 4,
-      "symbol": "DAC",
-      "main_rank": 46,
-      "consensus_score": 69.75255208769303,
-      "portfolio_base_score": 68.51496211263317,
-      "portfolio_selection_score": 68.51496211263317,
-      "sector": "Industrials",
-      "industry": "Marine Shipping",
-      "max_corr_with_selected": 0.18484321738796314,
-      "avg_corr_with_selected": 0.040147812984146325,
+      "symbol": "PARR",
+      "main_rank": 20,
+      "consensus_score": 74.20399912871991,
+      "portfolio_base_score": 71.58813032794204,
+      "portfolio_selection_score": 71.58813032794204,
+      "sector": "Energy",
+      "industry": "Oil & Gas Refining & Marketing",
+      "max_corr_with_selected": 0.3351246093840409,
+      "avg_corr_with_selected": 0.1521375538574755,
       "sector_penalty": 0.0,
       "industry_penalty": 0.0,
       "correlation_penalty": 0.0
     },
     {
       "portfolio_slot": 5,
-      "symbol": "PR",
-      "main_rank": 7,
-      "consensus_score": 76.13991402152695,
-      "portfolio_base_score": 73.92197255822174,
-      "portfolio_selection_score": 56.92197255822174,
-      "sector": "Unknown",
-      "industry": "Unknown",
-      "max_corr_with_selected": 0.3245354523901382,
-      "avg_corr_with_selected": 0.03460675883490505,
+      "symbol": "IRWD",
+      "main_rank": 51,
+      "consensus_score": 70.62358147097889,
+      "portfolio_base_score": 73.51037907504362,
+      "portfolio_selection_score": 66.51037907504362,
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "max_corr_with_selected": 0.1320700888001697,
+      "avg_corr_with_selected": 0.02738509183382371,
       "sector_penalty": 7.0,
-      "industry_penalty": 10.0,
+      "industry_penalty": 0.0,
       "correlation_penalty": 0.0
     }
   ],
