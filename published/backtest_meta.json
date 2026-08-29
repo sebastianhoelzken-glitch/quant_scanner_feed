@@ -17,7 +17,7 @@
     "medium": 126,
     "long": 252
   },
-  "score_rows": 16770,
-  "price_rows": 735016,
+  "score_rows": 17770,
+  "price_rows": 739227,
   "warning": "Overlapping holding periods are not independent. Naive t-stats are diagnostic only."
 }
