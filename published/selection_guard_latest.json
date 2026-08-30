@@ -3,83 +3,83 @@
   "diagnostic_only_for_main_ranking": true,
   "main_scores_changed": false,
   "main_ranks_changed": false,
-  "entry_overlay_rows_joined": 458,
-  "top10_quality_present": 10,
+  "entry_overlay_rows_joined": 454,
+  "top10_quality_present": 9,
   "top10_revisions_present": 10,
-  "top10_complete_core_components": 10,
+  "top10_complete_core_components": 8,
   "top10_median_score_completeness": 95.00000000000001,
-  "high_conviction_candidates": 717,
-  "fresh_opportunity_candidates": 414,
+  "high_conviction_candidates": 721,
+  "fresh_opportunity_candidates": 422,
   "fresh_opportunity_top10": [
     {
       "rank": 1,
-      "symbol": "NVDA",
-      "score": 81.67591102112648,
+      "symbol": "AGS.BR",
+      "score": 80.77941574302226,
       "reason": "sharp_1run_rise",
-      "main_rank": 104
+      "main_rank": 70
     },
     {
       "rank": 2,
-      "symbol": "BMAG.VI",
-      "score": 81.67540100972195,
+      "symbol": "BITTI.HE",
+      "score": 80.15410555853484,
       "reason": "sharp_1run_rise",
-      "main_rank": 12
+      "main_rank": 268
     },
     {
       "rank": 3,
-      "symbol": "CMBT.BR",
-      "score": 81.5512786441143,
-      "reason": "sharp_1run_rise",
-      "main_rank": 2
+      "symbol": "NVDA",
+      "score": 79.81300246948487,
+      "reason": "rising_5run",
+      "main_rank": 92
     },
     {
       "rank": 4,
-      "symbol": "AGS.BR",
-      "score": 81.46049913770361,
-      "reason": "sharp_1run_rise",
-      "main_rank": 85
+      "symbol": "HPQ",
+      "score": 79.55016507732722,
+      "reason": "rising_5run",
+      "main_rank": 107
     },
     {
       "rank": 5,
-      "symbol": "AFRM",
-      "score": 81.4470726635947,
+      "symbol": "EQNR.OL",
+      "score": 79.41976133204734,
       "reason": "sharp_1run_rise",
-      "main_rank": 188
+      "main_rank": 205
     },
     {
       "rank": 6,
-      "symbol": "PARR",
-      "score": 80.8400005022929,
+      "symbol": "AAPL",
+      "score": 78.9866211469085,
       "reason": "sharp_1run_rise",
-      "main_rank": 5
+      "main_rank": 384
     },
     {
       "rank": 7,
-      "symbol": "ASB",
-      "score": 79.90910362038716,
+      "symbol": "DNOW",
+      "score": 78.94303089262712,
       "reason": "new_exact",
-      "main_rank": 212
+      "main_rank": 137
     },
     {
       "rank": 8,
-      "symbol": "SIE.DE",
-      "score": 78.82807666658589,
+      "symbol": "MSFT",
+      "score": 78.59887912708123,
       "reason": "sharp_1run_rise",
-      "main_rank": 264
+      "main_rank": 183
     },
     {
       "rank": 9,
-      "symbol": "ABNB",
-      "score": 78.56034102248812,
+      "symbol": "SAN",
+      "score": 78.59560915116268,
       "reason": "rising_5run",
-      "main_rank": 45
+      "main_rank": 128
     },
     {
       "rank": 10,
-      "symbol": "WKC",
-      "score": 78.33086664290599,
+      "symbol": "LYFT",
+      "score": 78.33745227086905,
       "reason": "sharp_1run_rise",
-      "main_rank": 55
+      "main_rank": 275
     }
   ],
   "portfolio_guard_rows": 30,

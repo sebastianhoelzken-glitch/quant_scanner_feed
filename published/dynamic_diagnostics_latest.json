@@ -6,147 +6,147 @@
   "persistence_history_available": true,
   "top10_persistence": [
     {
-      "symbol": "FRO",
+      "symbol": "CMBT.BR",
       "rank": 1,
       "consecutive_top10": 2,
-      "consecutive_top25": 2,
+      "consecutive_top25": 3,
       "label": "rotating"
     },
     {
-      "symbol": "CMBT.BR",
+      "symbol": "FRO",
       "rank": 2,
-      "consecutive_top10": 1,
-      "consecutive_top25": 2,
+      "consecutive_top10": 3,
+      "consecutive_top25": 3,
       "label": "rotating"
     },
     {
       "symbol": "NAT",
       "rank": 3,
-      "consecutive_top10": 1,
-      "consecutive_top25": 2,
+      "consecutive_top10": 2,
+      "consecutive_top25": 3,
       "label": "rotating"
     },
     {
       "symbol": "OKTA",
       "rank": 4,
-      "consecutive_top10": 2,
-      "consecutive_top25": 2,
+      "consecutive_top10": 3,
+      "consecutive_top25": 3,
       "label": "rotating"
     },
     {
-      "symbol": "PARR",
+      "symbol": "SM",
       "rank": 5,
-      "consecutive_top10": 1,
-      "consecutive_top25": 1,
-      "label": "new_top25"
-    },
-    {
-      "symbol": "DK",
-      "rank": 6,
       "consecutive_top10": 1,
       "consecutive_top25": 1,
       "label": "new_top25"
     },
     {
       "symbol": "AVAH",
-      "rank": 7,
-      "consecutive_top10": 7,
-      "consecutive_top25": 7,
+      "rank": 6,
+      "consecutive_top10": 8,
+      "consecutive_top25": 8,
       "label": "persistent_top10"
+    },
+    {
+      "symbol": "DK",
+      "rank": 7,
+      "consecutive_top10": 2,
+      "consecutive_top25": 2,
+      "label": "rotating"
     },
     {
       "symbol": "PAGP",
       "rank": 8,
-      "consecutive_top10": 1,
-      "consecutive_top25": 3,
-      "label": "rotating"
-    },
-    {
-      "symbol": "NIQ",
-      "rank": 9,
-      "consecutive_top10": 0,
+      "consecutive_top10": 2,
       "consecutive_top25": 4,
       "label": "rotating"
     },
     {
-      "symbol": "CAKE",
+      "symbol": "RNG",
+      "rank": 9,
+      "consecutive_top10": 0,
+      "consecutive_top25": 3,
+      "label": "rotating"
+    },
+    {
+      "symbol": "AMC",
       "rank": 10,
       "consecutive_top10": 0,
-      "consecutive_top25": 7,
-      "label": "persistent_top25"
+      "consecutive_top25": 3,
+      "label": "rotating"
     }
   ],
-  "emerging_alpha_candidates": 185,
+  "emerging_alpha_candidates": 183,
   "emerging_alpha_top10": [
     {
       "rank": 1,
-      "symbol": "BMAG.VI",
-      "score": 87.13581400768487,
-      "main_rank": 12,
-      "sector_neutral_score": 100.0
+      "symbol": "NVDA",
+      "score": 88.66601798678195,
+      "main_rank": 92,
+      "sector_neutral_score": 99.09909909909909
     },
     {
       "rank": 2,
-      "symbol": "NVDA",
-      "score": 86.49876364077181,
-      "main_rank": 104,
-      "sector_neutral_score": 87.78778778778779
+      "symbol": "MSFT",
+      "score": 85.56949254319721,
+      "main_rank": 183,
+      "sector_neutral_score": 97.8978978978979
     },
     {
       "rank": 3,
-      "symbol": "HMC",
-      "score": 85.0667010738633,
-      "main_rank": 127,
-      "sector_neutral_score": 99.1991991991992
+      "symbol": "AGS.BR",
+      "score": 85.47199348754768,
+      "main_rank": 70,
+      "sector_neutral_score": 91.3913913913914
     },
     {
       "rank": 4,
-      "symbol": "AGS.BR",
-      "score": 85.04289611619164,
-      "main_rank": 85,
-      "sector_neutral_score": 89.68968968968969
+      "symbol": "IRWD",
+      "score": 84.972384237092,
+      "main_rank": 88,
+      "sector_neutral_score": 95.8958958958959
     },
     {
       "rank": 5,
-      "symbol": "WKC",
-      "score": 84.13922470065694,
-      "main_rank": 55,
-      "sector_neutral_score": 92.7927927927928
+      "symbol": "CRM",
+      "score": 84.51900939349356,
+      "main_rank": 50,
+      "sector_neutral_score": 93.7937937937938
     },
     {
       "rank": 6,
-      "symbol": "WDAY",
-      "score": 84.0761025807264,
-      "main_rank": 20,
-      "sector_neutral_score": 97.4974974974975
+      "symbol": "IAG",
+      "score": 82.60912031499176,
+      "main_rank": 55,
+      "sector_neutral_score": 93.29329329329329
     },
     {
       "rank": 7,
-      "symbol": "ARGX.BR",
-      "score": 83.73020738724777,
-      "main_rank": 53,
-      "sector_neutral_score": 94.09409409409409
+      "symbol": "SRAIL.SW",
+      "score": 82.24855931121901,
+      "main_rank": 13,
+      "sector_neutral_score": 97.997997997998
     },
     {
       "rank": 8,
-      "symbol": "ABNB",
-      "score": 83.65362636649925,
-      "main_rank": 45,
-      "sector_neutral_score": 94.8948948948949
+      "symbol": "HPQ",
+      "score": 81.665053442453,
+      "main_rank": 107,
+      "sector_neutral_score": 86.58658658658659
     },
     {
       "rank": 9,
-      "symbol": "AFRM",
-      "score": 83.43494480736518,
-      "main_rank": 188,
-      "sector_neutral_score": 77.47747747747748
+      "symbol": "DOCM.SW",
+      "score": 81.13298437917048,
+      "main_rank": 11,
+      "sector_neutral_score": 98.2982982982983
     },
     {
       "rank": 10,
-      "symbol": "MU",
-      "score": 82.92000751498692,
-      "main_rank": 69,
-      "sector_neutral_score": 91.7917917917918
+      "symbol": "ABN.AS",
+      "score": 81.07372459081752,
+      "main_rank": 26,
+      "sector_neutral_score": 96.3963963963964
     }
   ],
   "challenger_500_500": {
@@ -154,10 +154,10 @@
     "core_target": 500,
     "total_target": 1000,
     "selected": 1000,
-    "overlap_with_live_600_400": 865,
-    "challenger_only": 135,
-    "live_only": 135,
-    "jaccard": 0.762114537444934,
+    "overlap_with_live_600_400": 868,
+    "challenger_only": 132,
+    "live_only": 132,
+    "jaccard": 0.7667844522968198,
     "semantics": "shadow selection diagnostic only; 500 dynamic core candidates plus 500 highest Stage-1 dynamic candidates, never changes Full Exact production selection"
   },
   "files": [
