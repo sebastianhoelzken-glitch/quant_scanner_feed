@@ -1,101 +1,30 @@
 {
   "version": "1.0-fresh-discovery-breakout",
-  "as_of": "2026-08-30",
-  "prior_as_of": "2026-08-29",
+  "as_of": "2026-08-31",
+  "prior_as_of": "2026-08-30",
   "diagnostic_only": true,
   "universe_rows": 2000,
-  "candidate_rows": 232,
-  "fresh_rows": 8,
-  "continuing_rows": 224,
+  "candidate_rows": 233,
+  "fresh_rows": 1,
+  "continuing_rows": 232,
   "direction_counts": {
-    "UP": 122,
+    "UP": 123,
     "DOWN": 110,
-    "MIXED": 1768
+    "MIXED": 1767
   },
   "fresh_bullish_top10": [
     {
       "rank": 1,
-      "symbol": "SNPS",
+      "symbol": "CONTX.OL",
       "direction": "UP",
-      "score": 86.64000157079603,
-      "freshness_score": 95.87571277461907,
-      "confidence": 67.35784981116474,
-      "freshness": "NEW",
-      "deep_selection_tier": "not_selected"
-    },
-    {
-      "rank": 2,
-      "symbol": "OCTV",
-      "direction": "UP",
-      "score": 87.0863183737658,
-      "freshness_score": 85.62377331289053,
-      "confidence": 69.05773030648747,
-      "freshness": "NEW",
-      "deep_selection_tier": "not_selected"
-    },
-    {
-      "rank": 7,
-      "symbol": "SLDB",
-      "direction": "UP",
-      "score": 83.2406749086287,
-      "freshness_score": 62.19452555177166,
-      "confidence": 60.205696635408266,
-      "freshness": "NEW",
-      "deep_selection_tier": "adaptive"
-    },
-    {
-      "rank": 8,
-      "symbol": "TRLV",
-      "direction": "UP",
-      "score": 81.40826774651299,
-      "freshness_score": 51.47024458157403,
-      "confidence": 57.18850072224012,
-      "freshness": "NEW",
-      "deep_selection_tier": "adaptive"
-    }
-  ],
-  "fresh_bearish_top10": [
-    {
-      "rank": 3,
-      "symbol": "WRBY",
-      "direction": "DOWN",
-      "score": 81.61380241130725,
-      "freshness_score": 89.70977451990287,
-      "confidence": 59.39409521556054,
-      "freshness": "NEW",
-      "deep_selection_tier": "not_selected"
-    },
-    {
-      "rank": 4,
-      "symbol": "RRR",
-      "direction": "DOWN",
-      "score": 83.5045446656114,
-      "freshness_score": 84.98992240586601,
-      "confidence": 60.062636836644195,
-      "freshness": "NEW",
-      "deep_selection_tier": "not_selected"
-    },
-    {
-      "rank": 5,
-      "symbol": "MNSO",
-      "direction": "DOWN",
-      "score": 86.13449961922979,
-      "freshness_score": 72.72471346318073,
-      "confidence": 64.66068963879283,
-      "freshness": "NEW",
-      "deep_selection_tier": "not_selected"
-    },
-    {
-      "rank": 6,
-      "symbol": "COGT",
-      "direction": "DOWN",
-      "score": 80.52709767282684,
-      "freshness_score": 80.65979830325043,
-      "confidence": 56.46825866173677,
+      "score": 96.96897958025073,
+      "freshness_score": 97.34041059625551,
+      "confidence": 79.98824271388074,
       "freshness": "NEW",
       "deep_selection_tier": "not_selected"
     }
   ],
+  "fresh_bearish_top10": [],
   "semantics": "price-only Stage-1 breakout discovery across the full discovery universe; NEW/REVERSAL requires absence or opposite direction in the immediately prior stored run; CONTINUING names are excluded from fresh top lists; never changes Main Exact scores or ranks",
   "files": [
     "discovery_breakouts_latest.csv",

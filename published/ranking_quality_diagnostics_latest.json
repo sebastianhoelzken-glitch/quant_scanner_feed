@@ -12,33 +12,33 @@
       "requested_top_n": 10,
       "rows": 10,
       "component_present": {
-        "quality_score": 9,
+        "quality_score": 10,
         "revisions_score": 10,
-        "valuation_score": 9
+        "valuation_score": 10
       },
       "component_missing": {
-        "quality_score": 1,
+        "quality_score": 0,
         "revisions_score": 0,
-        "valuation_score": 1
+        "valuation_score": 0
       },
-      "complete_core_component_rows": 8,
+      "complete_core_component_rows": 10,
       "sparse_core_component_rows": 0,
-      "median_data_confidence": 68.48863636363637,
-      "min_data_confidence": 63.43181818181818,
+      "median_data_confidence": 69.68181818181819,
+      "min_data_confidence": 66.8409090909091,
       "below_60_confidence_rows": 0,
-      "below_65_confidence_rows": 1,
-      "median_market_cap_eur": 4806812517.8137665,
+      "below_65_confidence_rows": 0,
+      "median_market_cap_eur": 3592190437.898141,
       "market_cap_buckets": {
-        "micro_250m_1b": 0,
+        "micro_250m_1b": 1,
         "small_1_5b": 6,
-        "mid_5_20b": 3,
+        "mid_5_20b": 2,
         "large_20_100b": 1,
         "mega_100b_plus": 0,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 4,
-        "adaptive": 6,
+        "core": 5,
+        "adaptive": 5,
         "unknown": 0
       },
       "sparse_examples": []
@@ -47,33 +47,33 @@
       "requested_top_n": 25,
       "rows": 25,
       "component_present": {
-        "quality_score": 24,
+        "quality_score": 23,
         "revisions_score": 25,
         "valuation_score": 23
       },
       "component_missing": {
-        "quality_score": 1,
+        "quality_score": 2,
         "revisions_score": 0,
         "valuation_score": 2
       },
-      "complete_core_component_rows": 22,
+      "complete_core_component_rows": 21,
       "sparse_core_component_rows": 0,
-      "median_data_confidence": 68.31818181818183,
+      "median_data_confidence": 68.6590909090909,
       "min_data_confidence": 63.43181818181818,
       "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 2,
-      "median_market_cap_eur": 4999925963.627534,
+      "median_market_cap_eur": 4970378653.904078,
       "market_cap_buckets": {
         "micro_250m_1b": 2,
         "small_1_5b": 11,
-        "mid_5_20b": 9,
-        "large_20_100b": 3,
+        "mid_5_20b": 7,
+        "large_20_100b": 5,
         "mega_100b_plus": 0,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 13,
-        "adaptive": 12,
+        "core": 11,
+        "adaptive": 14,
         "unknown": 0
       },
       "sparse_examples": []
@@ -82,33 +82,33 @@
       "requested_top_n": 50,
       "rows": 50,
       "component_present": {
-        "quality_score": 47,
-        "revisions_score": 49,
+        "quality_score": 48,
+        "revisions_score": 50,
         "valuation_score": 48
       },
       "component_missing": {
-        "quality_score": 3,
-        "revisions_score": 1,
+        "quality_score": 2,
+        "revisions_score": 0,
         "valuation_score": 2
       },
-      "complete_core_component_rows": 44,
+      "complete_core_component_rows": 46,
       "sparse_core_component_rows": 0,
-      "median_data_confidence": 68.6590909090909,
+      "median_data_confidence": 69.2840909090909,
       "min_data_confidence": 63.43181818181818,
       "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 2,
-      "median_market_cap_eur": 5341669301.977528,
+      "median_market_cap_eur": 5624210573.5710945,
       "market_cap_buckets": {
         "micro_250m_1b": 4,
-        "small_1_5b": 20,
-        "mid_5_20b": 15,
-        "large_20_100b": 9,
-        "mega_100b_plus": 2,
+        "small_1_5b": 19,
+        "mid_5_20b": 17,
+        "large_20_100b": 10,
+        "mega_100b_plus": 0,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 22,
-        "adaptive": 28,
+        "core": 21,
+        "adaptive": 29,
         "unknown": 0
       },
       "sparse_examples": []
