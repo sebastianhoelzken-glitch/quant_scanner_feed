@@ -3,83 +3,83 @@
   "diagnostic_only_for_main_ranking": true,
   "main_scores_changed": false,
   "main_ranks_changed": false,
-  "entry_overlay_rows_joined": 446,
+  "entry_overlay_rows_joined": 498,
   "top10_quality_present": 9,
-  "top10_revisions_present": 9,
+  "top10_revisions_present": 10,
   "top10_complete_core_components": 9,
   "top10_median_score_completeness": 95.00000000000001,
-  "high_conviction_candidates": 710,
-  "fresh_opportunity_candidates": 415,
+  "high_conviction_candidates": 716,
+  "fresh_opportunity_candidates": 391,
   "fresh_opportunity_top10": [
     {
       "rank": 1,
-      "symbol": "DAR",
-      "score": 84.26615394059469,
+      "symbol": "BION.SW",
+      "score": 88.02431697127817,
       "reason": "sharp_1run_rise",
       "main_rank": 16
     },
     {
       "rank": 2,
-      "symbol": "PBF",
-      "score": 83.68365862162126,
+      "symbol": "SDF.DE",
+      "score": 84.85236314872698,
       "reason": "sharp_1run_rise",
-      "main_rank": 27
+      "main_rank": 46
     },
     {
       "rank": 3,
-      "symbol": "DSX",
-      "score": 82.70826080518229,
+      "symbol": "EC",
+      "score": 83.01601235840705,
       "reason": "sharp_1run_rise",
-      "main_rank": 38
+      "main_rank": 33
     },
     {
       "rank": 4,
-      "symbol": "RSKD",
-      "score": 82.2007299398439,
+      "symbol": "MAU.PA",
+      "score": 82.51397175393213,
       "reason": "sharp_1run_rise",
-      "main_rank": 126
+      "main_rank": 262
     },
     {
       "rank": 5,
-      "symbol": "PBR",
-      "score": 81.83234718911481,
-      "reason": "sharp_1run_rise",
-      "main_rank": 159
+      "symbol": "HRB",
+      "score": 82.42288113608039,
+      "reason": "new_exact",
+      "main_rank": 39
     },
     {
       "rank": 6,
-      "symbol": "OXY",
-      "score": 81.78433383491446,
+      "symbol": "TTE.PA",
+      "score": 82.07991473838396,
       "reason": "sharp_1run_rise",
-      "main_rank": 86
+      "main_rank": 96
     },
     {
       "rank": 7,
-      "symbol": "STNG",
-      "score": 81.60361620090424,
+      "symbol": "MGTX",
+      "score": 81.77003190928262,
       "reason": "sharp_1run_rise",
-      "main_rank": 310
+      "main_rank": 49
     },
     {
       "rank": 8,
-      "symbol": "PBR-A",
-      "score": 81.54901671244438,
+      "symbol": "NOVN.SW",
+      "score": 81.51800312717351,
       "reason": "sharp_1run_rise",
-      "main_rank": 109
+      "main_rank": 336
     },
     {
       "rank": 9,
-      "symbol": "MAX",
-      "score": 80.70125042202179,
-      "reason": "new_exact",
-      "main_rank": 383
+      "symbol": "WELL",
+      "score": 80.75794368322043,
+      "reason": "rising_5run",
+      "main_rank": 189
     },
     {
       "rank": 10,
-      "symbol": "NESTE.HE",
-      "score": 80.32507311895212,
-      "reason": "sharp_1run_rise",
-      "main_rank": 99
+      "symbol": "SAP.DE",
+      "score": 80.66950630336373,
+      "reason": "rising_5run",
+      "main_rank": 185
     }
   ],
   "portfolio_guard_rows": 30,
