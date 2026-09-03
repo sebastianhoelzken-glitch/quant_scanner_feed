@@ -27,18 +27,18 @@
       "min_data_confidence": 65.93181818181817,
       "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 0,
-      "median_market_cap_eur": 12490694621.930145,
+      "median_market_cap_eur": 4941373029.963536,
       "market_cap_buckets": {
         "micro_250m_1b": 0,
-        "small_1_5b": 4,
+        "small_1_5b": 5,
         "mid_5_20b": 2,
-        "large_20_100b": 3,
+        "large_20_100b": 2,
         "mega_100b_plus": 1,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 2,
-        "adaptive": 8,
+        "core": 3,
+        "adaptive": 7,
         "unknown": 0
       },
       "sparse_examples": []
@@ -62,13 +62,13 @@
       "min_data_confidence": 63.43181818181818,
       "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 1,
-      "median_market_cap_eur": 7125526944.114321,
+      "median_market_cap_eur": 7716031795.877014,
       "market_cap_buckets": {
-        "micro_250m_1b": 1,
+        "micro_250m_1b": 0,
         "small_1_5b": 10,
         "mid_5_20b": 9,
         "large_20_100b": 4,
-        "mega_100b_plus": 1,
+        "mega_100b_plus": 2,
         "unknown": 0
       },
       "selection_tiers": {
@@ -93,22 +93,22 @@
       },
       "complete_core_component_rows": 45,
       "sparse_core_component_rows": 0,
-      "median_data_confidence": 69.2840909090909,
+      "median_data_confidence": 69.3409090909091,
       "min_data_confidence": 63.43181818181818,
       "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 1,
-      "median_market_cap_eur": 6940261676.069094,
+      "median_market_cap_eur": 7785140806.968089,
       "market_cap_buckets": {
         "micro_250m_1b": 6,
-        "small_1_5b": 17,
-        "mid_5_20b": 16,
-        "large_20_100b": 9,
+        "small_1_5b": 16,
+        "mid_5_20b": 15,
+        "large_20_100b": 11,
         "mega_100b_plus": 2,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 13,
-        "adaptive": 37,
+        "core": 12,
+        "adaptive": 38,
         "unknown": 0
       },
       "sparse_examples": []

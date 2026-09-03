@@ -13,25 +13,25 @@
       "label": "rotating"
     },
     {
-      "symbol": "FRO",
+      "symbol": "CMBT.BR",
       "rank": 2,
+      "consecutive_top10": 6,
+      "consecutive_top25": 7,
+      "label": "persistent_top10"
+    },
+    {
+      "symbol": "FRO",
+      "rank": 3,
       "consecutive_top10": 7,
       "consecutive_top25": 7,
       "label": "persistent_top10"
     },
     {
       "symbol": "VLO",
-      "rank": 3,
+      "rank": 4,
       "consecutive_top10": 1,
       "consecutive_top25": 1,
       "label": "new_top25"
-    },
-    {
-      "symbol": "CMBT.BR",
-      "rank": 4,
-      "consecutive_top10": 6,
-      "consecutive_top25": 7,
-      "label": "persistent_top10"
     },
     {
       "symbol": "CRGY",
@@ -57,96 +57,96 @@
     {
       "symbol": "DELL",
       "rank": 8,
-      "consecutive_top10": 1,
+      "consecutive_top10": 0,
       "consecutive_top25": 1,
       "label": "new_top25"
     },
     {
-      "symbol": "DINO",
+      "symbol": "KIN.BR",
       "rank": 9,
       "consecutive_top10": 0,
       "consecutive_top25": 2,
       "label": "rotating"
     },
     {
-      "symbol": "OKTA",
+      "symbol": "ANF",
       "rank": 10,
       "consecutive_top10": 0,
-      "consecutive_top25": 7,
-      "label": "persistent_top25"
+      "consecutive_top25": 2,
+      "label": "rotating"
     }
   ],
-  "emerging_alpha_candidates": 180,
+  "emerging_alpha_candidates": 181,
   "emerging_alpha_top10": [
     {
       "rank": 1,
       "symbol": "RSKD",
-      "score": 88.77172735409246,
-      "main_rank": 25,
-      "sector_neutral_score": 96.8968968968969
+      "score": 88.34487097143416,
+      "main_rank": 27,
+      "sector_neutral_score": 95.995995995996
     },
     {
       "rank": 2,
       "symbol": "CNQ",
-      "score": 88.34815151149586,
-      "main_rank": 80,
-      "sector_neutral_score": 90.1901901901902
+      "score": 88.32911588965815,
+      "main_rank": 79,
+      "sector_neutral_score": 89.98998998999
     },
     {
       "rank": 3,
-      "symbol": "DEMANT.CO",
-      "score": 87.16878115838777,
-      "main_rank": 93,
-      "sector_neutral_score": 88.78878878878879
+      "symbol": "INGA.AS",
+      "score": 87.63408397983187,
+      "main_rank": 36,
+      "sector_neutral_score": 95.1951951951952
     },
     {
       "rank": 4,
-      "symbol": "INGA.AS",
-      "score": 86.96106029261539,
-      "main_rank": 39,
-      "sector_neutral_score": 95.09509509509509
+      "symbol": "DEMANT.CO",
+      "score": 87.40845230529224,
+      "main_rank": 86,
+      "sector_neutral_score": 89.1891891891892
     },
     {
       "rank": 5,
-      "symbol": "NN.AS",
-      "score": 86.21696528524961,
-      "main_rank": 83,
-      "sector_neutral_score": 89.88988988988989
+      "symbol": "A5G.IR",
+      "score": 86.57148124299572,
+      "main_rank": 43,
+      "sector_neutral_score": 94.49449449449449
     },
     {
       "rank": 6,
-      "symbol": "A5G.IR",
-      "score": 86.17574329674794,
-      "main_rank": 44,
-      "sector_neutral_score": 94.29429429429429
+      "symbol": "NN.AS",
+      "score": 86.43154563082052,
+      "main_rank": 75,
+      "sector_neutral_score": 90.39039039039038
     },
     {
       "rank": 7,
       "symbol": "IRWD",
-      "score": 86.0884539775119,
-      "main_rank": 36,
-      "sector_neutral_score": 95.5955955955956
+      "score": 85.87916265471947,
+      "main_rank": 37,
+      "sector_neutral_score": 96.29629629629629
     },
     {
       "rank": 8,
-      "symbol": "LYFT",
-      "score": 85.29293802471898,
-      "main_rank": 148,
-      "sector_neutral_score": 81.58158158158159
+      "symbol": "BHC",
+      "score": 84.20254857462305,
+      "main_rank": 124,
+      "sector_neutral_score": 84.58458458458459
     },
     {
       "rank": 9,
-      "symbol": "BHC",
-      "score": 84.72475362834817,
-      "main_rank": 122,
-      "sector_neutral_score": 85.18518518518519
+      "symbol": "BCRX",
+      "score": 83.62928046668415,
+      "main_rank": 42,
+      "sector_neutral_score": 94.5945945945946
     },
     {
       "rank": 10,
-      "symbol": "BCRX",
-      "score": 84.19832691400205,
-      "main_rank": 42,
-      "sector_neutral_score": 94.69469469469469
+      "symbol": "DLO",
+      "score": 82.89693124202361,
+      "main_rank": 56,
+      "sector_neutral_score": 92.8928928928929
     }
   ],
   "challenger_500_500": {

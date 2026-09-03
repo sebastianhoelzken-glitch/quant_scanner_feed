@@ -4,13 +4,13 @@
   "prior_as_of": "2026-09-02",
   "diagnostic_only": true,
   "universe_rows": 2000,
-  "candidate_rows": 361,
-  "fresh_rows": 129,
+  "candidate_rows": 362,
+  "fresh_rows": 130,
   "continuing_rows": 232,
   "direction_counts": {
     "UP": 151,
-    "DOWN": 210,
-    "MIXED": 1639
+    "DOWN": 211,
+    "MIXED": 1638
   },
   "fresh_bullish_top10": [
     {
