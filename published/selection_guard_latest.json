@@ -3,83 +3,83 @@
   "diagnostic_only_for_main_ranking": true,
   "main_scores_changed": false,
   "main_ranks_changed": false,
-  "entry_overlay_rows_joined": 498,
+  "entry_overlay_rows_joined": 480,
   "top10_quality_present": 9,
   "top10_revisions_present": 10,
   "top10_complete_core_components": 9,
   "top10_median_score_completeness": 95.00000000000001,
-  "high_conviction_candidates": 716,
-  "fresh_opportunity_candidates": 391,
+  "high_conviction_candidates": 707,
+  "fresh_opportunity_candidates": 387,
   "fresh_opportunity_top10": [
     {
       "rank": 1,
-      "symbol": "BION.SW",
-      "score": 88.02431697127817,
+      "symbol": "CNQ",
+      "score": 84.63715097317879,
       "reason": "sharp_1run_rise",
-      "main_rank": 16
+      "main_rank": 80
     },
     {
       "rank": 2,
-      "symbol": "SDF.DE",
-      "score": 84.85236314872698,
+      "symbol": "RSKD",
+      "score": 83.76156460451705,
       "reason": "sharp_1run_rise",
-      "main_rank": 46
+      "main_rank": 25
     },
     {
       "rank": 3,
-      "symbol": "EC",
-      "score": 83.01601235840705,
+      "symbol": "BHC",
+      "score": 83.69824846204874,
       "reason": "sharp_1run_rise",
-      "main_rank": 33
+      "main_rank": 122
     },
     {
       "rank": 4,
-      "symbol": "MAU.PA",
-      "score": 82.51397175393213,
+      "symbol": "DEMANT.CO",
+      "score": 83.69318322436676,
       "reason": "sharp_1run_rise",
-      "main_rank": 262
+      "main_rank": 93
     },
     {
       "rank": 5,
-      "symbol": "HRB",
-      "score": 82.42288113608039,
-      "reason": "new_exact",
-      "main_rank": 39
+      "symbol": "LYFT",
+      "score": 83.2823980538191,
+      "reason": "sharp_1run_rise",
+      "main_rank": 148
     },
     {
       "rank": 6,
-      "symbol": "TTE.PA",
-      "score": 82.07991473838396,
+      "symbol": "NN.AS",
+      "score": 82.19824161750824,
       "reason": "sharp_1run_rise",
-      "main_rank": 96
+      "main_rank": 83
     },
     {
       "rank": 7,
-      "symbol": "MGTX",
-      "score": 81.77003190928262,
-      "reason": "sharp_1run_rise",
-      "main_rank": 49
+      "symbol": "INGA.AS",
+      "score": 81.90155432051408,
+      "reason": "rising_5run",
+      "main_rank": 39
     },
     {
       "rank": 8,
-      "symbol": "NOVN.SW",
-      "score": 81.51800312717351,
+      "symbol": "NUVB",
+      "score": 81.73125511575242,
       "reason": "sharp_1run_rise",
-      "main_rank": 336
+      "main_rank": 161
     },
     {
       "rank": 9,
-      "symbol": "WELL",
-      "score": 80.75794368322043,
-      "reason": "rising_5run",
-      "main_rank": 189
+      "symbol": "DELL",
+      "score": 81.67721660157235,
+      "reason": "new_exact",
+      "main_rank": 8
     },
     {
       "rank": 10,
-      "symbol": "SAP.DE",
-      "score": 80.66950630336373,
-      "reason": "rising_5run",
-      "main_rank": 185
+      "symbol": "NU",
+      "score": 81.65372138827937,
+      "reason": "sharp_1run_rise",
+      "main_rank": 178
     }
   ],
   "portfolio_guard_rows": 30,
