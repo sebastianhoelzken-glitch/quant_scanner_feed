@@ -6,147 +6,147 @@
   "persistence_history_available": true,
   "top10_persistence": [
     {
-      "symbol": "PSX",
+      "symbol": "SNOW",
       "rank": 1,
+      "consecutive_top10": 1,
+      "consecutive_top25": 1,
+      "label": "new_top25"
+    },
+    {
+      "symbol": "CMBT.BR",
+      "rank": 2,
+      "consecutive_top10": 7,
+      "consecutive_top25": 8,
+      "label": "persistent_top10"
+    },
+    {
+      "symbol": "KIN.BR",
+      "rank": 3,
+      "consecutive_top10": 1,
+      "consecutive_top25": 3,
+      "label": "rotating"
+    },
+    {
+      "symbol": "DELL",
+      "rank": 4,
       "consecutive_top10": 1,
       "consecutive_top25": 2,
       "label": "rotating"
     },
     {
-      "symbol": "CMBT.BR",
-      "rank": 2,
-      "consecutive_top10": 6,
-      "consecutive_top25": 7,
-      "label": "persistent_top10"
-    },
-    {
-      "symbol": "FRO",
-      "rank": 3,
-      "consecutive_top10": 7,
-      "consecutive_top25": 7,
-      "label": "persistent_top10"
-    },
-    {
-      "symbol": "VLO",
-      "rank": 4,
+      "symbol": "DSX",
+      "rank": 5,
       "consecutive_top10": 1,
       "consecutive_top25": 1,
       "label": "new_top25"
     },
     {
       "symbol": "CRGY",
-      "rank": 5,
+      "rank": 6,
+      "consecutive_top10": 2,
+      "consecutive_top25": 3,
+      "label": "rotating"
+    },
+    {
+      "symbol": "DK",
+      "rank": 7,
       "consecutive_top10": 1,
       "consecutive_top25": 2,
       "label": "rotating"
     },
     {
-      "symbol": "NAT",
-      "rank": 6,
-      "consecutive_top10": 1,
-      "consecutive_top25": 7,
-      "label": "persistent_top25"
-    },
-    {
-      "symbol": "PARR",
-      "rank": 7,
-      "consecutive_top10": 1,
-      "consecutive_top25": 6,
-      "label": "persistent_top25"
-    },
-    {
-      "symbol": "DELL",
+      "symbol": "AVAH",
       "rank": 8,
+      "consecutive_top10": 1,
+      "consecutive_top25": 13,
+      "label": "persistent_top25"
+    },
+    {
+      "symbol": "HALO",
+      "rank": 9,
       "consecutive_top10": 0,
       "consecutive_top25": 1,
       "label": "new_top25"
     },
     {
-      "symbol": "KIN.BR",
-      "rank": 9,
-      "consecutive_top10": 0,
-      "consecutive_top25": 2,
-      "label": "rotating"
-    },
-    {
-      "symbol": "ANF",
+      "symbol": "OKTA",
       "rank": 10,
       "consecutive_top10": 0,
-      "consecutive_top25": 2,
-      "label": "rotating"
+      "consecutive_top25": 8,
+      "label": "persistent_top25"
     }
   ],
-  "emerging_alpha_candidates": 181,
+  "emerging_alpha_candidates": 156,
   "emerging_alpha_top10": [
     {
       "rank": 1,
-      "symbol": "RSKD",
-      "score": 88.34487097143416,
-      "main_rank": 27,
-      "sector_neutral_score": 95.995995995996
+      "symbol": "ENI.MI",
+      "score": 86.47514736247642,
+      "main_rank": 129,
+      "sector_neutral_score": 84.38438438438438
     },
     {
       "rank": 2,
-      "symbol": "CNQ",
-      "score": 88.32911588965815,
-      "main_rank": 79,
-      "sector_neutral_score": 89.98998998999
+      "symbol": "DVN",
+      "score": 85.61359844356114,
+      "main_rank": 47,
+      "sector_neutral_score": 94.1941941941942
     },
     {
       "rank": 3,
-      "symbol": "INGA.AS",
-      "score": 87.63408397983187,
-      "main_rank": 36,
-      "sector_neutral_score": 95.1951951951952
+      "symbol": "TTE.PA",
+      "score": 84.97377237638742,
+      "main_rank": 65,
+      "sector_neutral_score": 91.4914914914915
     },
     {
       "rank": 4,
-      "symbol": "DEMANT.CO",
-      "score": 87.40845230529224,
-      "main_rank": 86,
-      "sector_neutral_score": 89.1891891891892
+      "symbol": "A5G.IR",
+      "score": 84.68104785021454,
+      "main_rank": 16,
+      "sector_neutral_score": 97.8978978978979
     },
     {
       "rank": 5,
-      "symbol": "A5G.IR",
-      "score": 86.57148124299572,
-      "main_rank": 43,
-      "sector_neutral_score": 94.49449449449449
+      "symbol": "MAU.PA",
+      "score": 84.58285036118397,
+      "main_rank": 148,
+      "sector_neutral_score": 82.28228228228228
     },
     {
       "rank": 6,
-      "symbol": "NN.AS",
-      "score": 86.43154563082052,
-      "main_rank": 75,
-      "sector_neutral_score": 90.39039039039038
+      "symbol": "OMV.VI",
+      "score": 84.5289287704767,
+      "main_rank": 23,
+      "sector_neutral_score": 97.09709709709709
     },
     {
       "rank": 7,
-      "symbol": "IRWD",
-      "score": 85.87916265471947,
-      "main_rank": 37,
-      "sector_neutral_score": 96.29629629629629
+      "symbol": "AMV0.DE",
+      "score": 84.47697714770345,
+      "main_rank": 159,
+      "sector_neutral_score": 80.78078078078079
     },
     {
       "rank": 8,
-      "symbol": "BHC",
-      "score": 84.20254857462305,
-      "main_rank": 124,
-      "sector_neutral_score": 84.58458458458459
+      "symbol": "TECK",
+      "score": 84.43434211419203,
+      "main_rank": 66,
+      "sector_neutral_score": 91.3913913913914
     },
     {
       "rank": 9,
-      "symbol": "BCRX",
-      "score": 83.62928046668415,
-      "main_rank": 42,
-      "sector_neutral_score": 94.5945945945946
+      "symbol": "RSKD",
+      "score": 82.78712770925299,
+      "main_rank": 14,
+      "sector_neutral_score": 98.1981981981982
     },
     {
       "rank": 10,
-      "symbol": "DLO",
-      "score": 82.89693124202361,
-      "main_rank": 56,
-      "sector_neutral_score": 92.8928928928929
+      "symbol": "CNH",
+      "score": 82.71673333006781,
+      "main_rank": 121,
+      "sector_neutral_score": 85.4854854854855
     }
   ],
   "challenger_500_500": {
@@ -154,10 +154,10 @@
     "core_target": 500,
     "total_target": 1000,
     "selected": 1000,
-    "overlap_with_live_600_400": 868,
-    "challenger_only": 132,
-    "live_only": 132,
-    "jaccard": 0.7667844522968198,
+    "overlap_with_live_600_400": 865,
+    "challenger_only": 135,
+    "live_only": 135,
+    "jaccard": 0.762114537444934,
     "semantics": "shadow selection diagnostic only; 500 dynamic core candidates plus 500 highest Stage-1 dynamic candidates, never changes Full Exact production selection"
   },
   "files": [

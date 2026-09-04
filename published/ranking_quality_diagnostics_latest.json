@@ -23,17 +23,17 @@
       },
       "complete_core_component_rows": 9,
       "sparse_core_component_rows": 0,
-      "median_data_confidence": 69.68181818181819,
-      "min_data_confidence": 65.93181818181817,
+      "median_data_confidence": 68.7159090909091,
+      "min_data_confidence": 66.8409090909091,
       "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 0,
-      "median_market_cap_eur": 4941373029.963536,
+      "median_market_cap_eur": 4708965996.817383,
       "market_cap_buckets": {
-        "micro_250m_1b": 0,
+        "micro_250m_1b": 1,
         "small_1_5b": 5,
-        "mid_5_20b": 2,
-        "large_20_100b": 2,
-        "mega_100b_plus": 1,
+        "mid_5_20b": 1,
+        "large_20_100b": 1,
+        "mega_100b_plus": 2,
         "unknown": 0
       },
       "selection_tiers": {
@@ -47,33 +47,33 @@
       "requested_top_n": 25,
       "rows": 25,
       "component_present": {
-        "quality_score": 22,
+        "quality_score": 23,
         "revisions_score": 25,
-        "valuation_score": 24
+        "valuation_score": 25
       },
       "component_missing": {
-        "quality_score": 3,
+        "quality_score": 2,
         "revisions_score": 0,
-        "valuation_score": 1
+        "valuation_score": 0
       },
-      "complete_core_component_rows": 21,
+      "complete_core_component_rows": 23,
       "sparse_core_component_rows": 0,
       "median_data_confidence": 69.22727272727273,
-      "min_data_confidence": 63.43181818181818,
+      "min_data_confidence": 66.0909090909091,
       "below_60_confidence_rows": 0,
-      "below_65_confidence_rows": 1,
-      "median_market_cap_eur": 7716031795.877014,
+      "below_65_confidence_rows": 0,
+      "median_market_cap_eur": 8751479808.0,
       "market_cap_buckets": {
-        "micro_250m_1b": 0,
-        "small_1_5b": 10,
-        "mid_5_20b": 9,
-        "large_20_100b": 4,
-        "mega_100b_plus": 2,
+        "micro_250m_1b": 2,
+        "small_1_5b": 8,
+        "mid_5_20b": 6,
+        "large_20_100b": 6,
+        "mega_100b_plus": 3,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 6,
-        "adaptive": 19,
+        "core": 5,
+        "adaptive": 20,
         "unknown": 0
       },
       "sparse_examples": []
@@ -82,36 +82,47 @@
       "requested_top_n": 50,
       "rows": 50,
       "component_present": {
-        "quality_score": 46,
-        "revisions_score": 50,
-        "valuation_score": 49
+        "quality_score": 47,
+        "revisions_score": 49,
+        "valuation_score": 48
       },
       "component_missing": {
-        "quality_score": 4,
-        "revisions_score": 0,
-        "valuation_score": 1
+        "quality_score": 3,
+        "revisions_score": 1,
+        "valuation_score": 2
       },
-      "complete_core_component_rows": 45,
-      "sparse_core_component_rows": 0,
-      "median_data_confidence": 69.3409090909091,
-      "min_data_confidence": 63.43181818181818,
-      "below_60_confidence_rows": 0,
-      "below_65_confidence_rows": 1,
-      "median_market_cap_eur": 7785140806.968089,
+      "complete_core_component_rows": 46,
+      "sparse_core_component_rows": 1,
+      "median_data_confidence": 68.88636363636364,
+      "min_data_confidence": 55.84090909090909,
+      "below_60_confidence_rows": 1,
+      "below_65_confidence_rows": 2,
+      "median_market_cap_eur": 8739675151.926579,
       "market_cap_buckets": {
-        "micro_250m_1b": 6,
-        "small_1_5b": 16,
-        "mid_5_20b": 15,
-        "large_20_100b": 11,
-        "mega_100b_plus": 2,
+        "micro_250m_1b": 5,
+        "small_1_5b": 14,
+        "mid_5_20b": 13,
+        "large_20_100b": 10,
+        "mega_100b_plus": 8,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 12,
-        "adaptive": 38,
+        "core": 13,
+        "adaptive": 37,
         "unknown": 0
       },
-      "sparse_examples": []
+      "sparse_examples": [
+        {
+          "symbol": "ALV.DE",
+          "rank": 39,
+          "missing": [
+            "quality",
+            "revisions",
+            "valuation"
+          ],
+          "data_confidence": 55.84090909090909
+        }
+      ]
     }
   }
 }

@@ -3,83 +3,83 @@
   "diagnostic_only_for_main_ranking": true,
   "main_scores_changed": false,
   "main_ranks_changed": false,
-  "entry_overlay_rows_joined": 484,
+  "entry_overlay_rows_joined": 378,
   "top10_quality_present": 9,
   "top10_revisions_present": 10,
   "top10_complete_core_components": 9,
   "top10_median_score_completeness": 95.00000000000001,
   "high_conviction_candidates": 707,
-  "fresh_opportunity_candidates": 389,
+  "fresh_opportunity_candidates": 294,
   "fresh_opportunity_top10": [
     {
       "rank": 1,
-      "symbol": "CNQ",
-      "score": 84.66412538005079,
+      "symbol": "ENI.MI",
+      "score": 83.74186383204122,
       "reason": "sharp_1run_rise",
-      "main_rank": 79
+      "main_rank": 129
     },
     {
       "rank": 2,
-      "symbol": "DEMANT.CO",
-      "score": 84.05844823986521,
+      "symbol": "MAU.PA",
+      "score": 82.62104727775768,
       "reason": "sharp_1run_rise",
-      "main_rank": 86
+      "main_rank": 148
     },
     {
       "rank": 3,
-      "symbol": "RSKD",
-      "score": 83.55248468169283,
-      "reason": "sharp_1run_rise",
-      "main_rank": 27
+      "symbol": "TTE.PA",
+      "score": 81.5113520705542,
+      "reason": "new_exact",
+      "main_rank": 65
     },
     {
       "rank": 4,
-      "symbol": "BHC",
-      "score": 83.20091445147024,
+      "symbol": "SNOW",
+      "score": 80.14354276677102,
       "reason": "sharp_1run_rise",
-      "main_rank": 124
+      "main_rank": 1
     },
     {
       "rank": 5,
-      "symbol": "VOR",
-      "score": 83.143072985668,
+      "symbol": "DVN",
+      "score": 79.56145480822012,
       "reason": "sharp_1run_rise",
-      "main_rank": 296
+      "main_rank": 47
     },
     {
       "rank": 6,
-      "symbol": "INGA.AS",
-      "score": 82.99995171915415,
-      "reason": "sharp_1run_rise",
-      "main_rank": 36
+      "symbol": "CNH",
+      "score": 79.0242465743512,
+      "reason": "rising_5run",
+      "main_rank": 121
     },
     {
       "rank": 7,
-      "symbol": "NOVO-B.CO",
-      "score": 82.85022279781869,
+      "symbol": "UNIT",
+      "score": 78.78937743024035,
       "reason": "sharp_1run_rise",
-      "main_rank": 377
+      "main_rank": 284
     },
     {
       "rank": 8,
-      "symbol": "NN.AS",
-      "score": 82.54917469563992,
+      "symbol": "AMV0.DE",
+      "score": 78.7500356384153,
       "reason": "sharp_1run_rise",
-      "main_rank": 75
+      "main_rank": 159
     },
     {
       "rank": 9,
-      "symbol": "A5G.IR",
-      "score": 81.81110275653192,
-      "reason": "sharp_1run_rise",
-      "main_rank": 43
+      "symbol": "OSCR",
+      "score": 77.90007550952787,
+      "reason": "accelerating",
+      "main_rank": 91
     },
     {
       "rank": 10,
-      "symbol": "DELL",
-      "score": 81.40602398831317,
-      "reason": "new_exact",
-      "main_rank": 8
+      "symbol": "DSX",
+      "score": 77.7275961258009,
+      "reason": "rising_5run",
+      "main_rank": 5
     }
   ],
   "portfolio_guard_rows": 30,
