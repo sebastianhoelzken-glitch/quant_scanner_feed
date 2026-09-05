@@ -3,83 +3,83 @@
   "diagnostic_only_for_main_ranking": true,
   "main_scores_changed": false,
   "main_ranks_changed": false,
-  "entry_overlay_rows_joined": 378,
-  "top10_quality_present": 9,
+  "entry_overlay_rows_joined": 445,
+  "top10_quality_present": 10,
   "top10_revisions_present": 10,
-  "top10_complete_core_components": 9,
+  "top10_complete_core_components": 10,
   "top10_median_score_completeness": 95.00000000000001,
   "high_conviction_candidates": 707,
-  "fresh_opportunity_candidates": 294,
+  "fresh_opportunity_candidates": 387,
   "fresh_opportunity_top10": [
     {
       "rank": 1,
-      "symbol": "ENI.MI",
-      "score": 83.74186383204122,
+      "symbol": "UGP",
+      "score": 87.57279465432568,
       "reason": "sharp_1run_rise",
-      "main_rank": 129
+      "main_rank": 5
     },
     {
       "rank": 2,
-      "symbol": "MAU.PA",
-      "score": 82.62104727775768,
-      "reason": "sharp_1run_rise",
-      "main_rank": 148
+      "symbol": "NNBR",
+      "score": 86.99101793385951,
+      "reason": "new_exact",
+      "main_rank": 293
     },
     {
       "rank": 3,
-      "symbol": "TTE.PA",
-      "score": 81.5113520705542,
+      "symbol": "DINO",
+      "score": 85.88612778399414,
       "reason": "new_exact",
-      "main_rank": 65
+      "main_rank": 8
     },
     {
       "rank": 4,
-      "symbol": "SNOW",
-      "score": 80.14354276677102,
-      "reason": "sharp_1run_rise",
-      "main_rank": 1
+      "symbol": "SNDK",
+      "score": 85.52133937055417,
+      "reason": "new_exact",
+      "main_rank": 44
     },
     {
       "rank": 5,
-      "symbol": "DVN",
-      "score": 79.56145480822012,
+      "symbol": "HAFN",
+      "score": 84.13590389318895,
+      "reason": "sharp_1run_rise",
+      "main_rank": 124
+    },
+    {
+      "rank": 6,
+      "symbol": "PATH",
+      "score": 83.88766653503764,
       "reason": "sharp_1run_rise",
       "main_rank": 47
     },
     {
-      "rank": 6,
-      "symbol": "CNH",
-      "score": 79.0242465743512,
-      "reason": "rising_5run",
-      "main_rank": 121
-    },
-    {
       "rank": 7,
-      "symbol": "UNIT",
-      "score": 78.78937743024035,
-      "reason": "sharp_1run_rise",
-      "main_rank": 284
+      "symbol": "STNG",
+      "score": 83.0919161573317,
+      "reason": "new_exact",
+      "main_rank": 194
     },
     {
       "rank": 8,
-      "symbol": "AMV0.DE",
-      "score": 78.7500356384153,
-      "reason": "sharp_1run_rise",
-      "main_rank": 159
+      "symbol": "SU",
+      "score": 82.22305445176451,
+      "reason": "new_exact",
+      "main_rank": 58
     },
     {
       "rank": 9,
-      "symbol": "OSCR",
-      "score": 77.90007550952787,
-      "reason": "accelerating",
-      "main_rank": 91
+      "symbol": "HOOD",
+      "score": 81.76965774436685,
+      "reason": "sharp_1run_rise",
+      "main_rank": 138
     },
     {
       "rank": 10,
-      "symbol": "DSX",
-      "score": 77.7275961258009,
-      "reason": "rising_5run",
-      "main_rank": 5
+      "symbol": "MU",
+      "score": 81.68357917083294,
+      "reason": "sharp_1run_rise",
+      "main_rank": 13
     }
   ],
   "portfolio_guard_rows": 30,
