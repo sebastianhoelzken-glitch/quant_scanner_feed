@@ -1,0 +1,221 @@
+{
+  "status": "complete",
+  "missing_required_instruments": [],
+  "bonds": [
+    {
+      "instrument": "US30Y_REAL",
+      "yield_pct": 2.96,
+      "change_5d_bps": 0.0,
+      "change_20d_bps": 0.0,
+      "change_63d_bps": 21.99999999999997,
+      "direction": "stable",
+      "market_role": "long-run real rate / fiscal-duration pressure",
+      "horizon": "very long real",
+      "future_macro_signal": "rate expectations are broadly stable on the measured horizon",
+      "future_equity_implication": "limited standalone valuation impulse",
+      "future_economic_implication": "little incremental signal from this maturity alone",
+      "forecast_semantics": "probabilistic conditional interpretation; not a point forecast"
+    },
+    {
+      "instrument": "US3M",
+      "yield_pct": 3.91,
+      "change_5d_bps": 1.000000000000023,
+      "change_20d_bps": 4.000000000000004,
+      "change_63d_bps": 13.000000000000034,
+      "direction": "stable",
+      "market_role": "Fed policy / front-end cash rate",
+      "horizon": "very short",
+      "future_macro_signal": "rate expectations are broadly stable on the measured horizon",
+      "future_equity_implication": "limited standalone valuation impulse",
+      "future_economic_implication": "little incremental signal from this maturity alone",
+      "forecast_semantics": "probabilistic conditional interpretation; not a point forecast"
+    },
+    {
+      "instrument": "US10Y_REAL",
+      "yield_pct": 2.43,
+      "change_5d_bps": 1.000000000000023,
+      "change_20d_bps": 3.000000000000025,
+      "change_63d_bps": 24.00000000000002,
+      "direction": "stable",
+      "market_role": "core real discount rate for long-duration assets",
+      "horizon": "long real",
+      "future_macro_signal": "rate expectations are broadly stable on the measured horizon",
+      "future_equity_implication": "limited standalone valuation impulse",
+      "future_economic_implication": "little incremental signal from this maturity alone",
+      "forecast_semantics": "probabilistic conditional interpretation; not a point forecast"
+    },
+    {
+      "instrument": "US30Y",
+      "yield_pct": 5.24,
+      "change_5d_bps": 2.000000000000046,
+      "change_20d_bps": 4.999999999999982,
+      "change_63d_bps": 23.000000000000043,
+      "direction": "stable",
+      "market_role": "long-run inflation, fiscal/term-premium and duration risk",
+      "horizon": "very long",
+      "future_macro_signal": "rate expectations are broadly stable on the measured horizon",
+      "future_equity_implication": "limited standalone valuation impulse",
+      "future_economic_implication": "little incremental signal from this maturity alone",
+      "forecast_semantics": "probabilistic conditional interpretation; not a point forecast"
+    },
+    {
+      "instrument": "US5Y_REAL",
+      "yield_pct": 2.17,
+      "change_5d_bps": -1.000000000000023,
+      "change_20d_bps": 4.000000000000004,
+      "change_63d_bps": 35.999999999999986,
+      "direction": "rising",
+      "market_role": "medium-term US real discount rate",
+      "horizon": "medium real",
+      "future_macro_signal": "tighter real financial conditions; market is demanding a higher real return",
+      "future_equity_implication": "usually a headwind for long-duration/growth valuations and other rate-sensitive assets",
+      "future_economic_implication": "can restrain investment, housing and credit demand if sustained",
+      "forecast_semantics": "probabilistic conditional interpretation; not a point forecast"
+    },
+    {
+      "instrument": "US2Y",
+      "yield_pct": 4.37,
+      "change_5d_bps": 3.000000000000025,
+      "change_20d_bps": 17.99999999999997,
+      "change_63d_bps": 20.000000000000018,
+      "direction": "rising",
+      "market_role": "Fed path and near-term inflation/growth expectations",
+      "horizon": "short",
+      "future_macro_signal": "more restrictive Fed expectations; fewer/ later cuts or more inflation concern",
+      "future_equity_implication": "tighter front-end conditions; typically less supportive for leveraged and rate-sensitive equities",
+      "future_economic_implication": "higher financing costs can slow demand if the move persists",
+      "forecast_semantics": "probabilistic conditional interpretation; not a point forecast"
+    },
+    {
+      "instrument": "US10Y",
+      "yield_pct": 4.78,
+      "change_5d_bps": 4.999999999999982,
+      "change_20d_bps": 12.99999999999999,
+      "change_63d_bps": 23.000000000000043,
+      "direction": "rising",
+      "market_role": "US nominal discount rate, growth/inflation and term premium",
+      "horizon": "long",
+      "future_macro_signal": "higher nominal discount rate; could reflect stronger growth, stickier inflation and/or higher term premium",
+      "future_equity_implication": "valuation headwind, especially for expensive long-duration growth; banks may benefit only if curve/credit conditions cooperate",
+      "future_economic_implication": "mortgage, corporate and government financing conditions tighten",
+      "forecast_semantics": "probabilistic conditional interpretation; not a point forecast"
+    },
+    {
+      "instrument": "US5Y",
+      "yield_pct": 4.54,
+      "change_5d_bps": 5.999999999999961,
+      "change_20d_bps": 19.00000000000004,
+      "change_63d_bps": 25.0,
+      "direction": "rising",
+      "market_role": "medium-term US policy, inflation and growth",
+      "horizon": "medium",
+      "future_macro_signal": "higher medium-term rate expectations",
+      "future_equity_implication": "less supportive discount-rate backdrop",
+      "future_economic_implication": "moderately tighter financing conditions",
+      "forecast_semantics": "probabilistic conditional interpretation; not a point forecast"
+    },
+    {
+      "instrument": "DE2Y",
+      "yield_pct": 2.96,
+      "change_5d_bps": 10.000000000000009,
+      "change_20d_bps": 20.000000000000018,
+      "change_63d_bps": 29.000000000000004,
+      "direction": "rising",
+      "market_role": "ECB path and near-term euro inflation/growth expectations",
+      "horizon": "short",
+      "future_macro_signal": "more restrictive ECB expectations; fewer/ later cuts or more inflation concern",
+      "future_equity_implication": "tighter front-end conditions; typically less supportive for leveraged and rate-sensitive equities",
+      "future_economic_implication": "higher financing costs can slow demand if the move persists",
+      "forecast_semantics": "probabilistic conditional interpretation; not a point forecast"
+    },
+    {
+      "instrument": "DE30Y",
+      "yield_pct": 3.82,
+      "change_5d_bps": 4.999999999999982,
+      "change_20d_bps": 16.999999999999993,
+      "change_63d_bps": 23.0,
+      "direction": "rising",
+      "market_role": "long-run euro inflation/fiscal/term-premium",
+      "horizon": "very long",
+      "future_macro_signal": "higher nominal discount rate; could reflect stronger growth, stickier inflation and/or higher term premium",
+      "future_equity_implication": "valuation headwind, especially for expensive long-duration growth; banks may benefit only if curve/credit conditions cooperate",
+      "future_economic_implication": "mortgage, corporate and government financing conditions tighten",
+      "forecast_semantics": "probabilistic conditional interpretation; not a point forecast"
+    },
+    {
+      "instrument": "DE10Y",
+      "yield_pct": 3.34,
+      "change_5d_bps": 6.999999999999984,
+      "change_20d_bps": 18.999999999999996,
+      "change_63d_bps": 29.000000000000004,
+      "direction": "rising",
+      "market_role": "euro-area benchmark discount rate and term premium",
+      "horizon": "long",
+      "future_macro_signal": "higher nominal discount rate; could reflect stronger growth, stickier inflation and/or higher term premium",
+      "future_equity_implication": "valuation headwind, especially for expensive long-duration growth; banks may benefit only if curve/credit conditions cooperate",
+      "future_economic_implication": "mortgage, corporate and government financing conditions tighten",
+      "forecast_semantics": "probabilistic conditional interpretation; not a point forecast"
+    },
+    {
+      "instrument": "DE5Y",
+      "yield_pct": 3.09,
+      "change_5d_bps": 9.999999999999964,
+      "change_20d_bps": 21.0,
+      "change_63d_bps": 33.00000000000001,
+      "direction": "rising",
+      "market_role": "medium-term euro policy, inflation and growth",
+      "horizon": "medium",
+      "future_macro_signal": "higher medium-term rate expectations",
+      "future_equity_implication": "less supportive discount-rate backdrop",
+      "future_economic_implication": "moderately tighter financing conditions",
+      "forecast_semantics": "probabilistic conditional interpretation; not a point forecast"
+    }
+  ],
+  "curves": [
+    {
+      "spread": "US_2s10s",
+      "value_bps": 41.000000000000014,
+      "change_20d_bps": -4.999999999999982,
+      "state": "stable",
+      "future_meaning": "curve shape is not changing enough to dominate the macro signal"
+    },
+    {
+      "spread": "US_5s30s",
+      "value_bps": 70.00000000000001,
+      "change_20d_bps": -14.000000000000057,
+      "state": "stable",
+      "future_meaning": "tracks long-end term-premium/fiscal pressure relative to the belly"
+    },
+    {
+      "spread": "US_3m10y",
+      "value_bps": 87.00000000000001,
+      "change_20d_bps": 8.999999999999986,
+      "state": "stable",
+      "future_meaning": "curve shape is not changing enough to dominate the macro signal"
+    },
+    {
+      "spread": "DE_2s10s",
+      "value_bps": 37.99999999999999,
+      "change_20d_bps": -1.000000000000023,
+      "state": "stable",
+      "future_meaning": "tracks ECB/front-end expectations versus euro long-end growth/inflation/term premium"
+    },
+    {
+      "spread": "US_DE_2Y",
+      "value_bps": 141.0,
+      "change_20d_bps": -2.000000000000046,
+      "state": "stable",
+      "future_meaning": "rate differential is a key directional input for USD/EUR capital-flow pressure, though not sufficient alone"
+    },
+    {
+      "spread": "US_DE_10Y",
+      "value_bps": 144.00000000000003,
+      "change_20d_bps": -6.000000000000005,
+      "state": "stable",
+      "future_meaning": "rate differential is a key directional input for USD/EUR capital-flow pressure, though not sufficient alone"
+    }
+  ],
+  "equity_cross_asset_context": "neutral",
+  "equity_cross_asset_context_score": 49.2477951064709,
+  "interpretation_rule": "Yield moves are decomposed by maturity/real-vs-nominal role; curve shape is used separately. Causality is not asserted from yields alone."
+}
