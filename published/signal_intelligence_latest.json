@@ -4,9 +4,9 @@
   "main_scores_changed": false,
   "main_ranks_changed": false,
   "lifecycle_rows": 1000,
-  "confirmation_rows": 269,
-  "confirmed_rows": 81,
-  "false_breakout_risk_rows": 51,
+  "confirmation_rows": 270,
+  "confirmed_rows": 83,
+  "false_breakout_risk_rows": 50,
   "confirmation_data_mode": "close_based; high/low/volume/ATR are not fabricated when absent from persistent price_history",
   "confirmed_top10": [
     {
@@ -17,30 +17,23 @@
       "freshness": "CONTINUING"
     },
     {
-      "symbol": "TARS",
-      "direction": "UP",
-      "score": 97.5948149847149,
-      "confirmation": 99.99999999999999,
-      "freshness": "NEW"
-    },
-    {
       "symbol": "GPRO",
       "direction": "UP",
-      "score": 96.6724122691617,
+      "score": 96.67391265245817,
       "confirmation": 89.99999999999999,
       "freshness": "CONTINUING"
     },
     {
       "symbol": "CHPT",
       "direction": "UP",
-      "score": 94.06403776199676,
+      "score": 94.06551623508248,
       "confirmation": 89.99999999999999,
       "freshness": "CONTINUING"
     },
     {
       "symbol": "UGP",
       "direction": "UP",
-      "score": 93.83626966301303,
+      "score": 93.84035070354845,
       "confirmation": 96.12663791791404,
       "freshness": "CONTINUING"
     },
@@ -54,7 +47,7 @@
     {
       "symbol": "BKSY",
       "direction": "DOWN",
-      "score": 92.32931282450252,
+      "score": 92.32506398504987,
       "confirmation": 88.85529674703663,
       "freshness": "CONTINUING"
     },
@@ -68,15 +61,22 @@
     {
       "symbol": "TITN",
       "direction": "UP",
-      "score": 91.17822656756861,
+      "score": 91.17960866184906,
       "confirmation": 89.99999999999999,
       "freshness": "CONTINUING"
     },
     {
       "symbol": "C5H.IR",
       "direction": "UP",
-      "score": 91.12591934011846,
+      "score": 91.12077425144096,
       "confirmation": 98.09524782660881,
+      "freshness": "CONTINUING"
+    },
+    {
+      "symbol": "DELL",
+      "direction": "UP",
+      "score": 90.98705372485455,
+      "confirmation": 88.80270762246887,
       "freshness": "CONTINUING"
     }
   ],
@@ -127,18 +127,18 @@
       "symbol": "MPL.L",
       "direction": "DOWN",
       "confirmation": 38.94454729657244,
-      "freshness": "NEW"
-    },
-    {
-      "symbol": "SPIR",
-      "direction": "DOWN",
-      "confirmation": 30.447778156483572,
-      "freshness": "NEW"
+      "freshness": "CONTINUING"
     },
     {
       "symbol": "CRSTL.XC",
       "direction": "DOWN",
       "confirmation": 39.998772148585324,
+      "freshness": "CONTINUING"
+    },
+    {
+      "symbol": "RXRX",
+      "direction": "UP",
+      "confirmation": 33.562961149562625,
       "freshness": "CONTINUING"
     }
   ],
@@ -147,9 +147,9 @@
       "portfolio_slot": 1,
       "symbol": "FRO",
       "main_rank": 1,
-      "consensus_score": 82.29337673226667,
-      "portfolio_base_score": 77.06944860410624,
-      "portfolio_selection_score": 77.06944860410624,
+      "consensus_score": 82.63278865932433,
+      "portfolio_base_score": 77.30484698300546,
+      "portfolio_selection_score": 77.30484698300546,
       "sector": "Unknown",
       "industry": "Unknown",
       "max_corr_with_selected": 0.0,
@@ -161,10 +161,10 @@
     {
       "portfolio_slot": 2,
       "symbol": "DDI",
-      "main_rank": 50,
-      "consensus_score": 70.95982054675115,
-      "portfolio_base_score": 74.96970980610006,
-      "portfolio_selection_score": 74.96970980610006,
+      "main_rank": 51,
+      "consensus_score": 71.68186854647942,
+      "portfolio_base_score": 75.59066233195017,
+      "portfolio_selection_score": 75.59066233195017,
       "sector": "Communication Services",
       "industry": "Electronic Gaming & Multimedia",
       "max_corr_with_selected": 0.07790451972961224,
@@ -175,48 +175,48 @@
     },
     {
       "portfolio_slot": 3,
-      "symbol": "PARR",
-      "main_rank": 10,
-      "consensus_score": 78.77848742197443,
-      "portfolio_base_score": 74.04278187334067,
-      "portfolio_selection_score": 74.04278187334067,
-      "sector": "Energy",
-      "industry": "Oil & Gas Refining & Marketing",
-      "max_corr_with_selected": 0.16388556753504516,
-      "avg_corr_with_selected": 0.07803474910344464,
+      "symbol": "BION.SW",
+      "main_rank": 52,
+      "consensus_score": 71.5235059680953,
+      "portfolio_base_score": 74.28646591377101,
+      "portfolio_selection_score": 74.28646591377101,
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "max_corr_with_selected": 0.02324202948030632,
+      "avg_corr_with_selected": -0.02515553333957174,
       "sector_penalty": 0.0,
       "industry_penalty": 0.0,
       "correlation_penalty": 0.0
     },
     {
       "portfolio_slot": 4,
-      "symbol": "DAC",
-      "main_rank": 48,
-      "consensus_score": 71.29605033080622,
-      "portfolio_base_score": 69.8016656977103,
-      "portfolio_selection_score": 69.18007508038987,
-      "sector": "Industrials",
-      "industry": "Marine Shipping",
-      "max_corr_with_selected": 0.4845328120733572,
-      "avg_corr_with_selected": 0.1263674064015019,
+      "symbol": "PARR",
+      "main_rank": 14,
+      "consensus_score": 77.5133629980878,
+      "portfolio_base_score": 72.6999896007312,
+      "portfolio_selection_score": 72.6999896007312,
+      "sector": "Energy",
+      "industry": "Oil & Gas Refining & Marketing",
+      "max_corr_with_selected": 0.16388556753504516,
+      "avg_corr_with_selected": 0.051942942401120046,
       "sector_penalty": 0.0,
       "industry_penalty": 0.0,
-      "correlation_penalty": 0.6215906173204292
+      "correlation_penalty": 0.0
     },
     {
       "portfolio_slot": 5,
-      "symbol": "CRGY",
-      "main_rank": 8,
-      "consensus_score": 79.29889539220886,
-      "portfolio_base_score": 76.70371752705907,
-      "portfolio_selection_score": 59.70371752705907,
-      "sector": "Unknown",
-      "industry": "Unknown",
-      "max_corr_with_selected": 0.2741930508165791,
-      "avg_corr_with_selected": 0.10914866196868835,
-      "sector_penalty": 7.0,
-      "industry_penalty": 10.0,
-      "correlation_penalty": 0.0
+      "symbol": "DAC",
+      "main_rank": 42,
+      "consensus_score": 72.33523144837037,
+      "portfolio_base_score": 70.74788473505726,
+      "portfolio_selection_score": 70.12629411773682,
+      "sector": "Industrials",
+      "industry": "Marine Shipping",
+      "max_corr_with_selected": 0.4845328120733572,
+      "avg_corr_with_selected": 0.09413957847979626,
+      "sector_penalty": 0.0,
+      "industry_penalty": 0.0,
+      "correlation_penalty": 0.6215906173204292
     }
   ],
   "files": [

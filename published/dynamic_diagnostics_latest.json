@@ -8,145 +8,145 @@
     {
       "symbol": "FRO",
       "rank": 1,
-      "consecutive_top10": 2,
-      "consecutive_top25": 2,
+      "consecutive_top10": 3,
+      "consecutive_top25": 3,
       "label": "rotating"
     },
     {
       "symbol": "DELL",
       "rank": 2,
-      "consecutive_top10": 3,
-      "consecutive_top25": 4,
-      "label": "rotating"
+      "consecutive_top10": 4,
+      "consecutive_top25": 5,
+      "label": "persistent_top25"
     },
     {
       "symbol": "VLO",
       "rank": 3,
-      "consecutive_top10": 2,
-      "consecutive_top25": 2,
+      "consecutive_top10": 3,
+      "consecutive_top25": 3,
       "label": "rotating"
     },
     {
       "symbol": "DSX",
       "rank": 4,
+      "consecutive_top10": 4,
+      "consecutive_top25": 4,
+      "label": "rotating"
+    },
+    {
+      "symbol": "UGP",
+      "rank": 5,
       "consecutive_top10": 3,
       "consecutive_top25": 3,
       "label": "rotating"
     },
     {
       "symbol": "CMBT.BR",
-      "rank": 5,
-      "consecutive_top10": 9,
-      "consecutive_top25": 10,
+      "rank": 6,
+      "consecutive_top10": 10,
+      "consecutive_top25": 11,
       "label": "persistent_top10"
     },
     {
-      "symbol": "KIN.BR",
-      "rank": 6,
+      "symbol": "CRGY",
+      "rank": 7,
+      "consecutive_top10": 5,
+      "consecutive_top25": 6,
+      "label": "persistent_top10"
+    },
+    {
+      "symbol": "DINO",
+      "rank": 8,
+      "consecutive_top10": 3,
+      "consecutive_top25": 3,
+      "label": "rotating"
+    },
+    {
+      "symbol": "DK",
+      "rank": 9,
       "consecutive_top10": 1,
       "consecutive_top25": 5,
       "label": "persistent_top25"
     },
     {
-      "symbol": "UGP",
-      "rank": 7,
-      "consecutive_top10": 2,
-      "consecutive_top25": 2,
-      "label": "rotating"
-    },
-    {
-      "symbol": "CRGY",
-      "rank": 8,
-      "consecutive_top10": 4,
-      "consecutive_top25": 5,
-      "label": "persistent_top25"
-    },
-    {
-      "symbol": "DINO",
-      "rank": 9,
-      "consecutive_top10": 2,
-      "consecutive_top25": 2,
-      "label": "rotating"
-    },
-    {
-      "symbol": "PARR",
+      "symbol": "KIN.BR",
       "rank": 10,
       "consecutive_top10": 0,
-      "consecutive_top25": 2,
-      "label": "rotating"
+      "consecutive_top25": 6,
+      "label": "persistent_top25"
     }
   ],
-  "emerging_alpha_candidates": 180,
+  "emerging_alpha_candidates": 181,
   "emerging_alpha_top10": [
     {
       "rank": 1,
-      "symbol": "MGTX",
-      "score": 84.44012855052944,
-      "main_rank": 67,
-      "sector_neutral_score": 90.8908908908909
+      "symbol": "DOCU",
+      "score": 89.22360947231051,
+      "main_rank": 46,
+      "sector_neutral_score": 93.5935935935936
     },
     {
       "rank": 2,
-      "symbol": "MT.AS",
-      "score": 84.1309010631227,
-      "main_rank": 12,
+      "symbol": "MU",
+      "score": 87.69501248488103,
+      "main_rank": 11,
       "sector_neutral_score": 98.69869869869869
     },
     {
       "rank": 3,
-      "symbol": "AOD",
-      "score": 83.50622325356404,
-      "main_rank": 170,
-      "sector_neutral_score": 83.48348348348348
+      "symbol": "GTLB",
+      "score": 86.34934768735069,
+      "main_rank": 18,
+      "sector_neutral_score": 97.3973973973974
     },
     {
       "rank": 4,
-      "symbol": "ATS.VI",
-      "score": 82.75009937354733,
-      "main_rank": 125,
-      "sector_neutral_score": 83.28328328328328
+      "symbol": "AMC",
+      "score": 85.78751879782084,
+      "main_rank": 28,
+      "sector_neutral_score": 95.7957957957958
     },
     {
       "rank": 5,
-      "symbol": "GGN",
-      "score": 82.65373811664749,
-      "main_rank": 189,
-      "sector_neutral_score": 80.08008008008008
+      "symbol": "SNOW",
+      "score": 85.68273806673298,
+      "main_rank": 66,
+      "sector_neutral_score": 91.69169169169169
     },
     {
       "rank": 6,
-      "symbol": "DEMANT.CO",
-      "score": 82.46766376914111,
-      "main_rank": 108,
-      "sector_neutral_score": 85.88588588588588
+      "symbol": "GSL",
+      "score": 85.55453761601767,
+      "main_rank": 57,
+      "sector_neutral_score": 97.7977977977978
     },
     {
       "rank": 7,
-      "symbol": "TTE.PA",
-      "score": 82.23224903557659,
-      "main_rank": 132,
-      "sector_neutral_score": 82.48248248248248
+      "symbol": "APA",
+      "score": 83.85050969415259,
+      "main_rank": 26,
+      "sector_neutral_score": 96.09609609609609
     },
     {
       "rank": 8,
-      "symbol": "NN.AS",
-      "score": 82.05736767781009,
-      "main_rank": 45,
-      "sector_neutral_score": 93.8938938938939
+      "symbol": "NVDA",
+      "score": 83.4432474464687,
+      "main_rank": 72,
+      "sector_neutral_score": 97.997997997998
     },
     {
       "rank": 9,
-      "symbol": "INGA.AS",
-      "score": 81.87845011785136,
-      "main_rank": 32,
-      "sector_neutral_score": 95.995995995996
+      "symbol": "SVM",
+      "score": 81.84013448185647,
+      "main_rank": 132,
+      "sector_neutral_score": 83.18318318318319
     },
     {
       "rank": 10,
-      "symbol": "OERL.SW",
-      "score": 81.8622234044849,
-      "main_rank": 58,
-      "sector_neutral_score": 92.09209209209209
+      "symbol": "SNDK",
+      "score": 81.52379263175028,
+      "main_rank": 44,
+      "sector_neutral_score": 93.8938938938939
     }
   ],
   "challenger_500_500": {
@@ -154,10 +154,10 @@
     "core_target": 500,
     "total_target": 1000,
     "selected": 1000,
-    "overlap_with_live_600_400": 869,
-    "challenger_only": 131,
-    "live_only": 131,
-    "jaccard": 0.7683465959328029,
+    "overlap_with_live_600_400": 870,
+    "challenger_only": 130,
+    "live_only": 130,
+    "jaccard": 0.7699115044247787,
     "semantics": "shadow selection diagnostic only; 500 dynamic core candidates plus 500 highest Stage-1 dynamic candidates, never changes Full Exact production selection"
   },
   "files": [
