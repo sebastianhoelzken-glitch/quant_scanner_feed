@@ -4,15 +4,15 @@
   "main_scores_changed": false,
   "main_ranks_changed": false,
   "lifecycle_rows": 1000,
-  "confirmation_rows": 270,
-  "confirmed_rows": 83,
-  "false_breakout_risk_rows": 50,
+  "confirmation_rows": 273,
+  "confirmed_rows": 85,
+  "false_breakout_risk_rows": 53,
   "confirmation_data_mode": "close_based; high/low/volume/ATR are not fabricated when absent from persistent price_history",
   "confirmed_top10": [
     {
       "symbol": "CNH",
       "direction": "UP",
-      "score": 98.76185224680727,
+      "score": 98.76477936310752,
       "confirmation": 99.99999999999999,
       "freshness": "CONTINUING"
     },
@@ -24,63 +24,75 @@
       "freshness": "CONTINUING"
     },
     {
+      "symbol": "MPAL.L",
+      "direction": "UP",
+      "score": 94.97112084970112,
+      "confirmation": 89.99999999999999,
+      "freshness": "CONTINUING"
+    },
+    {
+      "symbol": "PXEN.L",
+      "direction": "UP",
+      "score": 94.20126469358078,
+      "confirmation": 89.99999999999999,
+      "freshness": "CONTINUING"
+    },
+    {
       "symbol": "CHPT",
       "direction": "UP",
-      "score": 94.06551623508248,
+      "score": 94.06995165433966,
       "confirmation": 89.99999999999999,
       "freshness": "CONTINUING"
     },
     {
       "symbol": "UGP",
       "direction": "UP",
-      "score": 93.84035070354845,
+      "score": 93.84171105039358,
       "confirmation": 96.12663791791404,
       "freshness": "CONTINUING"
     },
     {
-      "symbol": "PXEN.L",
+      "symbol": "CHAR.L",
       "direction": "UP",
-      "score": 93.24212241523963,
-      "confirmation": 86.84210191693221,
+      "score": 93.35090284049126,
+      "confirmation": 81.04093589949834,
+      "freshness": "CONTINUING"
+    },
+    {
+      "symbol": "CIRSA.MC",
+      "direction": "UP",
+      "score": 92.62158479378508,
+      "confirmation": 89.99999999999999,
       "freshness": "CONTINUING"
     },
     {
       "symbol": "BKSY",
       "direction": "DOWN",
-      "score": 92.32506398504987,
+      "score": 92.32931282450252,
       "confirmation": 88.85529674703663,
       "freshness": "CONTINUING"
     },
     {
       "symbol": "RARE",
       "direction": "DOWN",
-      "score": 91.45704463622421,
+      "score": 91.45558225352526,
       "confirmation": 79.75035406638611,
-      "freshness": "CONTINUING"
-    },
-    {
-      "symbol": "TITN",
-      "direction": "UP",
-      "score": 91.17960866184906,
-      "confirmation": 89.99999999999999,
-      "freshness": "CONTINUING"
-    },
-    {
-      "symbol": "C5H.IR",
-      "direction": "UP",
-      "score": 91.12077425144096,
-      "confirmation": 98.09524782660881,
-      "freshness": "CONTINUING"
-    },
-    {
-      "symbol": "DELL",
-      "direction": "UP",
-      "score": 90.98705372485455,
-      "confirmation": 88.80270762246887,
       "freshness": "CONTINUING"
     }
   ],
   "false_breakout_risk_top10": [
+    {
+      "symbol": "EST.L",
+      "direction": "UP",
+      "confirmation": 36.96346600074944,
+      "freshness": "CONTINUING"
+    },
+    {
+      "symbol": "FXPO.L",
+      "direction": "UP",
+      "confirmation": 38.333300486128266,
+      "freshness": "NEW"
+    },
     {
       "symbol": "GIII",
       "direction": "DOWN",
@@ -94,21 +106,9 @@
       "freshness": "CONTINUING"
     },
     {
-      "symbol": "WBGR-B.ST",
-      "direction": "UP",
-      "confirmation": 39.07789365437884,
-      "freshness": "CONTINUING"
-    },
-    {
       "symbol": "MMED",
       "direction": "UP",
       "confirmation": 36.215182003762095,
-      "freshness": "CONTINUING"
-    },
-    {
-      "symbol": "SUH.L",
-      "direction": "DOWN",
-      "confirmation": 21.9527844786247,
       "freshness": "CONTINUING"
     },
     {
@@ -124,32 +124,32 @@
       "freshness": "CONTINUING"
     },
     {
-      "symbol": "MPL.L",
-      "direction": "DOWN",
-      "confirmation": 38.94454729657244,
-      "freshness": "CONTINUING"
-    },
-    {
-      "symbol": "CRSTL.XC",
-      "direction": "DOWN",
-      "confirmation": 39.998772148585324,
-      "freshness": "CONTINUING"
-    },
-    {
       "symbol": "RXRX",
       "direction": "UP",
       "confirmation": 33.562961149562625,
+      "freshness": "CONTINUING"
+    },
+    {
+      "symbol": "LCLN",
+      "direction": "UP",
+      "confirmation": 36.62412507477666,
+      "freshness": "CONTINUING"
+    },
+    {
+      "symbol": "CNXC",
+      "direction": "UP",
+      "confirmation": 26.472943765749964,
       "freshness": "CONTINUING"
     }
   ],
   "portfolio_top5": [
     {
       "portfolio_slot": 1,
-      "symbol": "FRO",
+      "symbol": "VLO",
       "main_rank": 1,
-      "consensus_score": 82.63278865932433,
-      "portfolio_base_score": 77.30484698300546,
-      "portfolio_selection_score": 77.30484698300546,
+      "consensus_score": 84.10717253535915,
+      "portfolio_base_score": 78.01293126141479,
+      "portfolio_selection_score": 78.01293126141479,
       "sector": "Unknown",
       "industry": "Unknown",
       "max_corr_with_selected": 0.0,
@@ -161,14 +161,14 @@
     {
       "portfolio_slot": 2,
       "symbol": "DDI",
-      "main_rank": 51,
-      "consensus_score": 71.68186854647942,
-      "portfolio_base_score": 75.59066233195017,
-      "portfolio_selection_score": 75.59066233195017,
+      "main_rank": 47,
+      "consensus_score": 71.5059870073984,
+      "portfolio_base_score": 75.45635107355847,
+      "portfolio_selection_score": 75.45635107355847,
       "sector": "Communication Services",
       "industry": "Electronic Gaming & Multimedia",
-      "max_corr_with_selected": 0.07790451972961224,
-      "avg_corr_with_selected": 0.07790451972961224,
+      "max_corr_with_selected": 0.24654111287604683,
+      "avg_corr_with_selected": 0.24654111287604683,
       "sector_penalty": 0.0,
       "industry_penalty": 0.0,
       "correlation_penalty": 0.0
@@ -176,47 +176,47 @@
     {
       "portfolio_slot": 3,
       "symbol": "BION.SW",
-      "main_rank": 52,
-      "consensus_score": 71.5235059680953,
-      "portfolio_base_score": 74.28646591377101,
-      "portfolio_selection_score": 74.28646591377101,
+      "main_rank": 54,
+      "consensus_score": 71.00875965593313,
+      "portfolio_base_score": 73.94984858894003,
+      "portfolio_selection_score": 73.94984858894003,
       "sector": "Healthcare",
       "industry": "Biotechnology",
-      "max_corr_with_selected": 0.02324202948030632,
-      "avg_corr_with_selected": -0.02515553333957174,
+      "max_corr_with_selected": -0.07371915194445768,
+      "avg_corr_with_selected": -0.09580140470818943,
       "sector_penalty": 0.0,
       "industry_penalty": 0.0,
       "correlation_penalty": 0.0
     },
     {
       "portfolio_slot": 4,
-      "symbol": "PARR",
-      "main_rank": 14,
-      "consensus_score": 77.5133629980878,
-      "portfolio_base_score": 72.6999896007312,
-      "portfolio_selection_score": 72.6999896007312,
+      "symbol": "TNK",
+      "main_rank": 15,
+      "consensus_score": 76.36577367294895,
+      "portfolio_base_score": 72.50815231323043,
+      "portfolio_selection_score": 72.50815231323043,
       "sector": "Energy",
-      "industry": "Oil & Gas Refining & Marketing",
-      "max_corr_with_selected": 0.16388556753504516,
-      "avg_corr_with_selected": 0.051942942401120046,
+      "industry": "Oil & Gas Midstream",
+      "max_corr_with_selected": -0.04490332195476142,
+      "avg_corr_with_selected": -0.06990044975305569,
       "sector_penalty": 0.0,
       "industry_penalty": 0.0,
       "correlation_penalty": 0.0
     },
     {
       "portfolio_slot": 5,
-      "symbol": "DAC",
-      "main_rank": 42,
-      "consensus_score": 72.33523144837037,
-      "portfolio_base_score": 70.74788473505726,
-      "portfolio_selection_score": 70.12629411773682,
-      "sector": "Industrials",
-      "industry": "Marine Shipping",
-      "max_corr_with_selected": 0.4845328120733572,
-      "avg_corr_with_selected": 0.09413957847979626,
+      "symbol": "NVDA",
+      "main_rank": 60,
+      "consensus_score": 70.4891593396615,
+      "portfolio_base_score": 71.22131744041266,
+      "portfolio_selection_score": 71.22131744041266,
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "max_corr_with_selected": 0.2993967137016867,
+      "avg_corr_with_selected": -0.02471453504543239,
       "sector_penalty": 0.0,
       "industry_penalty": 0.0,
-      "correlation_penalty": 0.6215906173204292
+      "correlation_penalty": 0.0
     }
   ],
   "files": [
