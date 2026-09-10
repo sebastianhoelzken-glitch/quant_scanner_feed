@@ -1,0 +1,29 @@
+{
+  "version": "0.1-cross-asset-context",
+  "generated_at_utc": "2026-09-10T04:01:45.285967+00:00",
+  "equity_cross_asset_context_score": 50.45907382523075,
+  "equity_cross_asset_context": "neutral",
+  "usd_strength_20d": -0.014490210929230696,
+  "us10y_change_20d_bps": 12.99999999999999,
+  "us10y_real_change_20d_bps": 2.9999999999999805,
+  "us_2s10s_bps": 40.000000000000036,
+  "us_2s10s_change_20d_bps": -8.000000000000007,
+  "semantics": "diagnostic-only; does not change stock scores/ranks/eligibility",
+  "components": [
+    {
+      "name": "weaker_usd",
+      "normalized": 0.48300703097435654,
+      "weight": 0.3
+    },
+    {
+      "name": "falling_nominal_10y",
+      "normalized": -0.32499999999999973,
+      "weight": 0.3
+    },
+    {
+      "name": "falling_real_10y",
+      "normalized": -0.08571428571428516,
+      "weight": 0.4
+    }
+  ]
+}
