@@ -6,147 +6,147 @@
   "persistence_history_available": true,
   "top10_persistence": [
     {
-      "symbol": "FRO",
+      "symbol": "VLO",
       "rank": 1,
-      "consecutive_top10": 5,
-      "consecutive_top25": 5,
-      "label": "persistent_top10"
-    },
-    {
-      "symbol": "DELL",
-      "rank": 2,
-      "consecutive_top10": 6,
-      "consecutive_top25": 7,
-      "label": "persistent_top10"
-    },
-    {
-      "symbol": "DK",
-      "rank": 3,
-      "consecutive_top10": 1,
-      "consecutive_top25": 7,
-      "label": "persistent_top25"
-    },
-    {
-      "symbol": "UGP",
-      "rank": 4,
-      "consecutive_top10": 5,
-      "consecutive_top25": 5,
-      "label": "persistent_top10"
-    },
-    {
-      "symbol": "PBF",
-      "rank": 5,
       "consecutive_top10": 1,
       "consecutive_top25": 1,
       "label": "new_top25"
     },
     {
-      "symbol": "CRGY",
-      "rank": 6,
+      "symbol": "HPE",
+      "rank": 2,
+      "consecutive_top10": 1,
+      "consecutive_top25": 2,
+      "label": "rotating"
+    },
+    {
+      "symbol": "DELL",
+      "rank": 3,
       "consecutive_top10": 7,
       "consecutive_top25": 8,
       "label": "persistent_top10"
     },
     {
-      "symbol": "PARR",
-      "rank": 7,
+      "symbol": "TNK",
+      "rank": 4,
       "consecutive_top10": 1,
-      "consecutive_top25": 5,
-      "label": "persistent_top25"
+      "consecutive_top25": 1,
+      "label": "new_top25"
     },
     {
-      "symbol": "DINO",
-      "rank": 8,
-      "consecutive_top10": 5,
-      "consecutive_top25": 5,
-      "label": "persistent_top10"
-    },
-    {
-      "symbol": "KIN.BR",
-      "rank": 9,
-      "consecutive_top10": 0,
+      "symbol": "DK",
+      "rank": 5,
+      "consecutive_top10": 2,
       "consecutive_top25": 8,
       "label": "persistent_top25"
     },
     {
-      "symbol": "DSX",
-      "rank": 10,
-      "consecutive_top10": 0,
+      "symbol": "ANF",
+      "rank": 6,
+      "consecutive_top10": 1,
       "consecutive_top25": 6,
       "label": "persistent_top25"
+    },
+    {
+      "symbol": "CRGY",
+      "rank": 7,
+      "consecutive_top10": 8,
+      "consecutive_top25": 9,
+      "label": "persistent_top10"
+    },
+    {
+      "symbol": "UGP",
+      "rank": 8,
+      "consecutive_top10": 6,
+      "consecutive_top25": 6,
+      "label": "persistent_top10"
+    },
+    {
+      "symbol": "PARR",
+      "rank": 9,
+      "consecutive_top10": 2,
+      "consecutive_top25": 6,
+      "label": "persistent_top25"
+    },
+    {
+      "symbol": "EQNR",
+      "rank": 10,
+      "consecutive_top10": 0,
+      "consecutive_top25": 2,
+      "label": "rotating"
     }
   ],
-  "emerging_alpha_candidates": 174,
+  "emerging_alpha_candidates": 179,
   "emerging_alpha_top10": [
     {
       "rank": 1,
-      "symbol": "GOLD",
-      "score": 91.88524346557995,
-      "main_rank": 27,
-      "sector_neutral_score": 97.09709709709709
+      "symbol": "AMD",
+      "score": 89.92935560348285,
+      "main_rank": 39,
+      "sector_neutral_score": 95.3953953953954
     },
     {
       "rank": 2,
-      "symbol": "AMD",
-      "score": 89.24439194600417,
-      "main_rank": 84,
-      "sector_neutral_score": 90.09009009009009
+      "symbol": "IRS",
+      "score": 89.60959838749334,
+      "main_rank": 111,
+      "sector_neutral_score": 96.29629629629629
     },
     {
       "rank": 3,
-      "symbol": "BEN",
-      "score": 88.60034904105756,
-      "main_rank": 28,
-      "sector_neutral_score": 96.996996996997
+      "symbol": "GGB",
+      "score": 88.99518368515899,
+      "main_rank": 40,
+      "sector_neutral_score": 95.29529529529529
     },
     {
       "rank": 4,
-      "symbol": "ASX",
-      "score": 88.59995448911164,
-      "main_rank": 64,
+      "symbol": "SYENS.BR",
+      "score": 88.53835258511542,
+      "main_rank": 66,
       "sector_neutral_score": 92.3923923923924
     },
     {
       "rank": 5,
-      "symbol": "SHEL",
-      "score": 87.99190465236761,
-      "main_rank": 61,
-      "sector_neutral_score": 92.7927927927928
+      "symbol": "ASX",
+      "score": 88.18022406581913,
+      "main_rank": 36,
+      "sector_neutral_score": 95.69569569569569
     },
     {
       "rank": 6,
-      "symbol": "UBSG.SW",
-      "score": 87.20133760954721,
-      "main_rank": 75,
-      "sector_neutral_score": 91.09109109109109
+      "symbol": "APA",
+      "score": 87.78799432091601,
+      "main_rank": 14,
+      "sector_neutral_score": 98.69869869869869
     },
     {
       "rank": 7,
-      "symbol": "LITE",
-      "score": 86.54130207468734,
-      "main_rank": 97,
-      "sector_neutral_score": 88.48848848848849
+      "symbol": "VOD",
+      "score": 86.52087602375805,
+      "main_rank": 84,
+      "sector_neutral_score": 90.39039039039038
     },
     {
       "rank": 8,
-      "symbol": "TECK",
-      "score": 85.64164486143659,
-      "main_rank": 23,
-      "sector_neutral_score": 97.5975975975976
+      "symbol": "CMPS",
+      "score": 85.5863235208461,
+      "main_rank": 88,
+      "sector_neutral_score": 89.98998998999
     },
     {
       "rank": 9,
-      "symbol": "HPE",
-      "score": 85.03997461076224,
-      "main_rank": 15,
-      "sector_neutral_score": 98.49849849849849
+      "symbol": "NTNX",
+      "score": 84.92042395194453,
+      "main_rank": 101,
+      "sector_neutral_score": 88.28828828828829
     },
     {
       "rank": 10,
-      "symbol": "CMPS",
-      "score": 84.52824521631344,
-      "main_rank": 152,
-      "sector_neutral_score": 81.68168168168168
+      "symbol": "FIGR",
+      "score": 83.99744614422863,
+      "main_rank": 99,
+      "sector_neutral_score": 88.48848848848849
     }
   ],
   "challenger_500_500": {
@@ -154,10 +154,10 @@
     "core_target": 500,
     "total_target": 1000,
     "selected": 1000,
-    "overlap_with_live_600_400": 879,
-    "challenger_only": 121,
-    "live_only": 121,
-    "jaccard": 0.784121320249777,
+    "overlap_with_live_600_400": 870,
+    "challenger_only": 130,
+    "live_only": 130,
+    "jaccard": 0.7699115044247787,
     "semantics": "shadow selection diagnostic only; 500 dynamic core candidates plus 500 highest Stage-1 dynamic candidates, never changes Full Exact production selection"
   },
   "files": [
