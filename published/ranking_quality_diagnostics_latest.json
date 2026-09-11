@@ -23,22 +23,22 @@
       },
       "complete_core_component_rows": 10,
       "sparse_core_component_rows": 0,
-      "median_data_confidence": 69.05681818181819,
-      "min_data_confidence": 67.63636363636363,
+      "median_data_confidence": 69.22727272727273,
+      "min_data_confidence": 67.5,
       "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 0,
-      "median_market_cap_eur": 6179807231.104685,
+      "median_market_cap_eur": 7215719405.211813,
       "market_cap_buckets": {
         "micro_250m_1b": 0,
-        "small_1_5b": 4,
-        "mid_5_20b": 2,
-        "large_20_100b": 3,
-        "mega_100b_plus": 1,
+        "small_1_5b": 3,
+        "mid_5_20b": 6,
+        "large_20_100b": 1,
+        "mega_100b_plus": 0,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 2,
-        "adaptive": 8,
+        "core": 1,
+        "adaptive": 9,
         "unknown": 0
       },
       "sparse_examples": []
@@ -47,25 +47,25 @@
       "requested_top_n": 25,
       "rows": 25,
       "component_present": {
-        "quality_score": 22,
-        "revisions_score": 24,
-        "valuation_score": 25
+        "quality_score": 24,
+        "revisions_score": 25,
+        "valuation_score": 24
       },
       "component_missing": {
-        "quality_score": 3,
-        "revisions_score": 1,
-        "valuation_score": 0
+        "quality_score": 1,
+        "revisions_score": 0,
+        "valuation_score": 1
       },
-      "complete_core_component_rows": 22,
-      "sparse_core_component_rows": 1,
-      "median_data_confidence": 68.88636363636364,
-      "min_data_confidence": 55.56818181818181,
-      "below_60_confidence_rows": 1,
-      "below_65_confidence_rows": 2,
-      "median_market_cap_eur": 7094245983.925218,
+      "complete_core_component_rows": 23,
+      "sparse_core_component_rows": 0,
+      "median_data_confidence": 69.22727272727273,
+      "min_data_confidence": 64.90909090909092,
+      "below_60_confidence_rows": 0,
+      "below_65_confidence_rows": 1,
+      "median_market_cap_eur": 7805895252.145177,
       "market_cap_buckets": {
-        "micro_250m_1b": 3,
-        "small_1_5b": 6,
+        "micro_250m_1b": 1,
+        "small_1_5b": 8,
         "mid_5_20b": 8,
         "large_20_100b": 5,
         "mega_100b_plus": 3,
@@ -76,62 +76,42 @@
         "adaptive": 20,
         "unknown": 0
       },
-      "sparse_examples": [
-        {
-          "symbol": "HQL",
-          "rank": 23,
-          "missing": [
-            "quality",
-            "revisions"
-          ],
-          "data_confidence": 55.56818181818181
-        }
-      ]
+      "sparse_examples": []
     },
     "50": {
       "requested_top_n": 50,
       "rows": 50,
       "component_present": {
-        "quality_score": 47,
+        "quality_score": 49,
         "revisions_score": 49,
         "valuation_score": 49
       },
       "component_missing": {
-        "quality_score": 3,
+        "quality_score": 1,
         "revisions_score": 1,
         "valuation_score": 1
       },
-      "complete_core_component_rows": 46,
-      "sparse_core_component_rows": 1,
+      "complete_core_component_rows": 47,
+      "sparse_core_component_rows": 0,
       "median_data_confidence": 69.22727272727273,
-      "min_data_confidence": 55.56818181818181,
-      "below_60_confidence_rows": 1,
-      "below_65_confidence_rows": 3,
-      "median_market_cap_eur": 7784631141.255585,
+      "min_data_confidence": 64.90909090909092,
+      "below_60_confidence_rows": 0,
+      "below_65_confidence_rows": 1,
+      "median_market_cap_eur": 7962973866.399592,
       "market_cap_buckets": {
-        "micro_250m_1b": 5,
-        "small_1_5b": 15,
-        "mid_5_20b": 12,
-        "large_20_100b": 13,
-        "mega_100b_plus": 5,
+        "micro_250m_1b": 4,
+        "small_1_5b": 16,
+        "mid_5_20b": 14,
+        "large_20_100b": 10,
+        "mega_100b_plus": 6,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 11,
-        "adaptive": 39,
+        "core": 14,
+        "adaptive": 36,
         "unknown": 0
       },
-      "sparse_examples": [
-        {
-          "symbol": "HQL",
-          "rank": 23,
-          "missing": [
-            "quality",
-            "revisions"
-          ],
-          "data_confidence": 55.56818181818181
-        }
-      ]
+      "sparse_examples": []
     }
   }
 }

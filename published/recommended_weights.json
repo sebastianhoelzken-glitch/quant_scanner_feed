@@ -1,17 +1,17 @@
 {
   "short": {
-    "status": "no_matured_forward_labels",
+    "status": "insufficient_history",
     "holding_days": 20,
-    "signal_dates": 0,
-    "label_rows": 0,
+    "signal_dates": 1,
+    "label_rows": 128,
+    "min_dates_required": 60,
     "prior": {
       "technical_short_score": 0.62,
       "revisions_score": 0.11,
       "reaction_score": 0.1,
       "sector_score": 0.1,
       "quality_score": 0.07
-    },
-    "message": "No 20-trading-day forward labels are mature yet; keep accumulating daily snapshots."
+    }
   },
   "swing": {
     "status": "no_matured_forward_labels",

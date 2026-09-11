@@ -8,145 +8,145 @@
     {
       "symbol": "VLO",
       "rank": 1,
-      "consecutive_top10": 1,
-      "consecutive_top25": 1,
-      "label": "new_top25"
-    },
-    {
-      "symbol": "HPE",
-      "rank": 2,
-      "consecutive_top10": 1,
+      "consecutive_top10": 2,
       "consecutive_top25": 2,
       "label": "rotating"
     },
     {
-      "symbol": "DELL",
-      "rank": 3,
-      "consecutive_top10": 7,
-      "consecutive_top25": 8,
-      "label": "persistent_top10"
-    },
-    {
-      "symbol": "TNK",
-      "rank": 4,
+      "symbol": "FRO",
+      "rank": 2,
       "consecutive_top10": 1,
       "consecutive_top25": 1,
       "label": "new_top25"
     },
     {
+      "symbol": "CRGY",
+      "rank": 3,
+      "consecutive_top10": 9,
+      "consecutive_top25": 10,
+      "label": "persistent_top10"
+    },
+    {
       "symbol": "DK",
+      "rank": 4,
+      "consecutive_top10": 3,
+      "consecutive_top25": 9,
+      "label": "persistent_top25"
+    },
+    {
+      "symbol": "PBF",
       "rank": 5,
-      "consecutive_top10": 2,
-      "consecutive_top25": 8,
+      "consecutive_top10": 1,
+      "consecutive_top25": 3,
+      "label": "rotating"
+    },
+    {
+      "symbol": "SM",
+      "rank": 6,
+      "consecutive_top10": 1,
+      "consecutive_top25": 1,
+      "label": "new_top25"
+    },
+    {
+      "symbol": "UGP",
+      "rank": 7,
+      "consecutive_top10": 0,
+      "consecutive_top25": 7,
       "label": "persistent_top25"
     },
     {
       "symbol": "ANF",
-      "rank": 6,
-      "consecutive_top10": 1,
-      "consecutive_top25": 6,
-      "label": "persistent_top25"
-    },
-    {
-      "symbol": "CRGY",
-      "rank": 7,
-      "consecutive_top10": 8,
-      "consecutive_top25": 9,
-      "label": "persistent_top10"
-    },
-    {
-      "symbol": "UGP",
       "rank": 8,
-      "consecutive_top10": 6,
-      "consecutive_top25": 6,
-      "label": "persistent_top10"
-    },
-    {
-      "symbol": "PARR",
-      "rank": 9,
-      "consecutive_top10": 2,
-      "consecutive_top25": 6,
+      "consecutive_top10": 0,
+      "consecutive_top25": 7,
       "label": "persistent_top25"
     },
     {
-      "symbol": "EQNR",
+      "symbol": "KIN.BR",
+      "rank": 9,
+      "consecutive_top10": 0,
+      "consecutive_top25": 10,
+      "label": "persistent_top25"
+    },
+    {
+      "symbol": "VIST",
       "rank": 10,
       "consecutive_top10": 0,
       "consecutive_top25": 2,
       "label": "rotating"
     }
   ],
-  "emerging_alpha_candidates": 179,
+  "emerging_alpha_candidates": 184,
   "emerging_alpha_top10": [
     {
       "rank": 1,
-      "symbol": "AMD",
-      "score": 89.92935560348285,
-      "main_rank": 39,
-      "sector_neutral_score": 95.3953953953954
+      "symbol": "REP.MC",
+      "score": 89.93227537356972,
+      "main_rank": 15,
+      "sector_neutral_score": 97.7977977977978
     },
     {
       "rank": 2,
-      "symbol": "IRS",
-      "score": 89.60959838749334,
-      "main_rank": 111,
-      "sector_neutral_score": 96.29629629629629
+      "symbol": "CLOV",
+      "score": 88.35469492092629,
+      "main_rank": 114,
+      "sector_neutral_score": 84.48448448448448
     },
     {
       "rank": 3,
-      "symbol": "GGB",
-      "score": 88.99518368515899,
-      "main_rank": 40,
-      "sector_neutral_score": 95.29529529529529
+      "symbol": "SRAIL.SW",
+      "score": 88.15653856905969,
+      "main_rank": 34,
+      "sector_neutral_score": 94.994994994995
     },
     {
       "rank": 4,
-      "symbol": "SYENS.BR",
-      "score": 88.53835258511542,
-      "main_rank": 66,
-      "sector_neutral_score": 92.3923923923924
+      "symbol": "NTSK",
+      "score": 87.84034076298346,
+      "main_rank": 84,
+      "sector_neutral_score": 88.88888888888889
     },
     {
       "rank": 5,
-      "symbol": "ASX",
-      "score": 88.18022406581913,
-      "main_rank": 36,
-      "sector_neutral_score": 95.69569569569569
+      "symbol": "COP",
+      "score": 87.05665862587644,
+      "main_rank": 83,
+      "sector_neutral_score": 88.988988988989
     },
     {
       "rank": 6,
-      "symbol": "APA",
-      "score": 87.78799432091601,
-      "main_rank": 14,
-      "sector_neutral_score": 98.69869869869869
+      "symbol": "HMC",
+      "score": 86.52668499986625,
+      "main_rank": 130,
+      "sector_neutral_score": 98.998998998999
     },
     {
       "rank": 7,
-      "symbol": "VOD",
-      "score": 86.52087602375805,
-      "main_rank": 84,
-      "sector_neutral_score": 90.39039039039038
+      "symbol": "PAA",
+      "score": 85.9803692003091,
+      "main_rank": 26,
+      "sector_neutral_score": 96.1961961961962
     },
     {
       "rank": 8,
-      "symbol": "CMPS",
-      "score": 85.5863235208461,
-      "main_rank": 88,
-      "sector_neutral_score": 89.98998998999
+      "symbol": "SHELL.AS",
+      "score": 85.54089889367322,
+      "main_rank": 17,
+      "sector_neutral_score": 97.5975975975976
     },
     {
       "rank": 9,
-      "symbol": "NTNX",
-      "score": 84.92042395194453,
-      "main_rank": 101,
-      "sector_neutral_score": 88.28828828828829
+      "symbol": "DBX",
+      "score": 83.54174185486707,
+      "main_rank": 75,
+      "sector_neutral_score": 89.98998998999
     },
     {
       "rank": 10,
-      "symbol": "FIGR",
-      "score": 83.99744614422863,
-      "main_rank": 99,
-      "sector_neutral_score": 88.48848848848849
+      "symbol": "ADM",
+      "score": 83.06190044347636,
+      "main_rank": 100,
+      "sector_neutral_score": 86.28628628628628
     }
   ],
   "challenger_500_500": {
@@ -154,10 +154,10 @@
     "core_target": 500,
     "total_target": 1000,
     "selected": 1000,
-    "overlap_with_live_600_400": 870,
-    "challenger_only": 130,
-    "live_only": 130,
-    "jaccard": 0.7699115044247787,
+    "overlap_with_live_600_400": 884,
+    "challenger_only": 116,
+    "live_only": 116,
+    "jaccard": 0.7921146953405018,
     "semantics": "shadow selection diagnostic only; 500 dynamic core candidates plus 500 highest Stage-1 dynamic candidates, never changes Full Exact production selection"
   },
   "files": [

@@ -3,83 +3,83 @@
   "diagnostic_only_for_main_ranking": true,
   "main_scores_changed": false,
   "main_ranks_changed": false,
-  "entry_overlay_rows_joined": 440,
+  "entry_overlay_rows_joined": 497,
   "top10_quality_present": 10,
   "top10_revisions_present": 10,
   "top10_complete_core_components": 10,
   "top10_median_score_completeness": 95.00000000000001,
-  "high_conviction_candidates": 712,
-  "fresh_opportunity_candidates": 335,
+  "high_conviction_candidates": 709,
+  "fresh_opportunity_candidates": 383,
   "fresh_opportunity_top10": [
     {
       "rank": 1,
-      "symbol": "IRS",
-      "score": 84.69634124751474,
+      "symbol": "REP.MC",
+      "score": 86.49193228360502,
       "reason": "sharp_1run_rise",
-      "main_rank": 111
+      "main_rank": 15
     },
     {
       "rank": 2,
-      "symbol": "GGB",
-      "score": 84.4965660034103,
+      "symbol": "CLOV",
+      "score": 85.41358683951447,
       "reason": "sharp_1run_rise",
-      "main_rank": 40
+      "main_rank": 114
     },
     {
       "rank": 3,
-      "symbol": "HPE",
-      "score": 84.35065418629273,
+      "symbol": "SM",
+      "score": 84.25881207769035,
       "reason": "sharp_1run_rise",
-      "main_rank": 2
+      "main_rank": 6
     },
     {
       "rank": 4,
-      "symbol": "AMD",
-      "score": 84.27932615530155,
+      "symbol": "COP",
+      "score": 83.8406756818313,
       "reason": "sharp_1run_rise",
-      "main_rank": 39
+      "main_rank": 83
     },
     {
       "rank": 5,
-      "symbol": "NTNX",
-      "score": 84.00623240318646,
-      "reason": "new_exact",
-      "main_rank": 101
+      "symbol": "SRAIL.SW",
+      "score": 83.25513398288751,
+      "reason": "sharp_1run_rise",
+      "main_rank": 34
     },
     {
       "rank": 6,
-      "symbol": "CMPS",
-      "score": 83.93395020058928,
+      "symbol": "SDF.DE",
+      "score": 83.03448907874751,
       "reason": "sharp_1run_rise",
-      "main_rank": 88
+      "main_rank": 217
     },
     {
       "rank": 7,
-      "symbol": "SYENS.BR",
-      "score": 83.1565898207457,
-      "reason": "sharp_1run_rise",
-      "main_rank": 66
-    },
-    {
-      "rank": 8,
-      "symbol": "TNK",
-      "score": 83.11082817814935,
-      "reason": "sharp_1run_rise",
-      "main_rank": 4
-    },
-    {
-      "rank": 9,
-      "symbol": "VOD",
-      "score": 82.87474070173451,
+      "symbol": "NTSK",
+      "score": 82.92448591593634,
       "reason": "sharp_1run_rise",
       "main_rank": 84
     },
     {
+      "rank": 8,
+      "symbol": "FOXA",
+      "score": 81.32115150925384,
+      "reason": "new_exact",
+      "main_rank": 337
+    },
+    {
+      "rank": 9,
+      "symbol": "SVM",
+      "score": 81.14759878190587,
+      "reason": "new_exact",
+      "main_rank": 122
+    },
+    {
       "rank": 10,
-      "symbol": "ASX",
-      "score": 82.75863740271396,
-      "reason": "rising_5run",
-      "main_rank": 36
+      "symbol": "MSFT",
+      "score": 80.86247219332074,
+      "reason": "sharp_1run_rise",
+      "main_rank": 267
     }
   ],
   "portfolio_guard_rows": 30,
