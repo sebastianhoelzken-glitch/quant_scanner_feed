@@ -8,78 +8,78 @@
   "top10_revisions_present": 10,
   "top10_complete_core_components": 10,
   "top10_median_score_completeness": 95.00000000000001,
-  "high_conviction_candidates": 709,
-  "fresh_opportunity_candidates": 383,
+  "high_conviction_candidates": 711,
+  "fresh_opportunity_candidates": 386,
   "fresh_opportunity_top10": [
     {
       "rank": 1,
-      "symbol": "REP.MC",
-      "score": 86.49193228360502,
-      "reason": "sharp_1run_rise",
-      "main_rank": 15
+      "symbol": "NTAP",
+      "score": 86.97968483020773,
+      "reason": "new_exact",
+      "main_rank": 35
     },
     {
       "rank": 2,
-      "symbol": "CLOV",
-      "score": 85.41358683951447,
+      "symbol": "HPE",
+      "score": 86.5521311939171,
+      "reason": "sharp_1run_rise",
+      "main_rank": 3
+    },
+    {
+      "rank": 3,
+      "symbol": "ACVA",
+      "score": 85.79077467225854,
+      "reason": "sharp_1run_rise",
+      "main_rank": 136
+    },
+    {
+      "rank": 4,
+      "symbol": "HMY",
+      "score": 85.62975707986865,
+      "reason": "sharp_1run_rise",
+      "main_rank": 26
+    },
+    {
+      "rank": 5,
+      "symbol": "APH",
+      "score": 84.64940884929531,
+      "reason": "sharp_1run_rise",
+      "main_rank": 137
+    },
+    {
+      "rank": 6,
+      "symbol": "LITE",
+      "score": 83.77275544139474,
       "reason": "sharp_1run_rise",
       "main_rank": 114
     },
     {
-      "rank": 3,
-      "symbol": "SM",
-      "score": 84.25881207769035,
-      "reason": "sharp_1run_rise",
-      "main_rank": 6
-    },
-    {
-      "rank": 4,
-      "symbol": "COP",
-      "score": 83.8406756818313,
-      "reason": "sharp_1run_rise",
-      "main_rank": 83
-    },
-    {
-      "rank": 5,
-      "symbol": "SRAIL.SW",
-      "score": 83.25513398288751,
-      "reason": "sharp_1run_rise",
-      "main_rank": 34
-    },
-    {
-      "rank": 6,
-      "symbol": "SDF.DE",
-      "score": 83.03448907874751,
-      "reason": "sharp_1run_rise",
-      "main_rank": 217
-    },
-    {
       "rank": 7,
-      "symbol": "NTSK",
-      "score": 82.92448591593634,
+      "symbol": "ERO",
+      "score": 83.5369765445419,
       "reason": "sharp_1run_rise",
-      "main_rank": 84
+      "main_rank": 47
     },
     {
       "rank": 8,
-      "symbol": "FOXA",
-      "score": 81.32115150925384,
-      "reason": "new_exact",
-      "main_rank": 337
+      "symbol": "CMPS",
+      "score": 83.27949102035065,
+      "reason": "sharp_1run_rise",
+      "main_rank": 98
     },
     {
       "rank": 9,
-      "symbol": "SVM",
-      "score": 81.14759878190587,
-      "reason": "new_exact",
-      "main_rank": 122
+      "symbol": "INDU-A.ST",
+      "score": 83.2765985236401,
+      "reason": "sharp_1run_rise",
+      "main_rank": 333
     },
     {
       "rank": 10,
-      "symbol": "MSFT",
-      "score": 80.86247219332074,
-      "reason": "sharp_1run_rise",
-      "main_rank": 267
+      "symbol": "SM",
+      "score": 82.3264903526182,
+      "reason": "rising_5run",
+      "main_rank": 4
     }
   ],
   "portfolio_guard_rows": 30,
