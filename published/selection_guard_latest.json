@@ -3,83 +3,83 @@
   "diagnostic_only_for_main_ranking": true,
   "main_scores_changed": false,
   "main_ranks_changed": false,
-  "entry_overlay_rows_joined": 497,
+  "entry_overlay_rows_joined": 508,
   "top10_quality_present": 10,
   "top10_revisions_present": 10,
   "top10_complete_core_components": 10,
   "top10_median_score_completeness": 95.00000000000001,
-  "high_conviction_candidates": 711,
-  "fresh_opportunity_candidates": 386,
+  "high_conviction_candidates": 716,
+  "fresh_opportunity_candidates": 390,
   "fresh_opportunity_top10": [
     {
       "rank": 1,
-      "symbol": "NTAP",
-      "score": 86.97968483020773,
-      "reason": "new_exact",
-      "main_rank": 35
+      "symbol": "HAFN",
+      "score": 85.23755481409711,
+      "reason": "sharp_1run_rise",
+      "main_rank": 15
     },
     {
       "rank": 2,
-      "symbol": "HPE",
-      "score": 86.5521311939171,
+      "symbol": "AVAH",
+      "score": 85.15637340864062,
       "reason": "sharp_1run_rise",
-      "main_rank": 3
+      "main_rank": 11
     },
     {
       "rank": 3,
-      "symbol": "ACVA",
-      "score": 85.79077467225854,
+      "symbol": "GL9.IR",
+      "score": 83.1210799643698,
       "reason": "sharp_1run_rise",
-      "main_rank": 136
+      "main_rank": 180
     },
     {
       "rank": 4,
-      "symbol": "HMY",
-      "score": 85.62975707986865,
+      "symbol": "OVV",
+      "score": 82.23218045320317,
       "reason": "sharp_1run_rise",
-      "main_rank": 26
+      "main_rank": 64
     },
     {
       "rank": 5,
-      "symbol": "APH",
-      "score": 84.64940884929531,
+      "symbol": "TGB",
+      "score": 81.84536587115612,
       "reason": "sharp_1run_rise",
-      "main_rank": 137
+      "main_rank": 129
     },
     {
       "rank": 6,
-      "symbol": "LITE",
-      "score": 83.77275544139474,
+      "symbol": "KOS",
+      "score": 81.59302884998118,
       "reason": "sharp_1run_rise",
-      "main_rank": 114
+      "main_rank": 35
     },
     {
       "rank": 7,
-      "symbol": "ERO",
-      "score": 83.5369765445419,
-      "reason": "sharp_1run_rise",
-      "main_rank": 47
+      "symbol": "PAGP",
+      "score": 81.05648010020406,
+      "reason": "new_exact",
+      "main_rank": 48
     },
     {
       "rank": 8,
-      "symbol": "CMPS",
-      "score": 83.27949102035065,
-      "reason": "sharp_1run_rise",
-      "main_rank": 98
+      "symbol": "ENI.MI",
+      "score": 79.89787972416079,
+      "reason": "rising_5run",
+      "main_rank": 169
     },
     {
       "rank": 9,
-      "symbol": "INDU-A.ST",
-      "score": 83.2765985236401,
+      "symbol": "GTE",
+      "score": 79.7773281890477,
       "reason": "sharp_1run_rise",
-      "main_rank": 333
+      "main_rank": 44
     },
     {
       "rank": 10,
-      "symbol": "SM",
-      "score": 82.3264903526182,
-      "reason": "rising_5run",
-      "main_rank": 4
+      "symbol": "MTDR",
+      "score": 79.68340156212842,
+      "reason": "sharp_1run_rise",
+      "main_rank": 62
     }
   ],
   "portfolio_guard_rows": 30,
