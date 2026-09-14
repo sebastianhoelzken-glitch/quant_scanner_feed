@@ -13,31 +13,31 @@
       "label": "persistent_top10"
     },
     {
-      "symbol": "FRO",
+      "symbol": "SM",
       "rank": 2,
+      "consecutive_top10": 4,
+      "consecutive_top25": 4,
+      "label": "rotating"
+    },
+    {
+      "symbol": "FRO",
+      "rank": 3,
       "consecutive_top10": 2,
       "consecutive_top25": 4,
       "label": "rotating"
     },
     {
       "symbol": "CRGY",
-      "rank": 3,
+      "rank": 4,
       "consecutive_top10": 12,
       "consecutive_top25": 13,
       "label": "persistent_top10"
     },
     {
       "symbol": "HPE",
-      "rank": 4,
+      "rank": 5,
       "consecutive_top10": 3,
       "consecutive_top25": 3,
-      "label": "rotating"
-    },
-    {
-      "symbol": "SM",
-      "rank": 5,
-      "consecutive_top10": 4,
-      "consecutive_top25": 4,
       "label": "rotating"
     },
     {
@@ -48,18 +48,18 @@
       "label": "persistent_top10"
     },
     {
-      "symbol": "DELL",
-      "rank": 7,
-      "consecutive_top10": 3,
-      "consecutive_top25": 3,
-      "label": "rotating"
-    },
-    {
       "symbol": "PBF",
-      "rank": 8,
+      "rank": 7,
       "consecutive_top10": 4,
       "consecutive_top25": 6,
       "label": "persistent_top25"
+    },
+    {
+      "symbol": "DELL",
+      "rank": 8,
+      "consecutive_top10": 0,
+      "consecutive_top25": 3,
+      "label": "rotating"
     },
     {
       "symbol": "PARR",
@@ -69,11 +69,11 @@
       "label": "persistent_top25"
     },
     {
-      "symbol": "DINO",
+      "symbol": "ANF",
       "rank": 10,
       "consecutive_top10": 0,
-      "consecutive_top25": 3,
-      "label": "rotating"
+      "consecutive_top25": 1,
+      "label": "new_top25"
     }
   ],
   "emerging_alpha_candidates": 181,
@@ -81,72 +81,72 @@
     {
       "rank": 1,
       "symbol": "SHELL.AS",
-      "score": 90.7347625125165,
-      "main_rank": 16,
-      "sector_neutral_score": 97.2972972972973
+      "score": 90.24305008829496,
+      "main_rank": 11,
+      "sector_neutral_score": 97.997997997998
     },
     {
       "rank": 2,
-      "symbol": "REP.MC",
-      "score": 80.63640643116508,
-      "main_rank": 20,
-      "sector_neutral_score": 96.8968968968969
+      "symbol": "GL9.IR",
+      "score": 84.92206387757645,
+      "main_rank": 129,
+      "sector_neutral_score": 79.07907907907908
     },
     {
       "rank": 3,
-      "symbol": "MTDR",
-      "score": 80.2436080537449,
-      "main_rank": 60,
-      "sector_neutral_score": 90.8908908908909
+      "symbol": "ABNB",
+      "score": 84.60244600230057,
+      "main_rank": 124,
+      "sector_neutral_score": 79.57957957957959
     },
     {
       "rank": 4,
-      "symbol": "IRWD",
-      "score": 80.12312032957894,
-      "main_rank": 196,
-      "sector_neutral_score": 98.3983983983984
+      "symbol": "SDF.DE",
+      "score": 83.52501424068704,
+      "main_rank": 145,
+      "sector_neutral_score": 78.67867867867868
     },
     {
       "rank": 5,
-      "symbol": "BTG",
-      "score": 79.75557010139693,
-      "main_rank": 136,
-      "sector_neutral_score": 80.98098098098097
+      "symbol": "GTE",
+      "score": 82.6893259292227,
+      "main_rank": 28,
+      "sector_neutral_score": 94.49449449449449
     },
     {
       "rank": 6,
-      "symbol": "HMY",
-      "score": 79.40581359283318,
-      "main_rank": 24,
-      "sector_neutral_score": 96.1961961961962
+      "symbol": "OBE",
+      "score": 82.60495596017779,
+      "main_rank": 34,
+      "sector_neutral_score": 93.1931931931932
     },
     {
       "rank": 7,
-      "symbol": "DHT",
-      "score": 79.00297423242672,
-      "main_rank": 19,
-      "sector_neutral_score": 96.996996996997
+      "symbol": "ADEN.SW",
+      "score": 80.41799213296756,
+      "main_rank": 75,
+      "sector_neutral_score": 86.28628628628628
     },
     {
       "rank": 8,
-      "symbol": "CF",
-      "score": 78.06627958913529,
-      "main_rank": 112,
-      "sector_neutral_score": 83.88388388388388
+      "symbol": "AGS.BR",
+      "score": 79.84085399050632,
+      "main_rank": 69,
+      "sector_neutral_score": 87.28728728728728
     },
     {
       "rank": 9,
-      "symbol": "SHEL",
-      "score": 78.04624575817313,
-      "main_rank": 42,
-      "sector_neutral_score": 93.8938938938939
+      "symbol": "DFDS.CO",
+      "score": 79.33287295942115,
+      "main_rank": 40,
+      "sector_neutral_score": 92.3923923923924
     },
     {
       "rank": 10,
-      "symbol": "OVV",
-      "score": 77.97518056028728,
-      "main_rank": 64,
-      "sector_neutral_score": 90.39039039039038
+      "symbol": "KRZ.IR",
+      "score": 79.02234701889034,
+      "main_rank": 100,
+      "sector_neutral_score": 83.08308308308308
     }
   ],
   "challenger_500_500": {
@@ -154,10 +154,10 @@
     "core_target": 500,
     "total_target": 1000,
     "selected": 1000,
-    "overlap_with_live_600_400": 878,
-    "challenger_only": 122,
-    "live_only": 122,
-    "jaccard": 0.7825311942959001,
+    "overlap_with_live_600_400": 880,
+    "challenger_only": 120,
+    "live_only": 120,
+    "jaccard": 0.7857142857142857,
     "semantics": "shadow selection diagnostic only; 500 dynamic core candidates plus 500 highest Stage-1 dynamic candidates, never changes Full Exact production selection"
   },
   "files": [
