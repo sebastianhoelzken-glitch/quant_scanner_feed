@@ -8,145 +8,145 @@
     {
       "symbol": "VLO",
       "rank": 1,
-      "consecutive_top10": 4,
-      "consecutive_top25": 4,
-      "label": "rotating"
+      "consecutive_top10": 5,
+      "consecutive_top25": 5,
+      "label": "persistent_top10"
     },
     {
       "symbol": "FRO",
       "rank": 2,
-      "consecutive_top10": 1,
-      "consecutive_top25": 3,
+      "consecutive_top10": 2,
+      "consecutive_top25": 4,
       "label": "rotating"
     },
     {
       "symbol": "CRGY",
       "rank": 3,
-      "consecutive_top10": 11,
-      "consecutive_top25": 12,
+      "consecutive_top10": 12,
+      "consecutive_top25": 13,
       "label": "persistent_top10"
     },
     {
       "symbol": "HPE",
       "rank": 4,
-      "consecutive_top10": 2,
-      "consecutive_top25": 2,
-      "label": "rotating"
-    },
-    {
-      "symbol": "SM",
-      "rank": 5,
       "consecutive_top10": 3,
       "consecutive_top25": 3,
       "label": "rotating"
     },
     {
+      "symbol": "SM",
+      "rank": 5,
+      "consecutive_top10": 4,
+      "consecutive_top25": 4,
+      "label": "rotating"
+    },
+    {
       "symbol": "DK",
       "rank": 6,
-      "consecutive_top10": 5,
-      "consecutive_top25": 11,
+      "consecutive_top10": 6,
+      "consecutive_top25": 12,
       "label": "persistent_top10"
     },
     {
-      "symbol": "PBF",
+      "symbol": "DELL",
       "rank": 7,
       "consecutive_top10": 3,
-      "consecutive_top25": 5,
-      "label": "persistent_top25"
+      "consecutive_top25": 3,
+      "label": "rotating"
     },
     {
-      "symbol": "DELL",
+      "symbol": "PBF",
       "rank": 8,
-      "consecutive_top10": 2,
-      "consecutive_top25": 2,
-      "label": "rotating"
+      "consecutive_top10": 4,
+      "consecutive_top25": 6,
+      "label": "persistent_top25"
     },
     {
       "symbol": "PARR",
       "rank": 9,
       "consecutive_top10": 0,
-      "consecutive_top25": 9,
+      "consecutive_top25": 10,
       "label": "persistent_top25"
     },
     {
       "symbol": "DINO",
       "rank": 10,
       "consecutive_top10": 0,
-      "consecutive_top25": 2,
+      "consecutive_top25": 3,
       "label": "rotating"
     }
   ],
-  "emerging_alpha_candidates": 182,
+  "emerging_alpha_candidates": 181,
   "emerging_alpha_top10": [
     {
       "rank": 1,
-      "symbol": "AVAH",
-      "score": 88.86178917363104,
-      "main_rank": 11,
-      "sector_neutral_score": 98.3983983983984
+      "symbol": "SHELL.AS",
+      "score": 90.7347625125165,
+      "main_rank": 16,
+      "sector_neutral_score": 97.2972972972973
     },
     {
       "rank": 2,
-      "symbol": "HAFN",
-      "score": 88.82144989873643,
-      "main_rank": 15,
-      "sector_neutral_score": 97.5975975975976
+      "symbol": "REP.MC",
+      "score": 80.63640643116508,
+      "main_rank": 20,
+      "sector_neutral_score": 96.8968968968969
     },
     {
       "rank": 3,
-      "symbol": "KOS",
-      "score": 88.39999662058538,
-      "main_rank": 35,
-      "sector_neutral_score": 94.69469469469469
-    },
-    {
-      "rank": 4,
-      "symbol": "OVV",
-      "score": 85.99098019915381,
-      "main_rank": 64,
+      "symbol": "MTDR",
+      "score": 80.2436080537449,
+      "main_rank": 60,
       "sector_neutral_score": 90.8908908908909
     },
     {
+      "rank": 4,
+      "symbol": "IRWD",
+      "score": 80.12312032957894,
+      "main_rank": 196,
+      "sector_neutral_score": 98.3983983983984
+    },
+    {
       "rank": 5,
-      "symbol": "GL9.IR",
-      "score": 85.93818189717716,
-      "main_rank": 180,
-      "sector_neutral_score": 76.17617617617618
+      "symbol": "BTG",
+      "score": 79.75557010139693,
+      "main_rank": 136,
+      "sector_neutral_score": 80.98098098098097
     },
     {
       "rank": 6,
-      "symbol": "AMD",
-      "score": 85.28814163813036,
-      "main_rank": 135,
-      "sector_neutral_score": 95.3953953953954
+      "symbol": "HMY",
+      "score": 79.40581359283318,
+      "main_rank": 24,
+      "sector_neutral_score": 96.1961961961962
     },
     {
       "rank": 7,
-      "symbol": "OBE",
-      "score": 84.8429271896545,
-      "main_rank": 46,
-      "sector_neutral_score": 93.09309309309309
+      "symbol": "DHT",
+      "score": 79.00297423242672,
+      "main_rank": 19,
+      "sector_neutral_score": 96.996996996997
     },
     {
       "rank": 8,
-      "symbol": "REP.MC",
-      "score": 84.7871799295145,
-      "main_rank": 18,
-      "sector_neutral_score": 97.1971971971972
+      "symbol": "CF",
+      "score": 78.06627958913529,
+      "main_rank": 112,
+      "sector_neutral_score": 83.88388388388388
     },
     {
       "rank": 9,
-      "symbol": "TGB",
-      "score": 84.3182055922007,
-      "main_rank": 129,
-      "sector_neutral_score": 82.28228228228228
+      "symbol": "SHEL",
+      "score": 78.04624575817313,
+      "main_rank": 42,
+      "sector_neutral_score": 93.8938938938939
     },
     {
       "rank": 10,
-      "symbol": "MTDR",
-      "score": 84.26812778396447,
-      "main_rank": 62,
-      "sector_neutral_score": 91.09109109109109
+      "symbol": "OVV",
+      "score": 77.97518056028728,
+      "main_rank": 64,
+      "sector_neutral_score": 90.39039039039038
     }
   ],
   "challenger_500_500": {
