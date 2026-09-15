@@ -3,83 +3,83 @@
   "diagnostic_only_for_main_ranking": true,
   "main_scores_changed": false,
   "main_ranks_changed": false,
-  "entry_overlay_rows_joined": 495,
+  "entry_overlay_rows_joined": 514,
   "top10_quality_present": 10,
   "top10_revisions_present": 10,
   "top10_complete_core_components": 10,
   "top10_median_score_completeness": 95.00000000000001,
-  "high_conviction_candidates": 704,
-  "fresh_opportunity_candidates": 386,
+  "high_conviction_candidates": 711,
+  "fresh_opportunity_candidates": 393,
   "fresh_opportunity_top10": [
     {
       "rank": 1,
       "symbol": "RBRK",
-      "score": 87.23220016547587,
-      "reason": "sharp_1run_rise",
-      "main_rank": 55
-    },
-    {
-      "rank": 2,
-      "symbol": "PANW",
-      "score": 86.35100994108822,
-      "reason": "sharp_1run_rise",
-      "main_rank": 88
-    },
-    {
-      "rank": 3,
-      "symbol": "CTSH",
-      "score": 85.60240235881946,
-      "reason": "sharp_1run_rise",
-      "main_rank": 113
-    },
-    {
-      "rank": 4,
-      "symbol": "CRWD",
-      "score": 85.27317725837125,
-      "reason": "sharp_1run_rise",
-      "main_rank": 40
-    },
-    {
-      "rank": 5,
-      "symbol": "ZS",
-      "score": 84.85157326556882,
-      "reason": "new_exact",
-      "main_rank": 157
-    },
-    {
-      "rank": 6,
-      "symbol": "NTSK",
-      "score": 84.26758647939715,
+      "score": 87.14120190512782,
       "reason": "sharp_1run_rise",
       "main_rank": 57
     },
     {
-      "rank": 7,
-      "symbol": "HMC",
-      "score": 83.1534853099082,
-      "reason": "rising_5run",
+      "rank": 2,
+      "symbol": "PANW",
+      "score": 86.34411369900302,
+      "reason": "sharp_1run_rise",
       "main_rank": 86
     },
     {
-      "rank": 8,
+      "rank": 3,
+      "symbol": "CTSH",
+      "score": 85.92219464412902,
+      "reason": "sharp_1run_rise",
+      "main_rank": 116
+    },
+    {
+      "rank": 4,
+      "symbol": "CRWD",
+      "score": 84.17884261783745,
+      "reason": "sharp_1run_rise",
+      "main_rank": 49
+    },
+    {
+      "rank": 5,
       "symbol": "CNC",
-      "score": 82.29217994936235,
-      "reason": "rising_5run",
-      "main_rank": 139
+      "score": 83.82299438340755,
+      "reason": "sharp_1run_rise",
+      "main_rank": 128
+    },
+    {
+      "rank": 6,
+      "symbol": "DHT",
+      "score": 83.69051195525283,
+      "reason": "sharp_1run_rise",
+      "main_rank": 4
+    },
+    {
+      "rank": 7,
+      "symbol": "ZS",
+      "score": 83.59713229385257,
+      "reason": "new_exact",
+      "main_rank": 173
+    },
+    {
+      "rank": 8,
+      "symbol": "NTSK",
+      "score": 83.32389202076375,
+      "reason": "sharp_1run_rise",
+      "main_rank": 58
     },
     {
       "rank": 9,
       "symbol": "CLOV",
-      "score": 82.10590710081088,
+      "score": 82.1098179882854,
       "reason": "rising_5run",
-      "main_rank": 51
+      "main_rank": 59
     },
     {
       "rank": 10,
-      "symbol": "AVAH",
-      "score": 81.8475005421924,
-      "reason": "rising_5run",
-      "main_rank": 6
+      "symbol": "MSFT",
+      "score": 82.03341578724184,
+      "reason": "sharp_1run_rise",
+      "main_rank": 182
     }
   ],
   "portfolio_guard_rows": 30,
