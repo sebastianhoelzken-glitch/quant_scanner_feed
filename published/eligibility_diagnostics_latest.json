@@ -1,6 +1,37 @@
 {
   "current": {
     "deep_analyzed_rows": 1000,
+    "excluded_rows": 291,
+    "event_watch_rows": 7,
+    "eligible_rows": 702,
+    "exclusion_reason_counts": {
+      "insufficient median EUR turnover": 231,
+      "price < \u20ac2.00": 179,
+      "market cap < \u20ac250,000,000": 107,
+      "insufficient price history": 18,
+      "data confidence < 55": 15,
+      "market cap EUR unavailable": 7,
+      "duplicate security listing of GL9.IR": 6,
+      "EUR liquidity unavailable": 1,
+      "EUR price unavailable": 1,
+      "asset type excluded: nan": 1,
+      "delisted": 1,
+      "duplicate security listing of LLOYL.XC": 1
+    },
+    "exclusion_category_counts": {
+      "liquidity": 232,
+      "price": 180,
+      "market_cap": 114,
+      "price_history": 18,
+      "data_confidence": 15,
+      "duplicate_listing": 7,
+      "asset_type": 1,
+      "delisted": 1
+    },
+    "as_of": "2026-09-16"
+  },
+  "previous": {
+    "deep_analyzed_rows": 1000,
     "excluded_rows": 282,
     "event_watch_rows": 2,
     "eligible_rows": 716,
@@ -30,40 +61,9 @@
     },
     "as_of": "2026-09-15"
   },
-  "previous": {
-    "deep_analyzed_rows": 1000,
-    "excluded_rows": 282,
-    "event_watch_rows": 1,
-    "eligible_rows": 717,
-    "exclusion_reason_counts": {
-      "insufficient median EUR turnover": 227,
-      "price < \u20ac2.00": 180,
-      "market cap < \u20ac250,000,000": 158,
-      "insufficient price history": 12,
-      "market cap EUR unavailable": 9,
-      "data confidence < 55": 7,
-      "duplicate security listing of STLA": 2,
-      "duplicate security listing of TEK.L": 2,
-      "EUR liquidity unavailable": 1,
-      "EUR price unavailable": 1,
-      "asset type excluded: nan": 1,
-      "delisted": 1
-    },
-    "exclusion_category_counts": {
-      "liquidity": 228,
-      "price": 181,
-      "market_cap": 167,
-      "price_history": 12,
-      "data_confidence": 7,
-      "duplicate_listing": 4,
-      "asset_type": 1,
-      "delisted": 1
-    },
-    "as_of": "2026-09-14"
-  },
   "delta": {
-    "eligible_rows": -1,
-    "excluded_rows": 0,
-    "event_watch_rows": 1
+    "eligible_rows": -14,
+    "excluded_rows": 9,
+    "event_watch_rows": 5
   }
 }
