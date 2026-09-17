@@ -3,83 +3,83 @@
   "diagnostic_only_for_main_ranking": true,
   "main_scores_changed": false,
   "main_ranks_changed": false,
-  "entry_overlay_rows_joined": 478,
+  "entry_overlay_rows_joined": 482,
   "top10_quality_present": 10,
   "top10_revisions_present": 10,
   "top10_complete_core_components": 10,
   "top10_median_score_completeness": 95.00000000000001,
-  "high_conviction_candidates": 710,
-  "fresh_opportunity_candidates": 387,
+  "high_conviction_candidates": 708,
+  "fresh_opportunity_candidates": 405,
   "fresh_opportunity_top10": [
     {
       "rank": 1,
-      "symbol": "EOG",
-      "score": 88.19900414845641,
-      "reason": "new_exact",
-      "main_rank": 45
+      "symbol": "CMBT.BR",
+      "score": 85.46502820605248,
+      "reason": "sharp_1run_rise",
+      "main_rank": 4
     },
     {
       "rank": 2,
-      "symbol": "CXW",
-      "score": 86.2594709076059,
-      "reason": "new_exact",
-      "main_rank": 21
+      "symbol": "PANW",
+      "score": 85.3468247501251,
+      "reason": "sharp_1run_rise",
+      "main_rank": 50
     },
     {
       "rank": 3,
-      "symbol": "TEVA",
-      "score": 84.98804735675067,
-      "reason": "sharp_1run_rise",
-      "main_rank": 151
+      "symbol": "SBMO.AS",
+      "score": 84.41321514770966,
+      "reason": "new_exact",
+      "main_rank": 71
     },
     {
       "rank": 4,
-      "symbol": "FTRE",
-      "score": 84.96727989070104,
+      "symbol": "SB",
+      "score": 84.08330388310038,
       "reason": "sharp_1run_rise",
-      "main_rank": 174
+      "main_rank": 12
     },
     {
       "rank": 5,
-      "symbol": "FOXA",
-      "score": 84.91584075058523,
+      "symbol": "SABR",
+      "score": 84.03713205957138,
       "reason": "new_exact",
-      "main_rank": 144
+      "main_rank": 72
     },
     {
       "rank": 6,
-      "symbol": "KOS",
-      "score": 84.88299762537163,
+      "symbol": "BMY",
+      "score": 83.37907741694156,
       "reason": "sharp_1run_rise",
-      "main_rank": 18
+      "main_rank": 130
     },
     {
       "rank": 7,
-      "symbol": "NN.AS",
-      "score": 84.05769560303919,
-      "reason": "sharp_1run_rise",
-      "main_rank": 73
+      "symbol": "DSFIR.AS",
+      "score": 83.04937294188917,
+      "reason": "rising_5run",
+      "main_rank": 104
     },
     {
       "rank": 8,
-      "symbol": "RBRK",
-      "score": 83.00479178911934,
-      "reason": "rising_5run",
-      "main_rank": 34
+      "symbol": "OSCR",
+      "score": 83.0254161436174,
+      "reason": "sharp_1run_rise",
+      "main_rank": 51
     },
     {
       "rank": 9,
-      "symbol": "OVV",
-      "score": 82.05659122500775,
+      "symbol": "FTRE",
+      "score": 82.61177706037675,
       "reason": "rising_5run",
-      "main_rank": 28
+      "main_rank": 134
     },
     {
       "rank": 10,
-      "symbol": "CLW",
-      "score": 82.0096785584521,
-      "reason": "sharp_1run_rise",
-      "main_rank": 249
+      "symbol": "DHT",
+      "score": 82.43209431527262,
+      "reason": "rising_5run",
+      "main_rank": 3
     }
   ],
   "portfolio_guard_rows": 30,
