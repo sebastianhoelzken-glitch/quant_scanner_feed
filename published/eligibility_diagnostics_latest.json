@@ -1,27 +1,31 @@
 {
   "current": {
     "deep_analyzed_rows": 1000,
-    "excluded_rows": 305,
-    "event_watch_rows": 1,
-    "eligible_rows": 694,
+    "excluded_rows": 295,
+    "event_watch_rows": 5,
+    "eligible_rows": 700,
     "exclusion_reason_counts": {
-      "market cap EUR unavailable": 145,
-      "EUR liquidity unavailable": 138,
-      "EUR price unavailable": 138,
-      "insufficient median EUR turnover": 120,
-      "market cap < \u20ac250,000,000": 91,
-      "price < \u20ac2.00": 63,
-      "data confidence < 55": 49,
-      "insufficient price history": 22,
+      "insufficient median EUR turnover": 232,
+      "price < \u20ac2.00": 179,
+      "market cap < \u20ac250,000,000": 106,
+      "insufficient price history": 23,
+      "data confidence < 55": 18,
+      "market cap EUR unavailable": 7,
+      "duplicate security listing of C5H.IR": 4,
+      "EUR liquidity unavailable": 1,
+      "EUR price unavailable": 1,
       "asset type excluded: nan": 1,
-      "delisted": 1
+      "delisted": 1,
+      "duplicate security listing of LYG": 1,
+      "duplicate security listing of VWS.CO": 1
     },
     "exclusion_category_counts": {
-      "liquidity": 258,
-      "market_cap": 236,
-      "price": 201,
-      "data_confidence": 49,
-      "price_history": 22,
+      "liquidity": 233,
+      "price": 180,
+      "market_cap": 113,
+      "price_history": 23,
+      "data_confidence": 18,
+      "duplicate_listing": 6,
       "asset_type": 1,
       "delisted": 1
     },
@@ -59,8 +63,8 @@
     "as_of": "2026-09-17"
   },
   "delta": {
-    "eligible_rows": -12,
-    "excluded_rows": 12,
-    "event_watch_rows": 0
+    "eligible_rows": -6,
+    "excluded_rows": 2,
+    "event_watch_rows": 4
   }
 }
