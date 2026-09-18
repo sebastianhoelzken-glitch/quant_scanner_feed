@@ -3,7 +3,7 @@
     "status": "insufficient_history",
     "holding_days": 20,
     "signal_dates": 8,
-    "label_rows": 4321,
+    "label_rows": 4814,
     "min_dates_required": 60,
     "prior": {
       "technical_short_score": 0.62,
