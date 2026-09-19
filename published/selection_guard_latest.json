@@ -3,83 +3,83 @@
   "diagnostic_only_for_main_ranking": true,
   "main_scores_changed": false,
   "main_ranks_changed": false,
-  "entry_overlay_rows_joined": 486,
+  "entry_overlay_rows_joined": 465,
   "top10_quality_present": 10,
-  "top10_revisions_present": 10,
-  "top10_complete_core_components": 10,
-  "top10_median_score_completeness": 100.00000000000003,
-  "high_conviction_candidates": 690,
-  "fresh_opportunity_candidates": 304,
+  "top10_revisions_present": 9,
+  "top10_complete_core_components": 9,
+  "top10_median_score_completeness": 95.00000000000001,
+  "high_conviction_candidates": 687,
+  "fresh_opportunity_candidates": 296,
   "fresh_opportunity_top10": [
     {
       "rank": 1,
-      "symbol": "ADPT",
-      "score": 87.9163079958439,
-      "reason": "new_exact",
-      "main_rank": 64
+      "symbol": "DSFIR.AS",
+      "score": 84.97890452313253,
+      "reason": "sharp_1run_rise",
+      "main_rank": 48
     },
     {
       "rank": 2,
-      "symbol": "ESTC",
-      "score": 86.2625763716584,
-      "reason": "sharp_1run_rise",
-      "main_rank": 77
+      "symbol": "VOE.VI",
+      "score": 83.82452697068005,
+      "reason": "new_exact",
+      "main_rank": 38
     },
     {
       "rank": 3,
-      "symbol": "PD",
-      "score": 85.65273887537458,
+      "symbol": "MT.AS",
+      "score": 83.51891807933931,
       "reason": "sharp_1run_rise",
-      "main_rank": 33
+      "main_rank": 35
     },
     {
       "rank": 4,
-      "symbol": "PNDORA.CO",
-      "score": 85.51531214565304,
+      "symbol": "DOCM.SW",
+      "score": 83.2107064930582,
       "reason": "sharp_1run_rise",
-      "main_rank": 93
+      "main_rank": 28
     },
     {
       "rank": 5,
-      "symbol": "UMC",
-      "score": 84.53352856241804,
+      "symbol": "CS.PA",
+      "score": 81.86823562517516,
       "reason": "sharp_1run_rise",
-      "main_rank": 32
+      "main_rank": 203
     },
     {
       "rank": 6,
-      "symbol": "BMPS.MI",
-      "score": 84.520575744842,
+      "symbol": "CMBT.BR",
+      "score": 81.73035905841779,
+      "reason": "sharp_1run_rise",
+      "main_rank": 1
+    },
+    {
+      "rank": 7,
+      "symbol": "GOLD",
+      "score": 81.51847001365589,
       "reason": "sharp_1run_rise",
       "main_rank": 95
     },
     {
-      "rank": 7,
-      "symbol": "TEVA",
-      "score": 84.31723279295674,
-      "reason": "sharp_1run_rise",
-      "main_rank": 47
-    },
-    {
       "rank": 8,
-      "symbol": "OERL.SW",
-      "score": 84.26639059082106,
-      "reason": "sharp_1run_rise",
-      "main_rank": 13
+      "symbol": "GF.SW",
+      "score": 80.26359796388003,
+      "reason": "new_exact",
+      "main_rank": 126
     },
     {
       "rank": 9,
-      "symbol": "CAI",
-      "score": 83.86636078774073,
-      "reason": "sharp_1run_rise",
-      "main_rank": 139
+      "symbol": "PANW",
+      "score": 79.6386284910766,
+      "reason": "rising_5run",
+      "main_rank": 49
     },
     {
       "rank": 10,
-      "symbol": "DHL.DE",
-      "score": 83.72746853428741,
-      "reason": "sharp_1run_rise",
-      "main_rank": 126
+      "symbol": "OMV.VI",
+      "score": 78.82623868797808,
+      "reason": "rising_5run",
+      "main_rank": 15
     }
   ],
   "portfolio_guard_rows": 30,
