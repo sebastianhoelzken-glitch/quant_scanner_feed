@@ -1,6 +1,36 @@
 {
   "current": {
     "deep_analyzed_rows": 1000,
+    "excluded_rows": 286,
+    "event_watch_rows": 1,
+    "eligible_rows": 713,
+    "exclusion_reason_counts": {
+      "insufficient median EUR turnover": 228,
+      "price < \u20ac2.00": 177,
+      "market cap < \u20ac250,000,000": 147,
+      "insufficient price history": 20,
+      "data confidence < 55": 12,
+      "market cap EUR unavailable": 7,
+      "EUR liquidity unavailable": 1,
+      "EUR price unavailable": 1,
+      "asset type excluded: nan": 1,
+      "delisted": 1,
+      "stale price": 1
+    },
+    "exclusion_category_counts": {
+      "liquidity": 229,
+      "price": 178,
+      "market_cap": 154,
+      "price_history": 20,
+      "data_confidence": 12,
+      "asset_type": 1,
+      "delisted": 1,
+      "stale_price": 1
+    },
+    "as_of": "2026-09-20"
+  },
+  "previous": {
+    "deep_analyzed_rows": 1000,
     "excluded_rows": 299,
     "event_watch_rows": 0,
     "eligible_rows": 701,
@@ -29,41 +59,9 @@
     },
     "as_of": "2026-09-19"
   },
-  "previous": {
-    "deep_analyzed_rows": 1000,
-    "excluded_rows": 295,
-    "event_watch_rows": 5,
-    "eligible_rows": 700,
-    "exclusion_reason_counts": {
-      "insufficient median EUR turnover": 232,
-      "price < \u20ac2.00": 179,
-      "market cap < \u20ac250,000,000": 106,
-      "insufficient price history": 23,
-      "data confidence < 55": 18,
-      "market cap EUR unavailable": 7,
-      "duplicate security listing of C5H.IR": 4,
-      "EUR liquidity unavailable": 1,
-      "EUR price unavailable": 1,
-      "asset type excluded: nan": 1,
-      "delisted": 1,
-      "duplicate security listing of LYG": 1,
-      "duplicate security listing of VWS.CO": 1
-    },
-    "exclusion_category_counts": {
-      "liquidity": 233,
-      "price": 180,
-      "market_cap": 113,
-      "price_history": 23,
-      "data_confidence": 18,
-      "duplicate_listing": 6,
-      "asset_type": 1,
-      "delisted": 1
-    },
-    "as_of": "2026-09-18"
-  },
   "delta": {
-    "eligible_rows": 1,
-    "excluded_rows": 4,
-    "event_watch_rows": -5
+    "eligible_rows": 12,
+    "excluded_rows": -13,
+    "event_watch_rows": 1
   }
 }
