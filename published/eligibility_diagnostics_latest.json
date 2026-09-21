@@ -1,6 +1,36 @@
 {
   "current": {
     "deep_analyzed_rows": 1000,
+    "excluded_rows": 280,
+    "event_watch_rows": 1,
+    "eligible_rows": 719,
+    "exclusion_reason_counts": {
+      "insufficient median EUR turnover": 222,
+      "price < \u20ac2.00": 178,
+      "market cap < \u20ac250,000,000": 147,
+      "insufficient price history": 19,
+      "data confidence < 55": 11,
+      "market cap EUR unavailable": 5,
+      "EUR liquidity unavailable": 1,
+      "EUR price unavailable": 1,
+      "asset type excluded: nan": 1,
+      "delisted": 1,
+      "stale price": 1
+    },
+    "exclusion_category_counts": {
+      "liquidity": 223,
+      "price": 179,
+      "market_cap": 152,
+      "price_history": 19,
+      "data_confidence": 11,
+      "asset_type": 1,
+      "delisted": 1,
+      "stale_price": 1
+    },
+    "as_of": "2026-09-21"
+  },
+  "previous": {
+    "deep_analyzed_rows": 1000,
     "excluded_rows": 286,
     "event_watch_rows": 1,
     "eligible_rows": 713,
@@ -29,39 +59,9 @@
     },
     "as_of": "2026-09-20"
   },
-  "previous": {
-    "deep_analyzed_rows": 1000,
-    "excluded_rows": 299,
-    "event_watch_rows": 0,
-    "eligible_rows": 701,
-    "exclusion_reason_counts": {
-      "insufficient median EUR turnover": 238,
-      "price < \u20ac2.00": 189,
-      "market cap < \u20ac250,000,000": 159,
-      "insufficient price history": 21,
-      "data confidence < 55": 16,
-      "market cap EUR unavailable": 9,
-      "EUR liquidity unavailable": 1,
-      "EUR price unavailable": 1,
-      "asset type excluded: nan": 1,
-      "delisted": 1,
-      "stale price": 1
-    },
-    "exclusion_category_counts": {
-      "liquidity": 239,
-      "price": 190,
-      "market_cap": 168,
-      "price_history": 21,
-      "data_confidence": 16,
-      "asset_type": 1,
-      "delisted": 1,
-      "stale_price": 1
-    },
-    "as_of": "2026-09-19"
-  },
   "delta": {
-    "eligible_rows": 12,
-    "excluded_rows": -13,
-    "event_watch_rows": 1
+    "eligible_rows": 6,
+    "excluded_rows": -6,
+    "event_watch_rows": 0
   }
 }
