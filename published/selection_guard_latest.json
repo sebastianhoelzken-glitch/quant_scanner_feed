@@ -3,83 +3,83 @@
   "diagnostic_only_for_main_ranking": true,
   "main_scores_changed": false,
   "main_ranks_changed": false,
-  "entry_overlay_rows_joined": 422,
+  "entry_overlay_rows_joined": 446,
   "top10_quality_present": 10,
   "top10_revisions_present": 9,
   "top10_complete_core_components": 9,
   "top10_median_score_completeness": 95.00000000000001,
-  "high_conviction_candidates": 714,
-  "fresh_opportunity_candidates": 386,
+  "high_conviction_candidates": 707,
+  "fresh_opportunity_candidates": 385,
   "fresh_opportunity_top10": [
     {
       "rank": 1,
       "symbol": "P",
-      "score": 87.35002329638614,
+      "score": 86.81164918078584,
       "reason": "sharp_1run_rise",
-      "main_rank": 19
+      "main_rank": 16
     },
     {
       "rank": 2,
-      "symbol": "CMPS",
-      "score": 84.74821422663852,
-      "reason": "new_exact",
-      "main_rank": 126
+      "symbol": "XERS",
+      "score": 83.82165037905081,
+      "reason": "sharp_1run_rise",
+      "main_rank": 162
     },
     {
       "rank": 3,
-      "symbol": "XERS",
-      "score": 84.49318869017328,
-      "reason": "sharp_1run_rise",
-      "main_rank": 163
+      "symbol": "CMPS",
+      "score": 83.69493645131665,
+      "reason": "new_exact",
+      "main_rank": 132
     },
     {
       "rank": 4,
-      "symbol": "AMD",
-      "score": 83.93881594417876,
-      "reason": "sharp_1run_rise",
-      "main_rank": 53
+      "symbol": "GF.SW",
+      "score": 83.62309594952822,
+      "reason": "new_exact",
+      "main_rank": 156
     },
     {
       "rank": 5,
-      "symbol": "MU",
-      "score": 82.57306255171432,
-      "reason": "sharp_1run_rise",
-      "main_rank": 10
+      "symbol": "AMD",
+      "score": 82.74874158503405,
+      "reason": "rising_5run",
+      "main_rank": 46
     },
     {
       "rank": 6,
-      "symbol": "AVGO",
-      "score": 82.45605665555122,
+      "symbol": "AOD",
+      "score": 82.72044520789157,
       "reason": "sharp_1run_rise",
-      "main_rank": 312
+      "main_rank": 142
     },
     {
       "rank": 7,
-      "symbol": "DDI",
-      "score": 82.34534538512747,
+      "symbol": "AVGO",
+      "score": 82.1752437341144,
       "reason": "sharp_1run_rise",
-      "main_rank": 35
+      "main_rank": 301
     },
     {
       "rank": 8,
       "symbol": "C",
-      "score": 82.12421121395947,
+      "score": 81.27506756022343,
       "reason": "sharp_1run_rise",
-      "main_rank": 246
+      "main_rank": 243
     },
     {
       "rank": 9,
       "symbol": "NVDA",
-      "score": 82.0089288098909,
+      "score": 81.22228193512741,
       "reason": "rising_5run",
-      "main_rank": 63
+      "main_rank": 57
     },
     {
       "rank": 10,
-      "symbol": "BEN",
-      "score": 81.66741947986061,
-      "reason": "new_exact",
-      "main_rank": 70
+      "symbol": "DDI",
+      "score": 81.16502128036339,
+      "reason": "sharp_1run_rise",
+      "main_rank": 27
     }
   ],
   "portfolio_guard_rows": 30,
