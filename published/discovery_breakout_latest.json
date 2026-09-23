@@ -4,13 +4,13 @@
   "prior_as_of": "2026-09-22",
   "diagnostic_only": true,
   "universe_rows": 2000,
-  "candidate_rows": 356,
-  "fresh_rows": 29,
-  "continuing_rows": 327,
+  "candidate_rows": 366,
+  "fresh_rows": 32,
+  "continuing_rows": 334,
   "direction_counts": {
-    "UP": 143,
-    "DOWN": 213,
-    "MIXED": 1644
+    "UP": 145,
+    "DOWN": 221,
+    "MIXED": 1634
   },
   "fresh_bullish_top10": [
     {
@@ -19,7 +19,7 @@
       "direction": "UP",
       "score": 97.93290117270891,
       "freshness_score": 99.9057979217546,
-      "confidence": 85.28411685891635,
+      "confidence": 85.25534273114883,
       "freshness": "NEW",
       "deep_selection_tier": "adaptive"
     },
@@ -29,7 +29,7 @@
       "direction": "UP",
       "score": 92.73949301561811,
       "freshness_score": 98.78516931921207,
-      "confidence": 79.52025831565203,
+      "confidence": 79.46894526750921,
       "freshness": "REVERSAL",
       "deep_selection_tier": "not_selected"
     },
@@ -49,7 +49,7 @@
       "direction": "UP",
       "score": 85.0548573605269,
       "freshness_score": 99.99896644772545,
-      "confidence": 60.81377680868996,
+      "confidence": 60.797994231589165,
       "freshness": "NEW",
       "deep_selection_tier": "not_selected"
     },
@@ -59,7 +59,7 @@
       "direction": "UP",
       "score": 92.59061741856357,
       "freshness_score": 81.80447065821474,
-      "confidence": 75.84922361685157,
+      "confidence": 75.8044810973023,
       "freshness": "NEW",
       "deep_selection_tier": "adaptive"
     },
@@ -69,7 +69,7 @@
       "direction": "UP",
       "score": 82.91492991455412,
       "freshness_score": 97.09950372877924,
-      "confidence": 58.756196051573255,
+      "confidence": 58.736437214205836,
       "freshness": "NEW",
       "deep_selection_tier": "not_selected"
     },
@@ -79,7 +79,7 @@
       "direction": "UP",
       "score": 82.26676245070475,
       "freshness_score": 98.4606452933547,
-      "confidence": 56.78562796477203,
+      "confidence": 56.775943093601235,
       "freshness": "NEW",
       "deep_selection_tier": "not_selected"
     },
@@ -89,7 +89,7 @@
       "direction": "UP",
       "score": 88.21564376211683,
       "freshness_score": 84.53489729553974,
-      "confidence": 65.1443860349121,
+      "confidence": 65.15012124908351,
       "freshness": "NEW",
       "deep_selection_tier": "core"
     },
@@ -99,19 +99,19 @@
       "direction": "UP",
       "score": 84.38163397410084,
       "freshness_score": 93.19432531529075,
-      "confidence": 62.22060983727223,
+      "confidence": 62.17933123720327,
       "freshness": "NEW",
       "deep_selection_tier": "not_selected"
     },
     {
-      "rank": 18,
-      "symbol": "MMIT.L",
+      "rank": 15,
+      "symbol": "NOD.OL",
       "direction": "UP",
-      "score": 83.29837822774145,
-      "freshness_score": 85.57328602529904,
-      "confidence": 57.276875205647315,
+      "score": 85.23510991098462,
+      "freshness_score": 87.17381300279554,
+      "confidence": 63.400283561190896,
       "freshness": "NEW",
-      "deep_selection_tier": "core"
+      "deep_selection_tier": "not_selected"
     }
   ],
   "fresh_bearish_top10": [
@@ -121,7 +121,7 @@
       "direction": "DOWN",
       "score": 99.64735814867129,
       "freshness_score": 99.74297904331094,
-      "confidence": 86.12165038335795,
+      "confidence": 86.09929789594733,
       "freshness": "NEW",
       "deep_selection_tier": "core"
     },
@@ -131,7 +131,7 @@
       "direction": "DOWN",
       "score": 91.25875004183943,
       "freshness_score": 81.96178295554573,
-      "confidence": 74.64758443037553,
+      "confidence": 74.59804916269148,
       "freshness": "NEW",
       "deep_selection_tier": "not_selected"
     },
@@ -141,7 +141,7 @@
       "direction": "DOWN",
       "score": 83.62944030252538,
       "freshness_score": 99.3895274700518,
-      "confidence": 59.113120227620655,
+      "confidence": 59.108073288105516,
       "freshness": "NEW",
       "deep_selection_tier": "not_selected"
     },
@@ -151,7 +151,7 @@
       "direction": "DOWN",
       "score": 89.52466410494443,
       "freshness_score": 83.77262315601027,
-      "confidence": 69.7722034484882,
+      "confidence": 69.74847678669433,
       "freshness": "NEW",
       "deep_selection_tier": "not_selected"
     },
@@ -166,52 +166,52 @@
       "deep_selection_tier": "core"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "symbol": "GLENL.XC",
       "direction": "DOWN",
       "score": 83.00058014253997,
       "freshness_score": 89.73535264340697,
-      "confidence": 64.06470803359424,
+      "confidence": 64.05975547029122,
       "freshness": "NEW",
       "deep_selection_tier": "not_selected"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "symbol": "PRS.OL",
       "direction": "DOWN",
       "score": 82.18347182978087,
       "freshness_score": 90.97210987642163,
-      "confidence": 59.13612325060935,
+      "confidence": 59.12163344338233,
       "freshness": "NEW",
       "deep_selection_tier": "core"
     },
     {
-      "rank": 17,
+      "rank": 19,
       "symbol": "SM",
       "direction": "DOWN",
       "score": 78.54596808678248,
       "freshness_score": 96.74669998886982,
-      "confidence": 55.06130252577083,
+      "confidence": 55.05701848853919,
       "freshness": "NEW",
       "deep_selection_tier": "adaptive"
     },
     {
-      "rank": 20,
+      "rank": 22,
       "symbol": "OIZ.IR",
       "direction": "DOWN",
       "score": 82.54461064737924,
       "freshness_score": 83.87218020814619,
-      "confidence": 55.45770970947107,
+      "confidence": 55.462593843135004,
       "freshness": "NEW",
       "deep_selection_tier": "not_selected"
     },
     {
-      "rank": 24,
+      "rank": 26,
       "symbol": "NYXH.BR",
       "direction": "DOWN",
       "score": 82.22566188359251,
       "freshness_score": 80.40626798598728,
-      "confidence": 56.360248379803785,
+      "confidence": 56.350575844971296,
       "freshness": "NEW",
       "deep_selection_tier": "not_selected"
     }
