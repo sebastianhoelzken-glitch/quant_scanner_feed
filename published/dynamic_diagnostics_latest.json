@@ -8,145 +8,145 @@
     {
       "symbol": "MPC",
       "rank": 1,
-      "consecutive_top10": 4,
+      "consecutive_top10": 5,
+      "consecutive_top25": 5,
+      "label": "persistent_top10"
+    },
+    {
+      "symbol": "MU",
+      "rank": 2,
+      "consecutive_top10": 1,
       "consecutive_top25": 4,
       "label": "rotating"
     },
     {
       "symbol": "VLO",
-      "rank": 2,
-      "consecutive_top10": 1,
-      "consecutive_top25": 1,
-      "label": "new_top25"
-    },
-    {
-      "symbol": "FRO",
       "rank": 3,
-      "consecutive_top10": 10,
-      "consecutive_top25": 12,
-      "label": "persistent_top10"
+      "consecutive_top10": 2,
+      "consecutive_top25": 2,
+      "label": "rotating"
     },
     {
       "symbol": "CMBT.BR",
       "rank": 4,
-      "consecutive_top10": 4,
-      "consecutive_top25": 8,
-      "label": "persistent_top25"
-    },
-    {
-      "symbol": "PSX",
-      "rank": 5,
-      "consecutive_top10": 1,
-      "consecutive_top25": 1,
-      "label": "new_top25"
+      "consecutive_top10": 5,
+      "consecutive_top25": 9,
+      "label": "persistent_top10"
     },
     {
       "symbol": "DELL",
-      "rank": 6,
-      "consecutive_top10": 3,
-      "consecutive_top25": 11,
-      "label": "persistent_top25"
-    },
-    {
-      "symbol": "HSHP",
-      "rank": 7,
-      "consecutive_top10": 1,
-      "consecutive_top25": 1,
-      "label": "new_signal"
-    },
-    {
-      "symbol": "DHT",
-      "rank": 8,
+      "rank": 5,
       "consecutive_top10": 4,
-      "consecutive_top25": 8,
+      "consecutive_top25": 12,
       "label": "persistent_top25"
+    },
+    {
+      "symbol": "FRO",
+      "rank": 6,
+      "consecutive_top10": 11,
+      "consecutive_top25": 13,
+      "label": "persistent_top10"
+    },
+    {
+      "symbol": "PSX",
+      "rank": 7,
+      "consecutive_top10": 0,
+      "consecutive_top25": 2,
+      "label": "rotating"
+    },
+    {
+      "symbol": "AMC",
+      "rank": 8,
+      "consecutive_top10": 0,
+      "consecutive_top25": 2,
+      "label": "rotating"
     },
     {
       "symbol": "HPE",
       "rank": 9,
       "consecutive_top10": 0,
-      "consecutive_top25": 5,
+      "consecutive_top25": 6,
       "label": "persistent_top25"
     },
     {
-      "symbol": "MU",
+      "symbol": "OKTA",
       "rank": 10,
       "consecutive_top10": 0,
-      "consecutive_top25": 3,
+      "consecutive_top25": 2,
       "label": "rotating"
     }
   ],
-  "emerging_alpha_candidates": 184,
+  "emerging_alpha_candidates": 181,
   "emerging_alpha_top10": [
     {
       "rank": 1,
-      "symbol": "P",
-      "score": 91.78941642217352,
-      "main_rank": 16,
-      "sector_neutral_score": 97.09709709709709
+      "symbol": "XP",
+      "score": 89.93060828018022,
+      "main_rank": 52,
+      "sector_neutral_score": 92.7927927927928
     },
     {
       "rank": 2,
-      "symbol": "NVDA",
-      "score": 89.04214897980012,
-      "main_rank": 57,
-      "sector_neutral_score": 97.7977977977978
+      "symbol": "BFLY",
+      "score": 89.44326938082807,
+      "main_rank": 27,
+      "sector_neutral_score": 95.7957957957958
     },
     {
       "rank": 3,
-      "symbol": "AMD",
-      "score": 88.68440536927602,
-      "main_rank": 46,
-      "sector_neutral_score": 97.8978978978979
+      "symbol": "HMC",
+      "score": 89.35102883944218,
+      "main_rank": 105,
+      "sector_neutral_score": 98.3983983983984
     },
     {
       "rank": 4,
-      "symbol": "DDI",
-      "score": 88.49682619474883,
-      "main_rank": 27,
-      "sector_neutral_score": 99.8998998998999
+      "symbol": "BP",
+      "score": 87.61217909108903,
+      "main_rank": 83,
+      "sector_neutral_score": 88.38838838838838
     },
     {
       "rank": 5,
-      "symbol": "AOD",
-      "score": 87.29388412063611,
-      "main_rank": 142,
-      "sector_neutral_score": 87.18718718718719
+      "symbol": "ASA",
+      "score": 86.9012319558201,
+      "main_rank": 144,
+      "sector_neutral_score": 79.97997997997997
     },
     {
       "rank": 6,
-      "symbol": "WT",
-      "score": 85.68839246762786,
-      "main_rank": 36,
-      "sector_neutral_score": 94.29429429429429
+      "symbol": "FSM",
+      "score": 86.32135362739723,
+      "main_rank": 15,
+      "sector_neutral_score": 97.4974974974975
     },
     {
       "rank": 7,
-      "symbol": "ANET",
-      "score": 84.36631280605575,
-      "main_rank": 63,
-      "sector_neutral_score": 90.69069069069069
+      "symbol": "SHEL",
+      "score": 85.85261725914707,
+      "main_rank": 67,
+      "sector_neutral_score": 90.5905905905906
     },
     {
       "rank": 8,
-      "symbol": "BEN",
-      "score": 84.34486677063796,
-      "main_rank": 66,
-      "sector_neutral_score": 90.09009009009009
+      "symbol": "AMS.SW",
+      "score": 85.54128406970464,
+      "main_rank": 37,
+      "sector_neutral_score": 94.3943943943944
     },
     {
       "rank": 9,
-      "symbol": "XERS",
-      "score": 83.69144032993765,
-      "main_rank": 162,
-      "sector_neutral_score": 76.97697697697697
+      "symbol": "AMV0.DE",
+      "score": 85.26090414764795,
+      "main_rank": 141,
+      "sector_neutral_score": 80.28028028028028
     },
     {
       "rank": 10,
-      "symbol": "BBVA.MC",
-      "score": 83.40210173843657,
-      "main_rank": 81,
-      "sector_neutral_score": 88.08808808808809
+      "symbol": "EXK",
+      "score": 83.0152785710525,
+      "main_rank": 103,
+      "sector_neutral_score": 85.88588588588588
     }
   ],
   "challenger_500_500": {
@@ -154,10 +154,10 @@
     "core_target": 500,
     "total_target": 1000,
     "selected": 1000,
-    "overlap_with_live_600_400": 868,
-    "challenger_only": 132,
-    "live_only": 132,
-    "jaccard": 0.7667844522968198,
+    "overlap_with_live_600_400": 867,
+    "challenger_only": 133,
+    "live_only": 133,
+    "jaccard": 0.76522506619594,
     "semantics": "shadow selection diagnostic only; 500 dynamic core candidates plus 500 highest Stage-1 dynamic candidates, never changes Full Exact production selection"
   },
   "files": [

@@ -1,6 +1,36 @@
 {
   "current": {
     "deep_analyzed_rows": 1000,
+    "excluded_rows": 292,
+    "event_watch_rows": 1,
+    "eligible_rows": 707,
+    "exclusion_reason_counts": {
+      "insufficient median EUR turnover": 234,
+      "price < \u20ac2.00": 181,
+      "market cap < \u20ac250,000,000": 157,
+      "insufficient price history": 18,
+      "data confidence < 55": 10,
+      "market cap EUR unavailable": 8,
+      "EUR price unavailable": 2,
+      "EUR liquidity unavailable": 1,
+      "asset type excluded: nan": 1,
+      "delisted": 1,
+      "stale price": 1
+    },
+    "exclusion_category_counts": {
+      "liquidity": 235,
+      "price": 183,
+      "market_cap": 165,
+      "price_history": 18,
+      "data_confidence": 10,
+      "asset_type": 1,
+      "delisted": 1,
+      "stale_price": 1
+    },
+    "as_of": "2026-09-23"
+  },
+  "previous": {
+    "deep_analyzed_rows": 1000,
     "excluded_rows": 290,
     "event_watch_rows": 1,
     "eligible_rows": 709,
@@ -29,39 +59,9 @@
     },
     "as_of": "2026-09-22"
   },
-  "previous": {
-    "deep_analyzed_rows": 1000,
-    "excluded_rows": 287,
-    "event_watch_rows": 1,
-    "eligible_rows": 712,
-    "exclusion_reason_counts": {
-      "insufficient median EUR turnover": 229,
-      "price < \u20ac2.00": 179,
-      "market cap < \u20ac250,000,000": 144,
-      "insufficient price history": 19,
-      "data confidence < 55": 11,
-      "market cap EUR unavailable": 6,
-      "EUR liquidity unavailable": 1,
-      "EUR price unavailable": 1,
-      "asset type excluded: nan": 1,
-      "delisted": 1,
-      "stale price": 1
-    },
-    "exclusion_category_counts": {
-      "liquidity": 230,
-      "price": 180,
-      "market_cap": 150,
-      "price_history": 19,
-      "data_confidence": 11,
-      "asset_type": 1,
-      "delisted": 1,
-      "stale_price": 1
-    },
-    "as_of": "2026-09-21"
-  },
   "delta": {
-    "eligible_rows": -3,
-    "excluded_rows": 3,
+    "eligible_rows": -2,
+    "excluded_rows": 2,
     "event_watch_rows": 0
   }
 }
