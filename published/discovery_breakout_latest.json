@@ -89,7 +89,7 @@
       "direction": "UP",
       "score": 88.21564376211683,
       "freshness_score": 84.53489729553974,
-      "confidence": 65.13865082074071,
+      "confidence": 65.1443860349121,
       "freshness": "NEW",
       "deep_selection_tier": "core"
     },
@@ -99,7 +99,7 @@
       "direction": "UP",
       "score": 84.38163397410084,
       "freshness_score": 93.19432531529075,
-      "confidence": 62.2154500122636,
+      "confidence": 62.22060983727223,
       "freshness": "NEW",
       "deep_selection_tier": "not_selected"
     },
@@ -131,7 +131,7 @@
       "direction": "DOWN",
       "score": 91.25875004183943,
       "freshness_score": 81.96178295554573,
-      "confidence": 74.64139252191502,
+      "confidence": 74.64758443037553,
       "freshness": "NEW",
       "deep_selection_tier": "not_selected"
     },
@@ -171,7 +171,7 @@
       "direction": "DOWN",
       "score": 83.00058014253997,
       "freshness_score": 89.73535264340697,
-      "confidence": 64.05975547029122,
+      "confidence": 64.06470803359424,
       "freshness": "NEW",
       "deep_selection_tier": "not_selected"
     },
@@ -191,7 +191,7 @@
       "direction": "DOWN",
       "score": 78.54596808678248,
       "freshness_score": 96.74669998886982,
-      "confidence": 55.05701848853919,
+      "confidence": 55.06130252577083,
       "freshness": "NEW",
       "deep_selection_tier": "adaptive"
     },
