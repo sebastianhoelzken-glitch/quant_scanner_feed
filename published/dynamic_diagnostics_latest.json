@@ -81,72 +81,72 @@
     {
       "rank": 1,
       "symbol": "HMC",
-      "score": 90.95878375242337,
-      "main_rank": 79,
-      "sector_neutral_score": 99.8998998998999
+      "score": 90.68604817580713,
+      "main_rank": 87,
+      "sector_neutral_score": 99.7997997997998
     },
     {
       "rank": 2,
       "symbol": "XP",
-      "score": 90.09233857046596,
-      "main_rank": 45,
-      "sector_neutral_score": 92.8928928928929
+      "score": 90.20877024743156,
+      "main_rank": 44,
+      "sector_neutral_score": 92.992992992993
     },
     {
       "rank": 3,
       "symbol": "BFLY",
-      "score": 89.45858617419432,
+      "score": 89.5444331274468,
       "main_rank": 25,
-      "sector_neutral_score": 95.4954954954955
+      "sector_neutral_score": 95.5955955955956
     },
     {
       "rank": 4,
       "symbol": "AMS.SW",
-      "score": 88.4246529987978,
-      "main_rank": 24,
-      "sector_neutral_score": 95.5955955955956
+      "score": 89.08107881919899,
+      "main_rank": 22,
+      "sector_neutral_score": 96.1961961961962
     },
     {
       "rank": 5,
       "symbol": "BP",
-      "score": 87.30767833511136,
-      "main_rank": 87,
-      "sector_neutral_score": 87.4874874874875
+      "score": 87.41384958161879,
+      "main_rank": 89,
+      "sector_neutral_score": 87.28728728728728
     },
     {
       "rank": 6,
       "symbol": "EXK",
-      "score": 87.2709449308819,
-      "main_rank": 85,
-      "sector_neutral_score": 87.88788788788789
+      "score": 87.41349177735006,
+      "main_rank": 84,
+      "sector_neutral_score": 87.98798798798799
     },
     {
       "rank": 7,
       "symbol": "FSM",
-      "score": 86.66429219095305,
+      "score": 86.68707080499999,
       "main_rank": 17,
-      "sector_neutral_score": 97.09709709709709
-    },
-    {
-      "rank": 8,
-      "symbol": "EMBC",
-      "score": 86.10132788890202,
-      "main_rank": 163,
       "sector_neutral_score": 96.996996996997
     },
     {
-      "rank": 9,
+      "rank": 8,
       "symbol": "SHEL",
-      "score": 85.8800261821597,
-      "main_rank": 69,
-      "sector_neutral_score": 89.98998998999
+      "score": 86.16687560753299,
+      "main_rank": 66,
+      "sector_neutral_score": 90.49049049049049
+    },
+    {
+      "rank": 9,
+      "symbol": "EMBC",
+      "score": 86.03737983266775,
+      "main_rank": 165,
+      "sector_neutral_score": 96.69669669669669
     },
     {
       "rank": 10,
-      "symbol": "AMV0.DE",
-      "score": 84.4579891064352,
-      "main_rank": 151,
-      "sector_neutral_score": 77.97797797797797
+      "symbol": "ITRG",
+      "score": 84.19139248922178,
+      "main_rank": 199,
+      "sector_neutral_score": 71.87187187187187
     }
   ],
   "challenger_500_500": {

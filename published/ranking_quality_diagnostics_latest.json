@@ -97,12 +97,12 @@
       "min_data_confidence": 62.840909090909086,
       "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 2,
-      "median_market_cap_eur": 12162171330.462612,
+      "median_market_cap_eur": 13558831997.534527,
       "market_cap_buckets": {
         "micro_250m_1b": 1,
         "small_1_5b": 15,
-        "mid_5_20b": 13,
-        "large_20_100b": 13,
+        "mid_5_20b": 12,
+        "large_20_100b": 14,
         "mega_100b_plus": 8,
         "unknown": 0
       },
