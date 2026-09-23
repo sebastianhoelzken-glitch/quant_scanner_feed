@@ -4,9 +4,9 @@
   "main_scores_changed": false,
   "main_ranks_changed": false,
   "lifecycle_rows": 1000,
-  "confirmation_rows": 372,
-  "confirmed_rows": 121,
-  "false_breakout_risk_rows": 85,
+  "confirmation_rows": 369,
+  "confirmed_rows": 122,
+  "false_breakout_risk_rows": 84,
   "confirmation_data_mode": "close_based; high/low/volume/ATR are not fabricated when absent from persistent price_history",
   "confirmed_top10": [
     {
@@ -19,7 +19,14 @@
     {
       "symbol": "AMS.SW",
       "direction": "UP",
-      "score": 95.45855724109975,
+      "score": 95.23811453216169,
+      "confirmation": 99.99999999999999,
+      "freshness": "CONTINUING"
+    },
+    {
+      "symbol": "ENH.OL",
+      "direction": "DOWN",
+      "score": 95.18979159488649,
       "confirmation": 99.99999999999999,
       "freshness": "CONTINUING"
     },
@@ -35,13 +42,6 @@
       "direction": "UP",
       "score": 94.50128886385357,
       "confirmation": 95.48549200040722,
-      "freshness": "CONTINUING"
-    },
-    {
-      "symbol": "ENH.OL",
-      "direction": "DOWN",
-      "score": 94.29496477221089,
-      "confirmation": 99.99999999999999,
       "freshness": "CONTINUING"
     },
     {
@@ -68,7 +68,7 @@
     {
       "symbol": "FLK.L",
       "direction": "DOWN",
-      "score": 92.65571276923697,
+      "score": 92.31757503728304,
       "confirmation": 89.99999999999999,
       "freshness": "CONTINUING"
     },
@@ -94,15 +94,15 @@
       "freshness": "CONTINUING"
     },
     {
-      "symbol": "FLUT",
-      "direction": "DOWN",
-      "confirmation": 38.91452209745589,
+      "symbol": "ATM.L",
+      "direction": "UP",
+      "confirmation": 38.7549451951503,
       "freshness": "CONTINUING"
     },
     {
-      "symbol": "ATM.L",
-      "direction": "UP",
-      "confirmation": 34.38582068380358,
+      "symbol": "FLUT",
+      "direction": "DOWN",
+      "confirmation": 38.91452209745589,
       "freshness": "CONTINUING"
     },
     {
@@ -145,11 +145,11 @@
   "portfolio_top5": [
     {
       "portfolio_slot": 1,
-      "symbol": "SHELL.AS",
-      "main_rank": 23,
-      "consensus_score": 76.02640505949938,
-      "portfolio_base_score": 78.37871476361543,
-      "portfolio_selection_score": 78.37871476361543,
+      "symbol": "MPC",
+      "main_rank": 1,
+      "consensus_score": 86.15055670744844,
+      "portfolio_base_score": 81.74884977532327,
+      "portfolio_selection_score": 81.74884977532327,
       "sector": "Unknown",
       "industry": "Unknown",
       "max_corr_with_selected": 0.0,
@@ -160,63 +160,63 @@
     },
     {
       "portfolio_slot": 2,
-      "symbol": "CMBT.BR",
-      "main_rank": 19,
-      "consensus_score": 76.41318231857247,
-      "portfolio_base_score": 75.1796156360767,
-      "portfolio_selection_score": 75.1796156360767,
+      "symbol": "PBR-A",
+      "main_rank": 44,
+      "consensus_score": 73.13450727197863,
+      "portfolio_base_score": 73.24451423703665,
+      "portfolio_selection_score": 73.24451423703665,
       "sector": "Energy",
-      "industry": "Oil & Gas Midstream",
-      "max_corr_with_selected": 0.023359013256781025,
-      "avg_corr_with_selected": 0.023359013256781025,
+      "industry": "Oil & Gas Integrated",
+      "max_corr_with_selected": 0.22566524423089923,
+      "avg_corr_with_selected": 0.22566524423089923,
       "sector_penalty": 0.0,
       "industry_penalty": 0.0,
       "correlation_penalty": 0.0
     },
     {
       "portfolio_slot": 3,
-      "symbol": "DSX",
-      "main_rank": 26,
-      "consensus_score": 75.43022473816481,
-      "portfolio_base_score": 74.3148923889164,
-      "portfolio_selection_score": 74.02988778261579,
-      "sector": "Industrials",
-      "industry": "Marine Shipping",
-      "max_corr_with_selected": 0.4658335892389232,
-      "avg_corr_with_selected": 0.2507704327073454,
+      "symbol": "NVDA",
+      "main_rank": 59,
+      "consensus_score": 72.07268515232553,
+      "portfolio_base_score": 72.32609343469319,
+      "portfolio_selection_score": 72.32609343469319,
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "max_corr_with_selected": 0.11529304321684752,
+      "avg_corr_with_selected": -0.045614567118722124,
       "sector_penalty": 0.0,
       "industry_penalty": 0.0,
-      "correlation_penalty": 0.2850046063006175
+      "correlation_penalty": 0.0
     },
     {
       "portfolio_slot": 4,
-      "symbol": "AVAH",
-      "main_rank": 41,
-      "consensus_score": 73.20833256328706,
-      "portfolio_base_score": 69.90237082072808,
-      "portfolio_selection_score": 69.90237082072808,
-      "sector": "Healthcare",
-      "industry": "Medical Care Facilities",
-      "max_corr_with_selected": 0.09197096651027606,
-      "avg_corr_with_selected": -0.007080562662295192,
-      "sector_penalty": 0.0,
-      "industry_penalty": 0.0,
+      "symbol": "CMBT.BR",
+      "main_rank": 7,
+      "consensus_score": 81.71931903788571,
+      "portfolio_base_score": 79.31236516806112,
+      "portfolio_selection_score": 62.31236516806112,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "max_corr_with_selected": 0.22377194144329296,
+      "avg_corr_with_selected": 0.19584560825895658,
+      "sector_penalty": 7.0,
+      "industry_penalty": 10.0,
       "correlation_penalty": 0.0
     },
     {
       "portfolio_slot": 5,
-      "symbol": "DINO",
-      "main_rank": 12,
-      "consensus_score": 77.73202357436878,
-      "portfolio_base_score": 74.55484681775908,
-      "portfolio_selection_score": 67.55484681775908,
+      "symbol": "PARR",
+      "main_rank": 32,
+      "consensus_score": 74.1793098777576,
+      "portfolio_base_score": 72.26368948971877,
+      "portfolio_selection_score": 60.25589132369635,
       "sector": "Energy",
       "industry": "Oil & Gas Refining & Marketing",
-      "max_corr_with_selected": 0.3090405761186046,
-      "avg_corr_with_selected": 0.20862099253263966,
+      "max_corr_with_selected": 0.7236893411985211,
+      "avg_corr_with_selected": 0.31162714634986277,
       "sector_penalty": 7.0,
       "industry_penalty": 0.0,
-      "correlation_penalty": 0.0
+      "correlation_penalty": 5.007798166022419
     }
   ],
   "files": [
