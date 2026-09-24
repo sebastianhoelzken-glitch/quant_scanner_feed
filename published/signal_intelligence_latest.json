@@ -4,9 +4,9 @@
   "main_scores_changed": false,
   "main_ranks_changed": false,
   "lifecycle_rows": 1000,
-  "confirmation_rows": 433,
+  "confirmation_rows": 434,
   "confirmed_rows": 149,
-  "false_breakout_risk_rows": 90,
+  "false_breakout_risk_rows": 91,
   "confirmation_data_mode": "close_based; high/low/volume/ATR are not fabricated when absent from persistent price_history",
   "confirmed_top10": [
     {
@@ -26,7 +26,7 @@
     {
       "symbol": "TWLO",
       "direction": "UP",
-      "score": 96.35963833799974,
+      "score": 96.36549167041636,
       "confirmation": 96.3806610631459,
       "freshness": "CONTINUING"
     },
@@ -40,14 +40,14 @@
     {
       "symbol": "ENH.OL",
       "direction": "DOWN",
-      "score": 93.73188057679985,
+      "score": 93.7292416260213,
       "confirmation": 99.99999999999999,
       "freshness": "CONTINUING"
     },
     {
       "symbol": "EGHT",
       "direction": "UP",
-      "score": 93.43058254447426,
+      "score": 93.43457367362001,
       "confirmation": 99.99999999999999,
       "freshness": "NEW"
     },
@@ -61,14 +61,14 @@
     {
       "symbol": "PAL",
       "direction": "DOWN",
-      "score": 92.75110921213182,
+      "score": 92.74674200353972,
       "confirmation": 87.54209195724641,
       "freshness": "CONTINUING"
     },
     {
       "symbol": "RSKD",
       "direction": "UP",
-      "score": 92.41625474735069,
+      "score": 92.421732283233,
       "confirmation": 92.68941132824189,
       "freshness": "NEW"
     },
@@ -124,12 +124,6 @@
       "freshness": "CONTINUING"
     },
     {
-      "symbol": "KREF",
-      "direction": "DOWN",
-      "confirmation": 28.47592872441167,
-      "freshness": "NEW"
-    },
-    {
       "symbol": "DDD",
       "direction": "UP",
       "confirmation": 34.63123648279844,
@@ -140,6 +134,12 @@
       "direction": "DOWN",
       "confirmation": 28.2318332634992,
       "freshness": "CONTINUING"
+    },
+    {
+      "symbol": "COMP",
+      "direction": "DOWN",
+      "confirmation": 25.681269504170572,
+      "freshness": "NEW"
     }
   ],
   "portfolio_top5": [
@@ -147,9 +147,9 @@
       "portfolio_slot": 1,
       "symbol": "MPC",
       "main_rank": 1,
-      "consensus_score": 85.97373110258371,
-      "portfolio_base_score": 81.60422651376452,
-      "portfolio_selection_score": 81.60422651376452,
+      "consensus_score": 86.17162228991799,
+      "portfolio_base_score": 81.74743248377672,
+      "portfolio_selection_score": 81.74743248377672,
       "sector": "Unknown",
       "industry": "Unknown",
       "max_corr_with_selected": 0.0,
@@ -161,10 +161,10 @@
     {
       "portfolio_slot": 2,
       "symbol": "PBR-A",
-      "main_rank": 33,
-      "consensus_score": 74.40854259476622,
-      "portfolio_base_score": 73.74943286512469,
-      "portfolio_selection_score": 73.74943286512469,
+      "main_rank": 45,
+      "consensus_score": 73.8048959213903,
+      "portfolio_base_score": 73.4167535762712,
+      "portfolio_selection_score": 73.4167535762712,
       "sector": "Energy",
       "industry": "Oil & Gas Integrated",
       "max_corr_with_selected": 0.2195790386742728,
@@ -177,9 +177,9 @@
       "portfolio_slot": 3,
       "symbol": "AMD",
       "main_rank": 59,
-      "consensus_score": 72.43288357972364,
-      "portfolio_base_score": 65.72213645726652,
-      "portfolio_selection_score": 65.72213645726652,
+      "consensus_score": 72.50243548948313,
+      "portfolio_base_score": 65.77432092710703,
+      "portfolio_selection_score": 65.77432092710703,
       "sector": "Technology",
       "industry": "Semiconductors",
       "max_corr_with_selected": -0.018017798510486543,
@@ -191,10 +191,10 @@
     {
       "portfolio_slot": 4,
       "symbol": "CMBT.BR",
-      "main_rank": 6,
-      "consensus_score": 82.2464059067498,
-      "portfolio_base_score": 79.62481230472568,
-      "portfolio_selection_score": 62.62481230472568,
+      "main_rank": 2,
+      "consensus_score": 83.54875874653112,
+      "portfolio_base_score": 80.35483441364588,
+      "portfolio_selection_score": 63.354834413645875,
       "sector": "Unknown",
       "industry": "Unknown",
       "max_corr_with_selected": 0.20525067782892106,
@@ -207,9 +207,9 @@
       "portfolio_slot": 5,
       "symbol": "PARR",
       "main_rank": 58,
-      "consensus_score": 72.46925677407754,
-      "portfolio_base_score": 71.41685556357366,
-      "portfolio_selection_score": 59.13221704578103,
+      "consensus_score": 72.55051071590844,
+      "portfolio_base_score": 71.40108701458294,
+      "portfolio_selection_score": 59.11644849679031,
       "sector": "Energy",
       "industry": "Oil & Gas Refining & Marketing",
       "max_corr_with_selected": 0.7244980092015193,

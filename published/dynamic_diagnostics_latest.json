@@ -13,39 +13,39 @@
       "label": "persistent_top10"
     },
     {
-      "symbol": "HPE",
+      "symbol": "CMBT.BR",
       "rank": 2,
+      "consecutive_top10": 5,
+      "consecutive_top25": 9,
+      "label": "persistent_top10"
+    },
+    {
+      "symbol": "HPE",
+      "rank": 3,
       "consecutive_top10": 1,
       "consecutive_top25": 6,
       "label": "persistent_top25"
     },
     {
       "symbol": "MU",
-      "rank": 3,
+      "rank": 4,
       "consecutive_top10": 1,
       "consecutive_top25": 4,
       "label": "rotating"
     },
     {
       "symbol": "VLO",
-      "rank": 4,
+      "rank": 5,
       "consecutive_top10": 2,
       "consecutive_top25": 2,
       "label": "rotating"
     },
     {
       "symbol": "DELL",
-      "rank": 5,
+      "rank": 6,
       "consecutive_top10": 4,
       "consecutive_top25": 12,
       "label": "persistent_top25"
-    },
-    {
-      "symbol": "CMBT.BR",
-      "rank": 6,
-      "consecutive_top10": 5,
-      "consecutive_top25": 9,
-      "label": "persistent_top10"
     },
     {
       "symbol": "FRO",
@@ -76,77 +76,77 @@
       "label": "rotating"
     }
   ],
-  "emerging_alpha_candidates": 184,
+  "emerging_alpha_candidates": 182,
   "emerging_alpha_top10": [
     {
       "rank": 1,
       "symbol": "BP",
-      "score": 91.27621053520801,
+      "score": 90.9815705866753,
       "main_rank": 39,
-      "sector_neutral_score": 94.69469469469469
+      "sector_neutral_score": 94.29429429429429
     },
     {
       "rank": 2,
-      "symbol": "HMC",
-      "score": 90.92162560244152,
-      "main_rank": 98,
-      "sector_neutral_score": 99.69969969969969
+      "symbol": "SHEL",
+      "score": 90.14489864589673,
+      "main_rank": 25,
+      "sector_neutral_score": 96.09609609609609
     },
     {
       "rank": 3,
-      "symbol": "SHEL",
-      "score": 90.62864722551654,
-      "main_rank": 27,
-      "sector_neutral_score": 95.995995995996
+      "symbol": "XP",
+      "score": 89.75313477756177,
+      "main_rank": 50,
+      "sector_neutral_score": 92.3923923923924
     },
     {
       "rank": 4,
-      "symbol": "XP",
-      "score": 90.0192367365699,
-      "main_rank": 55,
-      "sector_neutral_score": 92.09209209209209
+      "symbol": "HMC",
+      "score": 89.7168012362587,
+      "main_rank": 110,
+      "sector_neutral_score": 99.69969969969969
     },
     {
       "rank": 5,
-      "symbol": "AMS.SW",
-      "score": 89.51279301067532,
-      "main_rank": 19,
-      "sector_neutral_score": 96.996996996997
+      "symbol": "SHELL.AS",
+      "score": 89.27571292631083,
+      "main_rank": 14,
+      "sector_neutral_score": 97.7977977977978
     },
     {
       "rank": 6,
-      "symbol": "SHELL.AS",
-      "score": 88.39342666803638,
-      "main_rank": 15,
-      "sector_neutral_score": 97.5975975975976
+      "symbol": "AMS.SW",
+      "score": 89.26424733948842,
+      "main_rank": 17,
+      "sector_neutral_score": 97.2972972972973
     },
     {
       "rank": 7,
-      "symbol": "PAGP",
-      "score": 87.99123577117217,
-      "main_rank": 42,
-      "sector_neutral_score": 94.09409409409409
+      "symbol": "ASML.AS",
+      "score": 89.15633234299413,
+      "main_rank": 125,
+      "sector_neutral_score": 96.3963963963964
     },
     {
       "rank": 8,
-      "symbol": "EMBC",
-      "score": 86.75724106199634,
-      "main_rank": 162,
-      "sector_neutral_score": 96.69669669669669
+      "symbol": "BFLY",
+      "score": 85.44513043111488,
+      "main_rank": 80,
+      "sector_neutral_score": 88.58858858858859
     },
     {
       "rank": 9,
-      "symbol": "BFLY",
-      "score": 85.81154886071754,
-      "main_rank": 80,
-      "sector_neutral_score": 88.38838838838838
+      "symbol": "EMBC",
+      "score": 85.43475536844248,
+      "main_rank": 171,
+      "sector_neutral_score": 96.996996996997
     },
     {
       "rank": 10,
       "symbol": "XOM",
-      "score": 85.432534205605,
-      "main_rank": 121,
-      "sector_neutral_score": 82.78278278278279
+      "score": 85.13938927533908,
+      "main_rank": 116,
+      "sector_neutral_score": 83.38338338338338
     }
   ],
   "challenger_500_500": {
@@ -154,10 +154,10 @@
     "core_target": 500,
     "total_target": 1000,
     "selected": 1000,
-    "overlap_with_live_600_400": 865,
-    "challenger_only": 135,
-    "live_only": 135,
-    "jaccard": 0.762114537444934,
+    "overlap_with_live_600_400": 862,
+    "challenger_only": 138,
+    "live_only": 138,
+    "jaccard": 0.7574692442882249,
     "semantics": "shadow selection diagnostic only; 500 dynamic core candidates plus 500 highest Stage-1 dynamic candidates, never changes Full Exact production selection"
   },
   "files": [
