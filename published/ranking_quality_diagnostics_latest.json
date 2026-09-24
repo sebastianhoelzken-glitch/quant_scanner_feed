@@ -72,8 +72,8 @@
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 13,
-        "adaptive": 12,
+        "core": 14,
+        "adaptive": 11,
         "unknown": 0
       },
       "sparse_examples": []
@@ -93,22 +93,22 @@
       },
       "complete_core_component_rows": 46,
       "sparse_core_component_rows": 0,
-      "median_data_confidence": 72.73863636363637,
+      "median_data_confidence": 72.68181818181819,
       "min_data_confidence": 62.840909090909086,
       "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 2,
-      "median_market_cap_eur": 15143694734.417238,
+      "median_market_cap_eur": 19824189656.57068,
       "market_cap_buckets": {
         "micro_250m_1b": 2,
-        "small_1_5b": 14,
-        "mid_5_20b": 11,
+        "small_1_5b": 13,
+        "mid_5_20b": 10,
         "large_20_100b": 15,
-        "mega_100b_plus": 8,
+        "mega_100b_plus": 10,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 25,
-        "adaptive": 25,
+        "core": 24,
+        "adaptive": 26,
         "unknown": 0
       },
       "sparse_examples": []

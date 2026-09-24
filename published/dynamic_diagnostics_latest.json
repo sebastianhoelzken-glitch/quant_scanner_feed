@@ -20,18 +20,18 @@
       "label": "persistent_top10"
     },
     {
-      "symbol": "HPE",
-      "rank": 3,
-      "consecutive_top10": 1,
-      "consecutive_top25": 6,
-      "label": "persistent_top25"
-    },
-    {
       "symbol": "MU",
-      "rank": 4,
+      "rank": 3,
       "consecutive_top10": 1,
       "consecutive_top25": 4,
       "label": "rotating"
+    },
+    {
+      "symbol": "HPE",
+      "rank": 4,
+      "consecutive_top10": 1,
+      "consecutive_top25": 6,
+      "label": "persistent_top25"
     },
     {
       "symbol": "DELL",
@@ -41,30 +41,30 @@
       "label": "persistent_top25"
     },
     {
-      "symbol": "VLO",
-      "rank": 6,
-      "consecutive_top10": 2,
-      "consecutive_top25": 2,
-      "label": "rotating"
-    },
-    {
       "symbol": "FRO",
-      "rank": 7,
+      "rank": 6,
       "consecutive_top10": 11,
       "consecutive_top25": 13,
       "label": "persistent_top10"
     },
     {
-      "symbol": "PSX",
-      "rank": 8,
+      "symbol": "VLO",
+      "rank": 7,
       "consecutive_top10": 2,
       "consecutive_top25": 2,
       "label": "rotating"
     },
     {
       "symbol": "AMC",
-      "rank": 9,
+      "rank": 8,
       "consecutive_top10": 1,
+      "consecutive_top25": 2,
+      "label": "rotating"
+    },
+    {
+      "symbol": "PSX",
+      "rank": 9,
+      "consecutive_top10": 0,
       "consecutive_top25": 2,
       "label": "rotating"
     },
@@ -81,72 +81,72 @@
     {
       "rank": 1,
       "symbol": "BP",
-      "score": 91.51861798692381,
+      "score": 91.46967422087383,
       "main_rank": 38,
-      "sector_neutral_score": 95.995995995996
+      "sector_neutral_score": 95.69569569569569
     },
     {
       "rank": 2,
       "symbol": "SHELL.AS",
-      "score": 89.82790686624061,
+      "score": 90.09530197820975,
       "main_rank": 12,
-      "sector_neutral_score": 98.7987987987988
+      "sector_neutral_score": 98.69869869869869
     },
     {
       "rank": 3,
       "symbol": "EMBC",
-      "score": 89.57450182964538,
-      "main_rank": 96,
-      "sector_neutral_score": 95.8958958958959
+      "score": 89.37252757796536,
+      "main_rank": 97,
+      "sector_neutral_score": 94.994994994995
     },
     {
       "rank": 4,
       "symbol": "SHEL",
-      "score": 89.16962134796339,
-      "main_rank": 39,
-      "sector_neutral_score": 95.7957957957958
+      "score": 88.94546653430257,
+      "main_rank": 41,
+      "sector_neutral_score": 95.3953953953954
     },
     {
       "rank": 5,
       "symbol": "XP",
-      "score": 88.87022131843943,
-      "main_rank": 66,
-      "sector_neutral_score": 92.49249249249249
+      "score": 88.79477306599104,
+      "main_rank": 67,
+      "sector_neutral_score": 92.29229229229229
     },
     {
       "rank": 6,
       "symbol": "PAGP",
-      "score": 87.0841301224443,
-      "main_rank": 50,
-      "sector_neutral_score": 94.1941941941942
+      "score": 86.79560726247674,
+      "main_rank": 52,
+      "sector_neutral_score": 93.8938938938939
     },
     {
       "rank": 7,
       "symbol": "AMS.SW",
-      "score": 86.95806843906774,
+      "score": 86.73701015500738,
       "main_rank": 29,
-      "sector_neutral_score": 96.8968968968969
+      "sector_neutral_score": 96.5965965965966
     },
     {
       "rank": 8,
       "symbol": "MT.AS",
-      "score": 85.45794334589986,
-      "main_rank": 25,
+      "score": 86.44834075276987,
+      "main_rank": 22,
       "sector_neutral_score": 97.3973973973974
     },
     {
       "rank": 9,
       "symbol": "RIGL",
-      "score": 85.40661175948067,
-      "main_rank": 101,
-      "sector_neutral_score": 95.3953953953954
+      "score": 85.41606630270628,
+      "main_rank": 105,
+      "sector_neutral_score": 94.5945945945946
     },
     {
       "rank": 10,
-      "symbol": "BFLY",
-      "score": 85.15260001787624,
-      "main_rank": 94,
-      "sector_neutral_score": 88.988988988989
+      "symbol": "DSFIR.AS",
+      "score": 85.26483034467572,
+      "main_rank": 71,
+      "sector_neutral_score": 91.8918918918919
     }
   ],
   "challenger_500_500": {
