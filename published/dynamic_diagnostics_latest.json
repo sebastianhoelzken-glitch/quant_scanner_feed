@@ -20,18 +20,18 @@
       "label": "persistent_top10"
     },
     {
-      "symbol": "MU",
-      "rank": 3,
-      "consecutive_top10": 1,
-      "consecutive_top25": 4,
-      "label": "rotating"
-    },
-    {
       "symbol": "HPE",
-      "rank": 4,
+      "rank": 3,
       "consecutive_top10": 1,
       "consecutive_top25": 6,
       "label": "persistent_top25"
+    },
+    {
+      "symbol": "MU",
+      "rank": 4,
+      "consecutive_top10": 1,
+      "consecutive_top25": 4,
+      "label": "rotating"
     },
     {
       "symbol": "DELL",
@@ -62,91 +62,91 @@
       "label": "rotating"
     },
     {
-      "symbol": "REP.MC",
+      "symbol": "AMC",
       "rank": 9,
       "consecutive_top10": 1,
-      "consecutive_top25": 1,
-      "label": "new_top25"
-    },
-    {
-      "symbol": "AMC",
-      "rank": 10,
-      "consecutive_top10": 0,
       "consecutive_top25": 2,
       "label": "rotating"
+    },
+    {
+      "symbol": "REP.MC",
+      "rank": 10,
+      "consecutive_top10": 0,
+      "consecutive_top25": 1,
+      "label": "new_top25"
     }
   ],
-  "emerging_alpha_candidates": 163,
+  "emerging_alpha_candidates": 181,
   "emerging_alpha_top10": [
     {
       "rank": 1,
       "symbol": "BP",
-      "score": 91.2972817145866,
-      "main_rank": 39,
-      "sector_neutral_score": 95.7957957957958
+      "score": 91.51861798692381,
+      "main_rank": 38,
+      "sector_neutral_score": 95.995995995996
     },
     {
       "rank": 2,
       "symbol": "SHELL.AS",
-      "score": 89.55321316784725,
-      "main_rank": 11,
-      "sector_neutral_score": 98.8988988988989
+      "score": 89.82790686624061,
+      "main_rank": 12,
+      "sector_neutral_score": 98.7987987987988
     },
     {
       "rank": 3,
-      "symbol": "AMS.SW",
-      "score": 89.49914900430986,
-      "main_rank": 13,
-      "sector_neutral_score": 98.69869869869869
+      "symbol": "EMBC",
+      "score": 89.57450182964538,
+      "main_rank": 96,
+      "sector_neutral_score": 95.8958958958959
     },
     {
       "rank": 4,
       "symbol": "SHEL",
-      "score": 88.96521954370426,
-      "main_rank": 42,
-      "sector_neutral_score": 95.4954954954955
+      "score": 89.16962134796339,
+      "main_rank": 39,
+      "sector_neutral_score": 95.7957957957958
     },
     {
       "rank": 5,
       "symbol": "XP",
-      "score": 87.85119070382399,
-      "main_rank": 74,
-      "sector_neutral_score": 91.69169169169169
+      "score": 88.87022131843943,
+      "main_rank": 66,
+      "sector_neutral_score": 92.49249249249249
     },
     {
       "rank": 6,
-      "symbol": "AMV0.DE",
-      "score": 86.77325849997902,
-      "main_rank": 125,
-      "sector_neutral_score": 85.38538538538538
+      "symbol": "PAGP",
+      "score": 87.0841301224443,
+      "main_rank": 50,
+      "sector_neutral_score": 94.1941941941942
     },
     {
       "rank": 7,
-      "symbol": "MT.AS",
-      "score": 86.11218509236208,
-      "main_rank": 24,
-      "sector_neutral_score": 97.5975975975976
+      "symbol": "AMS.SW",
+      "score": 86.95806843906774,
+      "main_rank": 29,
+      "sector_neutral_score": 96.8968968968969
     },
     {
       "rank": 8,
-      "symbol": "BFLY",
-      "score": 85.9190353838469,
-      "main_rank": 89,
-      "sector_neutral_score": 90.09009009009009
+      "symbol": "MT.AS",
+      "score": 85.45794334589986,
+      "main_rank": 25,
+      "sector_neutral_score": 97.3973973973974
     },
     {
       "rank": 9,
-      "symbol": "XOM",
-      "score": 85.26802839624378,
-      "main_rank": 122,
-      "sector_neutral_score": 85.68568568568568
+      "symbol": "RIGL",
+      "score": 85.40661175948067,
+      "main_rank": 101,
+      "sector_neutral_score": 95.3953953953954
     },
     {
       "rank": 10,
-      "symbol": "ENI.MI",
-      "score": 84.81379676240753,
+      "symbol": "BFLY",
+      "score": 85.15260001787624,
       "main_rank": 94,
-      "sector_neutral_score": 89.28928928928929
+      "sector_neutral_score": 88.988988988989
     }
   ],
   "challenger_500_500": {
@@ -154,10 +154,10 @@
     "core_target": 500,
     "total_target": 1000,
     "selected": 1000,
-    "overlap_with_live_600_400": 863,
-    "challenger_only": 137,
-    "live_only": 137,
-    "jaccard": 0.7590149516270889,
+    "overlap_with_live_600_400": 872,
+    "challenger_only": 128,
+    "live_only": 128,
+    "jaccard": 0.7730496453900709,
     "semantics": "shadow selection diagnostic only; 500 dynamic core candidates plus 500 highest Stage-1 dynamic candidates, never changes Full Exact production selection"
   },
   "files": [
