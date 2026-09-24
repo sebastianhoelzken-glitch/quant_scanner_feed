@@ -1,15 +1,15 @@
 {
   "current": {
     "deep_analyzed_rows": 1000,
-    "excluded_rows": 288,
-    "event_watch_rows": 1,
-    "eligible_rows": 711,
+    "excluded_rows": 287,
+    "event_watch_rows": 0,
+    "eligible_rows": 713,
     "exclusion_reason_counts": {
-      "insufficient median EUR turnover": 237,
-      "price < \u20ac2.00": 183,
+      "insufficient median EUR turnover": 236,
+      "price < \u20ac2.00": 182,
       "market cap < \u20ac250,000,000": 155,
       "insufficient price history": 15,
-      "data confidence < 55": 10,
+      "data confidence < 55": 11,
       "market cap EUR unavailable": 6,
       "EUR liquidity unavailable": 1,
       "EUR price unavailable": 1,
@@ -17,11 +17,11 @@
       "delisted": 1
     },
     "exclusion_category_counts": {
-      "liquidity": 238,
-      "price": 184,
+      "liquidity": 237,
+      "price": 183,
       "market_cap": 161,
       "price_history": 15,
-      "data_confidence": 10,
+      "data_confidence": 11,
       "asset_type": 1,
       "delisted": 1
     },
@@ -58,8 +58,8 @@
     "as_of": "2026-09-22"
   },
   "delta": {
-    "eligible_rows": 2,
-    "excluded_rows": -2,
-    "event_watch_rows": 0
+    "eligible_rows": 4,
+    "excluded_rows": -3,
+    "event_watch_rows": -1
   }
 }

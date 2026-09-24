@@ -14,26 +14,26 @@
       "component_present": {
         "quality_score": 10,
         "revisions_score": 10,
-        "valuation_score": 9
+        "valuation_score": 10
       },
       "component_missing": {
         "quality_score": 0,
         "revisions_score": 0,
-        "valuation_score": 1
+        "valuation_score": 0
       },
-      "complete_core_component_rows": 9,
+      "complete_core_component_rows": 10,
       "sparse_core_component_rows": 0,
       "median_data_confidence": 73.13636363636364,
-      "min_data_confidence": 65.06818181818183,
+      "min_data_confidence": 69.68181818181819,
       "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 0,
-      "median_market_cap_eur": 81050732103.27676,
+      "median_market_cap_eur": 92176655354.83139,
       "market_cap_buckets": {
         "micro_250m_1b": 0,
-        "small_1_5b": 2,
+        "small_1_5b": 1,
         "mid_5_20b": 1,
         "large_20_100b": 5,
-        "mega_100b_plus": 2,
+        "mega_100b_plus": 3,
         "unknown": 0
       },
       "selection_tiers": {
@@ -62,7 +62,7 @@
       "min_data_confidence": 62.840909090909086,
       "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 2,
-      "median_market_cap_eur": 31360438961.86581,
+      "median_market_cap_eur": 27358547968.0,
       "market_cap_buckets": {
         "micro_250m_1b": 1,
         "small_1_5b": 5,
@@ -93,22 +93,22 @@
       },
       "complete_core_component_rows": 46,
       "sparse_core_component_rows": 0,
-      "median_data_confidence": 72.68181818181819,
+      "median_data_confidence": 72.51136363636364,
       "min_data_confidence": 62.840909090909086,
       "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 2,
-      "median_market_cap_eur": 19824189656.57068,
+      "median_market_cap_eur": 15143694734.417238,
       "market_cap_buckets": {
         "micro_250m_1b": 2,
-        "small_1_5b": 13,
-        "mid_5_20b": 10,
+        "small_1_5b": 14,
+        "mid_5_20b": 11,
         "large_20_100b": 15,
-        "mega_100b_plus": 10,
+        "mega_100b_plus": 8,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 24,
-        "adaptive": 26,
+        "core": 26,
+        "adaptive": 24,
         "unknown": 0
       },
       "sparse_examples": []
