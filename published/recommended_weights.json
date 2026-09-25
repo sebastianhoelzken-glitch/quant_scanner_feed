@@ -2,8 +2,8 @@
   "short": {
     "status": "insufficient_history",
     "holding_days": 20,
-    "signal_dates": 15,
-    "label_rows": 9799,
+    "signal_dates": 16,
+    "label_rows": 10437,
     "min_dates_required": 60,
     "prior": {
       "technical_short_score": 0.62,
