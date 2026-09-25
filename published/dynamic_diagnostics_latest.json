@@ -6,147 +6,147 @@
   "persistence_history_available": true,
   "top10_persistence": [
     {
-      "symbol": "CMBT.BR",
-      "rank": 1,
-      "consecutive_top10": 5,
-      "consecutive_top25": 9,
-      "label": "persistent_top10"
-    },
-    {
       "symbol": "FRO",
-      "rank": 2,
+      "rank": 1,
       "consecutive_top10": 11,
       "consecutive_top25": 13,
       "label": "persistent_top10"
     },
     {
       "symbol": "HPE",
-      "rank": 3,
+      "rank": 2,
       "consecutive_top10": 1,
       "consecutive_top25": 6,
       "label": "persistent_top25"
     },
     {
-      "symbol": "MU",
-      "rank": 4,
-      "consecutive_top10": 1,
-      "consecutive_top25": 4,
-      "label": "rotating"
-    },
-    {
-      "symbol": "VLO",
-      "rank": 5,
-      "consecutive_top10": 2,
-      "consecutive_top25": 2,
-      "label": "rotating"
-    },
-    {
-      "symbol": "AMC",
-      "rank": 6,
-      "consecutive_top10": 1,
-      "consecutive_top25": 2,
-      "label": "rotating"
-    },
-    {
-      "symbol": "DHT",
-      "rank": 7,
+      "symbol": "CMBT.BR",
+      "rank": 3,
       "consecutive_top10": 5,
       "consecutive_top25": 9,
       "label": "persistent_top10"
     },
     {
-      "symbol": "REP.MC",
-      "rank": 8,
-      "consecutive_top10": 1,
-      "consecutive_top25": 1,
-      "label": "new_top25"
+      "symbol": "VLO",
+      "rank": 4,
+      "consecutive_top10": 2,
+      "consecutive_top25": 2,
+      "label": "rotating"
     },
     {
-      "symbol": "SHELL.AS",
+      "symbol": "MU",
+      "rank": 5,
+      "consecutive_top10": 1,
+      "consecutive_top25": 4,
+      "label": "rotating"
+    },
+    {
+      "symbol": "DHT",
+      "rank": 6,
+      "consecutive_top10": 5,
+      "consecutive_top25": 9,
+      "label": "persistent_top10"
+    },
+    {
+      "symbol": "AMC",
+      "rank": 7,
+      "consecutive_top10": 1,
+      "consecutive_top25": 2,
+      "label": "rotating"
+    },
+    {
+      "symbol": "PSX",
+      "rank": 8,
+      "consecutive_top10": 2,
+      "consecutive_top25": 2,
+      "label": "rotating"
+    },
+    {
+      "symbol": "P",
       "rank": 9,
       "consecutive_top10": 0,
-      "consecutive_top25": 1,
-      "label": "new_top25"
+      "consecutive_top25": 2,
+      "label": "rotating"
     },
     {
-      "symbol": "KIN.BR",
+      "symbol": "DELL",
       "rank": 10,
       "consecutive_top10": 0,
-      "consecutive_top25": 22,
+      "consecutive_top25": 12,
       "label": "persistent_top25"
     }
   ],
-  "emerging_alpha_candidates": 171,
+  "emerging_alpha_candidates": 183,
   "emerging_alpha_top10": [
     {
       "rank": 1,
       "symbol": "BP",
-      "score": 90.508013706027,
-      "main_rank": 50,
-      "sector_neutral_score": 94.3943943943944
+      "score": 90.89855245466939,
+      "main_rank": 40,
+      "sector_neutral_score": 93.7937937937938
     },
     {
       "rank": 2,
-      "symbol": "AMV0.DE",
-      "score": 88.5898248447217,
-      "main_rank": 92,
-      "sector_neutral_score": 89.1891891891892
+      "symbol": "SHEL",
+      "score": 90.02495640436132,
+      "main_rank": 26,
+      "sector_neutral_score": 95.7957957957958
     },
     {
       "rank": 3,
-      "symbol": "SHEL",
-      "score": 88.19070514635129,
-      "main_rank": 45,
-      "sector_neutral_score": 94.8948948948949
+      "symbol": "HMC",
+      "score": 89.1187939850647,
+      "main_rank": 126,
+      "sector_neutral_score": 99.7997997997998
     },
     {
       "rank": 4,
-      "symbol": "KOS",
-      "score": 87.86685465134751,
-      "main_rank": 52,
-      "sector_neutral_score": 94.09409409409409
+      "symbol": "ASML.AS",
+      "score": 89.03119766171623,
+      "main_rank": 127,
+      "sector_neutral_score": 96.996996996997
     },
     {
       "rank": 5,
-      "symbol": "DSFIR.AS",
-      "score": 87.47341775301179,
-      "main_rank": 48,
-      "sector_neutral_score": 94.5945945945946
+      "symbol": "KOS",
+      "score": 88.66902047984624,
+      "main_rank": 35,
+      "sector_neutral_score": 94.3943943943944
     },
     {
       "rank": 6,
-      "symbol": "MT.AS",
-      "score": 86.82343157852067,
-      "main_rank": 17,
-      "sector_neutral_score": 97.997997997998
+      "symbol": "SHELL.AS",
+      "score": 88.42042009500142,
+      "main_rank": 15,
+      "sector_neutral_score": 97.3973973973974
     },
     {
       "rank": 7,
-      "symbol": "SAB.MC",
-      "score": 85.92408929984421,
-      "main_rank": 65,
-      "sector_neutral_score": 92.49249249249249
+      "symbol": "EMBC",
+      "score": 86.2349098897742,
+      "main_rank": 160,
+      "sector_neutral_score": 97.4974974974975
     },
     {
       "rank": 8,
-      "symbol": "ENI.MI",
-      "score": 85.62536329879444,
-      "main_rank": 87,
-      "sector_neutral_score": 89.7897897897898
+      "symbol": "VTRS",
+      "score": 85.55829613619052,
+      "main_rank": 74,
+      "sector_neutral_score": 89.08908908908909
     },
     {
       "rank": 9,
-      "symbol": "BFLY",
-      "score": 85.08446161380336,
-      "main_rank": 97,
-      "sector_neutral_score": 88.58858858858859
+      "symbol": "DVN",
+      "score": 85.50147511583339,
+      "main_rank": 109,
+      "sector_neutral_score": 83.78378378378379
     },
     {
       "rank": 10,
-      "symbol": "SBMO.AS",
-      "score": 84.72399583531562,
-      "main_rank": 31,
-      "sector_neutral_score": 96.3963963963964
+      "symbol": "BFLY",
+      "score": 85.49116038425035,
+      "main_rank": 78,
+      "sector_neutral_score": 88.48848848848849
     }
   ],
   "challenger_500_500": {
@@ -154,10 +154,10 @@
     "core_target": 500,
     "total_target": 1000,
     "selected": 1000,
-    "overlap_with_live_600_400": 875,
-    "challenger_only": 125,
-    "live_only": 125,
-    "jaccard": 0.7777777777777778,
+    "overlap_with_live_600_400": 876,
+    "challenger_only": 124,
+    "live_only": 124,
+    "jaccard": 0.7793594306049823,
     "semantics": "shadow selection diagnostic only; 500 dynamic core candidates plus 500 highest Stage-1 dynamic candidates, never changes Full Exact production selection"
   },
   "files": [
