@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-25T10:12:26.629839+00:00",
+  "generated_at_utc": "2026-09-26T09:09:29.690849+00:00",
   "files": [
     "backtest_meta.json",
     "backtest_report.md",
@@ -58,28 +58,28 @@
       "adaptive": 400
     },
     "value_ranking_latest.csv": {
-      "rows": 131,
-      "core": 131,
+      "rows": 132,
+      "core": 132,
       "adaptive": 0
     },
     "quality_value_latest.csv": {
-      "rows": 131,
-      "core": 131,
+      "rows": 132,
+      "core": 132,
       "adaptive": 0
     },
     "pullback_ranking_latest.csv": {
-      "rows": 432,
-      "core": 250,
-      "adaptive": 182
+      "rows": 439,
+      "core": 244,
+      "adaptive": 195
     },
     "strategy_overlap_latest.csv": {
-      "rows": 25,
+      "rows": 24,
       "core": 22,
-      "adaptive": 3
+      "adaptive": 2
     }
   },
   "entry_opportunity_version": "1.0-exact-value-pullback",
-  "entry_overlay_generated_at_utc": "2026-09-25T10:12:27.314595+00:00",
+  "entry_overlay_generated_at_utc": "2026-09-26T09:09:30.518713+00:00",
   "ranking_quality_diagnostics": {
     "diagnostic_only": true,
     "json_file": "ranking_quality_diagnostics_latest.json",
@@ -90,83 +90,83 @@
     "diagnostic_only_for_main_ranking": true,
     "main_scores_changed": false,
     "main_ranks_changed": false,
-    "entry_overlay_rows_joined": 466,
+    "entry_overlay_rows_joined": 476,
     "top10_quality_present": 10,
     "top10_revisions_present": 10,
     "top10_complete_core_components": 9,
     "top10_median_score_completeness": 95.00000000000001,
-    "high_conviction_candidates": 702,
-    "fresh_opportunity_candidates": 391,
+    "high_conviction_candidates": 697,
+    "fresh_opportunity_candidates": 392,
     "fresh_opportunity_top10": [
       {
         "rank": 1,
-        "symbol": "NNBR",
-        "score": 86.63122761091397,
+        "symbol": "HMC",
+        "score": 87.66695621676341,
         "reason": "new_exact",
-        "main_rank": 138
+        "main_rank": 56
       },
       {
         "rank": 2,
-        "symbol": "SHEL",
-        "score": 85.5772529798939,
-        "reason": "sharp_1run_rise",
-        "main_rank": 26
+        "symbol": "NNBR",
+        "score": 87.40295129876118,
+        "reason": "new_exact",
+        "main_rank": 106
       },
       {
         "rank": 3,
-        "symbol": "KOS",
-        "score": 85.2648353070878,
-        "reason": "new_exact",
-        "main_rank": 35
+        "symbol": "SHEL",
+        "score": 85.32346115631475,
+        "reason": "sharp_1run_rise",
+        "main_rank": 18
       },
       {
         "rank": 4,
         "symbol": "BP",
-        "score": 84.90194534133654,
+        "score": 84.49832473846037,
         "reason": "sharp_1run_rise",
-        "main_rank": 40
+        "main_rank": 33
       },
       {
         "rank": 5,
-        "symbol": "DVN",
-        "score": 84.84340535195423,
+        "symbol": "VTRS",
+        "score": 83.4117973285477,
         "reason": "sharp_1run_rise",
-        "main_rank": 109
+        "main_rank": 49
       },
       {
         "rank": 6,
         "symbol": "AMC",
-        "score": 84.35126218984429,
+        "score": 83.40700715480276,
         "reason": "sharp_1run_rise",
         "main_rank": 7
       },
       {
         "rank": 7,
-        "symbol": "TAL",
-        "score": 84.16815056775457,
-        "reason": "new_exact",
-        "main_rank": 83
+        "symbol": "ITRG",
+        "score": 83.0951530439713,
+        "reason": "sharp_1run_rise",
+        "main_rank": 231
       },
       {
         "rank": 8,
-        "symbol": "RBI.VI",
-        "score": 83.87074814835515,
+        "symbol": "RAND.AS",
+        "score": 82.67834206476596,
         "reason": "sharp_1run_rise",
-        "main_rank": 141
+        "main_rank": 102
       },
       {
         "rank": 9,
-        "symbol": "HMC",
-        "score": 83.71743735852372,
-        "reason": "new_exact",
-        "main_rank": 126
+        "symbol": "RBI.VI",
+        "score": 82.3194825943546,
+        "reason": "sharp_1run_rise",
+        "main_rank": 149
       },
       {
         "rank": 10,
-        "symbol": "BFLY",
-        "score": 83.29364919952867,
+        "symbol": "XOM",
+        "score": 82.1256163173733,
         "reason": "sharp_1run_rise",
-        "main_rank": 78
+        "main_rank": 103
       }
     ],
     "portfolio_guard_rows": 30,
@@ -185,17 +185,17 @@
     "persistence_history_available": true,
     "top10_persistence": [
       {
-        "symbol": "FRO",
-        "rank": 1,
-        "consecutive_top10": 11,
-        "consecutive_top25": 13,
-        "label": "persistent_top10"
-      },
-      {
         "symbol": "HPE",
-        "rank": 2,
+        "rank": 1,
         "consecutive_top10": 1,
         "consecutive_top25": 6,
+        "label": "persistent_top25"
+      },
+      {
+        "symbol": "DELL",
+        "rank": 2,
+        "consecutive_top10": 4,
+        "consecutive_top25": 12,
         "label": "persistent_top25"
       },
       {
@@ -206,24 +206,24 @@
         "label": "persistent_top10"
       },
       {
-        "symbol": "VLO",
-        "rank": 4,
-        "consecutive_top10": 2,
-        "consecutive_top25": 2,
-        "label": "rotating"
-      },
-      {
         "symbol": "MU",
-        "rank": 5,
+        "rank": 4,
         "consecutive_top10": 1,
         "consecutive_top25": 4,
         "label": "rotating"
       },
       {
-        "symbol": "DHT",
+        "symbol": "VLO",
+        "rank": 5,
+        "consecutive_top10": 2,
+        "consecutive_top25": 2,
+        "label": "rotating"
+      },
+      {
+        "symbol": "FRO",
         "rank": 6,
-        "consecutive_top10": 5,
-        "consecutive_top25": 9,
+        "consecutive_top10": 11,
+        "consecutive_top25": 13,
         "label": "persistent_top10"
       },
       {
@@ -234,98 +234,98 @@
         "label": "rotating"
       },
       {
-        "symbol": "PSX",
+        "symbol": "P",
         "rank": 8,
+        "consecutive_top10": 1,
+        "consecutive_top25": 2,
+        "label": "rotating"
+      },
+      {
+        "symbol": "PSX",
+        "rank": 9,
         "consecutive_top10": 2,
         "consecutive_top25": 2,
         "label": "rotating"
       },
       {
-        "symbol": "P",
-        "rank": 9,
-        "consecutive_top10": 0,
-        "consecutive_top25": 2,
-        "label": "rotating"
-      },
-      {
-        "symbol": "DELL",
+        "symbol": "NAT",
         "rank": 10,
         "consecutive_top10": 0,
-        "consecutive_top25": 12,
+        "consecutive_top25": 9,
         "label": "persistent_top25"
       }
     ],
-    "emerging_alpha_candidates": 183,
+    "emerging_alpha_candidates": 182,
     "emerging_alpha_top10": [
       {
         "rank": 1,
-        "symbol": "BP",
-        "score": 90.89855245466939,
-        "main_rank": 40,
-        "sector_neutral_score": 93.7937937937938
+        "symbol": "HMC",
+        "score": 91.5473446574811,
+        "main_rank": 56,
+        "sector_neutral_score": 99.8998998998999
       },
       {
         "rank": 2,
-        "symbol": "SHEL",
-        "score": 90.02495640436132,
-        "main_rank": 26,
-        "sector_neutral_score": 95.7957957957958
+        "symbol": "BP",
+        "score": 90.5415705013884,
+        "main_rank": 33,
+        "sector_neutral_score": 93.7937937937938
       },
       {
         "rank": 3,
-        "symbol": "HMC",
-        "score": 89.1187939850647,
-        "main_rank": 126,
-        "sector_neutral_score": 99.7997997997998
+        "symbol": "SHEL",
+        "score": 89.8649154666357,
+        "main_rank": 18,
+        "sector_neutral_score": 96.3963963963964
       },
       {
         "rank": 4,
-        "symbol": "ASML.AS",
-        "score": 89.03119766171623,
-        "main_rank": 127,
+        "symbol": "SHELL.AS",
+        "score": 87.31633152613901,
+        "main_rank": 15,
         "sector_neutral_score": 96.996996996997
       },
       {
         "rank": 5,
-        "symbol": "KOS",
-        "score": 88.66902047984624,
-        "main_rank": 35,
-        "sector_neutral_score": 94.3943943943944
+        "symbol": "ASML.AS",
+        "score": 86.79095285288976,
+        "main_rank": 143,
+        "sector_neutral_score": 96.49649649649649
       },
       {
         "rank": 6,
-        "symbol": "SHELL.AS",
-        "score": 88.42042009500142,
-        "main_rank": 15,
-        "sector_neutral_score": 97.3973973973974
+        "symbol": "VTRS",
+        "score": 86.41460608035543,
+        "main_rank": 49,
+        "sector_neutral_score": 91.8918918918919
       },
       {
         "rank": 7,
         "symbol": "EMBC",
-        "score": 86.2349098897742,
-        "main_rank": 160,
-        "sector_neutral_score": 97.4974974974975
+        "score": 86.35800214912327,
+        "main_rank": 150,
+        "sector_neutral_score": 97.5975975975976
       },
       {
         "rank": 8,
-        "symbol": "VTRS",
-        "score": 85.55829613619052,
-        "main_rank": 74,
-        "sector_neutral_score": 89.08908908908909
+        "symbol": "XOM",
+        "score": 85.6741096841896,
+        "main_rank": 103,
+        "sector_neutral_score": 84.58458458458459
       },
       {
         "rank": 9,
-        "symbol": "DVN",
-        "score": 85.50147511583339,
-        "main_rank": 109,
-        "sector_neutral_score": 83.78378378378379
+        "symbol": "RAND.AS",
+        "score": 85.47728587896881,
+        "main_rank": 102,
+        "sector_neutral_score": 84.68468468468468
       },
       {
         "rank": 10,
-        "symbol": "BFLY",
-        "score": 85.49116038425035,
-        "main_rank": 78,
-        "sector_neutral_score": 88.48848848848849
+        "symbol": "NNBR",
+        "score": 85.24222571023424,
+        "main_rank": 106,
+        "sector_neutral_score": 84.08408408408408
       }
     ],
     "challenger_500_500": {
@@ -333,10 +333,10 @@
       "core_target": 500,
       "total_target": 1000,
       "selected": 1000,
-      "overlap_with_live_600_400": 876,
-      "challenger_only": 124,
-      "live_only": 124,
-      "jaccard": 0.7793594306049823,
+      "overlap_with_live_600_400": 879,
+      "challenger_only": 121,
+      "live_only": 121,
+      "jaccard": 0.784121320249777,
       "semantics": "shadow selection diagnostic only; 500 dynamic core candidates plus 500 highest Stage-1 dynamic candidates, never changes Full Exact production selection"
     },
     "files": [
@@ -351,135 +351,135 @@
     "diagnostic_only": true,
     "main_scores_changed": false,
     "main_ranks_changed": false,
-    "candidate_count": 146,
+    "candidate_count": 151,
     "state_counts": {
-      "Dormant": 534,
-      "Fading": 222,
-      "Emerging": 189,
-      "Breakout": 42,
-      "Established": 8,
-      "Mature": 5
+      "Dormant": 506,
+      "Fading": 239,
+      "Emerging": 185,
+      "Breakout": 58,
+      "Established": 6,
+      "Mature": 6
     },
     "top10": [
       {
         "rank": 1,
-        "symbol": "TXP.L",
-        "score": 91.86474054085865,
+        "symbol": "HMC",
+        "score": 92.64623960058734,
         "state": "Breakout",
-        "main_rank": null,
-        "coverage": 0.8800000000000001,
+        "main_rank": 56,
+        "coverage": 0.7000000000000001,
         "direction": "UP",
-        "direction_confidence": 89.23727295954794,
-        "direction_score": 0.8923727295954793,
-        "direction_reason": "sector relative positive; momentum inflection positive; score change positive"
+        "direction_confidence": 88.40709319057557,
+        "direction_score": 0.8840709319057557,
+        "direction_reason": "sector relative positive; momentum inflection positive; acceleration positive"
       },
       {
         "rank": 2,
-        "symbol": "EMBC",
-        "score": 91.185462877745,
-        "state": "Breakout",
-        "main_rank": 160,
-        "coverage": 0.8800000000000001,
-        "direction": "UP",
-        "direction_confidence": 82.32464704740644,
-        "direction_score": 0.8232464704740644,
-        "direction_reason": "sector relative positive; momentum inflection positive; pullback recovery positive"
-      },
-      {
-        "rank": 3,
         "symbol": "BLICK.ST",
-        "score": 91.08961433285965,
+        "score": 91.20097044877978,
         "state": "Breakout",
         "main_rank": null,
         "coverage": 0.6100000000000001,
         "direction": "UP",
-        "direction_confidence": 95.13276609743956,
-        "direction_score": 0.9513276609743956,
+        "direction_confidence": 94.99876929556154,
+        "direction_score": 0.9499876929556156,
         "direction_reason": "sector relative positive; momentum inflection positive; score change positive"
       },
       {
-        "rank": 4,
-        "symbol": "BP",
-        "score": 90.11709728572558,
-        "state": "Breakout",
-        "main_rank": 40,
-        "coverage": 0.7600000000000001,
-        "direction": "UP",
-        "direction_confidence": 90.85214730626028,
-        "direction_score": 0.9085214730626028,
-        "direction_reason": "sector relative positive; score change positive; pullback recovery positive"
-      },
-      {
-        "rank": 5,
-        "symbol": "SHEL",
-        "score": 89.1920385611197,
-        "state": "Breakout",
-        "main_rank": 26,
-        "coverage": 0.8800000000000001,
-        "direction": "UP",
-        "direction_confidence": 86.71264911352073,
-        "direction_score": 0.8671264911352072,
-        "direction_reason": "sector relative positive; score change positive; momentum inflection positive"
-      },
-      {
-        "rank": 6,
-        "symbol": "SHELL.AS",
-        "score": 88.62548588893966,
-        "state": "Breakout",
-        "main_rank": 15,
-        "coverage": 0.8800000000000001,
-        "direction": "UP",
-        "direction_confidence": 81.91834467381929,
-        "direction_score": 0.8191834467381929,
-        "direction_reason": "sector relative positive; pullback recovery positive; momentum inflection positive"
-      },
-      {
-        "rank": 7,
-        "symbol": "HMC",
-        "score": 88.52307853459595,
-        "state": "Breakout",
-        "main_rank": 126,
-        "coverage": 0.7000000000000001,
-        "direction": "UP",
-        "direction_confidence": 81.28417685379381,
-        "direction_score": 0.8128417685379381,
-        "direction_reason": "sector relative positive; momentum inflection positive; acceleration positive"
-      },
-      {
-        "rank": 8,
-        "symbol": "TAL",
-        "score": 88.19320535156581,
-        "state": "Breakout",
-        "main_rank": 83,
-        "coverage": 0.7000000000000001,
-        "direction": "UP",
-        "direction_confidence": 85.55577929187318,
-        "direction_score": 0.8555577929187318,
-        "direction_reason": "sector relative positive; momentum inflection positive; pullback recovery positive"
-      },
-      {
-        "rank": 9,
-        "symbol": "AMV0.DE",
-        "score": 87.88727424428085,
+        "rank": 3,
+        "symbol": "EMBC",
+        "score": 91.13939776407322,
         "state": "Breakout",
         "main_rank": 150,
         "coverage": 0.8800000000000001,
         "direction": "UP",
-        "direction_confidence": 85.03517183681168,
-        "direction_score": 0.8503517183681168,
-        "direction_reason": "score change positive; momentum inflection positive; pullback recovery positive"
+        "direction_confidence": 82.49673990500283,
+        "direction_score": 0.8249673990500282,
+        "direction_reason": "sector relative positive; momentum inflection positive; acceleration positive"
+      },
+      {
+        "rank": 4,
+        "symbol": "TXP.L",
+        "score": 90.57338637127675,
+        "state": "Breakout",
+        "main_rank": null,
+        "coverage": 0.8800000000000001,
+        "direction": "UP",
+        "direction_confidence": 87.84709535594651,
+        "direction_score": 0.878470953559465,
+        "direction_reason": "momentum inflection positive; sector relative positive; score change positive"
+      },
+      {
+        "rank": 5,
+        "symbol": "BP",
+        "score": 90.02234989557071,
+        "state": "Breakout",
+        "main_rank": 33,
+        "coverage": 0.7600000000000001,
+        "direction": "UP",
+        "direction_confidence": 91.02905956075668,
+        "direction_score": 0.910290595607567,
+        "direction_reason": "sector relative positive; score change positive; pullback recovery positive"
+      },
+      {
+        "rank": 6,
+        "symbol": "SHEL",
+        "score": 89.89079728785877,
+        "state": "Breakout",
+        "main_rank": 18,
+        "coverage": 0.8800000000000001,
+        "direction": "UP",
+        "direction_confidence": 88.3382320604482,
+        "direction_score": 0.8833823206044821,
+        "direction_reason": "sector relative positive; score change positive; momentum inflection positive"
+      },
+      {
+        "rank": 7,
+        "symbol": "SHELL.AS",
+        "score": 87.70842862799361,
+        "state": "Breakout",
+        "main_rank": 15,
+        "coverage": 0.8800000000000001,
+        "direction": "UP",
+        "direction_confidence": 80.79987341441748,
+        "direction_score": 0.8079987341441748,
+        "direction_reason": "sector relative positive; momentum inflection positive; pullback recovery positive"
+      },
+      {
+        "rank": 8,
+        "symbol": "AMV0.DE",
+        "score": 87.50607298594826,
+        "state": "Breakout",
+        "main_rank": 148,
+        "coverage": 0.8800000000000001,
+        "direction": "UP",
+        "direction_confidence": 84.73081118040268,
+        "direction_score": 0.8473081118040269,
+        "direction_reason": "momentum inflection positive; score change positive; pullback recovery positive"
+      },
+      {
+        "rank": 9,
+        "symbol": "PRGO",
+        "score": 86.65998203368207,
+        "state": "Breakout",
+        "main_rank": 73,
+        "coverage": 0.8800000000000001,
+        "direction": "UP",
+        "direction_confidence": 81.94697201554327,
+        "direction_score": 0.8194697201554327,
+        "direction_reason": "sector relative positive; momentum inflection positive; score change positive"
       },
       {
         "rank": 10,
-        "symbol": "DVN",
-        "score": 86.61211816421785,
+        "symbol": "BETA",
+        "score": 86.06599151511278,
         "state": "Breakout",
-        "main_rank": 109,
-        "coverage": 0.8800000000000001,
+        "main_rank": null,
+        "coverage": 0.7600000000000001,
         "direction": "UP",
-        "direction_confidence": 87.24141560276836,
-        "direction_score": 0.8724141560276836,
-        "direction_reason": "score change positive; sector relative positive; acceleration positive"
+        "direction_confidence": 90.8713010845421,
+        "direction_score": 0.908713010845421,
+        "direction_reason": "momentum inflection positive; score change positive; sector relative positive"
       }
     ],
     "semantics": "diagnostic new-signal layer; rewards inflection/change/acceleration/sector-relative strength and uses revision/quality shocks only when true change fields exist; never changes Main Exact rank",
@@ -490,255 +490,255 @@
       "version": "1.2-symmetric-breakout-direction",
       "diagnostic_only": true,
       "direction_counts": {
-        "UP": 98,
-        "DOWN": 25,
-        "MIXED": 877
+        "UP": 103,
+        "DOWN": 36,
+        "MIXED": 861
       },
-      "bullish_candidate_rows": 68,
-      "bearish_candidate_rows": 23,
+      "bullish_candidate_rows": 73,
+      "bearish_candidate_rows": 32,
       "mixed_bullish_seed_rows": 78,
       "bullish_top10": [
         {
           "rank": 1,
           "symbol": "BLICK.ST",
-          "score": 91.08961433285964,
-          "directional_strength": 92.30255986223361,
+          "score": 91.20097044877978,
+          "directional_strength": 92.3403101028143,
           "state": "Breakout",
           "direction": "UP",
-          "direction_score": 0.9513276609743957,
-          "direction_confidence": 95.13276609743957,
+          "direction_score": 0.9499876929556155,
+          "direction_confidence": 94.99876929556154,
           "direction_reason": "sector relative positive; momentum inflection positive; score change positive",
           "main_rank": null
         },
         {
           "rank": 2,
-          "symbol": "TXP.L",
-          "score": 91.86474054085863,
-          "directional_strength": 91.07650026646542,
+          "symbol": "HMC",
+          "score": 92.64623960058734,
+          "directional_strength": 91.37449567758381,
           "state": "Breakout",
           "direction": "UP",
-          "direction_score": 0.8923727295954793,
-          "direction_confidence": 89.23727295954794,
-          "direction_reason": "sector relative positive; momentum inflection positive; score change positive",
-          "main_rank": null
+          "direction_score": 0.8840709319057557,
+          "direction_confidence": 88.40709319057557,
+          "direction_reason": "sector relative positive; momentum inflection positive; acceleration positive",
+          "main_rank": 56
         },
         {
           "rank": 3,
           "symbol": "BP",
-          "score": 90.11709728572558,
-          "directional_strength": 90.33761229188599,
+          "score": 90.02234989557071,
+          "directional_strength": 90.3243627951265,
           "state": "Breakout",
           "direction": "UP",
-          "direction_score": 0.9085214730626028,
-          "direction_confidence": 90.85214730626028,
+          "direction_score": 0.910290595607567,
+          "direction_confidence": 91.02905956075669,
           "direction_reason": "sector relative positive; score change positive; pullback recovery positive",
-          "main_rank": 40
+          "main_rank": 33
         },
         {
           "rank": 4,
-          "symbol": "HLUN-A.CO",
-          "score": 86.04809229994633,
-          "directional_strength": 88.63069711912179,
+          "symbol": "TXP.L",
+          "score": 90.57338637127675,
+          "directional_strength": 89.75549906667769,
           "state": "Breakout",
           "direction": "UP",
-          "direction_score": 0.946567750305312,
-          "direction_confidence": 94.65677503053121,
-          "direction_reason": "sector relative positive; score change positive; momentum inflection positive",
+          "direction_score": 0.878470953559465,
+          "direction_confidence": 87.84709535594651,
+          "direction_reason": "momentum inflection positive; sector relative positive; score change positive",
           "main_rank": null
         },
         {
           "rank": 5,
-          "symbol": "EMBC",
-          "score": 91.185462877745,
-          "directional_strength": 88.52721812864343,
+          "symbol": "SHEL",
+          "score": 89.89079728785877,
+          "directional_strength": 89.4250277196356,
           "state": "Breakout",
           "direction": "UP",
-          "direction_score": 0.8232464704740644,
-          "direction_confidence": 82.32464704740644,
-          "direction_reason": "sector relative positive; momentum inflection positive; pullback recovery positive",
-          "main_rank": 160
+          "direction_score": 0.8833823206044821,
+          "direction_confidence": 88.3382320604482,
+          "direction_reason": "sector relative positive; score change positive; momentum inflection positive",
+          "main_rank": 18
         },
         {
           "rank": 6,
-          "symbol": "SHEL",
-          "score": 89.1920385611197,
-          "directional_strength": 88.44822172684,
+          "symbol": "EMBC",
+          "score": 91.13939776407322,
+          "directional_strength": 88.5466004063521,
           "state": "Breakout",
           "direction": "UP",
-          "direction_score": 0.8671264911352072,
-          "direction_confidence": 86.71264911352073,
-          "direction_reason": "sector relative positive; score change positive; momentum inflection positive",
-          "main_rank": 26
-        },
-        {
-          "rank": 7,
-          "symbol": "TAL",
-          "score": 88.19320535156581,
-          "directional_strength": 87.40197753365801,
-          "state": "Breakout",
-          "direction": "UP",
-          "direction_score": 0.8555577929187318,
-          "direction_confidence": 85.55577929187318,
-          "direction_reason": "sector relative positive; momentum inflection positive; pullback recovery positive",
-          "main_rank": 83
-        },
-        {
-          "rank": 8,
-          "symbol": "AMV0.DE",
-          "score": 87.88727424428085,
-          "directional_strength": 87.0316435220401,
-          "state": "Breakout",
-          "direction": "UP",
-          "direction_score": 0.8503517183681168,
-          "direction_confidence": 85.03517183681168,
-          "direction_reason": "score change positive; momentum inflection positive; pullback recovery positive",
+          "direction_score": 0.8249673990500282,
+          "direction_confidence": 82.49673990500283,
+          "direction_reason": "sector relative positive; momentum inflection positive; acceleration positive",
           "main_rank": 150
         },
         {
-          "rank": 9,
-          "symbol": "DVN",
-          "score": 86.61211816421785,
-          "directional_strength": 86.800907395783,
+          "rank": 7,
+          "symbol": "HLUN-A.CO",
+          "score": 85.7344711047296,
+          "directional_strength": 88.1128658569026,
           "state": "Breakout",
           "direction": "UP",
-          "direction_score": 0.8724141560276836,
-          "direction_confidence": 87.24141560276836,
-          "direction_reason": "score change positive; sector relative positive; acceleration positive",
-          "main_rank": 109
+          "direction_score": 0.9366245361197293,
+          "direction_confidence": 93.66245361197294,
+          "direction_reason": "sector relative positive; score change positive; momentum inflection positive",
+          "main_rank": null
+        },
+        {
+          "rank": 8,
+          "symbol": "BETA",
+          "score": 86.06599151511278,
+          "directional_strength": 87.50758438594157,
+          "state": "Breakout",
+          "direction": "UP",
+          "direction_score": 0.908713010845421,
+          "direction_confidence": 90.8713010845421,
+          "direction_reason": "momentum inflection positive; score change positive; sector relative positive",
+          "main_rank": null
+        },
+        {
+          "rank": 9,
+          "symbol": "AMV0.DE",
+          "score": 87.50607298594826,
+          "directional_strength": 86.67349444428459,
+          "state": "Breakout",
+          "direction": "UP",
+          "direction_score": 0.8473081118040269,
+          "direction_confidence": 84.73081118040268,
+          "direction_reason": "momentum inflection positive; score change positive; pullback recovery positive",
+          "main_rank": 148
         },
         {
           "rank": 10,
-          "symbol": "SHELL.AS",
-          "score": 88.62548588893966,
-          "directional_strength": 86.61334352440355,
+          "symbol": "ARHS",
+          "score": 86.03444460411632,
+          "directional_strength": 86.6148755437834,
           "state": "Breakout",
           "direction": "UP",
-          "direction_score": 0.8191834467381929,
-          "direction_confidence": 81.91834467381929,
-          "direction_reason": "sector relative positive; pullback recovery positive; momentum inflection positive",
-          "main_rank": 15
+          "direction_score": 0.8796921440300662,
+          "direction_confidence": 87.96921440300662,
+          "direction_reason": "momentum inflection positive; score change positive; pullback recovery positive",
+          "main_rank": 163
         }
       ],
       "bearish_top10": [
         {
           "rank": 1,
-          "symbol": "HIAB.HE",
-          "score": 19.0017164923465,
-          "directional_strength": 80.10619114491072,
-          "state": "Dormant",
+          "symbol": "TIT.MI",
+          "score": 6.697794443226975,
+          "directional_strength": 87.52469684035826,
+          "state": "Fading",
           "direction": "DOWN",
-          "direction_score": -0.8010619114491073,
-          "direction_confidence": 80.10619114491074,
-          "direction_reason": "score change negative; momentum inflection negative; sector relative negative",
-          "main_rank": 468
+          "direction_score": -0.8752469684035826,
+          "direction_confidence": 87.52469684035826,
+          "direction_reason": "sector relative negative; momentum inflection negative; score change negative",
+          "main_rank": 644
         },
         {
           "rank": 2,
-          "symbol": "NYKD.OL",
-          "score": 16.828195851902166,
-          "directional_strength": 79.41759920931337,
+          "symbol": "TENB",
+          "score": 9.209185559118517,
+          "directional_strength": 82.65999224576548,
+          "state": "Fading",
+          "direction": "DOWN",
+          "direction_score": -0.8265999224576548,
+          "direction_confidence": 82.65999224576548,
+          "direction_reason": "score change negative; momentum inflection negative; sector relative negative",
+          "main_rank": 549
+        },
+        {
+          "rank": 3,
+          "symbol": "HIAB.HE",
+          "score": 19.59684242959736,
+          "directional_strength": 80.46784818191463,
           "state": "Dormant",
           "direction": "DOWN",
-          "direction_score": -0.7941759920931336,
-          "direction_confidence": 79.41759920931337,
+          "direction_score": -0.8046784818191464,
+          "direction_confidence": 80.46784818191463,
+          "direction_reason": "score change negative; momentum inflection negative; sector relative negative",
+          "main_rank": 471
+        },
+        {
+          "rank": 4,
+          "symbol": "NYKD.OL",
+          "score": 18.5638863272938,
+          "directional_strength": 78.29629846889267,
+          "state": "Dormant",
+          "direction": "DOWN",
+          "direction_score": -0.7829629846889268,
+          "direction_confidence": 78.29629846889267,
           "direction_reason": "momentum inflection negative; score change negative; sector relative negative",
           "main_rank": null
         },
         {
-          "rank": 3,
-          "symbol": "TIT.MI",
-          "score": 10.21894644366322,
-          "directional_strength": 75.44680527369388,
-          "state": "Fading",
-          "direction": "DOWN",
-          "direction_score": -0.7544680527369388,
-          "direction_confidence": 75.44680527369388,
-          "direction_reason": "momentum inflection negative; sector relative negative; score change negative",
-          "main_rank": 579
-        },
-        {
-          "rank": 4,
-          "symbol": "HOG",
-          "score": 14.585983945236649,
-          "directional_strength": 71.08491026246143,
-          "state": "Fading",
-          "direction": "DOWN",
-          "direction_score": -0.7108491026246143,
-          "direction_confidence": 71.08491026246143,
-          "direction_reason": "sector relative negative; momentum inflection negative; 5-run velocity negative",
-          "main_rank": 603
-        },
-        {
           "rank": 5,
-          "symbol": "MPCES.OL",
-          "score": 17.89701552890633,
-          "directional_strength": 67.25233289683908,
-          "state": "Fading",
+          "symbol": "FA",
+          "score": 17.88320672069066,
+          "directional_strength": 77.67482446941982,
+          "state": "Dormant",
           "direction": "DOWN",
-          "direction_score": -0.6725233289683907,
-          "direction_confidence": 67.25233289683908,
-          "direction_reason": "score change negative; momentum inflection negative; 5-run velocity negative",
-          "main_rank": null
+          "direction_score": -0.7767482446941981,
+          "direction_confidence": 77.67482446941982,
+          "direction_reason": "momentum inflection negative; score change negative; pullback recovery negative",
+          "main_rank": 468
         },
         {
           "rank": 6,
-          "symbol": "W",
-          "score": 24.448223067960587,
-          "directional_strength": 67.23593345692191,
+          "symbol": "ROIV",
+          "score": 10.000859021245487,
+          "directional_strength": 73.07926702387118,
           "state": "Fading",
           "direction": "DOWN",
-          "direction_score": -0.6723593345692191,
-          "direction_confidence": 67.23593345692191,
-          "direction_reason": "score change negative; momentum inflection negative; sector relative negative",
-          "main_rank": 518
+          "direction_score": -0.7307926702387118,
+          "direction_confidence": 73.07926702387118,
+          "direction_reason": "momentum inflection negative; score change negative; sector relative negative",
+          "main_rank": 591
         },
         {
           "rank": 7,
-          "symbol": "UNH",
-          "score": 15.5516310462233,
-          "directional_strength": 66.93180737883881,
+          "symbol": "VIG.VI",
+          "score": 18.71460978766433,
+          "directional_strength": 70.95287297550308,
           "state": "Fading",
           "direction": "DOWN",
-          "direction_score": -0.6693180737883881,
-          "direction_confidence": 66.93180737883881,
-          "direction_reason": "sector relative negative; momentum inflection negative; score change negative",
-          "main_rank": 555
+          "direction_score": -0.7095287297550309,
+          "direction_confidence": 70.95287297550308,
+          "direction_reason": "score change negative; momentum inflection negative; sector relative negative",
+          "main_rank": 515
         },
         {
           "rank": 8,
-          "symbol": "PAH3.DE",
-          "score": 22.19030648453438,
-          "directional_strength": 65.7132600833956,
+          "symbol": "HOG",
+          "score": 15.551653214290944,
+          "directional_strength": 69.82810845878484,
           "state": "Fading",
           "direction": "DOWN",
-          "direction_score": -0.6571326008339559,
-          "direction_confidence": 65.71326008339558,
-          "direction_reason": "sector relative negative; score change negative; acceleration negative",
-          "main_rank": 672
+          "direction_score": -0.6982810845878484,
+          "direction_confidence": 69.82810845878484,
+          "direction_reason": "sector relative negative; 5-run velocity negative; acceleration negative",
+          "main_rank": 613
         },
         {
           "rank": 9,
-          "symbol": "ECONB.BR",
-          "score": 25.672605779997504,
-          "directional_strength": 64.77243152185822,
-          "state": "Dormant",
+          "symbol": "SXC",
+          "score": 14.66440892576847,
+          "directional_strength": 68.75087468693539,
+          "state": "Fading",
           "direction": "DOWN",
-          "direction_score": -0.6477243152185822,
-          "direction_confidence": 64.77243152185822,
-          "direction_reason": "sector relative negative; score change negative; momentum inflection negative",
-          "main_rank": null
+          "direction_score": -0.6875087468693539,
+          "direction_confidence": 68.75087468693539,
+          "direction_reason": "momentum inflection negative; sector relative negative; 5-run velocity negative",
+          "main_rank": 502
         },
         {
           "rank": 10,
-          "symbol": "TTEK",
-          "score": 18.86453269679609,
-          "directional_strength": 64.11162974018742,
+          "symbol": "NCNO",
+          "score": 17.611050070419793,
+          "directional_strength": 68.10108482860109,
           "state": "Fading",
           "direction": "DOWN",
-          "direction_score": -0.6411162974018743,
-          "direction_confidence": 64.11162974018742,
-          "direction_reason": "sector relative negative; acceleration negative; 5-run velocity negative",
-          "main_rank": 546
+          "direction_score": -0.6810108482860109,
+          "direction_confidence": 68.10108482860109,
+          "direction_reason": "sector relative negative; score change negative; 5-run velocity negative",
+          "main_rank": 566
         }
       ],
       "semantics": "symmetric direction layer: bullish candidates use the positive Signal Breakout seed; bearish breakdowns are selected independently across the full Exact universe using signed negative direction evidence, completeness and confidence, so bearish signals are not filtered out by a bullish score",
@@ -752,255 +752,255 @@
     "version": "1.2-symmetric-breakout-direction",
     "diagnostic_only": true,
     "direction_counts": {
-      "UP": 98,
-      "DOWN": 25,
-      "MIXED": 877
+      "UP": 103,
+      "DOWN": 36,
+      "MIXED": 861
     },
-    "bullish_candidate_rows": 68,
-    "bearish_candidate_rows": 23,
+    "bullish_candidate_rows": 73,
+    "bearish_candidate_rows": 32,
     "mixed_bullish_seed_rows": 78,
     "bullish_top10": [
       {
         "rank": 1,
         "symbol": "BLICK.ST",
-        "score": 91.08961433285964,
-        "directional_strength": 92.30255986223361,
+        "score": 91.20097044877978,
+        "directional_strength": 92.3403101028143,
         "state": "Breakout",
         "direction": "UP",
-        "direction_score": 0.9513276609743957,
-        "direction_confidence": 95.13276609743957,
+        "direction_score": 0.9499876929556155,
+        "direction_confidence": 94.99876929556154,
         "direction_reason": "sector relative positive; momentum inflection positive; score change positive",
         "main_rank": null
       },
       {
         "rank": 2,
-        "symbol": "TXP.L",
-        "score": 91.86474054085863,
-        "directional_strength": 91.07650026646542,
+        "symbol": "HMC",
+        "score": 92.64623960058734,
+        "directional_strength": 91.37449567758381,
         "state": "Breakout",
         "direction": "UP",
-        "direction_score": 0.8923727295954793,
-        "direction_confidence": 89.23727295954794,
-        "direction_reason": "sector relative positive; momentum inflection positive; score change positive",
-        "main_rank": null
+        "direction_score": 0.8840709319057557,
+        "direction_confidence": 88.40709319057557,
+        "direction_reason": "sector relative positive; momentum inflection positive; acceleration positive",
+        "main_rank": 56
       },
       {
         "rank": 3,
         "symbol": "BP",
-        "score": 90.11709728572558,
-        "directional_strength": 90.33761229188599,
+        "score": 90.02234989557071,
+        "directional_strength": 90.3243627951265,
         "state": "Breakout",
         "direction": "UP",
-        "direction_score": 0.9085214730626028,
-        "direction_confidence": 90.85214730626028,
+        "direction_score": 0.910290595607567,
+        "direction_confidence": 91.02905956075669,
         "direction_reason": "sector relative positive; score change positive; pullback recovery positive",
-        "main_rank": 40
+        "main_rank": 33
       },
       {
         "rank": 4,
-        "symbol": "HLUN-A.CO",
-        "score": 86.04809229994633,
-        "directional_strength": 88.63069711912179,
+        "symbol": "TXP.L",
+        "score": 90.57338637127675,
+        "directional_strength": 89.75549906667769,
         "state": "Breakout",
         "direction": "UP",
-        "direction_score": 0.946567750305312,
-        "direction_confidence": 94.65677503053121,
-        "direction_reason": "sector relative positive; score change positive; momentum inflection positive",
+        "direction_score": 0.878470953559465,
+        "direction_confidence": 87.84709535594651,
+        "direction_reason": "momentum inflection positive; sector relative positive; score change positive",
         "main_rank": null
       },
       {
         "rank": 5,
-        "symbol": "EMBC",
-        "score": 91.185462877745,
-        "directional_strength": 88.52721812864343,
+        "symbol": "SHEL",
+        "score": 89.89079728785877,
+        "directional_strength": 89.4250277196356,
         "state": "Breakout",
         "direction": "UP",
-        "direction_score": 0.8232464704740644,
-        "direction_confidence": 82.32464704740644,
-        "direction_reason": "sector relative positive; momentum inflection positive; pullback recovery positive",
-        "main_rank": 160
+        "direction_score": 0.8833823206044821,
+        "direction_confidence": 88.3382320604482,
+        "direction_reason": "sector relative positive; score change positive; momentum inflection positive",
+        "main_rank": 18
       },
       {
         "rank": 6,
-        "symbol": "SHEL",
-        "score": 89.1920385611197,
-        "directional_strength": 88.44822172684,
+        "symbol": "EMBC",
+        "score": 91.13939776407322,
+        "directional_strength": 88.5466004063521,
         "state": "Breakout",
         "direction": "UP",
-        "direction_score": 0.8671264911352072,
-        "direction_confidence": 86.71264911352073,
-        "direction_reason": "sector relative positive; score change positive; momentum inflection positive",
-        "main_rank": 26
-      },
-      {
-        "rank": 7,
-        "symbol": "TAL",
-        "score": 88.19320535156581,
-        "directional_strength": 87.40197753365801,
-        "state": "Breakout",
-        "direction": "UP",
-        "direction_score": 0.8555577929187318,
-        "direction_confidence": 85.55577929187318,
-        "direction_reason": "sector relative positive; momentum inflection positive; pullback recovery positive",
-        "main_rank": 83
-      },
-      {
-        "rank": 8,
-        "symbol": "AMV0.DE",
-        "score": 87.88727424428085,
-        "directional_strength": 87.0316435220401,
-        "state": "Breakout",
-        "direction": "UP",
-        "direction_score": 0.8503517183681168,
-        "direction_confidence": 85.03517183681168,
-        "direction_reason": "score change positive; momentum inflection positive; pullback recovery positive",
+        "direction_score": 0.8249673990500282,
+        "direction_confidence": 82.49673990500283,
+        "direction_reason": "sector relative positive; momentum inflection positive; acceleration positive",
         "main_rank": 150
       },
       {
-        "rank": 9,
-        "symbol": "DVN",
-        "score": 86.61211816421785,
-        "directional_strength": 86.800907395783,
+        "rank": 7,
+        "symbol": "HLUN-A.CO",
+        "score": 85.7344711047296,
+        "directional_strength": 88.1128658569026,
         "state": "Breakout",
         "direction": "UP",
-        "direction_score": 0.8724141560276836,
-        "direction_confidence": 87.24141560276836,
-        "direction_reason": "score change positive; sector relative positive; acceleration positive",
-        "main_rank": 109
+        "direction_score": 0.9366245361197293,
+        "direction_confidence": 93.66245361197294,
+        "direction_reason": "sector relative positive; score change positive; momentum inflection positive",
+        "main_rank": null
+      },
+      {
+        "rank": 8,
+        "symbol": "BETA",
+        "score": 86.06599151511278,
+        "directional_strength": 87.50758438594157,
+        "state": "Breakout",
+        "direction": "UP",
+        "direction_score": 0.908713010845421,
+        "direction_confidence": 90.8713010845421,
+        "direction_reason": "momentum inflection positive; score change positive; sector relative positive",
+        "main_rank": null
+      },
+      {
+        "rank": 9,
+        "symbol": "AMV0.DE",
+        "score": 87.50607298594826,
+        "directional_strength": 86.67349444428459,
+        "state": "Breakout",
+        "direction": "UP",
+        "direction_score": 0.8473081118040269,
+        "direction_confidence": 84.73081118040268,
+        "direction_reason": "momentum inflection positive; score change positive; pullback recovery positive",
+        "main_rank": 148
       },
       {
         "rank": 10,
-        "symbol": "SHELL.AS",
-        "score": 88.62548588893966,
-        "directional_strength": 86.61334352440355,
+        "symbol": "ARHS",
+        "score": 86.03444460411632,
+        "directional_strength": 86.6148755437834,
         "state": "Breakout",
         "direction": "UP",
-        "direction_score": 0.8191834467381929,
-        "direction_confidence": 81.91834467381929,
-        "direction_reason": "sector relative positive; pullback recovery positive; momentum inflection positive",
-        "main_rank": 15
+        "direction_score": 0.8796921440300662,
+        "direction_confidence": 87.96921440300662,
+        "direction_reason": "momentum inflection positive; score change positive; pullback recovery positive",
+        "main_rank": 163
       }
     ],
     "bearish_top10": [
       {
         "rank": 1,
-        "symbol": "HIAB.HE",
-        "score": 19.0017164923465,
-        "directional_strength": 80.10619114491072,
-        "state": "Dormant",
+        "symbol": "TIT.MI",
+        "score": 6.697794443226975,
+        "directional_strength": 87.52469684035826,
+        "state": "Fading",
         "direction": "DOWN",
-        "direction_score": -0.8010619114491073,
-        "direction_confidence": 80.10619114491074,
-        "direction_reason": "score change negative; momentum inflection negative; sector relative negative",
-        "main_rank": 468
+        "direction_score": -0.8752469684035826,
+        "direction_confidence": 87.52469684035826,
+        "direction_reason": "sector relative negative; momentum inflection negative; score change negative",
+        "main_rank": 644
       },
       {
         "rank": 2,
-        "symbol": "NYKD.OL",
-        "score": 16.828195851902166,
-        "directional_strength": 79.41759920931337,
+        "symbol": "TENB",
+        "score": 9.209185559118517,
+        "directional_strength": 82.65999224576548,
+        "state": "Fading",
+        "direction": "DOWN",
+        "direction_score": -0.8265999224576548,
+        "direction_confidence": 82.65999224576548,
+        "direction_reason": "score change negative; momentum inflection negative; sector relative negative",
+        "main_rank": 549
+      },
+      {
+        "rank": 3,
+        "symbol": "HIAB.HE",
+        "score": 19.59684242959736,
+        "directional_strength": 80.46784818191463,
         "state": "Dormant",
         "direction": "DOWN",
-        "direction_score": -0.7941759920931336,
-        "direction_confidence": 79.41759920931337,
+        "direction_score": -0.8046784818191464,
+        "direction_confidence": 80.46784818191463,
+        "direction_reason": "score change negative; momentum inflection negative; sector relative negative",
+        "main_rank": 471
+      },
+      {
+        "rank": 4,
+        "symbol": "NYKD.OL",
+        "score": 18.5638863272938,
+        "directional_strength": 78.29629846889267,
+        "state": "Dormant",
+        "direction": "DOWN",
+        "direction_score": -0.7829629846889268,
+        "direction_confidence": 78.29629846889267,
         "direction_reason": "momentum inflection negative; score change negative; sector relative negative",
         "main_rank": null
       },
       {
-        "rank": 3,
-        "symbol": "TIT.MI",
-        "score": 10.21894644366322,
-        "directional_strength": 75.44680527369388,
-        "state": "Fading",
-        "direction": "DOWN",
-        "direction_score": -0.7544680527369388,
-        "direction_confidence": 75.44680527369388,
-        "direction_reason": "momentum inflection negative; sector relative negative; score change negative",
-        "main_rank": 579
-      },
-      {
-        "rank": 4,
-        "symbol": "HOG",
-        "score": 14.585983945236649,
-        "directional_strength": 71.08491026246143,
-        "state": "Fading",
-        "direction": "DOWN",
-        "direction_score": -0.7108491026246143,
-        "direction_confidence": 71.08491026246143,
-        "direction_reason": "sector relative negative; momentum inflection negative; 5-run velocity negative",
-        "main_rank": 603
-      },
-      {
         "rank": 5,
-        "symbol": "MPCES.OL",
-        "score": 17.89701552890633,
-        "directional_strength": 67.25233289683908,
-        "state": "Fading",
+        "symbol": "FA",
+        "score": 17.88320672069066,
+        "directional_strength": 77.67482446941982,
+        "state": "Dormant",
         "direction": "DOWN",
-        "direction_score": -0.6725233289683907,
-        "direction_confidence": 67.25233289683908,
-        "direction_reason": "score change negative; momentum inflection negative; 5-run velocity negative",
-        "main_rank": null
+        "direction_score": -0.7767482446941981,
+        "direction_confidence": 77.67482446941982,
+        "direction_reason": "momentum inflection negative; score change negative; pullback recovery negative",
+        "main_rank": 468
       },
       {
         "rank": 6,
-        "symbol": "W",
-        "score": 24.448223067960587,
-        "directional_strength": 67.23593345692191,
+        "symbol": "ROIV",
+        "score": 10.000859021245487,
+        "directional_strength": 73.07926702387118,
         "state": "Fading",
         "direction": "DOWN",
-        "direction_score": -0.6723593345692191,
-        "direction_confidence": 67.23593345692191,
-        "direction_reason": "score change negative; momentum inflection negative; sector relative negative",
-        "main_rank": 518
+        "direction_score": -0.7307926702387118,
+        "direction_confidence": 73.07926702387118,
+        "direction_reason": "momentum inflection negative; score change negative; sector relative negative",
+        "main_rank": 591
       },
       {
         "rank": 7,
-        "symbol": "UNH",
-        "score": 15.5516310462233,
-        "directional_strength": 66.93180737883881,
+        "symbol": "VIG.VI",
+        "score": 18.71460978766433,
+        "directional_strength": 70.95287297550308,
         "state": "Fading",
         "direction": "DOWN",
-        "direction_score": -0.6693180737883881,
-        "direction_confidence": 66.93180737883881,
-        "direction_reason": "sector relative negative; momentum inflection negative; score change negative",
-        "main_rank": 555
+        "direction_score": -0.7095287297550309,
+        "direction_confidence": 70.95287297550308,
+        "direction_reason": "score change negative; momentum inflection negative; sector relative negative",
+        "main_rank": 515
       },
       {
         "rank": 8,
-        "symbol": "PAH3.DE",
-        "score": 22.19030648453438,
-        "directional_strength": 65.7132600833956,
+        "symbol": "HOG",
+        "score": 15.551653214290944,
+        "directional_strength": 69.82810845878484,
         "state": "Fading",
         "direction": "DOWN",
-        "direction_score": -0.6571326008339559,
-        "direction_confidence": 65.71326008339558,
-        "direction_reason": "sector relative negative; score change negative; acceleration negative",
-        "main_rank": 672
+        "direction_score": -0.6982810845878484,
+        "direction_confidence": 69.82810845878484,
+        "direction_reason": "sector relative negative; 5-run velocity negative; acceleration negative",
+        "main_rank": 613
       },
       {
         "rank": 9,
-        "symbol": "ECONB.BR",
-        "score": 25.672605779997504,
-        "directional_strength": 64.77243152185822,
-        "state": "Dormant",
+        "symbol": "SXC",
+        "score": 14.66440892576847,
+        "directional_strength": 68.75087468693539,
+        "state": "Fading",
         "direction": "DOWN",
-        "direction_score": -0.6477243152185822,
-        "direction_confidence": 64.77243152185822,
-        "direction_reason": "sector relative negative; score change negative; momentum inflection negative",
-        "main_rank": null
+        "direction_score": -0.6875087468693539,
+        "direction_confidence": 68.75087468693539,
+        "direction_reason": "momentum inflection negative; sector relative negative; 5-run velocity negative",
+        "main_rank": 502
       },
       {
         "rank": 10,
-        "symbol": "TTEK",
-        "score": 18.86453269679609,
-        "directional_strength": 64.11162974018742,
+        "symbol": "NCNO",
+        "score": 17.611050070419793,
+        "directional_strength": 68.10108482860109,
         "state": "Fading",
         "direction": "DOWN",
-        "direction_score": -0.6411162974018743,
-        "direction_confidence": 64.11162974018742,
-        "direction_reason": "sector relative negative; acceleration negative; 5-run velocity negative",
-        "main_rank": 546
+        "direction_score": -0.6810108482860109,
+        "direction_confidence": 68.10108482860109,
+        "direction_reason": "sector relative negative; score change negative; 5-run velocity negative",
+        "main_rank": 566
       }
     ],
     "semantics": "symmetric direction layer: bullish candidates use the positive Signal Breakout seed; bearish breakdowns are selected independently across the full Exact universe using signed negative direction evidence, completeness and confidence, so bearish signals are not filtered out by a bullish score",
@@ -1011,218 +1011,218 @@
   },
   "discovery_breakout": {
     "version": "1.0-fresh-discovery-breakout",
-    "as_of": "2026-09-25",
+    "as_of": "2026-09-26",
     "prior_as_of": "2026-09-22",
     "diagnostic_only": true,
     "universe_rows": 2000,
-    "candidate_rows": 434,
-    "fresh_rows": 257,
-    "continuing_rows": 177,
+    "candidate_rows": 372,
+    "fresh_rows": 243,
+    "continuing_rows": 129,
     "direction_counts": {
-      "UP": 125,
-      "DOWN": 309,
-      "MIXED": 1566
+      "UP": 102,
+      "DOWN": 270,
+      "MIXED": 1628
     },
     "fresh_bullish_top10": [
       {
-        "rank": 1,
-        "symbol": "EAF",
-        "direction": "UP",
-        "score": 99.68997165668083,
-        "freshness_score": 99.87944394515182,
-        "confidence": 88.4625668493225,
-        "freshness": "NEW",
-        "deep_selection_tier": "adaptive"
-      },
-      {
-        "rank": 5,
+        "rank": 8,
         "symbol": "RSKD",
         "direction": "UP",
-        "score": 99.07696330013124,
-        "freshness_score": 97.55850431355057,
-        "confidence": 90.39834245493408,
-        "freshness": "NEW",
-        "deep_selection_tier": "core"
-      },
-      {
-        "rank": 6,
-        "symbol": "BAND",
-        "direction": "UP",
-        "score": 97.00417406981975,
-        "freshness_score": 99.78965414949636,
-        "confidence": 84.57694532853161,
+        "score": 98.33706740593932,
+        "freshness_score": 95.83146256025148,
+        "confidence": 89.0862549959788,
         "freshness": "NEW",
         "deep_selection_tier": "adaptive"
       },
       {
-        "rank": 9,
+        "rank": 12,
         "symbol": "FAR.L",
         "direction": "UP",
-        "score": 96.00585967617462,
-        "freshness_score": 99.98619860997266,
-        "confidence": 86.48135012764452,
+        "score": 95.47689838923543,
+        "freshness_score": 99.97930003765491,
+        "confidence": 85.45971425670979,
         "freshness": "NEW",
         "deep_selection_tier": "not_selected"
       },
       {
-        "rank": 15,
+        "rank": 16,
+        "symbol": "SONO",
+        "direction": "UP",
+        "score": 96.78934614827811,
+        "freshness_score": 94.99655108307888,
+        "confidence": 86.6550861981767,
+        "freshness": "NEW",
+        "deep_selection_tier": "adaptive"
+      },
+      {
+        "rank": 20,
+        "symbol": "BAND",
+        "direction": "UP",
+        "score": 93.6386805929871,
+        "freshness_score": 98.7038946076284,
+        "confidence": 79.1041135551516,
+        "freshness": "NEW",
+        "deep_selection_tier": "adaptive"
+      },
+      {
+        "rank": 25,
+        "symbol": "OUST",
+        "direction": "UP",
+        "score": 92.53580432554054,
+        "freshness_score": 99.10968548750078,
+        "confidence": 79.2306490275889,
+        "freshness": "NEW",
+        "deep_selection_tier": "adaptive"
+      },
+      {
+        "rank": 33,
         "symbol": "YIT.HE",
         "direction": "UP",
-        "score": 97.00683053097569,
-        "freshness_score": 90.96651099032626,
-        "confidence": 82.655832574477,
+        "score": 95.58706841034456,
+        "freshness_score": 87.0503699954067,
+        "confidence": 80.13198648337605,
         "freshness": "NEW",
         "deep_selection_tier": "adaptive"
-      },
-      {
-        "rank": 21,
-        "symbol": "EGHT",
-        "direction": "UP",
-        "score": 95.44606970747645,
-        "freshness_score": 92.59816193687442,
-        "confidence": 83.50573218735957,
-        "freshness": "NEW",
-        "deep_selection_tier": "adaptive"
-      },
-      {
-        "rank": 35,
-        "symbol": "DDOG",
-        "direction": "UP",
-        "score": 92.3895719816862,
-        "freshness_score": 93.00253872598006,
-        "confidence": 81.07668309893899,
-        "freshness": "NEW",
-        "deep_selection_tier": "adaptive"
-      },
-      {
-        "rank": 36,
-        "symbol": "FAST.AS",
-        "direction": "UP",
-        "score": 95.38892084971394,
-        "freshness_score": 85.84190382334114,
-        "confidence": 77.56305834048165,
-        "freshness": "NEW",
-        "deep_selection_tier": "core"
       },
       {
         "rank": 37,
-        "symbol": "OUST",
+        "symbol": "EGHT",
         "direction": "UP",
-        "score": 90.20900502646298,
-        "freshness_score": 97.8207157545313,
-        "confidence": 74.87242591796054,
+        "score": 93.81190476780449,
+        "freshness_score": 89.09968167026065,
+        "confidence": 80.57533100968304,
         "freshness": "NEW",
         "deep_selection_tier": "adaptive"
       },
       {
-        "rank": 38,
+        "rank": 42,
         "symbol": "SG",
         "direction": "UP",
-        "score": 89.36799978213236,
-        "freshness_score": 99.55173441620765,
-        "confidence": 76.01824870386739,
+        "score": 88.24116047634689,
+        "freshness_score": 97.86343413375471,
+        "confidence": 74.14079116664833,
+        "freshness": "NEW",
+        "deep_selection_tier": "adaptive"
+      },
+      {
+        "rank": 44,
+        "symbol": "DDOG",
+        "direction": "UP",
+        "score": 89.8232894601185,
+        "freshness_score": 92.40575995321447,
+        "confidence": 75.80370121295492,
+        "freshness": "NEW",
+        "deep_selection_tier": "adaptive"
+      },
+      {
+        "rank": 47,
+        "symbol": "ARHS",
+        "direction": "UP",
+        "score": 90.19716902166489,
+        "freshness_score": 90.99599509441236,
+        "confidence": 72.96218513167028,
         "freshness": "NEW",
         "deep_selection_tier": "adaptive"
       }
     ],
     "fresh_bearish_top10": [
       {
-        "rank": 2,
+        "rank": 1,
         "symbol": "CRU.L",
         "direction": "DOWN",
-        "score": 99.36983314130596,
-        "freshness_score": 99.78385113501305,
-        "confidence": 84.86227296490316,
+        "score": 99.39412376738903,
+        "freshness_score": 99.79727396893605,
+        "confidence": 84.87437505182821,
+        "freshness": "NEW",
+        "deep_selection_tier": "core"
+      },
+      {
+        "rank": 2,
+        "symbol": "DAVA",
+        "direction": "DOWN",
+        "score": 99.19093443413047,
+        "freshness_score": 99.95165159614713,
+        "confidence": 86.20840450379654,
         "freshness": "NEW",
         "deep_selection_tier": "core"
       },
       {
         "rank": 3,
-        "symbol": "DAVA",
+        "symbol": "ADOC.PA",
         "direction": "DOWN",
-        "score": 99.24656279976571,
-        "freshness_score": 99.97308705890555,
-        "confidence": 86.16547176011031,
+        "score": 99.0524545798825,
+        "freshness_score": 99.61063141604731,
+        "confidence": 84.58910526651873,
         "freshness": "NEW",
-        "deep_selection_tier": "core"
+        "deep_selection_tier": "not_selected"
       },
       {
         "rank": 4,
         "symbol": "BEM.L",
         "direction": "DOWN",
-        "score": 98.59412524532254,
-        "freshness_score": 99.94426166336606,
-        "confidence": 83.1788486002602,
+        "score": 97.54834373857682,
+        "freshness_score": 99.50635876558877,
+        "confidence": 81.36737081586973,
         "freshness": "NEW",
         "deep_selection_tier": "core"
       },
       {
-        "rank": 7,
-        "symbol": "BRBR",
+        "rank": 5,
+        "symbol": "CGEM",
         "direction": "DOWN",
-        "score": 97.87919697275689,
-        "freshness_score": 96.63444452377261,
-        "confidence": 90.44832992907543,
+        "score": 97.27808887475115,
+        "freshness_score": 99.86403882320482,
+        "confidence": 85.07690910467976,
         "freshness": "NEW",
         "deep_selection_tier": "not_selected"
       },
       {
-        "rank": 8,
-        "symbol": "GNFT.PA",
+        "rank": 6,
+        "symbol": "ACAD",
         "direction": "DOWN",
-        "score": 96.52576797285684,
-        "freshness_score": 99.63194568650312,
-        "confidence": 81.92165988537343,
+        "score": 96.93127961500541,
+        "freshness_score": 99.66307071494873,
+        "confidence": 86.19954288867126,
+        "freshness": "NEW",
+        "deep_selection_tier": "not_selected"
+      },
+      {
+        "rank": 7,
+        "symbol": "SLDB",
+        "direction": "DOWN",
+        "score": 97.10545030258012,
+        "freshness_score": 98.76674681252132,
+        "confidence": 85.50852802049648,
+        "freshness": "NEW",
+        "deep_selection_tier": "not_selected"
+      },
+      {
+        "rank": 9,
+        "symbol": "ALKT",
+        "direction": "DOWN",
+        "score": 96.55978108063147,
+        "freshness_score": 99.82291690062624,
+        "confidence": 85.20276897001398,
         "freshness": "NEW",
         "deep_selection_tier": "not_selected"
       },
       {
         "rank": 10,
-        "symbol": "CGEM",
+        "symbol": "GNFT.PA",
         "direction": "DOWN",
-        "score": 95.80887946977653,
-        "freshness_score": 99.81592784282029,
-        "confidence": 82.39869330138842,
+        "score": 96.54862108411372,
+        "freshness_score": 99.64099977873231,
+        "confidence": 81.91998447919563,
         "freshness": "NEW",
         "deep_selection_tier": "not_selected"
       },
       {
         "rank": 11,
-        "symbol": "ALKT",
+        "symbol": "GLAS",
         "direction": "DOWN",
-        "score": 95.3741220725918,
-        "freshness_score": 99.75556218437198,
-        "confidence": 82.98538784261912,
-        "freshness": "NEW",
-        "deep_selection_tier": "not_selected"
-      },
-      {
-        "rank": 12,
-        "symbol": "SLDB",
-        "direction": "DOWN",
-        "score": 95.81046018066002,
-        "freshness_score": 96.69754169866721,
-        "confidence": 82.88278706122716,
-        "freshness": "NEW",
-        "deep_selection_tier": "not_selected"
-      },
-      {
-        "rank": 13,
-        "symbol": "TAVI.L",
-        "direction": "DOWN",
-        "score": 95.14215897245168,
-        "freshness_score": 95.91821870407789,
-        "confidence": 78.57084227756434,
-        "freshness": "NEW",
-        "deep_selection_tier": "core"
-      },
-      {
-        "rank": 14,
-        "symbol": "ACAD",
-        "direction": "DOWN",
-        "score": 93.54222219616196,
-        "freshness_score": 99.3839626770916,
-        "confidence": 79.84410689457293,
+        "score": 97.85779650494223,
+        "freshness_score": 95.0925481801882,
+        "confidence": 86.06981701596688,
         "freshness": "NEW",
         "deep_selection_tier": "not_selected"
       }
@@ -1239,112 +1239,88 @@
     "main_scores_changed": false,
     "main_ranks_changed": false,
     "lifecycle_rows": 1000,
-    "confirmation_rows": 434,
-    "confirmed_rows": 164,
-    "false_breakout_risk_rows": 81,
+    "confirmation_rows": 372,
+    "confirmed_rows": 123,
+    "false_breakout_risk_rows": 80,
     "confirmation_data_mode": "close_based; high/low/volume/ATR are not fabricated when absent from persistent price_history",
     "confirmed_top10": [
       {
-        "symbol": "GRAL",
-        "direction": "UP",
-        "score": 97.8071617896733,
-        "confirmation": 99.99999999999999,
-        "freshness": "CONTINUING"
-      },
-      {
-        "symbol": "RSKD",
-        "direction": "UP",
-        "score": 97.61815014105244,
-        "confirmation": 99.99999999999999,
-        "freshness": "NEW"
-      },
-      {
-        "symbol": "TWLO",
-        "direction": "UP",
-        "score": 97.4430117650901,
-        "confirmation": 98.47035378903307,
-        "freshness": "CONTINUING"
-      },
-      {
         "symbol": "80M.L",
         "direction": "UP",
-        "score": 96.98108020609112,
+        "score": 96.9529795486915,
         "confirmation": 89.99999999999999,
         "freshness": "CONTINUING"
       },
       {
-        "symbol": "DAVA",
-        "direction": "DOWN",
-        "score": 96.85637575190492,
-        "confirmation": 99.99999999999999,
-        "freshness": "NEW"
-      },
-      {
-        "symbol": "DLAB.ST",
+        "symbol": "VOW.OL",
         "direction": "UP",
-        "score": 95.07815398492492,
-        "confirmation": 94.95934808062765,
-        "freshness": "CONTINUING"
-      },
-      {
-        "symbol": "BEM.L",
-        "direction": "DOWN",
-        "score": 95.07210259370802,
-        "confirmation": 97.13090083664906,
-        "freshness": "NEW"
-      },
-      {
-        "symbol": "RSI",
-        "direction": "DOWN",
-        "score": 94.60169631089273,
-        "confirmation": 91.22038628547354,
+        "score": 95.61011810226962,
+        "confirmation": 96.77795747825463,
         "freshness": "CONTINUING"
       },
       {
         "symbol": "ENH.OL",
         "direction": "DOWN",
-        "score": 94.36317667339053,
+        "score": 94.69700414458154,
         "confirmation": 99.99999999999999,
         "freshness": "CONTINUING"
       },
       {
-        "symbol": "META",
+        "symbol": "SONO",
         "direction": "UP",
-        "score": 94.2599921921558,
-        "confirmation": 89.99999999999999,
+        "score": 94.67860553148691,
+        "confirmation": 96.50971739237504,
+        "freshness": "NEW"
+      },
+      {
+        "symbol": "RSI",
+        "direction": "DOWN",
+        "score": 93.95630858214606,
+        "confirmation": 91.22038628547354,
+        "freshness": "CONTINUING"
+      },
+      {
+        "symbol": "GRAL",
+        "direction": "UP",
+        "score": 93.56850103931562,
+        "confirmation": 85.56957686747575,
+        "freshness": "CONTINUING"
+      },
+      {
+        "symbol": "CABO",
+        "direction": "DOWN",
+        "score": 92.47318045786857,
+        "confirmation": 88.97343538756145,
+        "freshness": "CONTINUING"
+      },
+      {
+        "symbol": "NINE",
+        "direction": "DOWN",
+        "score": 92.07837483108506,
+        "confirmation": 93.91270244444515,
+        "freshness": "CONTINUING"
+      },
+      {
+        "symbol": "AVD",
+        "direction": "DOWN",
+        "score": 91.50704808090465,
+        "confirmation": 98.51467568308931,
+        "freshness": "CONTINUING"
+      },
+      {
+        "symbol": "P",
+        "direction": "UP",
+        "score": 91.38056044157598,
+        "confirmation": 88.9672941136457,
         "freshness": "CONTINUING"
       }
     ],
     "false_breakout_risk_top10": [
       {
-        "symbol": "SDGR",
-        "direction": "UP",
-        "confirmation": 38.94072267832123,
-        "freshness": "CONTINUING"
-      },
-      {
-        "symbol": "GEMI",
-        "direction": "UP",
-        "confirmation": 32.90434790257976,
-        "freshness": "CONTINUING"
-      },
-      {
-        "symbol": "FLUT",
+        "symbol": "SFM",
         "direction": "DOWN",
-        "confirmation": 38.91452209745589,
+        "confirmation": 38.80719143880778,
         "freshness": "CONTINUING"
-      },
-      {
-        "symbol": "VGZ",
-        "direction": "UP",
-        "confirmation": 33.94761659268691,
-        "freshness": "CONTINUING"
-      },
-      {
-        "symbol": "ALKS",
-        "direction": "DOWN",
-        "confirmation": 35.75068213831549,
-        "freshness": "NEW"
       },
       {
         "symbol": "TE",
@@ -1353,27 +1329,51 @@
         "freshness": "NEW"
       },
       {
-        "symbol": "MSTR",
+        "symbol": "TWLO",
         "direction": "UP",
-        "confirmation": 21.821846745652497,
+        "confirmation": 39.94319671060638,
         "freshness": "CONTINUING"
+      },
+      {
+        "symbol": "ONT",
+        "direction": "DOWN",
+        "confirmation": 35.75862512528708,
+        "freshness": "NEW"
+      },
+      {
+        "symbol": "MGTX",
+        "direction": "DOWN",
+        "confirmation": 29.74977460253311,
+        "freshness": "NEW"
+      },
+      {
+        "symbol": "ANNX",
+        "direction": "DOWN",
+        "confirmation": 17.807063935571794,
+        "freshness": "NEW"
       },
       {
         "symbol": "PGV.WA",
         "direction": "UP",
-        "confirmation": 39.28785309680525,
+        "confirmation": 37.63550359793628,
         "freshness": "NEW"
       },
       {
-        "symbol": "AXTI",
-        "direction": "UP",
-        "confirmation": 32.3145362437512,
+        "symbol": "GMRS",
+        "direction": "DOWN",
+        "confirmation": 33.5327150180357,
         "freshness": "CONTINUING"
       },
       {
         "symbol": "RGNX",
         "direction": "DOWN",
         "confirmation": 33.90539931583661,
+        "freshness": "CONTINUING"
+      },
+      {
+        "symbol": "INTC",
+        "direction": "UP",
+        "confirmation": 33.23195264410561,
         "freshness": "CONTINUING"
       }
     ],
@@ -1382,9 +1382,9 @@
         "portfolio_slot": 1,
         "symbol": "CMBT.BR",
         "main_rank": 3,
-        "consensus_score": 83.16061789603631,
-        "portfolio_base_score": 80.48922071961428,
-        "portfolio_selection_score": 80.48922071961428,
+        "consensus_score": 82.91159670425057,
+        "portfolio_base_score": 80.20541520530777,
+        "portfolio_selection_score": 80.20541520530777,
         "sector": "Unknown",
         "industry": "Unknown",
         "max_corr_with_selected": 0.0,
@@ -1395,63 +1395,63 @@
       },
       {
         "portfolio_slot": 2,
-        "symbol": "PBR-A",
-        "main_rank": 38,
-        "consensus_score": 73.83270095039242,
-        "portfolio_base_score": 73.97395265741949,
-        "portfolio_selection_score": 73.97395265741949,
-        "sector": "Energy",
-        "industry": "Oil & Gas Integrated",
-        "max_corr_with_selected": 0.14102862290191387,
-        "avg_corr_with_selected": 0.14102862290191387,
+        "symbol": "HMC",
+        "main_rank": 56,
+        "consensus_score": 70.87584682278438,
+        "portfolio_base_score": 72.21407325513337,
+        "portfolio_selection_score": 72.21407325513337,
+        "sector": "Consumer Cyclical",
+        "industry": "Auto Manufacturers",
+        "max_corr_with_selected": 0.1406556034696317,
+        "avg_corr_with_selected": 0.1406556034696317,
         "sector_penalty": 0.0,
         "industry_penalty": 0.0,
         "correlation_penalty": 0.0
       },
       {
         "portfolio_slot": 3,
-        "symbol": "AMD",
-        "main_rank": 55,
-        "consensus_score": 72.2613576650898,
-        "portfolio_base_score": 65.68136260671359,
-        "portfolio_selection_score": 65.68136260671359,
+        "symbol": "NVDA",
+        "main_rank": 48,
+        "consensus_score": 71.81756807912804,
+        "portfolio_base_score": 71.87414459987308,
+        "portfolio_selection_score": 71.87414459987308,
         "sector": "Technology",
         "industry": "Semiconductors",
-        "max_corr_with_selected": 0.04309637028533904,
-        "avg_corr_with_selected": 0.01765590679188013,
+        "max_corr_with_selected": 0.2411522129408381,
+        "avg_corr_with_selected": 0.06221587623108859,
         "sector_penalty": 0.0,
         "industry_penalty": 0.0,
         "correlation_penalty": 0.0
       },
       {
         "portfolio_slot": 4,
-        "symbol": "VLO",
-        "main_rank": 4,
-        "consensus_score": 83.07723860718701,
-        "portfolio_base_score": 78.71734604657229,
-        "portfolio_selection_score": 61.71734604657229,
-        "sector": "Unknown",
-        "industry": "Unknown",
-        "max_corr_with_selected": 0.296607616115654,
-        "avg_corr_with_selected": 0.186890088850265,
-        "sector_penalty": 7.0,
-        "industry_penalty": 10.0,
+        "symbol": "PARR",
+        "main_rank": 59,
+        "consensus_score": 70.70116201536035,
+        "portfolio_base_score": 70.5224942593627,
+        "portfolio_selection_score": 70.5224942593627,
+        "sector": "Energy",
+        "industry": "Oil & Gas Refining & Marketing",
+        "max_corr_with_selected": 0.3108972952288534,
+        "avg_corr_with_selected": 0.05800951919521827,
+        "sector_penalty": 0.0,
+        "industry_penalty": 0.0,
         "correlation_penalty": 0.0
       },
       {
         "portfolio_slot": 5,
         "symbol": "SHELL.AS",
         "main_rank": 15,
-        "consensus_score": 78.05869626008052,
-        "portfolio_base_score": 78.50779011521936,
-        "portfolio_selection_score": 43.134027928217435,
+        "consensus_score": 77.70097732447212,
+        "portfolio_base_score": 78.36129988565044,
+        "portfolio_selection_score": 61.36129988565044,
         "sector": "Unknown",
         "industry": "Unknown",
-        "max_corr_with_selected": 0.5263201215001072,
-        "avg_corr_with_selected": 0.14875260168324717,
-        "sector_penalty": 14.0,
-        "industry_penalty": 20.0,
-        "correlation_penalty": 1.3737621870019296
+        "max_corr_with_selected": 0.21714339095359073,
+        "avg_corr_with_selected": -0.1048073945834864,
+        "sector_penalty": 7.0,
+        "industry_penalty": 10.0,
+        "correlation_penalty": 0.0
       }
     ],
     "files": [
