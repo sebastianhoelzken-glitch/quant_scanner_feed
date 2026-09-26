@@ -55,98 +55,98 @@
       "label": "rotating"
     },
     {
-      "symbol": "P",
-      "rank": 8,
-      "consecutive_top10": 1,
-      "consecutive_top25": 2,
-      "label": "rotating"
-    },
-    {
       "symbol": "PSX",
-      "rank": 9,
+      "rank": 8,
       "consecutive_top10": 2,
       "consecutive_top25": 2,
       "label": "rotating"
     },
     {
-      "symbol": "NAT",
+      "symbol": "ERO",
+      "rank": 9,
+      "consecutive_top10": 0,
+      "consecutive_top25": 1,
+      "label": "new_top25"
+    },
+    {
+      "symbol": "DHT",
       "rank": 10,
       "consecutive_top10": 0,
       "consecutive_top25": 9,
       "label": "persistent_top25"
     }
   ],
-  "emerging_alpha_candidates": 182,
+  "emerging_alpha_candidates": 181,
   "emerging_alpha_top10": [
     {
       "rank": 1,
       "symbol": "HMC",
-      "score": 91.5473446574811,
-      "main_rank": 56,
-      "sector_neutral_score": 99.8998998998999
+      "score": 91.98995621718899,
+      "main_rank": 51,
+      "sector_neutral_score": 100.0
     },
     {
       "rank": 2,
       "symbol": "BP",
-      "score": 90.5415705013884,
-      "main_rank": 33,
-      "sector_neutral_score": 93.7937937937938
+      "score": 90.80632344909205,
+      "main_rank": 37,
+      "sector_neutral_score": 94.1941941941942
     },
     {
       "rank": 3,
       "symbol": "SHEL",
-      "score": 89.8649154666357,
-      "main_rank": 18,
+      "score": 90.23568256396715,
+      "main_rank": 21,
       "sector_neutral_score": 96.3963963963964
     },
     {
       "rank": 4,
       "symbol": "SHELL.AS",
-      "score": 87.31633152613901,
-      "main_rank": 15,
-      "sector_neutral_score": 96.996996996997
+      "score": 88.3139946298186,
+      "main_rank": 14,
+      "sector_neutral_score": 97.3973973973974
     },
     {
       "rank": 5,
-      "symbol": "ASML.AS",
-      "score": 86.79095285288976,
-      "main_rank": 143,
-      "sector_neutral_score": 96.49649649649649
+      "symbol": "RAND.AS",
+      "score": 86.80618258165167,
+      "main_rank": 95,
+      "sector_neutral_score": 86.18618618618619
     },
     {
       "rank": 6,
-      "symbol": "VTRS",
-      "score": 86.41460608035543,
-      "main_rank": 49,
-      "sector_neutral_score": 91.8918918918919
+      "symbol": "EMBC",
+      "score": 86.1671090609776,
+      "main_rank": 154,
+      "sector_neutral_score": 97.4974974974975
     },
     {
       "rank": 7,
-      "symbol": "EMBC",
-      "score": 86.35800214912327,
-      "main_rank": 150,
-      "sector_neutral_score": 97.5975975975976
+      "symbol": "VTRS",
+      "score": 86.07233639740612,
+      "main_rank": 63,
+      "sector_neutral_score": 90.7907907907908
     },
     {
       "rank": 8,
       "symbol": "XOM",
-      "score": 85.6741096841896,
-      "main_rank": 103,
-      "sector_neutral_score": 84.58458458458459
+      "score": 85.72928597851964,
+      "main_rank": 110,
+      "sector_neutral_score": 83.58358358358359
     },
     {
       "rank": 9,
-      "symbol": "RAND.AS",
-      "score": 85.47728587896881,
-      "main_rank": 102,
-      "sector_neutral_score": 84.68468468468468
+      "symbol": "AMV0.DE",
+      "score": 84.49619382992029,
+      "main_rank": 143,
+      "sector_neutral_score": 78.67867867867868
     },
     {
       "rank": 10,
-      "symbol": "NNBR",
-      "score": 85.24222571023424,
-      "main_rank": 106,
-      "sector_neutral_score": 84.08408408408408
+      "symbol": "RSKD",
+      "score": 84.2090431803729,
+      "main_rank": 44,
+      "sector_neutral_score": 93.09309309309309
     }
   ],
   "challenger_500_500": {
