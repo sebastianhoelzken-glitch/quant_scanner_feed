@@ -8,78 +8,78 @@
   "top10_revisions_present": 10,
   "top10_complete_core_components": 9,
   "top10_median_score_completeness": 95.00000000000001,
-  "high_conviction_candidates": 688,
-  "fresh_opportunity_candidates": 350,
+  "high_conviction_candidates": 689,
+  "fresh_opportunity_candidates": 359,
   "fresh_opportunity_top10": [
     {
       "rank": 1,
       "symbol": "NNBR",
-      "score": 84.84205217908313,
+      "score": 84.98745770279088,
       "reason": "new_exact",
-      "main_rank": 162
+      "main_rank": 163
     },
     {
       "rank": 2,
       "symbol": "BP",
-      "score": 84.22073920284477,
+      "score": 84.44854329416553,
       "reason": "sharp_1run_rise",
-      "main_rank": 34
+      "main_rank": 33
     },
     {
       "rank": 3,
       "symbol": "SHEL",
-      "score": 83.44397301309883,
+      "score": 83.79445026110474,
       "reason": "sharp_1run_rise",
-      "main_rank": 29
+      "main_rank": 24
     },
     {
       "rank": 4,
       "symbol": "RIGL",
-      "score": 83.22049510167564,
-      "reason": "rising_5run",
+      "score": 83.48543572886048,
+      "reason": "sharp_1run_rise",
       "main_rank": 71
     },
     {
       "rank": 5,
       "symbol": "AMV0.DE",
-      "score": 82.48792668401353,
+      "score": 82.36065188830221,
       "reason": "sharp_1run_rise",
-      "main_rank": 134
+      "main_rank": 135
     },
     {
       "rank": 6,
+      "symbol": "BHF",
+      "score": 82.22177450272004,
+      "reason": "sharp_1run_rise",
+      "main_rank": 352
+    },
+    {
+      "rank": 7,
       "symbol": "AMC",
-      "score": 81.29827377145206,
+      "score": 81.62656135084417,
       "reason": "rising_5run",
       "main_rank": 6
     },
     {
-      "rank": 7,
-      "symbol": "SAB.MC",
-      "score": 81.0898835101616,
-      "reason": "rising_5run",
-      "main_rank": 54
-    },
-    {
       "rank": 8,
       "symbol": "XOM",
-      "score": 80.8617371639921,
+      "score": 81.36502412082731,
       "reason": "sharp_1run_rise",
-      "main_rank": 113
+      "main_rank": 109
     },
     {
       "rank": 9,
-      "symbol": "DSFIR.AS",
-      "score": 80.74101978826543,
-      "reason": "rising_5run",
-      "main_rank": 53
+      "symbol": "LLY",
+      "score": 80.98193022131908,
+      "reason": "sharp_1run_rise",
+      "main_rank": 58
     },
     {
       "rank": 10,
-      "symbol": "LLY",
-      "score": 80.49081698253529,
-      "reason": "sharp_1run_rise",
-      "main_rank": 62
+      "symbol": "SAB.MC",
+      "score": 80.84986555815516,
+      "reason": "rising_5run",
+      "main_rank": 57
     }
   ],
   "portfolio_guard_rows": 30,
