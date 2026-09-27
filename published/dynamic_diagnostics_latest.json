@@ -6,25 +6,25 @@
   "persistence_history_available": true,
   "top10_persistence": [
     {
-      "symbol": "CMBT.BR",
-      "rank": 1,
-      "consecutive_top10": 5,
-      "consecutive_top25": 9,
-      "label": "persistent_top10"
-    },
-    {
       "symbol": "HPE",
-      "rank": 2,
+      "rank": 1,
       "consecutive_top10": 1,
       "consecutive_top25": 6,
       "label": "persistent_top25"
     },
     {
       "symbol": "DELL",
-      "rank": 3,
+      "rank": 2,
       "consecutive_top10": 4,
       "consecutive_top25": 12,
       "label": "persistent_top25"
+    },
+    {
+      "symbol": "CMBT.BR",
+      "rank": 3,
+      "consecutive_top10": 5,
+      "consecutive_top25": 9,
+      "label": "persistent_top10"
     },
     {
       "symbol": "MU",
@@ -55,98 +55,98 @@
       "label": "persistent_top10"
     },
     {
-      "symbol": "REP.MC",
+      "symbol": "SMTC",
       "rank": 8,
       "consecutive_top10": 1,
       "consecutive_top25": 1,
       "label": "new_top25"
     },
     {
-      "symbol": "SMTC",
+      "symbol": "REP.MC",
       "rank": 9,
-      "consecutive_top10": 1,
+      "consecutive_top10": 0,
       "consecutive_top25": 1,
       "label": "new_top25"
     },
     {
-      "symbol": "SHELL.AS",
+      "symbol": "PSX",
       "rank": 10,
       "consecutive_top10": 0,
-      "consecutive_top25": 1,
-      "label": "new_top25"
+      "consecutive_top25": 2,
+      "label": "rotating"
     }
   ],
-  "emerging_alpha_candidates": 161,
+  "emerging_alpha_candidates": 181,
   "emerging_alpha_top10": [
     {
       "rank": 1,
       "symbol": "BP",
-      "score": 90.77493098163478,
-      "main_rank": 37,
-      "sector_neutral_score": 95.7957957957958
+      "score": 91.08526066968744,
+      "main_rank": 34,
+      "sector_neutral_score": 95.69569569569569
     },
     {
       "rank": 2,
       "symbol": "SHEL",
-      "score": 88.44241264295805,
-      "main_rank": 31,
-      "sector_neutral_score": 96.3963963963964
+      "score": 88.87198918153922,
+      "main_rank": 29,
+      "sector_neutral_score": 96.09609609609609
     },
     {
       "rank": 3,
-      "symbol": "RAND.AS",
-      "score": 87.95440617753832,
-      "main_rank": 81,
-      "sector_neutral_score": 90.39039039039038
+      "symbol": "SHELL.AS",
+      "score": 87.97454965746485,
+      "main_rank": 11,
+      "sector_neutral_score": 98.3983983983984
     },
     {
       "rank": 4,
-      "symbol": "META",
-      "score": 86.56975396837561,
-      "main_rank": 95,
-      "sector_neutral_score": 88.68868868868869
+      "symbol": "LLY",
+      "score": 87.65185000775624,
+      "main_rank": 62,
+      "sector_neutral_score": 97.997997997998
     },
     {
       "rank": 5,
-      "symbol": "SAB.MC",
-      "score": 86.42287534557836,
-      "main_rank": 48,
-      "sector_neutral_score": 94.3943943943944
+      "symbol": "RIGL",
+      "score": 87.10132034265408,
+      "main_rank": 71,
+      "sector_neutral_score": 97.3973973973974
     },
     {
       "rank": 6,
-      "symbol": "AMV0.DE",
-      "score": 85.99231054512431,
-      "main_rank": 126,
-      "sector_neutral_score": 84.98498498498499
+      "symbol": "DSFIR.AS",
+      "score": 85.94735242453557,
+      "main_rank": 53,
+      "sector_neutral_score": 93.4934934934935
     },
     {
       "rank": 7,
-      "symbol": "DSFIR.AS",
-      "score": 85.73049574020969,
-      "main_rank": 53,
-      "sector_neutral_score": 93.7937937937938
+      "symbol": "SAB.MC",
+      "score": 85.70032054738333,
+      "main_rank": 54,
+      "sector_neutral_score": 93.3933933933934
     },
     {
       "rank": 8,
-      "symbol": "ENI.MI",
-      "score": 85.72775454122876,
-      "main_rank": 75,
-      "sector_neutral_score": 90.990990990991
+      "symbol": "AMV0.DE",
+      "score": 85.4936607669539,
+      "main_rank": 134,
+      "sector_neutral_score": 83.68368368368368
     },
     {
       "rank": 9,
       "symbol": "XOM",
-      "score": 85.45027439347511,
-      "main_rank": 114,
-      "sector_neutral_score": 86.38638638638638
+      "score": 85.44583273616693,
+      "main_rank": 113,
+      "sector_neutral_score": 86.28628628628628
     },
     {
       "rank": 10,
-      "symbol": "VTRS",
-      "score": 85.1503501917527,
-      "main_rank": 61,
-      "sector_neutral_score": 92.69269269269269
+      "symbol": "ENI.MI",
+      "score": 84.92885206248047,
+      "main_rank": 80,
+      "sector_neutral_score": 90.29029029029029
     }
   ],
   "challenger_500_500": {
