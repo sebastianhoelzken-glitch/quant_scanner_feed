@@ -1,27 +1,29 @@
 {
   "current": {
     "deep_analyzed_rows": 1000,
-    "excluded_rows": 298,
+    "excluded_rows": 296,
     "event_watch_rows": 1,
-    "eligible_rows": 701,
+    "eligible_rows": 703,
     "exclusion_reason_counts": {
-      "insufficient median EUR turnover": 241,
-      "price < \u20ac2.00": 184,
-      "market cap < \u20ac250,000,000": 150,
+      "insufficient median EUR turnover": 239,
+      "price < \u20ac2.00": 181,
+      "market cap < \u20ac250,000,000": 137,
       "insufficient price history": 21,
-      "data confidence < 55": 12,
+      "data confidence < 55": 11,
       "market cap EUR unavailable": 8,
+      "duplicate security listing of STLA": 2,
       "EUR liquidity unavailable": 1,
       "EUR price unavailable": 1,
       "asset type excluded: nan": 1,
       "delisted": 1
     },
     "exclusion_category_counts": {
-      "liquidity": 242,
-      "price": 185,
-      "market_cap": 158,
+      "liquidity": 240,
+      "price": 182,
+      "market_cap": 145,
       "price_history": 21,
-      "data_confidence": 12,
+      "data_confidence": 11,
+      "duplicate_listing": 2,
       "asset_type": 1,
       "delisted": 1
     },
@@ -58,8 +60,8 @@
     "as_of": "2026-09-22"
   },
   "delta": {
-    "eligible_rows": -8,
-    "excluded_rows": 8,
+    "eligible_rows": -6,
+    "excluded_rows": 6,
     "event_watch_rows": 0
   }
 }
