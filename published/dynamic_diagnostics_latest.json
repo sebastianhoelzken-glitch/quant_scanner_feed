@@ -13,11 +13,11 @@
       "label": "persistent_top25"
     },
     {
-      "symbol": "CMBT.BR",
+      "symbol": "MU",
       "rank": 2,
-      "consecutive_top10": 5,
-      "consecutive_top25": 9,
-      "label": "persistent_top10"
+      "consecutive_top10": 1,
+      "consecutive_top25": 4,
+      "label": "rotating"
     },
     {
       "symbol": "DELL",
@@ -27,126 +27,126 @@
       "label": "persistent_top25"
     },
     {
-      "symbol": "MU",
-      "rank": 4,
-      "consecutive_top10": 1,
-      "consecutive_top25": 4,
-      "label": "rotating"
-    },
-    {
       "symbol": "VLO",
-      "rank": 5,
+      "rank": 4,
       "consecutive_top10": 2,
       "consecutive_top25": 2,
       "label": "rotating"
     },
     {
       "symbol": "AMC",
-      "rank": 6,
+      "rank": 5,
       "consecutive_top10": 1,
       "consecutive_top25": 2,
       "label": "rotating"
     },
     {
-      "symbol": "REP.MC",
-      "rank": 7,
-      "consecutive_top10": 1,
-      "consecutive_top25": 1,
-      "label": "new_top25"
-    },
-    {
       "symbol": "FRO",
-      "rank": 8,
+      "rank": 6,
       "consecutive_top10": 11,
       "consecutive_top25": 13,
       "label": "persistent_top10"
     },
     {
-      "symbol": "SMTC",
-      "rank": 9,
-      "consecutive_top10": 0,
-      "consecutive_top25": 1,
-      "label": "new_top25"
+      "symbol": "CMBT.BR",
+      "rank": 7,
+      "consecutive_top10": 5,
+      "consecutive_top25": 9,
+      "label": "persistent_top10"
     },
     {
-      "symbol": "SHELL.AS",
+      "symbol": "PSX",
+      "rank": 8,
+      "consecutive_top10": 2,
+      "consecutive_top25": 2,
+      "label": "rotating"
+    },
+    {
+      "symbol": "DHT",
+      "rank": 9,
+      "consecutive_top10": 0,
+      "consecutive_top25": 9,
+      "label": "persistent_top25"
+    },
+    {
+      "symbol": "ERO",
       "rank": 10,
       "consecutive_top10": 0,
       "consecutive_top25": 1,
       "label": "new_top25"
     }
   ],
-  "emerging_alpha_candidates": 180,
+  "emerging_alpha_candidates": 181,
   "emerging_alpha_top10": [
     {
       "rank": 1,
       "symbol": "BP",
-      "score": 90.89064038097773,
-      "main_rank": 37,
-      "sector_neutral_score": 95.4954954954955
+      "score": 91.35973802917319,
+      "main_rank": 25,
+      "sector_neutral_score": 95.29529529529529
     },
     {
       "rank": 2,
-      "symbol": "SHEL",
-      "score": 88.75094389648956,
-      "main_rank": 33,
-      "sector_neutral_score": 96.09609609609609
+      "symbol": "NNBR",
+      "score": 90.13190572966167,
+      "main_rank": 58,
+      "sector_neutral_score": 90.69069069069069
     },
     {
       "rank": 3,
-      "symbol": "DSFIR.AS",
-      "score": 86.62589502749528,
-      "main_rank": 49,
-      "sector_neutral_score": 94.1941941941942
+      "symbol": "SHEL",
+      "score": 90.09406199824757,
+      "main_rank": 18,
+      "sector_neutral_score": 96.3963963963964
     },
     {
       "rank": 4,
-      "symbol": "SAB.MC",
-      "score": 86.53096049608266,
-      "main_rank": 51,
-      "sector_neutral_score": 93.993993993994
-    },
-    {
-      "rank": 5,
-      "symbol": "AMV0.DE",
-      "score": 86.43700850754227,
-      "main_rank": 121,
-      "sector_neutral_score": 85.38538538538538
-    },
-    {
-      "rank": 6,
-      "symbol": "ENI.MI",
-      "score": 85.69190318209482,
-      "main_rank": 72,
-      "sector_neutral_score": 91.29129129129129
-    },
-    {
-      "rank": 7,
-      "symbol": "LLY",
-      "score": 85.60932465863642,
-      "main_rank": 81,
+      "symbol": "SHELL.AS",
+      "score": 88.6549329548706,
+      "main_rank": 12,
       "sector_neutral_score": 97.997997997998
     },
     {
-      "rank": 8,
+      "rank": 5,
       "symbol": "XOM",
-      "score": 85.42291288119493,
-      "main_rank": 117,
-      "sector_neutral_score": 85.98598598598599
+      "score": 86.00480091961576,
+      "main_rank": 107,
+      "sector_neutral_score": 84.28428428428428
+    },
+    {
+      "rank": 6,
+      "symbol": "EMBC",
+      "score": 85.62056760087302,
+      "main_rank": 149,
+      "sector_neutral_score": 97.7977977977978
+    },
+    {
+      "rank": 7,
+      "symbol": "RSKD",
+      "score": 84.26756234342673,
+      "main_rank": 43,
+      "sector_neutral_score": 92.8928928928929
+    },
+    {
+      "rank": 8,
+      "symbol": "LLY",
+      "score": 83.86630681007347,
+      "main_rank": 106,
+      "sector_neutral_score": 99.09909909909909
     },
     {
       "rank": 9,
-      "symbol": "AZE.BR",
-      "score": 85.167620155729,
-      "main_rank": 84,
-      "sector_neutral_score": 89.88988988988989
+      "symbol": "DSFIR.AS",
+      "score": 83.55315260758756,
+      "main_rank": 67,
+      "sector_neutral_score": 89.7897897897898
     },
     {
       "rank": 10,
-      "symbol": "RSKD",
-      "score": 84.320999434159,
-      "main_rank": 46,
-      "sector_neutral_score": 94.49449449449449
+      "symbol": "PRGO",
+      "score": 83.3875872732153,
+      "main_rank": 74,
+      "sector_neutral_score": 88.88888888888889
     }
   ],
   "challenger_500_500": {

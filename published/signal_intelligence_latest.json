@@ -4,43 +4,50 @@
   "main_scores_changed": false,
   "main_ranks_changed": false,
   "lifecycle_rows": 1000,
-  "confirmation_rows": 366,
-  "confirmed_rows": 119,
+  "confirmation_rows": 379,
+  "confirmed_rows": 121,
   "false_breakout_risk_rows": 79,
   "confirmation_data_mode": "close_based; high/low/volume/ATR are not fabricated when absent from persistent price_history",
   "confirmed_top10": [
     {
-      "symbol": "80M.L",
-      "direction": "UP",
-      "score": 96.9529795486915,
-      "confirmation": 89.99999999999999,
-      "freshness": "CONTINUING"
-    },
-    {
       "symbol": "VOW.OL",
       "direction": "UP",
-      "score": 95.61011810226962,
-      "confirmation": 96.77795747825463,
+      "score": 97.55402538588275,
+      "confirmation": 99.8234682510138,
       "freshness": "CONTINUING"
     },
     {
       "symbol": "ENH.OL",
       "direction": "DOWN",
-      "score": 94.70105885883825,
+      "score": 94.8369105985906,
       "confirmation": 99.99999999999999,
+      "freshness": "CONTINUING"
+    },
+    {
+      "symbol": "MPAL.L",
+      "direction": "UP",
+      "score": 94.5883619576499,
+      "confirmation": 84.07657893664756,
       "freshness": "CONTINUING"
     },
     {
       "symbol": "RSI",
       "direction": "DOWN",
-      "score": 93.96057380547666,
+      "score": 93.96341728769704,
       "confirmation": 91.22038628547354,
       "freshness": "CONTINUING"
     },
     {
+      "symbol": "YIT.HE",
+      "direction": "UP",
+      "score": 93.93384096621486,
+      "confirmation": 95.78855305960215,
+      "freshness": "NEW"
+    },
+    {
       "symbol": "GRAL",
       "direction": "UP",
-      "score": 93.56400663113175,
+      "score": 93.56700290325432,
       "confirmation": 85.56957686747575,
       "freshness": "CONTINUING"
     },
@@ -52,6 +59,13 @@
       "freshness": "NEW"
     },
     {
+      "symbol": "CRU.L",
+      "direction": "DOWN",
+      "score": 93.23491757074035,
+      "confirmation": 88.54167403963696,
+      "freshness": "NEW"
+    },
+    {
       "symbol": "CABO",
       "direction": "DOWN",
       "score": 92.47318045786857,
@@ -59,28 +73,20 @@
       "freshness": "CONTINUING"
     },
     {
-      "symbol": "NINE",
+      "symbol": "IF.MI",
       "direction": "DOWN",
-      "score": 92.07837483108506,
-      "confirmation": 93.91270244444515,
-      "freshness": "CONTINUING"
-    },
-    {
-      "symbol": "AVD",
-      "direction": "DOWN",
-      "score": 91.50835065221051,
-      "confirmation": 98.51467568308931,
-      "freshness": "CONTINUING"
-    },
-    {
-      "symbol": "P",
-      "direction": "UP",
-      "score": 91.38461834692384,
-      "confirmation": 88.9672941136457,
-      "freshness": "CONTINUING"
+      "score": 92.41576586716256,
+      "confirmation": 99.99999999999999,
+      "freshness": "NEW"
     }
   ],
   "false_breakout_risk_top10": [
+    {
+      "symbol": "80M.L",
+      "direction": "UP",
+      "confirmation": 35.813497583789356,
+      "freshness": "CONTINUING"
+    },
     {
       "symbol": "SFM",
       "direction": "DOWN",
@@ -106,15 +112,15 @@
       "freshness": "NEW"
     },
     {
-      "symbol": "ANNX",
+      "symbol": "0RVI.IL",
       "direction": "DOWN",
-      "confirmation": 17.807063935571794,
+      "confirmation": 37.531404244722566,
       "freshness": "NEW"
     },
     {
-      "symbol": "PGV.WA",
-      "direction": "UP",
-      "confirmation": 37.63550359793628,
+      "symbol": "ANNX",
+      "direction": "DOWN",
+      "confirmation": 17.807063935571794,
       "freshness": "NEW"
     },
     {
@@ -124,32 +130,26 @@
       "freshness": "CONTINUING"
     },
     {
+      "symbol": "SUMMAS.ST",
+      "direction": "DOWN",
+      "confirmation": 36.16032029778661,
+      "freshness": "NEW"
+    },
+    {
       "symbol": "INTC",
       "direction": "UP",
       "confirmation": 33.23195264410561,
       "freshness": "CONTINUING"
-    },
-    {
-      "symbol": "FLUT",
-      "direction": "DOWN",
-      "confirmation": 38.91452209745589,
-      "freshness": "CONTINUING"
-    },
-    {
-      "symbol": "CLBT",
-      "direction": "DOWN",
-      "confirmation": 38.93364938359025,
-      "freshness": "NEW"
     }
   ],
   "portfolio_top5": [
     {
       "portfolio_slot": 1,
-      "symbol": "CMBT.BR",
-      "main_rank": 2,
-      "consensus_score": 81.04559073912878,
-      "portfolio_base_score": 78.23986245226449,
-      "portfolio_selection_score": 78.23986245226449,
+      "symbol": "SHELL.AS",
+      "main_rank": 12,
+      "consensus_score": 78.41377122765165,
+      "portfolio_base_score": 78.66904750303675,
+      "portfolio_selection_score": 78.66904750303675,
       "sector": "Unknown",
       "industry": "Unknown",
       "max_corr_with_selected": 0.0,
@@ -161,62 +161,62 @@
     {
       "portfolio_slot": 2,
       "symbol": "NVDA",
-      "main_rank": 29,
-      "consensus_score": 72.60403573551989,
-      "portfolio_base_score": 73.19184898136862,
-      "portfolio_selection_score": 73.19184898136862,
+      "main_rank": 49,
+      "consensus_score": 72.1302354185379,
+      "portfolio_base_score": 72.18214148460714,
+      "portfolio_selection_score": 72.18214148460714,
       "sector": "Technology",
       "industry": "Semiconductors",
-      "max_corr_with_selected": 0.2411522129408381,
-      "avg_corr_with_selected": 0.2411522129408381,
+      "max_corr_with_selected": -0.32281302597147227,
+      "avg_corr_with_selected": -0.32281302597147227,
       "sector_penalty": 0.0,
       "industry_penalty": 0.0,
       "correlation_penalty": 0.0
     },
     {
       "portfolio_slot": 3,
-      "symbol": "SHELL.AS",
-      "main_rank": 10,
-      "consensus_score": 77.45933167957713,
-      "portfolio_base_score": 78.093892754999,
-      "portfolio_selection_score": 61.093892754999004,
+      "symbol": "MU",
+      "main_rank": 2,
+      "consensus_score": 82.90612681351932,
+      "portfolio_base_score": 78.3494807989031,
+      "portfolio_selection_score": 61.3494807989031,
       "sector": "Unknown",
       "industry": "Unknown",
-      "max_corr_with_selected": 0.027456456407427318,
-      "avg_corr_with_selected": -0.13715728020297926,
+      "max_corr_with_selected": 0.424927785694291,
+      "avg_corr_with_selected": 0.08798252274686759,
       "sector_penalty": 7.0,
       "industry_penalty": 10.0,
       "correlation_penalty": 0.0
     },
     {
       "portfolio_slot": 4,
-      "symbol": "AMD",
-      "main_rank": 28,
-      "consensus_score": 72.87137249144192,
-      "portfolio_base_score": 65.31451064029916,
-      "portfolio_selection_score": 48.31451064029916,
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "max_corr_with_selected": 0.4386814801430333,
-      "avg_corr_with_selected": 0.08897535995310873,
-      "sector_penalty": 7.0,
-      "industry_penalty": 10.0,
+      "symbol": "CMBT.BR",
+      "main_rank": 7,
+      "consensus_score": 81.05983982134057,
+      "portfolio_base_score": 78.33572132592163,
+      "portfolio_selection_score": 44.335721325921625,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "max_corr_with_selected": 0.24371068994058845,
+      "avg_corr_with_selected": 0.11981047874186009,
+      "sector_penalty": 14.0,
+      "industry_penalty": 20.0,
       "correlation_penalty": 0.0
     },
     {
       "portfolio_slot": 5,
-      "symbol": "VLO",
-      "main_rank": 5,
-      "consensus_score": 79.85634662612085,
-      "portfolio_base_score": 76.26825742485917,
-      "portfolio_selection_score": 42.26825742485917,
-      "sector": "Unknown",
-      "industry": "Unknown",
-      "max_corr_with_selected": 0.2915583644611184,
-      "avg_corr_with_selected": 0.10451422703353604,
-      "sector_penalty": 14.0,
-      "industry_penalty": 20.0,
-      "correlation_penalty": 0.0
+      "symbol": "AMD",
+      "main_rank": 22,
+      "consensus_score": 74.52186769762044,
+      "portfolio_base_score": 67.3322417675176,
+      "portfolio_selection_score": 43.733907052426964,
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "max_corr_with_selected": 0.8165741508383687,
+      "avg_corr_with_selected": 0.25856138646754434,
+      "sector_penalty": 7.0,
+      "industry_penalty": 10.0,
+      "correlation_penalty": 6.598334715090637
     }
   ],
   "files": [
