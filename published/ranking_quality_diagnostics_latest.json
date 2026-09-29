@@ -27,18 +27,18 @@
       "min_data_confidence": 65.06818181818183,
       "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 0,
-      "median_market_cap_eur": 43703060299.15379,
+      "median_market_cap_eur": 20932937825.031948,
       "market_cap_buckets": {
         "micro_250m_1b": 0,
-        "small_1_5b": 3,
-        "mid_5_20b": 2,
+        "small_1_5b": 4,
+        "mid_5_20b": 1,
         "large_20_100b": 3,
         "mega_100b_plus": 2,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 10,
-        "adaptive": 0,
+        "core": 8,
+        "adaptive": 2,
         "unknown": 0
       },
       "sparse_examples": []
@@ -48,32 +48,32 @@
       "rows": 25,
       "component_present": {
         "quality_score": 25,
-        "revisions_score": 25,
+        "revisions_score": 24,
         "valuation_score": 24
       },
       "component_missing": {
         "quality_score": 0,
-        "revisions_score": 0,
+        "revisions_score": 1,
         "valuation_score": 1
       },
-      "complete_core_component_rows": 24,
+      "complete_core_component_rows": 23,
       "sparse_core_component_rows": 0,
       "median_data_confidence": 73.13636363636364,
-      "min_data_confidence": 65.06818181818183,
+      "min_data_confidence": 62.840909090909086,
       "below_60_confidence_rows": 0,
-      "below_65_confidence_rows": 0,
-      "median_market_cap_eur": 32379996160.0,
+      "below_65_confidence_rows": 1,
+      "median_market_cap_eur": 18954299392.0,
       "market_cap_buckets": {
-        "micro_250m_1b": 0,
+        "micro_250m_1b": 1,
         "small_1_5b": 7,
-        "mid_5_20b": 3,
-        "large_20_100b": 8,
-        "mega_100b_plus": 7,
+        "mid_5_20b": 5,
+        "large_20_100b": 6,
+        "mega_100b_plus": 6,
         "unknown": 0
       },
       "selection_tiers": {
-        "core": 22,
-        "adaptive": 3,
+        "core": 20,
+        "adaptive": 5,
         "unknown": 0
       },
       "sparse_examples": []
@@ -82,28 +82,28 @@
       "requested_top_n": 50,
       "rows": 50,
       "component_present": {
-        "quality_score": 50,
+        "quality_score": 48,
         "revisions_score": 49,
         "valuation_score": 49
       },
       "component_missing": {
-        "quality_score": 0,
+        "quality_score": 2,
         "revisions_score": 1,
         "valuation_score": 1
       },
-      "complete_core_component_rows": 48,
+      "complete_core_component_rows": 46,
       "sparse_core_component_rows": 0,
-      "median_data_confidence": 72.73863636363637,
+      "median_data_confidence": 73.13636363636364,
       "min_data_confidence": 62.840909090909086,
       "below_60_confidence_rows": 0,
       "below_65_confidence_rows": 1,
-      "median_market_cap_eur": 14773701062.453949,
+      "median_market_cap_eur": 19706177223.130173,
       "market_cap_buckets": {
         "micro_250m_1b": 3,
-        "small_1_5b": 13,
-        "mid_5_20b": 12,
-        "large_20_100b": 13,
-        "mega_100b_plus": 9,
+        "small_1_5b": 14,
+        "mid_5_20b": 8,
+        "large_20_100b": 15,
+        "mega_100b_plus": 10,
         "unknown": 0
       },
       "selection_tiers": {
