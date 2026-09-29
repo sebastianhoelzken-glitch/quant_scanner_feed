@@ -3,83 +3,83 @@
   "diagnostic_only_for_main_ranking": true,
   "main_scores_changed": false,
   "main_ranks_changed": false,
-  "entry_overlay_rows_joined": 472,
+  "entry_overlay_rows_joined": 458,
   "top10_quality_present": 10,
   "top10_revisions_present": 10,
   "top10_complete_core_components": 9,
   "top10_median_score_completeness": 95.00000000000001,
-  "high_conviction_candidates": 693,
-  "fresh_opportunity_candidates": 403,
+  "high_conviction_candidates": 684,
+  "fresh_opportunity_candidates": 355,
   "fresh_opportunity_top10": [
     {
       "rank": 1,
       "symbol": "NNBR",
-      "score": 90.20539441146335,
+      "score": 90.18646031629173,
       "reason": "new_exact",
-      "main_rank": 61
+      "main_rank": 67
     },
     {
       "rank": 2,
-      "symbol": "SHEL",
-      "score": 84.59608989223707,
-      "reason": "sharp_1run_rise",
-      "main_rank": 21
+      "symbol": "COST",
+      "score": 86.41334969512235,
+      "reason": "new_exact",
+      "main_rank": 356
     },
     {
       "rank": 3,
       "symbol": "BP",
-      "score": 84.47560444395651,
+      "score": 86.14773281991086,
       "reason": "sharp_1run_rise",
-      "main_rank": 32
+      "main_rank": 11
     },
     {
       "rank": 4,
-      "symbol": "SHELL.AS",
-      "score": 83.30399553818356,
+      "symbol": "SHEL",
+      "score": 85.90676389286517,
       "reason": "sharp_1run_rise",
-      "main_rank": 7
+      "main_rank": 15
     },
     {
       "rank": 5,
-      "symbol": "META",
-      "score": 82.04834378174552,
+      "symbol": "AMC",
+      "score": 83.98220785055719,
       "reason": "sharp_1run_rise",
-      "main_rank": 112
+      "main_rank": 3
     },
     {
       "rank": 6,
-      "symbol": "TAL",
-      "score": 81.16702715383728,
-      "reason": "new_exact",
-      "main_rank": 98
+      "symbol": "XOM",
+      "score": 83.81054676296377,
+      "reason": "sharp_1run_rise",
+      "main_rank": 77
     },
     {
       "rank": 7,
-      "symbol": "DSFIR.AS",
-      "score": 81.02365524299213,
-      "reason": "rising_5run",
-      "main_rank": 53
+      "symbol": "TAL",
+      "score": 83.01221713684109,
+      "reason": "new_exact",
+      "main_rank": 87
     },
     {
       "rank": 8,
-      "symbol": "XOM",
-      "score": 80.8861337780925,
+      "symbol": "DVN",
+      "score": 82.86937462607895,
       "reason": "sharp_1run_rise",
-      "main_rank": 110
+      "main_rank": 127
     },
     {
       "rank": 9,
-      "symbol": "AMC",
-      "score": 80.88561737859764,
-      "reason": "rising_5run",
-      "main_rank": 8
+      "symbol": "VTRS",
+      "score": 82.56250326275456,
+      "reason": "sharp_1run_rise",
+      "main_rank": 57
     },
     {
       "rank": 10,
-      "symbol": "RSKD",
-      "score": 80.65861807180804,
-      "reason": "sharp_1run_rise",
-      "main_rank": 46
+      "symbol": "NTR",
+      "score": 81.96826128641086,
+      "reason": "new_exact",
+      "main_rank": 222
     }
   ],
   "portfolio_guard_rows": 30,
