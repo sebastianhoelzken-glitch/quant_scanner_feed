@@ -4,36 +4,36 @@
   "main_scores_changed": false,
   "main_ranks_changed": false,
   "lifecycle_rows": 1000,
-  "confirmation_rows": 479,
-  "confirmed_rows": 155,
-  "false_breakout_risk_rows": 107,
+  "confirmation_rows": 486,
+  "confirmed_rows": 156,
+  "false_breakout_risk_rows": 109,
   "confirmation_data_mode": "close_based; high/low/volume/ATR are not fabricated when absent from persistent price_history",
   "confirmed_top10": [
     {
       "symbol": "RCGH.L",
       "direction": "UP",
-      "score": 98.96224833284572,
+      "score": 98.96374813662345,
       "confirmation": 99.99999999999999,
       "freshness": "NEW"
     },
     {
       "symbol": "SDEV",
       "direction": "UP",
-      "score": 97.44332121480639,
+      "score": 97.43884422863697,
       "confirmation": 99.99999999999999,
       "freshness": "NEW"
     },
     {
       "symbol": "CABO",
       "direction": "DOWN",
-      "score": 97.02462129779678,
+      "score": 97.0201286731705,
       "confirmation": 98.19999348967313,
       "freshness": "CONTINUING"
     },
     {
       "symbol": "TEK.L",
       "direction": "DOWN",
-      "score": 96.33964229077611,
+      "score": 96.33382881274338,
       "confirmation": 99.99999999999999,
       "freshness": "NEW"
     },
@@ -45,39 +45,39 @@
       "freshness": "CONTINUING"
     },
     {
-      "symbol": "DAVA",
-      "direction": "DOWN",
-      "score": 93.98330799536825,
-      "confirmation": 89.99999999999999,
+      "symbol": "CHAR.L",
+      "direction": "UP",
+      "score": 94.66163675960632,
+      "confirmation": 88.5938099791366,
       "freshness": "NEW"
     },
     {
-      "symbol": "CHAR.L",
-      "direction": "UP",
-      "score": 93.69867086615533,
-      "confirmation": 86.4152140169623,
+      "symbol": "DAVA",
+      "direction": "DOWN",
+      "score": 93.98182710267,
+      "confirmation": 89.99999999999999,
       "freshness": "NEW"
     },
     {
       "symbol": "FBRT",
       "direction": "DOWN",
-      "score": 93.66021518554575,
+      "score": 93.66154958793317,
       "confirmation": 99.55044858610937,
       "freshness": "NEW"
     },
     {
       "symbol": "AVD",
       "direction": "DOWN",
-      "score": 93.59982849734142,
+      "score": 93.59710847560247,
       "confirmation": 99.99999999999999,
       "freshness": "CONTINUING"
     },
     {
-      "symbol": "0QXR.IL",
-      "direction": "DOWN",
-      "score": 93.51425848162572,
-      "confirmation": 80.0,
-      "freshness": "CONTINUING"
+      "symbol": "YIT.HE",
+      "direction": "UP",
+      "score": 93.56528166828636,
+      "confirmation": 95.17797226353287,
+      "freshness": "NEW"
     }
   ],
   "false_breakout_risk_top10": [
@@ -100,6 +100,12 @@
       "freshness": "CONTINUING"
     },
     {
+      "symbol": "ONT",
+      "direction": "DOWN",
+      "confirmation": 35.75862512528708,
+      "freshness": "NEW"
+    },
+    {
       "symbol": "ALKS",
       "direction": "DOWN",
       "confirmation": 35.75068213831549,
@@ -109,6 +115,12 @@
       "symbol": "ASM",
       "direction": "DOWN",
       "confirmation": 39.620222174789255,
+      "freshness": "NEW"
+    },
+    {
+      "symbol": "MGTX",
+      "direction": "DOWN",
+      "confirmation": 29.74977460253311,
       "freshness": "NEW"
     },
     {
@@ -128,28 +140,16 @@
       "direction": "DOWN",
       "confirmation": 27.399148184780632,
       "freshness": "NEW"
-    },
-    {
-      "symbol": "LUMN",
-      "direction": "DOWN",
-      "confirmation": 39.8326248592368,
-      "freshness": "NEW"
-    },
-    {
-      "symbol": "GFI",
-      "direction": "DOWN",
-      "confirmation": 38.50788998825968,
-      "freshness": "NEW"
     }
   ],
   "portfolio_top5": [
     {
       "portfolio_slot": 1,
       "symbol": "SHELL.AS",
-      "main_rank": 7,
-      "consensus_score": 78.68703658028406,
-      "portfolio_base_score": 78.81209622299689,
-      "portfolio_selection_score": 78.81209622299689,
+      "main_rank": 10,
+      "consensus_score": 79.63606419365271,
+      "portfolio_base_score": 79.4965604415323,
+      "portfolio_selection_score": 79.4965604415323,
       "sector": "Unknown",
       "industry": "Unknown",
       "max_corr_with_selected": 0.0,
@@ -161,10 +161,10 @@
     {
       "portfolio_slot": 2,
       "symbol": "NVDA",
-      "main_rank": 24,
-      "consensus_score": 74.57062572657021,
-      "portfolio_base_score": 73.28925868823656,
-      "portfolio_selection_score": 73.28925868823656,
+      "main_rank": 43,
+      "consensus_score": 73.52593171736189,
+      "portfolio_base_score": 72.02017680565517,
+      "portfolio_selection_score": 72.02017680565517,
       "sector": "Technology",
       "industry": "Semiconductors",
       "max_corr_with_selected": -0.30537219961652246,
@@ -175,47 +175,47 @@
     },
     {
       "portfolio_slot": 3,
-      "symbol": "CMBT.BR",
-      "main_rank": 4,
-      "consensus_score": 80.95686398356003,
-      "portfolio_base_score": 78.18183601646902,
-      "portfolio_selection_score": 61.18183601646902,
-      "sector": "Unknown",
-      "industry": "Unknown",
-      "max_corr_with_selected": 0.26709945363613097,
-      "avg_corr_with_selected": 0.1557365281985469,
-      "sector_penalty": 7.0,
-      "industry_penalty": 10.0,
-      "correlation_penalty": 0.0
+      "symbol": "PBR-A",
+      "main_rank": 46,
+      "consensus_score": 73.02061829905745,
+      "portfolio_base_score": 73.86255414095575,
+      "portfolio_selection_score": 72.27897771652921,
+      "sector": "Energy",
+      "industry": "Oil & Gas Integrated",
+      "max_corr_with_selected": 0.5295602043723816,
+      "avg_corr_with_selected": 0.3216418208176665,
+      "sector_penalty": 0.0,
+      "industry_penalty": 0.0,
+      "correlation_penalty": 1.5835764244265342
     },
     {
       "portfolio_slot": 4,
-      "symbol": "AMD",
-      "main_rank": 45,
-      "consensus_score": 71.31602633635369,
-      "portfolio_base_score": 64.49834587286041,
-      "portfolio_selection_score": 47.49834587286041,
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "max_corr_with_selected": 0.41351653227767654,
-      "avg_corr_with_selected": 0.0714709536995067,
+      "symbol": "VLO",
+      "main_rank": 2,
+      "consensus_score": 84.39583955975769,
+      "portfolio_base_score": 79.44184984654017,
+      "portfolio_selection_score": 62.441849846540165,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "max_corr_with_selected": 0.2771845810677631,
+      "avg_corr_with_selected": 0.13116440933571957,
       "sector_penalty": 7.0,
       "industry_penalty": 10.0,
       "correlation_penalty": 0.0
     },
     {
       "portfolio_slot": 5,
-      "symbol": "VLO",
-      "main_rank": 2,
-      "consensus_score": 82.650981486781,
-      "portfolio_base_score": 77.71539545580102,
-      "portfolio_selection_score": 43.715395455801016,
-      "sector": "Unknown",
-      "industry": "Unknown",
-      "max_corr_with_selected": 0.31036526196479053,
-      "avg_corr_with_selected": 0.1284261608841217,
-      "sector_penalty": 14.0,
-      "industry_penalty": 20.0,
+      "symbol": "AMD",
+      "main_rank": 50,
+      "consensus_score": 72.45737441967717,
+      "portfolio_base_score": 66.2751025029404,
+      "portfolio_selection_score": 49.2751025029404,
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "max_corr_with_selected": 0.41351653227767654,
+      "avg_corr_with_selected": 0.041802313325455455,
+      "sector_penalty": 7.0,
+      "industry_penalty": 10.0,
       "correlation_penalty": 0.0
     }
   ],

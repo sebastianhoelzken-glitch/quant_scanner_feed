@@ -6,11 +6,11 @@
   "persistence_history_available": true,
   "top10_persistence": [
     {
-      "symbol": "AMC",
+      "symbol": "HPE",
       "rank": 1,
       "consecutive_top10": 1,
-      "consecutive_top25": 2,
-      "label": "rotating"
+      "consecutive_top25": 6,
+      "label": "persistent_top25"
     },
     {
       "symbol": "VLO",
@@ -20,24 +20,24 @@
       "label": "rotating"
     },
     {
-      "symbol": "HPE",
+      "symbol": "AMC",
       "rank": 3,
       "consecutive_top10": 1,
-      "consecutive_top25": 6,
-      "label": "persistent_top25"
-    },
-    {
-      "symbol": "CMBT.BR",
-      "rank": 4,
-      "consecutive_top10": 5,
-      "consecutive_top25": 9,
-      "label": "persistent_top10"
+      "consecutive_top25": 2,
+      "label": "rotating"
     },
     {
       "symbol": "FRO",
-      "rank": 5,
+      "rank": 4,
       "consecutive_top10": 11,
       "consecutive_top25": 13,
+      "label": "persistent_top10"
+    },
+    {
+      "symbol": "CMBT.BR",
+      "rank": 5,
+      "consecutive_top10": 5,
+      "consecutive_top25": 9,
       "label": "persistent_top10"
     },
     {
@@ -48,105 +48,105 @@
       "label": "rotating"
     },
     {
-      "symbol": "SHELL.AS",
+      "symbol": "DHT",
       "rank": 7,
-      "consecutive_top10": 1,
-      "consecutive_top25": 1,
-      "label": "new_top25"
+      "consecutive_top10": 5,
+      "consecutive_top25": 9,
+      "label": "persistent_top10"
     },
     {
-      "symbol": "REP.MC",
+      "symbol": "P",
       "rank": 8,
       "consecutive_top10": 1,
+      "consecutive_top25": 2,
+      "label": "rotating"
+    },
+    {
+      "symbol": "PSX",
+      "rank": 9,
+      "consecutive_top10": 2,
+      "consecutive_top25": 2,
+      "label": "rotating"
+    },
+    {
+      "symbol": "SHELL.AS",
+      "rank": 10,
+      "consecutive_top10": 1,
       "consecutive_top25": 1,
       "label": "new_top25"
-    },
-    {
-      "symbol": "KIN.BR",
-      "rank": 9,
-      "consecutive_top10": 0,
-      "consecutive_top25": 22,
-      "label": "persistent_top25"
-    },
-    {
-      "symbol": "DHT",
-      "rank": 10,
-      "consecutive_top10": 0,
-      "consecutive_top25": 9,
-      "label": "persistent_top25"
     }
   ],
-  "emerging_alpha_candidates": 180,
+  "emerging_alpha_candidates": 181,
   "emerging_alpha_top10": [
     {
       "rank": 1,
       "symbol": "BP",
-      "score": 92.34318382468912,
-      "main_rank": 20,
-      "sector_neutral_score": 97.5975975975976
+      "score": 92.59625828724049,
+      "main_rank": 15,
+      "sector_neutral_score": 97.3973973973974
     },
     {
       "rank": 2,
       "symbol": "SHEL",
-      "score": 90.1316916202744,
-      "main_rank": 26,
-      "sector_neutral_score": 96.996996996997
+      "score": 91.07282075748049,
+      "main_rank": 16,
+      "sector_neutral_score": 97.2972972972973
     },
     {
       "rank": 3,
       "symbol": "NNBR",
-      "score": 89.80472352606,
-      "main_rank": 83,
-      "sector_neutral_score": 89.98998998999
+      "score": 88.57823535400605,
+      "main_rank": 79,
+      "sector_neutral_score": 87.18718718718719
     },
     {
       "rank": 4,
       "symbol": "XOM",
-      "score": 86.86832521758103,
-      "main_rank": 97,
-      "sector_neutral_score": 88.18818818818819
+      "score": 86.99093072838258,
+      "main_rank": 83,
+      "sector_neutral_score": 86.68668668668668
     },
     {
       "rank": 5,
-      "symbol": "DSFIR.AS",
-      "score": 85.90189493322669,
-      "main_rank": 51,
-      "sector_neutral_score": 93.993993993994
+      "symbol": "KRX.IR",
+      "score": 86.60359632832132,
+      "main_rank": 48,
+      "sector_neutral_score": 92.29229229229229
     },
     {
       "rank": 6,
-      "symbol": "DVN",
-      "score": 84.76167640046704,
-      "main_rank": 144,
-      "sector_neutral_score": 82.38238238238237
+      "symbol": "EMBC",
+      "score": 85.60669237334913,
+      "main_rank": 132,
+      "sector_neutral_score": 97.4974974974975
     },
     {
       "rank": 7,
-      "symbol": "ATS.VI",
-      "score": 84.70083341450741,
-      "main_rank": 28,
-      "sector_neutral_score": 96.7967967967968
+      "symbol": "RIGL",
+      "score": 84.7930397603768,
+      "main_rank": 94,
+      "sector_neutral_score": 98.5985985985986
     },
     {
       "rank": 8,
-      "symbol": "LLY",
-      "score": 84.58057217590923,
-      "main_rank": 91,
-      "sector_neutral_score": 97.69769769769769
+      "symbol": "DNOW",
+      "score": 84.6492945011459,
+      "main_rank": 101,
+      "sector_neutral_score": 84.08408408408408
     },
     {
       "rank": 9,
-      "symbol": "RSKD",
-      "score": 84.21261755911328,
-      "main_rank": 43,
-      "sector_neutral_score": 94.8948948948949
+      "symbol": "ATS.VI",
+      "score": 84.55557152514311,
+      "main_rank": 32,
+      "sector_neutral_score": 94.7947947947948
     },
     {
       "rank": 10,
       "symbol": "VTRS",
-      "score": 83.99008189970766,
-      "main_rank": 64,
-      "sector_neutral_score": 92.3923923923924
+      "score": 84.38360930272842,
+      "main_rank": 61,
+      "sector_neutral_score": 90.1901901901902
     }
   ],
   "challenger_500_500": {
@@ -154,10 +154,10 @@
     "core_target": 500,
     "total_target": 1000,
     "selected": 1000,
-    "overlap_with_live_600_400": 873,
-    "challenger_only": 127,
-    "live_only": 127,
-    "jaccard": 0.774622892635315,
+    "overlap_with_live_600_400": 870,
+    "challenger_only": 130,
+    "live_only": 130,
+    "jaccard": 0.7699115044247787,
     "semantics": "shadow selection diagnostic only; 500 dynamic core candidates plus 500 highest Stage-1 dynamic candidates, never changes Full Exact production selection"
   },
   "files": [
